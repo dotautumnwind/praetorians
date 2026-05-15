@@ -1,0 +1,30 @@
+{
+  // -------------------------------------------------------------------------------------
+  // LOCUCIONES MISIONES
+  // -------------------------------------------------------------------------------------  
+
+  *INCLUDE "Def\SonidosLocucionesMis01.dat"
+  *INCLUDE "Def\SonidosLocucionesMis02.dat"
+  *INCLUDE "Def\SonidosLocucionesMis03.dat"
+  *INCLUDE "Def\SonidosLocucionesMis04.dat"
+  *INCLUDE "Def\SonidosLocucionesMis05.dat"
+  *INCLUDE "Def\SonidosLocucionesMis06.dat"
+  *INCLUDE "Def\SonidosLocucionesMis07.dat"
+  *INCLUDE "Def\SonidosLocucionesMis08.dat"
+  *INCLUDE "Def\SonidosLocucionesMis09.dat"
+  *INCLUDE "Def\SonidosLocucionesMis10.dat"
+  *INCLUDE "Def\SonidosLocucionesMis11.dat"
+  *INCLUDE "Def\SonidosLocucionesMis12.dat"
+  *INCLUDE "Def\SonidosLocucionesMis13.dat"
+  *INCLUDE "Def\SonidosLocucionesMis14.dat"
+  *INCLUDE "Def\SonidosLocucionesMis15.dat"
+  *INCLUDE "Def\SonidosLocucionesMis16.dat"
+  *INCLUDE "Def\SonidosLocucionesMis17.dat"
+  *INCLUDE "Def\SonidosLocucionesMis18.dat"
+  *INCLUDE "Def\SonidosLocucionesMis19.dat"
+  *INCLUDE "Def\SonidosLocucionesMis20.dat"
+  *INCLUDE "Def\SonidosLocucionesMis21.dat"
+  *INCLUDE "Def\SonidosLocucionesMis22.dat"
+  *INCLUDE "Def\SonidosLocucionesMis23.dat"
+  *INCLUDE "Def\SonidosLocucionesMis24.dat"
+}

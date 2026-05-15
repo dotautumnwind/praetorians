@@ -1,0 +1,418 @@
+{
+//***************************************************************************
+//***************************************************************************
+//***********************            ROMANOS      ***************************
+//***************************************************************************
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD 						CENTURION
+		*ESTADO 						NORMAL
+		*FLAG 							FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 						13
+			*PROYECTIL 				0
+			*INCENDIO 				0
+			*EDIFICIO 				12
+			*GOLPE 						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN 					0
+		*RANGO_MAX 					0.5
+		*TIPO								TIPO_CC
+	}
+
+
+
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD 						INFANTERIA_LIGERA
+		*ESTADO 						NORMAL
+		*FLAG 							FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 						35
+			*PROYECTIL				0
+			*INCENDIO 				0
+			*EDIFICIO				 	0
+			*GOLPE						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN 					0
+		*RANGO_MAX 					0.5
+		*TIPO								TIPO_CC
+	}
+
+	*ARMA
+	{
+		*UNIDAD 						INFANTERIA_LIGERA
+		*ESTADO				 			DEFENSA_MAQUINA
+		*FLAG 							FLAG_DEFENSA_MAQUINA
+		*DANYO
+		{
+			*MELEE 						25
+			*PROYECTIL			 	0
+			*INCENDIO				 	0
+			*EDIFICIO 				0
+			*GOLPE						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN 					0
+		*RANGO_MAX			 		0.5
+		*TIPO								TIPO_CC
+	} 
+	*ARMA
+	{
+		*UNIDAD							INFANTERIA_LIGERA
+		*ESTADO 						PILUM
+		*DANYO
+		{
+			*MELEE						250
+			*PROYECTIL				450
+			*INCENDIO					0
+			*EDIFICIO					0
+			*GOLPE						0
+		}		
+		*RITMO							1
+		*RANGO_MIN					3
+		*RANGO_MAX					10
+		*TIPO								TIPO_DISTANCIA
+		*TIPOLOGIA_DANYO		PROYECTIL
+		*MUNICION						PILUM
+	}
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD				 			INFANTERIA_PESADA
+		*ESTADO 						NORMAL
+		*FLAG 							FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 						70
+			*PROYECTIL 				0
+			*INCENDIO 				0
+			*EDIFICIO 				0
+			*GOLPE						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN 					0
+		*RANGO_MAX 					0.5
+		*TIPO								TIPO_CC
+	}
+
+	*ARMA
+	{
+		*UNIDAD				 			INFANTERIA_PESADA
+		*ESTADO 						TORTUGA
+		*FLAG 							FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 						40
+			*PROYECTIL 				0
+			*INCENDIO 				0
+			*EDIFICIO 				0
+			*GOLPE						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN 					0
+		*RANGO_MAX 					1
+		*TIPO								TIPO_CC
+	}
+	*ARMA
+	{
+		*UNIDAD 						INFANTERIA_PESADA
+		*ESTADO 						DEFENSIVA
+		*FLAG 							FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 						50
+			*PROYECTIL 				0
+			*INCENDIO 				0
+			*EDIFICIO 				0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN 					0
+		*RANGO_MAX			 		0.5
+		*TIPO								TIPO_CC
+	}
+	*ARMA
+	{
+		*UNIDAD 						INFANTERIA_PESADA
+		*ESTADO 						PILUM
+		*DANYO
+		{
+			*MELEE						150
+			*PROYECTIL				350
+			*INCENDIO					0
+			*EDIFICIO					0
+			*GOLPE						0
+		}		
+		*RITMO							1
+		*RANGO_MIN					3
+		*RANGO_MAX					10
+		*TIPO								TIPO_DISTANCIA
+		*TIPOLOGIA_DANYO		PROYECTIL
+		*MUNICION						PILUM
+	}
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD 						ARQUERO
+		*ESTADO 						NORMAL
+		*DANYO
+		{
+			*MELEE			 			25
+			*PROYECTIL 				200
+			*INCENDIO 				0
+			*EDIFICIO 				0
+			*GOLPE						0
+		}
+		*PRECISION 					100
+		*RITMO 							2
+		*RANGO_MIN 					3
+		*RANGO_MAX 					15
+		*TIPO								TIPO_DISTANCIA
+		*TIPOLOGIA_DANYO		PROYECTIL
+		*MUNICION						FLECHA
+	}
+
+	*ARMA
+	{
+		*UNIDAD 						ARQUERO
+		*ESTADO 						PLANTADOS
+		*DANYO
+		{
+			*MELEE 						25
+			*PROYECTIL 				250
+			*INCENDIO 				0
+			*EDIFICIO 				0
+			*GOLPE						0
+		}
+		*PRECISION 					100
+		*RITMO 							1.5
+		*RANGO_MIN 					5
+		*RANGO_MAX 					18
+		*TIPO								TIPO_DISTANCIA
+		*TIPOLOGIA_DANYO		PROYECTIL
+		*MUNICION						FLECHA
+	}
+	*ARMA
+	{
+		*UNIDAD 						ARQUERO
+		*ESTADO 						PLANTADOS_FUEGO
+		*FLAG 							FLAG_FUEGO
+		*DANYO
+		{
+			*MELEE 						0
+			*PROYECTIL 				0
+			*INCENDIO 				40
+			*EDIFICIO 				0
+			*GOLPE						0
+		}
+		*PRECISION 					100
+		*RITMO 							2
+		*RANGO_MIN 					5
+		*RANGO_MAX 					15
+		*TIPO								TIPO_DISTANCIA
+		*TIPOLOGIA_DANYO		PROYECTIL
+		*MUNICION						FLECHA_FUEGO
+	}
+	*ARMA
+	{
+		*UNIDAD 						ARQUERO
+		*ESTADO				 			CUERPO
+		*FLAG 							FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 						20
+			*PROYECTIL 				0
+			*INCENDIO 				0
+			*EDIFICIO 				0
+			*GOLPE						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN 					0
+		*RANGO_MAX 					0.5
+		*TIPO								TIPO_CC
+		*MUNICION						FLECHA
+	}
+	*ARMA
+	{
+		*UNIDAD				 			ARQUERO
+		*ESTADO 						FUEGO
+		*FLAG 							FLAG_FUEGO
+		*DANYO
+		{
+			*MELEE 						0
+			*PROYECTIL 				0
+			*INCENDIO 				40
+			*EDIFICIO 				0
+			*GOLPE						0
+		}
+		*PRECISION 					100
+		*RITMO 							0.5
+		*RANGO_MIN			 		4
+		*RANGO_MAX 					15
+		*TIPO								TIPO_DISTANCIA
+		*TIPOLOGIA_DANYO		PROYECTIL
+		*MUNICION						FLECHA_FUEGO
+	}
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD 						PIQUERO
+		*ESTADO 						NORMAL
+		*FLAG 							FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 						0
+			*PROYECTIL 				100
+			*INCENDIO 				0
+			*EDIFICIO 				20
+			*GOLPE						30
+		}
+		*RITMO 							1
+		*RANGO_MIN 					0
+		*RANGO_MAX 					1
+		*TIPO								TIPO_CC
+	}
+	*ARMA
+	{
+		*UNIDAD 						PIQUERO
+		*ESTADO 						PLANTADOS
+		*FLAG 							FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 						0
+			*PROYECTIL 				195
+			*INCENDIO				 	0
+			*EDIFICIO 				0
+			*GOLPE						30
+		}
+		*RITMO 							0.5
+		*RANGO_MIN 					0
+		*RANGO_MAX 					2
+		*TIPO								TIPO_CC
+	}
+	*ARMA
+	{
+		*UNIDAD				 			PIQUERO
+		*ESTADO 						LEVANTADAS
+		*FLAG 							FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 						20
+			*PROYECTIL			 	70
+			*INCENDIO 				0
+			*EDIFICIO 				0
+			*GOLPE						0
+		}
+		*RITMO 							1
+		*RANGO_MIN 					0.5
+		*RANGO_MAX 					1
+		*TIPO								TIPO_CC
+	}		
+	*ARMA
+	{
+		*UNIDAD 						PIQUERO
+		*ESTADO 						CUERPO
+		*FLAG 							FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 						20
+			*PROYECTIL			 	70
+			*INCENDIO 				0
+			*EDIFICIO 				0
+			*GOLPE						0
+		}
+		*RITMO 							1
+		*RANGO_MIN 					0
+		*RANGO_MAX 					1
+		*TIPO								TIPO_CC
+	}
+
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD 						CABALLERIA_PESADA
+		*ESTADO				 			NORMAL
+		*FLAG 							FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 						185
+			*PROYECTIL			 	0
+			*INCENDIO 				0
+			*EDIFICIO 				0
+			*GOLPE						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN			 		0
+		*RANGO_MAX			 		1
+		*TIPO								TIPO_CC
+	}
+
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD 						CABALLERIA_ARQUERA
+		*ESTADO 						NORMAL
+		*DANYO
+		{
+			*MELEE 						50
+			*PROYECTIL 				300
+			*INCENDIO 				0
+			*EDIFICIO 				0
+			*GOLPE						0
+		}
+		*PRECISION 					100
+		*RITMO 							2
+		*RANGO_MIN 					2
+		*RANGO_MAX 					15
+		*TIPO								TIPO_DISTANCIA
+		*TIPOLOGIA_DANYO		PROYECTIL
+		*MUNICION						FLECHA
+	}
+	*ARMA
+	{
+		*UNIDAD 						CABALLERIA_ARQUERA
+		*ESTADO 						FUEGO
+		*FLAG 							FLAG_FUEGO
+		*DANYO
+		{
+			*MELEE 						0
+			*PROYECTIL			 	0
+			*INCENDIO 				40
+			*EDIFICIO 				0
+			*GOLPE						0
+		}
+		*PRECISION 					100
+		*RITMO 							0.5
+		*RANGO_MIN 					4
+		*RANGO_MAX 					15
+		*TIPO								TIPO_DISTANCIA
+		*TIPOLOGIA_DANYO		PROYECTIL
+		*MUNICION						FLECHA_FUEGO
+	}
+	*ARMA
+	{
+		*UNIDAD 						CABALLERIA_ARQUERA
+		*ESTADO 						CUERPO
+		*FLAG 							FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 						20
+			*PROYECTIL 				0
+			*INCENDIO 				0
+			*EDIFICIO 				0
+			*GOLPE						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN			 		0
+		*RANGO_MAX 					0.5
+		*TIPO								TIPO_CC
+		*MUNICION						FLECHA
+	}
+
+}

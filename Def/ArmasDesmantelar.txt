@@ -1,0 +1,547 @@
+{
+//***************************************************************************
+//***********************           GALOS         ***************************
+//***************************************************************************
+
+	*ARMA
+	{
+		*UNIDAD 			GALO_LIGERA
+		*ESTADO 			DESMANTELAR
+		*FLAG 				FLAG_DESMANTELAR
+		*DANYO
+		{
+			*MELEE 			6
+			*PROYECTIL 	0
+			*INCENDIO 	0
+			*EDIFICIO 	2
+			*GOLPE 			0
+		}
+		*RITMO 				0.5
+		*RANGO_MIN 		0
+		*RANGO_MAX 		0.5
+		*TIPO					TIPO_CC
+	}
+	
+	*ARMA
+	{
+		*UNIDAD 			GALO_PESADA
+		*ESTADO 			DESMANTELAR
+		*FLAG 				FLAG_DESMANTELAR
+		*DANYO
+		{
+			*MELEE 			6
+			*PROYECTIL 	0
+			*INCENDIO 	0
+			*EDIFICIO 	2
+			*GOLPE 			0
+		}
+		*RITMO 				0.5
+		*RANGO_MIN 		0
+		*RANGO_MAX 		0.5
+		*TIPO					TIPO_CC
+	}
+	
+	*ARMA
+	{
+		*UNIDAD 			GALO_ARQUERO
+		*ESTADO 			DESMANTELAR
+		*FLAG 				FLAG_DESMANTELAR
+		*DANYO
+		{
+			*MELEE 			6
+			*PROYECTIL 	0
+			*INCENDIO 	0
+			*EDIFICIO 	2
+			*GOLPE 			0
+		}
+		*RITMO 				0.5
+		*RANGO_MIN 		0
+		*RANGO_MAX 		0.5
+		*TIPO					TIPO_CC
+		*MUNICION			FLECHA
+	}
+	
+	*ARMA
+	{
+		*UNIDAD 			GALO_PIQUERO
+		*ESTADO 			DESMANTELAR
+		*FLAG 				FLAG_DESMANTELAR
+		*DANYO
+		{
+			*MELEE 			6
+			*PROYECTIL 	0
+			*INCENDIO 	0
+			*EDIFICIO 	2
+			*GOLPE 			0
+		}
+		*RITMO 				0.5
+		*RANGO_MIN 		0
+		*RANGO_MAX 		0.5
+		*TIPO					TIPO_CC
+	}
+	
+	*ARMA
+	{
+		*UNIDAD 			GALO_CABALLERIA_PESADA
+		*ESTADO 			DESMANTELAR
+		*FLAG 				FLAG_DESMANTELAR
+		*DANYO
+		{
+			*MELEE 			18
+			*PROYECTIL 	0
+			*INCENDIO 	0
+			*EDIFICIO 	2
+			*GOLPE 			0
+		}
+		*RITMO 				0.5
+		*RANGO_MIN 		0
+		*RANGO_MAX 		0.5
+		*TIPO					TIPO_CC
+	}
+	
+	*ARMA
+	{
+		*UNIDAD 			GALO_CABALLERIA_ARQUERA
+		*ESTADO 			DESMANTELAR
+		*FLAG 				FLAG_DESMANTELAR
+		*DANYO
+		{
+			*MELEE 			6
+			*PROYECTIL 	0
+			*INCENDIO 	0
+			*EDIFICIO 	2
+			*GOLPE 			0
+		}
+		*RITMO 				0.5
+		*RANGO_MIN 		0
+		*RANGO_MAX 		0.5
+		*TIPO					TIPO_CC
+	}
+	
+	
+//***************************************************************************
+//***********************            ROMANOS      ***************************
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD 						INFANTERIA_LIGERA
+		*ESTADO 						DESMANTELAR
+		*FLAG 							FLAG_DESMANTELAR
+		*DANYO
+		{
+			*MELEE 						3
+			*PROYECTIL 				0
+			*INCENDIO 				0
+			*EDIFICIO 				2
+			*GOLPE						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN 					0
+		*RANGO_MAX 					0.5
+		*TIPO								TIPO_CC
+	}
+	
+	*ARMA
+	{
+		*UNIDAD 						INFANTERIA_PESADA
+		*ESTADO 						DESMANTELAR
+		*FLAG 							FLAG_DESMANTELAR
+		*DANYO
+		{
+			*MELEE 						3
+			*PROYECTIL 				0
+			*INCENDIO 				0
+			*EDIFICIO 				2
+			*GOLPE						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN 					0
+		*RANGO_MAX 					0.5
+		*TIPO								TIPO_CC
+	}
+	
+	*ARMA
+	{
+		*UNIDAD 						ARQUERO
+		*ESTADO 						DESMANTELAR
+		*FLAG 							FLAG_DESMANTELAR
+		*DANYO
+		{
+			*MELEE 						3
+			*PROYECTIL 				0
+			*INCENDIO 				0
+			*EDIFICIO 				2
+			*GOLPE						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN 					0
+		*RANGO_MAX 					0.5
+		*TIPO								TIPO_CC
+	}
+
+	*ARMA
+	{
+		*UNIDAD 						PIQUERO
+		*ESTADO 						DESMANTELAR
+		*FLAG 							FLAG_DESMANTELAR
+		*DANYO
+		{
+			*MELEE 						3
+			*PROYECTIL			 	0
+			*INCENDIO				 	0
+			*EDIFICIO 				2
+			*GOLPE						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN 					0
+		*RANGO_MAX 					0.5
+		*TIPO								TIPO_CC
+	}
+
+	*ARMA
+	{
+		*UNIDAD 						CABALLERIA_PESADA
+		*ESTADO 						DESMANTELAR
+		*FLAG 							FLAG_DESMANTELAR
+		*DANYO
+		{
+			*MELEE 						19
+			*PROYECTIL 				0
+			*INCENDIO 				0
+			*EDIFICIO 				2
+			*GOLPE						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN 					0
+		*RANGO_MAX 					0.5
+		*TIPO								TIPO_CC
+	}
+	
+	*ARMA
+	{
+		*UNIDAD				 			CABALLERIA_ARQUERA
+		*ESTADO 						DESMANTELAR
+		*FLAG 							FLAG_DESMANTELAR
+		*DANYO
+		{
+			*MELEE 						6
+			*PROYECTIL 				0
+			*INCENDIO 				0
+			*EDIFICIO 				2
+			*GOLPE						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN 					0
+		*RANGO_MAX 					0.5
+		*TIPO								TIPO_CC
+	}
+	
+//***************************************************************************
+//***********************       EGIPCIOS          ***************************
+//***************************************************************************
+
+	*ARMA
+	{
+		*UNIDAD 			EGIPCIO_LIGERA
+		*ESTADO 			DESMANTELAR
+		*FLAG 				FLAG_DESMANTELAR
+		*DANYO
+		{
+			*MELEE 			3
+			*PROYECTIL 	0
+			*INCENDIO 	0
+			*EDIFICIO 	2
+			*GOLPE      0
+		}
+		*RITMO 				0.5
+		*RANGO_MIN 		0
+		*RANGO_MAX 		0.5
+		*TIPO					TIPO_CC
+	}
+	
+		*ARMA
+	{
+		*UNIDAD 			EGIPCIO_PESADA
+		*ESTADO 			DESMANTELAR
+		*FLAG 				FLAG_DESMANTELAR
+		*DANYO
+		{
+			*MELEE 			3
+			*PROYECTIL 	0
+			*INCENDIO 	0
+			*EDIFICIO 	2
+			*GOLPE      0
+		}
+		*RITMO 				0.5
+		*RANGO_MIN 		0
+		*RANGO_MAX 		0.5
+		*TIPO					TIPO_CC
+	}
+	
+	*ARMA
+	{
+		*UNIDAD 			EGIPCIO_ARQUERO
+		*ESTADO 			DESMANTELAR
+		*FLAG 				FLAG_DESMANTELAR
+		*DANYO
+		{
+			*MELEE 			3
+			*PROYECTIL 	0
+			*INCENDIO 	0
+			*EDIFICIO 	2
+			*GOLPE      0
+		}
+		*RITMO 				0.5
+		*RANGO_MIN 		0
+		*RANGO_MAX 		0.5
+		*TIPO					TIPO_CC
+	}
+	
+	*ARMA
+	{
+		*UNIDAD 			EGIPCIO_PIQUERO
+		*ESTADO 			DESMANTELAR
+		*FLAG 				FLAG_DESMANTELAR
+		*DANYO
+		{
+			*MELEE 			3
+			*PROYECTIL	0
+			*INCENDIO 	0
+			*EDIFICIO 	2
+			*GOLPE      0
+		}
+		*RITMO 				0.5
+		*RANGO_MIN 		0
+		*RANGO_MAX 		0.5
+		*TIPO					TIPO_CC
+	}
+	
+	*ARMA
+	{
+		*UNIDAD 			EGIPCIO_CABALLERIA_PESADA
+		*ESTADO 			DESMANTELAR
+		*FLAG 				FLAG_DESMANTELAR
+		*DANYO
+		{
+			*MELEE 			18
+			*PROYECTIL	0
+			*INCENDIO 	0
+			*EDIFICIO 	2
+			*GOLPE      0
+		}
+		*RITMO 				0.5
+		*RANGO_MIN 		0
+		*RANGO_MAX 		0.5
+		*TIPO					TIPO_CC
+	}
+	
+	*ARMA
+	{
+		*UNIDAD 			EGIPCIO_CABALLERIA_ARQUERA
+		*ESTADO 			DESMANTELAR
+		*FLAG 				FLAG_DESMANTELAR
+		*DANYO
+		{
+			*MELEE 			6
+			*PROYECTIL	0
+			*INCENDIO 	0
+			*EDIFICIO 	2
+			*GOLPE      0
+		}
+		*RITMO 				0.5
+		*RANGO_MIN 		0
+		*RANGO_MAX 		0.5
+		*TIPO					TIPO_CC
+	}
+
+//***************************************************************************
+//***********************       ESPECIALES        ***************************
+//***************************************************************************
+
+	*ARMA
+	{
+		*UNIDAD 						EGIPCIO_ARQUERON
+		*ESTADO 						DESMANTELAR
+		*FLAG 							FLAG_DESMANTELAR
+		*DANYO
+		{
+			*MELEE 						8
+			*PROYECTIL			 	0
+			*INCENDIO 				0
+			*EDIFICIO				 	2
+			*GOLPE						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN			 		0
+		*RANGO_MAX 					0.5
+		*TIPO								TIPO_CC
+	}
+	
+	*ARMA
+	{
+		*UNIDAD 						GLADIADOR
+		*ESTADO				 			DESMANTELAR
+		*FLAG 							FLAG_DESMANTELAR
+		*DANYO
+		{
+			*MELEE 						14
+			*PROYECTIL			 	0
+			*INCENDIO 				0
+			*EDIFICIO 				2
+			*GOLPE						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN 					0
+		*RANGO_MAX 					0.5
+		*TIPO								TIPO_CC
+	}
+	
+	*ARMA
+	{
+		*UNIDAD				 			HONDERO
+		*ESTADO 						DESMANTELAR
+		*FLAG 							FLAG_DESMANTELAR
+		*DANYO
+		{
+			*MELEE 						14
+			*PROYECTIL 				0
+			*INCENDIO 				0
+			*EDIFICIO 				2
+			*GOLPE						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN			 		0
+		*RANGO_MAX 					0.5
+		*TIPO								TIPO_CC
+	}
+	
+	*ARMA
+	{
+		*UNIDAD				 			PIQUERO_ELITE
+		*ESTADO 						DESMANTELAR
+		*FLAG 							FLAG_DESMANTELAR
+		*DANYO
+		{
+			*MELEE 						8
+			*PROYECTIL 				0
+			*INCENDIO 				0
+			*EDIFICIO 				2
+			*GOLPE						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN			 		0
+		*RANGO_MAX 					0.5
+		*TIPO								TIPO_CC
+	}
+	
+	*ARMA
+	{
+		*UNIDAD 						CABALLERIA_PARTHA
+		*ESTADO 						DESMANTELAR
+		*FLAG 							FLAG_DESMANTELAR
+		*DANYO
+		{
+			*MELEE 						8
+			*PROYECTIL			 	0
+			*INCENDIO				 	0
+			*EDIFICIO				 	2
+			*GOLPE						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN 					0
+		*RANGO_MAX			 		0.5
+		*TIPO								TIPO_CC
+	}
+	
+	*ARMA
+	{
+		*UNIDAD 						CABALLERIA_GERMANA
+		*ESTADO 						DESMANTELAR
+		*FLAG 							FLAG_DESMANTELAR
+		*DANYO			
+		{
+			*MELEE 						12
+			*PROYECTIL			 	0
+			*INCENDIO 				0
+			*EDIFICIO 				2
+			*GOLPE						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN			 		0
+		*RANGO_MAX			 		0.5
+		*TIPO								TIPO_CC
+	}
+	*ARMA
+	{
+		*UNIDAD 						GALO_ESPADON
+		*ESTADO 						DESMANTELAR
+		*FLAG 							FLAG_DESMANTELAR
+		*DANYO			
+		{
+			*MELEE 						7
+			*PROYECTIL			 	0
+			*INCENDIO 				0
+			*EDIFICIO 				2
+			*GOLPE						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN			 		0
+		*RANGO_MAX			 		0.5
+		*TIPO								TIPO_CC
+	}
+	*ARMA
+	{
+		*UNIDAD				 			EGIPCIO_CUADRIGA
+		*ESTADO 						DESMANTELAR
+		*FLAG 							FLAG_DESMANTELAR
+		*DANYO
+		{
+			*MELEE 						15
+			*PROYECTIL 				0
+			*INCENDIO 				0
+			*EDIFICIO 				2
+			*GOLPE						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN 					0
+		*RANGO_MAX 					1
+		*TIPO								TIPO_CC
+	}
+	*ARMA
+	{
+		*UNIDAD				 			BARBARO_CUADRIGA
+		*ESTADO 						DESMANTELAR
+		*FLAG 							FLAG_DESMANTELAR
+		*DANYO
+		{
+			*MELEE 						15
+			*PROYECTIL 				0
+			*INCENDIO 				0
+			*EDIFICIO 				2
+			*GOLPE						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN 					0
+		*RANGO_MAX 					1
+		*TIPO								TIPO_CC
+	}
+	*ARMA
+	{
+		*UNIDAD 						GALO_CAZADOR
+		*ESTADO 						DESMANTELAR
+		*FLAG 							FLAG_DESMANTELAR
+		*DANYO
+		{
+			*MELEE 						8
+			*PROYECTIL 				0
+			*INCENDIO 				0
+			*EDIFICIO 				2
+			*GOLPE						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN 					0
+		*RANGO_MAX 					0.5
+		*TIPO								TIPO_CC
+	}
+
+}

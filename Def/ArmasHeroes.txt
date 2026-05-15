@@ -1,0 +1,380 @@
+{
+	*ARMA
+	{
+		*UNIDAD 					  HEROE
+		*ESTADO				 			NORMAL
+		*FLAG 							FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 						13
+			*PROYECTIL			 	0
+			*INCENDIO				 	0
+			*EDIFICIO 				12
+			*GOLPE						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN			 		0
+		*RANGO_MAX 					0.5
+		*TIPO								TIPO_CC
+	}
+  ///////////////////////////////////////////////////////////////////////////////////////////////////
+	//////////////////////////// ARMAS HEROES //////////////////////////////////////////////////////
+	*ARMA
+	{
+		*UNIDAD 						HEROE_CAYO_TITO
+		*ESTADO				 			NORMAL
+		*FLAG 							FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 						13
+			*PROYECTIL			 	0
+			*INCENDIO				 	0
+			*EDIFICIO 				12
+			*GOLPE						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN			 		0
+		*RANGO_MAX 					0.5
+		*TIPO								TIPO_CC
+	}
+		*ARMA
+	{
+		*UNIDAD 						HEROE_CAYO_CRASTINO
+		*ESTADO 						NORMAL
+		*FLAG 							FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 						13
+			*PROYECTIL			 	0
+			*INCENDIO 				0
+			*EDIFICIO				 	12
+			*GOLPE						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN 					0
+		*RANGO_MAX 					0.5
+		*TIPO								TIPO_CC
+	}	
+	
+	//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD 						LABIENO
+		*ESTADO 						NORMAL
+		*FLAG 							FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 						13
+			*PROYECTIL 				0
+			*INCENDIO 				0
+			*EDIFICIO 				12
+			*GOLPE 						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN 					0
+		*RANGO_MAX 					0.5
+		*TIPO								TIPO_CC
+	}
+	
+  *ARMA
+	{
+		*UNIDAD 						HEROE_CASIO_LONGINO
+		*ESTADO 						NORMAL
+		*FLAG 							FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 						13
+			*PROYECTIL 				0
+			*INCENDIO 				0
+			*EDIFICIO 				12
+			*GOLPE 						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN 					0
+		*RANGO_MAX 					0.5
+		*TIPO								TIPO_CC
+	}
+	
+	*ARMA
+	{
+		*UNIDAD 						HEROE_PUBLIO_CRASO
+		*ESTADO 						NORMAL
+		*FLAG 							FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 						13
+			*PROYECTIL 				0
+			*INCENDIO 				0
+			*EDIFICIO 				12
+			*GOLPE 						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN 					0
+		*RANGO_MAX 					0.5
+		*TIPO								TIPO_CC
+	}
+	*ARMA
+	{
+		*UNIDAD 						HEROE_MARCO_CRASO
+		*ESTADO 						NORMAL
+		*FLAG 							FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 						13
+			*PROYECTIL 				0
+			*INCENDIO 				0
+			*EDIFICIO 				12
+			*GOLPE 						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN 					0
+		*RANGO_MAX 					0.5
+		*TIPO								TIPO_CC
+	}
+	
+	*ARMA
+	{
+		*UNIDAD 						HEROE_COMIO
+		*ESTADO 						NORMAL
+		*FLAG 							FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 						13
+			*PROYECTIL 				0
+			*INCENDIO 				0
+			*EDIFICIO 				12
+			*GOLPE 						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN 					0
+		*RANGO_MAX 					0.5
+		*TIPO								TIPO_CC
+	}
+	
+	*ARMA
+	{
+		*UNIDAD 						HEROE_QUINTO_CICERO
+		*ESTADO 						NORMAL
+		*FLAG 							FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 						13
+			*PROYECTIL 				0
+			*INCENDIO 				0
+			*EDIFICIO 				12
+			*GOLPE 						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN 					0
+		*RANGO_MAX 					0.5
+		*TIPO								TIPO_CC
+	}
+	
+	*ARMA
+	{
+		*UNIDAD 						HEROE_CASIOVELAUNO
+		*ESTADO 						NORMAL
+		*FLAG 							FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 						13
+			*PROYECTIL 				0
+			*INCENDIO 				0
+			*EDIFICIO 				12
+			*GOLPE 						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN 					0
+		*RANGO_MAX 					0.5
+		*TIPO								TIPO_CC
+	}
+	
+	*ARMA
+	{
+		*UNIDAD 						HEROE_DUMNORIX
+		*ESTADO 						NORMAL
+		*FLAG 							FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 						13
+			*PROYECTIL 				0
+			*INCENDIO 				0
+			*EDIFICIO 				12
+			*GOLPE 						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN 					0
+		*RANGO_MAX 					0.5
+		*TIPO								TIPO_CC
+	}
+	*ARMA
+	{
+		*UNIDAD 						HEROE_DUBALIX
+		*ESTADO				 			NORMAL
+		*FLAG 							FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 						13
+			*PROYECTIL			 	0
+			*INCENDIO				 	0
+			*EDIFICIO 				12
+			*GOLPE						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN			 		0
+		*RANGO_MAX 					0.5
+		*TIPO								TIPO_CC
+	}
+	*ARMA
+	{
+		*UNIDAD 						HEROE_DUBALIX
+		*ESTADO				 			NORMAL
+		*FLAG 							FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 						13
+			*PROYECTIL			 	0
+			*INCENDIO				 	0
+			*EDIFICIO 				12
+			*GOLPE						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN			 		0
+		*RANGO_MAX 					0.5
+		*TIPO								TIPO_CC
+	}
+		*ARMA
+	{
+		*UNIDAD 						HEROE_GOBANITIO
+		*ESTADO				 			NORMAL
+		*FLAG 							FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 						13
+			*PROYECTIL			 	0
+			*INCENDIO				 	0
+			*EDIFICIO 				12
+			*GOLPE						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN			 		0
+		*RANGO_MAX 					0.5
+		*TIPO								TIPO_CC
+	}
+	
+	***************************************************
+	
+	*ARMA
+	{
+		*UNIDAD 						HEROE_SEXTO_CALPURNIO
+		*ESTADO				 			NORMAL
+		*FLAG 							FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 						13
+			*PROYECTIL			 	0
+			*INCENDIO				 	0
+			*EDIFICIO 				12
+			*GOLPE						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN			 		0
+		*RANGO_MAX 					0.5
+		*TIPO								TIPO_CC
+	}
+	
+	*ARMA
+	{
+		*UNIDAD 						HEROE_TITO_LUCIO
+		*ESTADO				 			NORMAL
+		*FLAG 							FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 						13
+			*PROYECTIL			 	0
+			*INCENDIO				 	0
+			*EDIFICIO 				12
+			*GOLPE						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN			 		0
+		*RANGO_MAX 					0.5
+		*TIPO								TIPO_CC
+	}
+	
+	*ARMA
+	{
+		*UNIDAD 						HEROE_ROMANO_MUNDA
+		*ESTADO				 			NORMAL
+		*FLAG 							FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 						13
+			*PROYECTIL			 	0
+			*INCENDIO				 	0
+			*EDIFICIO 				12
+			*GOLPE						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN			 		0
+		*RANGO_MAX 					0.5
+		*TIPO								TIPO_CC
+	}
+	
+	*ARMA
+	{
+		*UNIDAD 						HEROE_GALO_MUNDA
+		*ESTADO				 			NORMAL
+		*FLAG 							FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 						13
+			*PROYECTIL			 	0
+			*INCENDIO				 	0
+			*EDIFICIO 				12
+			*GOLPE						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN			 		0
+		*RANGO_MAX 					0.5
+		*TIPO								TIPO_CC
+	}
+	
+	*ARMA
+	{
+		*UNIDAD 						HEROE_EGIPCIO_MUNDA
+		*ESTADO				 			NORMAL
+		*FLAG 							FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 						13
+			*PROYECTIL			 	0
+			*INCENDIO				 	0
+			*EDIFICIO 				12
+			*GOLPE						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN			 		0
+		*RANGO_MAX 					0.5
+		*TIPO								TIPO_CC
+	}
+	
+	*ARMA
+	{
+		*UNIDAD 						HEROE_COMIO_PRESO
+		*ESTADO				 			NORMAL
+		*FLAG 							FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 						13
+			*PROYECTIL			 	0
+			*INCENDIO				 	0
+			*EDIFICIO 				12
+			*GOLPE						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN			 		0
+		*RANGO_MAX 					0.5
+		*TIPO								TIPO_CC
+	}
+}

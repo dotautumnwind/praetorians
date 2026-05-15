@@ -1,0 +1,19 @@
+{
+	*GRUPO
+	{	
+		*NOMBRE PEPE
+		
+		*UNIDAD
+		{
+			*TIPO INFANTERIA_LIGERA 			
+			*PESO 20
+			*SUSTITUTO ARQUERO 1.0
+		}
+		
+		*UNIDAD
+		{
+			*TIPO IPESADA 			
+			*PESO 30			
+		}		
+	}
+}

@@ -1,0 +1,167 @@
+{
+  // -------------------------------------------------------------------------------------
+  // LOCUCIONES MISION 21
+  // -------------------------------------------------------------------------------------
+
+  // -------------------------------------------------------------------------------------
+  // BRIEFING
+  // -------------------------------------------------------------------------------------
+  *SONIDO
+  {
+    *NOMBRE         21N0
+    *FICHERO        "Narrador\21N0.ogi"
+    *ALIAS          "Briefing 1"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         21N1
+    *FICHERO        "Narrador\21N1.ogi"
+    *ALIAS          "Briefing 2"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         21N2
+    *FICHERO        "Narrador\21N2.ogi"
+    *ALIAS          "Briefing 3"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         21N3
+    *FICHERO        "Narrador\21N3.ogi"
+    *ALIAS          "Briefing 4"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         21N4
+    *FICHERO        "Narrador\21N4.ogi"
+    *ALIAS          "Briefing 5"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         21N5
+    *FICHERO        "Narrador\21N5.ogi"
+    *ALIAS          "Briefing 6"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+
+  // -------------------------------------------------------------------------------------
+  // MENSAJES
+  // -------------------------------------------------------------------------------------
+  *SONIDO
+  {
+    *NOMBRE         21N6
+    *FICHERO        "Narrador\21N6.ogi"
+    *ALIAS          "Mensaje 1"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         21N7
+    *FICHERO        "Narrador\21N7.ogi"
+    *ALIAS          "Mensaje 2"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         21N8
+    *FICHERO        "Narrador\21N8.ogi"
+    *ALIAS          "Mensaje 3"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         21N9
+    *FICHERO        "Narrador\21N9.ogi"
+    *ALIAS          "Mensaje 4"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         21NA
+    *FICHERO        "Narrador\21NA.ogi"
+    *ALIAS          "Mensaje 5"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         21NB
+    *FICHERO        "Narrador\21NB.ogi"
+    *ALIAS          "Mensaje 6"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         21NC
+    *FICHERO        "Narrador\21NC.ogi"
+    *ALIAS          "Mensaje 7"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         21ND
+    *FICHERO        "Narrador\21ND.ogi"
+    *ALIAS          "Mensaje 8"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+}

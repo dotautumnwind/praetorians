@@ -1,0 +1,445 @@
+{
+	*INCLUDE "Def\ArmasGalos.dat"
+	*INCLUDE "Def\ArmasEgipcios.dat"
+	*INCLUDE "Def\ArmasRomanos.dat"
+	*INCLUDE "Def\ArmasMaquinas.dat"
+	*INCLUDE "Def\ArmasHeroes.dat"
+	*INCLUDE "Def\ArmasDesmantelar.dat"
+		
+	
+//***************************************************************************
+//***************************************************************************
+//***********************        ESPECIALES       ***************************
+//***************************************************************************
+//***************************************************************************
+
+	*ARMA
+	{
+		*UNIDAD 						LOBO
+		*ESTADO 						NORMAL
+		*FLAG 							FLAG_CUERPO_A_CUERPO
+		*DANYO	
+		{
+			*MELEE 						50
+			*PROYECTIL 				0
+			*INCENDIO				 	0
+			*EDIFICIO 				0
+			*GOLPE						0
+		}
+		*RITMO 							1
+		*RANGO_MIN 					0
+		*RANGO_MAX			 		1
+		*TIPO								TIPO_CC
+	}
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD 						EGIPCIO_ARQUERON
+		*ESTADO 						NORMAL
+		*DANYO
+		{
+			*MELEE 						50
+			*PROYECTIL			 	400
+			*INCENDIO 				0
+			*EDIFICIO 				0
+			*GOLPE						0
+		}
+		*PRECISION 					100
+		*RITMO 							1.5
+		*RANGO_MIN			 		3
+		*RANGO_MAX			 		18
+		*TIPO								TIPO_DISTANCIA
+		*TIPOLOGIA_DANYO		PROYECTIL
+		*MUNICION						FLECHA
+	}
+	*ARMA
+	{
+		*UNIDAD 						EGIPCIO_ARQUERON
+		*ESTADO 						CUERPO
+		*FLAG 							FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE     			 	100
+			*PROYECTIL 				0
+			*INCENDIO 				0
+			*EDIFICIO 				0
+			*GOLPE						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN 					0
+		*RANGO_MAX 					0.5
+		*TIPO								TIPO_CC
+	}
+
+	*ARMA
+	{
+		*UNIDAD 						EGIPCIO_ARQUERON
+		*ESTADO 						FUEGO
+		*FLAG 							FLAG_FUEGO
+		*DANYO
+		{
+			*MELEE 						0
+			*PROYECTIL			 	0
+			*INCENDIO 				100
+			*EDIFICIO 				0
+			*GOLPE						0
+		}
+		*PRECISION			 		100
+		*RITMO 							0.5
+		*RANGO_MIN			 		3
+		*RANGO_MAX			 		18
+		*TIPO								TIPO_DISTANCIA
+		*TIPOLOGIA_DANYO		PROYECTIL
+		*MUNICION						FLECHA_FUEGO
+	}
+	
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD 						GLADIADOR
+		*ESTADO							NORMAL
+		*FLAG								FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE						250
+			*PROYECTIL 				0
+			*INCENDIO					0
+			*EDIFICIO					0
+			*GOLPE						0
+		}
+		*RITMO							0.5
+		*RANGO_MIN					0
+		*RANGO_MAX					0.5
+		*TIPO								TIPO_CC
+	}
+
+	*ARMA
+	{
+		*UNIDAD 						GLADIADOR
+		*ESTADO 						RED
+		*FLAG								FLAG_NOCARGA
+		*DANYO
+		{
+			*MELEE						0
+			*PROYECTIL				0
+			*INCENDIO					0
+			*EDIFICIO					0
+			*GOLPE						0
+		}		
+		*RITMO							1
+		*RANGO_MIN					3
+		*RANGO_MAX					8
+		*TIPO								TIPO_DISTANCIA
+		*TIPOLOGIA_DANYO		PROYECTIL
+		*MUNICION						RED
+	}	
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD 						HONDERO
+		*ESTADO 						NORMAL
+		*DANYO
+		{
+			*MELEE 						100
+			*PROYECTIL			 	450
+			*INCENDIO 				0
+			*EDIFICIO 				50
+			*GOLPE						0
+		}
+		*PRECISION 					100
+		*RITMO 						  1
+		*RANGO_MIN			 		2
+		*RANGO_MAX 					15
+		*TIPO								TIPO_DISTANCIA
+		*MUNICION						PIEDRA_HONDERO
+	}
+
+	*ARMA
+	{
+		*UNIDAD 						HONDERO
+		*ESTADO 						CUERPO
+		*FLAG 							FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 					  50
+			*PROYECTIL			 	0
+			*INCENDIO 				0
+			*EDIFICIO 				0
+			*GOLPE						0
+		}
+		*PRECISION 					100
+		*RITMO 							0.5
+		*RANGO_MIN 					0
+		*RANGO_MAX 					0.5
+		*TIPO								TIPO_CC
+	}
+	
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD							PIQUERO_ELITE
+		*ESTADO							NORMAL
+		*DANYO
+		{
+			*MELEE						25
+			*PROYECTIL				75
+			*INCENDIO					0
+			*EDIFICIO					0
+			*GOLPE						175
+		}
+		*RITMO							0.5
+		*RANGO_MIN					0
+		*RANGO_MAX					1
+		*TIPO								TIPO_CC
+	}
+
+
+
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD							CABALLERIA_PARTHA
+		*ESTADO							NORMAL
+		*DANYO				
+		{
+			*MELEE						250
+			*PROYECTIL				300
+			*INCENDIO					0
+			*EDIFICIO					0
+			*GOLPE						0
+		}
+		*PRECISION					100
+		*RITMO							2
+		*RANGO_MIN					2
+		*RANGO_MAX					15
+		*TIPO								TIPO_DISTANCIA
+		*TIPOLOGIA_DANYO		PROYECTIL
+		*MUNICION						FLECHA
+	}
+
+	*ARMA
+	{
+		*UNIDAD 						CABALLERIA_PARTHA
+		*ESTADO 						CUERPO
+		*FLAG 							FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 						50
+			*PROYECTIL				0
+			*INCENDIO				 	0
+			*EDIFICIO 				0
+			*GOLPE						0
+		}
+		*RITMO 							0.5
+		*RANGO_MIN			 		0
+		*RANGO_MAX 					0.5
+		*TIPO								TIPO_CC
+	}
+	
+	*ARMA
+	{
+		*UNIDAD 						CABALLERIA_PARTHA
+		*ESTADO 						FUEGO
+		*FLAG 							FLAG_FUEGO
+		*DANYO
+		{
+			*MELEE 						0
+			*PROYECTIL				0
+			*INCENDIO				 	100
+			*EDIFICIO 				0
+			*GOLPE						0
+		}
+		*RITMO							0.5
+		*RANGO_MIN					2
+		*RANGO_MAX					15
+		*TIPO								TIPO_DISTANCIA
+		*TIPOLOGIA_DANYO		PROYECTIL
+		*MUNICION						FLECHA_FUEGO
+	}
+	
+	
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD							CABALLERIA_GERMANA
+		*FLAG								FLAG_CUERPO_A_CUERPO
+		*ESTADO							NORMAL
+		*DANYO				
+		{
+			*MELEE						200
+			*PROYECTIL				100
+			*INCENDIO					0
+			*EDIFICIO					0
+			*GOLPE						0
+		}		 
+		*RITMO							0.5
+		*RANGO_MIN					0
+		*RANGO_MAX					1
+		
+		*MUNICION						TIPO_CC
+	}
+
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD							GALO_ESPADON
+		*FLAG								FLAG_CUERPO_A_CUERPO
+		*ESTADO							NORMAL
+		*DANYO				
+		{
+			*MELEE						150
+			*PROYECTIL				0
+			*INCENDIO					0
+			*EDIFICIO					0
+			*GOLPE						0
+		}		 
+		*RITMO							0.5
+		*RANGO_MIN					0
+		*RANGO_MAX					1
+		
+		*MUNICION						TIPO_CC
+	}
+
+	
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD							EGIPCIO_CUADRIGA
+		*FLAG								FLAG_CUERPO_A_CUERPO
+		*ESTADO							NORMAL
+		*DANYO				
+		{
+			*MELEE						200
+			*PROYECTIL				100
+			*INCENDIO					0
+			*EDIFICIO					0
+			*GOLPE						0
+		}		 
+		*RITMO							0.5
+		*RANGO_MIN					0
+		*RANGO_MAX					1	
+		*TIPO								TIPO_CC
+	}
+
+	
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD							GALO_CAZADOR		
+		*ESTADO							NORMAL
+		*DANYO				
+		{
+			*MELEE						50
+			*PROYECTIL				400
+			*INCENDIO					0
+			*EDIFICIO					0
+			*GOLPE						0
+		}		 
+		*PRECISION					100
+		*RITMO							2
+		*RANGO_MIN					3
+		*RANGO_MAX					15		
+		*TIPO								TIPO_DISTANCIA
+		*MUNICION						FLECHA
+		*FLAG               FLAG_CALCULAR_ALTURA
+	}
+	*ARMA
+	{
+		*UNIDAD							GALO_CAZADOR
+		*FLAG								FLAG_CUERPO_A_CUERPO
+		*ESTADO							CUERPO
+		*DANYO				
+		{
+			*MELEE						100
+			*PROYECTIL				0
+			*INCENDIO					0
+			*EDIFICIO					0
+			*GOLPE						0
+		}		 
+		*RITMO							0.5
+		*RANGO_MIN					0
+		*RANGO_MAX					1
+		*TIPO								TIPO_CC
+	}
+	
+//***************************************************************************
+// Definición de las armas de las torres defensivas
+//***************************************************************************
+	*ARMA
+	{
+		*RAZA								ROMANOS
+		*ESTADO							TORRE_DEFENSA
+		*FLAG								FLAG_CONTENEDOR
+		*DANYO
+		{
+			*MELEE			 			30
+			*PROYECTIL 				150
+			*INCENDIO 				0
+			*EDIFICIO 				0
+			*GOLPE						20
+		}
+		*TIPO_DANYO 				DANYO_AREA 
+		*RADIO_AREA					0.5
+		*COEF_AREA_A 				1
+		*COEF_AREA_B				0 
+		*FUEGO_ALIADO 			SI		
+		*PRECISION					100
+		*RITMO							10
+		*RANGO_MIN					0
+		*RANGO_MAX					3		
+		*TIPO								TIPO_DISTANCIA
+		*MUNICION						PIEDRA_TORRE_DEFENSA
+	}
+	***************************************************************************
+	*ARMA
+	{
+		*RAZA								BARBAROS
+		*ESTADO							TORRE_DEFENSA
+		*FLAG								FLAG_CONTENEDOR
+		*DANYO
+		{
+			*MELEE			 			30
+			*PROYECTIL 				150
+			*INCENDIO 				0
+			*EDIFICIO 				0
+			*GOLPE						20
+		}		
+		*PRECISION					100
+		*RITMO						  10
+		*RANGO_MIN					0
+		*RANGO_MAX					3
+		*TIPO_DANYO 				DANYO_AREA 
+		*RADIO_AREA					0.5
+		*COEF_AREA_A 				1
+		*COEF_AREA_B				0 
+		*FUEGO_ALIADO 			SI		
+		*TIPO								TIPO_DISTANCIA
+		*MUNICION						PIEDRA_TORRE_DEFENSA
+	}
+	***************************************************************************
+	*ARMA
+	{
+		*RAZA								EGIPCIOS
+		*ESTADO							TORRE_DEFENSA
+		*FLAG								FLAG_CONTENEDOR
+		*DANYO
+		{
+			*MELEE			 			30
+			*PROYECTIL 				150
+			*INCENDIO 				0
+			*EDIFICIO 				0
+			*GOLPE						20
+		}		
+		*PRECISION					100
+		*RITMO							10
+		*RANGO_MIN					0
+		*RANGO_MAX					3		
+		*TIPO_DANYO 				DANYO_AREA 
+		*RADIO_AREA					0.5
+		*COEF_AREA_A 				1
+		*COEF_AREA_B				0 
+		*FUEGO_ALIADO 			SI
+		*TIPO								TIPO_DISTANCIA
+		*MUNICION						PIEDRA_TORRE_DEFENSA
+	}
+}

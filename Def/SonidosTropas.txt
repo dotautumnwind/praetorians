@@ -1,0 +1,598 @@
+{
+  // -------------------------------------------------------------------------------------
+  // TROPAS
+  // -------------------------------------------------------------------------------------
+  
+  *SONIDO
+  {
+    *NOMBRE         TPA1
+    *FICHERO        "Tropa_pesada_1_nuevo3.wav"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_EVITAR_ACOPLE
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Pesada andando 1 unidad"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.7f
+    *POLIFONIA      3
+  }
+  *SONIDO
+  {
+    *NOMBRE         TPA2
+    *FICHERO        "Tropa_pesada_2-5_nuevo5.wav"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_EVITAR_ACOPLE
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Pesada andando de 2 a 5 unidades"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.7f
+    *POLIFONIA      2
+  }
+  *SONIDO
+  {
+    *NOMBRE         TPA3
+    *FICHERO        "Tropa_pesada_6-15.wav"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_EVITAR_ACOPLE
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Pesada andando de 6 a 15 undidades"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.7f
+    *POLIFONIA      2
+  }
+  *SONIDO
+  {
+    *NOMBRE         TPA4
+    *FICHERO        "Tropa_pesada_16.wav"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_EVITAR_ACOPLE
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Pesada andando mas de 15 unidades"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.7f
+    *POLIFONIA      2
+  }
+  *SONIDO
+  {
+    *NOMBRE         TLA1
+    *FICHERO        "Tropa_ligera_1.wav"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_EVITAR_ACOPLE
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Ligera andando 1 unidad"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.7f
+  }
+  *SONIDO
+  {
+    *NOMBRE         TLA2
+    *FICHERO        "Tropa_ligera_2-5.wav"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_EVITAR_ACOPLE
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Ligera andando de 2 a 5 unidades"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.7f
+  }
+  *SONIDO
+  {
+    *NOMBRE         TLA3
+    *FICHERO        "Tropa_ligera_6-15.wav"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_EVITAR_ACOPLE
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Ligera andando de 6 a 15 undidades"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.7f
+  }
+  *SONIDO
+  {
+    *NOMBRE         TLA4
+    *FICHERO        "Tropa_ligera_16.wav"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_EVITAR_ACOPLE
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Ligera andando mas de 15 unidades"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.7f
+  }
+  *SONIDO
+  {
+    *NOMBRE         TCA1
+    *FICHERO        "caballo_andar_1.wav"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_EVITAR_ACOPLE
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Caballeria andando 1 unidad"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         TCA2
+    *FICHERO        "caballo_andar_2-3.wav"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_EVITAR_ACOPLE
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Caballeria andando de 2 y 3 unidades"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         TCA3
+    *FICHERO        "caballo_andar_4-5_nuevo.wav"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_EVITAR_ACOPLE
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Caballeria andando de 4 y 5 undidades"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         TCA4
+    *FICHERO        "caballo_andar_6-9_sin ruido.wav"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_EVITAR_ACOPLE
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Caballeria andando de 6 a 9 unidades"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         TCA5
+    *FICHERO        "caballo_andar_10_sin ruido.wav"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_EVITAR_ACOPLE
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Caballeria andando mas de 9 unidades"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.7f
+  }
+  *SONIDO
+  {
+    *NOMBRE         TPC1
+    *FICHERO        "Tropa_pesada_correr_1.wav"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_EVITAR_ACOPLE
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Pesada corriendo 1 unidad"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.7f
+    *POLIFONIA      3
+  }
+  *SONIDO
+  {
+    *NOMBRE         TPC2
+    *FICHERO        "Tropa_pesada_correr_2-5.wav"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_EVITAR_ACOPLE
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Pesada corriendo de 2 a 5 unidades"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.7f
+    *POLIFONIA      2
+  }
+  *SONIDO
+  {
+    *NOMBRE         TPC3
+    *FICHERO        "Tropa_pesada_correr_6-15.wav"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_EVITAR_ACOPLE
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Pesada corriendo de 6 a 15 undidades"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.7f
+    *POLIFONIA      2
+  }
+  *SONIDO
+  {
+    *NOMBRE         TPC4
+    *FICHERO        "Tropa_pesada_correR_16.wav"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_EVITAR_ACOPLE
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Pesada corriendo mas de 15 unidades"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.7f
+    *POLIFONIA      2
+  }
+  *SONIDO
+  {
+    *NOMBRE         TLC1
+    *FICHERO        "Tropa_ligera_correr_1.wav"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_EVITAR_ACOPLE
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Ligera corriendo 1 unidad"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.7f
+  }
+  *SONIDO
+  {
+    *NOMBRE         TLC2
+    *FICHERO        "Tropa_ligera_correr_2-5.wav"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_EVITAR_ACOPLE
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Ligera corriendo de 2 a 5 unidades"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.7f
+  }
+  *SONIDO
+  {
+    *NOMBRE         TLC3
+    *FICHERO        "Tropa_ligera_correr_6-15.wav"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_EVITAR_ACOPLE
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Ligera corriendo de 6 a 15 undidades"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.7f
+  }
+  *SONIDO
+  {
+    *NOMBRE         TLC4
+    *FICHERO        "Tropa_ligera_correr_16.wav"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_EVITAR_ACOPLE
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Ligera corriendo mas de 15 unidades"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.7f
+  }
+  *SONIDO
+  {
+    *NOMBRE         TCC1
+    *FICHERO        "caballo_galope_1.wav"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_EVITAR_ACOPLE
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Caballeria corriendo 1 unidad"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         TCC2
+    *FICHERO        "caballo_galope_2-3.wav"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_EVITAR_ACOPLE
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Caballeria corriendo de 2 y 3 unidades"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         TCC3
+    *FICHERO        "caballo_galope_4-5.wav"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_EVITAR_ACOPLE
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Caballeria corriendo de 4 y 5 undidades"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         TCC4
+    *FICHERO        "caballo_galope_6-9.wav"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_EVITAR_ACOPLE
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Caballeria corriendo de 6 a 9 unidades"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         TCC5
+    *FICHERO        "caballo_galope_10.wav"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_EVITAR_ACOPLE
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Caballeria corriendo mas de 9 unidades"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         TCBT
+    *FICHERO        "batalla_1.wav"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa combatiendo"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.5f
+    *FLAG           FLAG_FADE_OUT
+    *FLAG           FLAG_EVITAR_ACOPLE
+  }
+  *SONIDO
+  {
+    *NOMBRE         TCTR
+    *FICHERO        "construir_1.wav"
+    *FICHERO        "construir_2.wav"
+    *FICHERO        "construir_3.wav"
+    *FICHERO        "construir_4.wav"
+    *FICHERO        "construir_5.wav"
+    *FLAG           FLAG_GENERICO
+    *FLAG           FLAG_LOOP
+    *ALIAS          "Tropa construyendo"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.2f
+    *POLIFONIA      1
+  }
+  *SONIDO
+  {
+    *NOMBRE         TRPR
+    *FICHERO        "construir_1.wav"
+    *FICHERO        "construir_2.wav"
+    *FICHERO        "construir_3.wav"
+    *FICHERO        "construir_4.wav"
+    *FICHERO        "construir_5.wav"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa reparando"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.2f
+    *POLIFONIA      1
+  }
+  *SONIDO
+  {
+    *NOMBRE         TRZR
+    *FICHERO        ".wav"
+    *FLAG           FLAG_LOOP
+    *ALIAS          "Tropa rezando"
+    *TIPO           TIPO_EFECTO
+    *FLAG           FLAG_SONIDO_CORTO
+    *VOLUMEN        0.2f
+  }
+  *SONIDO
+  {
+    *NOMBRE         TLRD
+    *FICHERO        ".wav"
+    *ALIAS          "Tropa lanzando red"
+    *TIPO           TIPO_EFECTO
+    *FLAG           FLAG_SONIDO_CORTO
+    *VOLUMEN        0.2f
+  }
+  *SONIDO
+  {
+    *NOMBRE         TGLP
+    *FICHERO        "golpe_proyectil_01.wav"
+    *FICHERO        "golpe_proyectil_02.wav"
+    *ALIAS          "Piedra catapulta golpeando"
+    *TIPO           TIPO_EFECTO
+    *FLAG           FLAG_GENERICO
+    *FLAG           FLAG_SONIDO_CORTO
+    *VOLUMEN        0.7f
+  }
+  *SONIDO
+  {
+    *NOMBRE         TABP
+    *FICHERO        ".wav"
+    *ALIAS          "Tropa abriendo puerta"
+    *TIPO           TIPO_EFECTO
+    *FLAG           FLAG_SONIDO_CORTO
+    *VOLUMEN        0.2f
+  }
+  *SONIDO
+  {
+    *NOMBRE         TGCB
+    *FICHERO        "batalla_gritoataque.wav"
+    *ALIAS          "Tropa grito inicio combate"
+    *TIPO           TIPO_EFECTO
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_GENERICO
+    *VOLUMEN        0.2f
+  }
+  *SONIDO
+  {
+    *NOMBRE         TPF1
+    *FICHERO        ".wav"
+    *FLAG           FLAG_GENERICO
+    *FLAG           FLAG_SONIDO_CORTO
+    *ALIAS          "Tropa Pesada parando 1 unidad"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.7f
+    *POLIFONIA      3
+  }
+  *SONIDO
+  {
+    *NOMBRE         TPF2
+    *FICHERO        ".wav"
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Pesada panrando de 2 a 5 unidades"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.7f
+    *POLIFONIA      2
+  }
+  *SONIDO
+  {
+    *NOMBRE         TPF3
+    *FICHERO        ".wav"
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Pesada panrando de 6 a 15 undidades"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.7f
+    *POLIFONIA      2
+  }
+  *SONIDO
+  {
+    *NOMBRE         TPF4
+    *FICHERO        ".wav"
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Pesada parando mas de 15 unidades"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.7f
+    *POLIFONIA      2
+  }
+  *SONIDO
+  {
+    *NOMBRE         TLF1
+    *FICHERO        ".wav"
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Ligera parando 1 unidad"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.7f
+  }
+  *SONIDO
+  {
+    *NOMBRE         TLF2
+    *FICHERO        ".wav"
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Ligera parando de 2 a 5 unidades"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.7f
+  }
+  *SONIDO
+  {
+    *NOMBRE         TLF3
+    *FICHERO        ".wav"
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Ligera parando de 6 a 15 undidades"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.7f
+  }
+  *SONIDO
+  {
+    *NOMBRE         TLF4
+    *FICHERO        ".wav"
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Ligera parando mas de 15 unidades"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.7f
+  }
+  *SONIDO
+  {
+    *NOMBRE         TCP1
+    *FICHERO        ".wav"
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Caballeria parando 1 unidad"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         TCP2
+    *FICHERO        ".wav"
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Caballeria parando de 2 y 3 unidades"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         TCP3
+    *FICHERO        ".wav"
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Caballeria parando de 4 y 5 undidades"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         TCP4
+    *FICHERO        ".wav"
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Caballeria parando de 6 a 9 unidades"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         TCP5
+    *FICHERO        ".wav"
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Caballeria parando mas de 9 unidades"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.7f
+  }
+  *SONIDO
+  {
+    *NOMBRE         TCF1
+    *FICHERO        "caballo_galope_frenar_1.wav"
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Caballeria frenando 1 unidad"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         TCF2
+    *FICHERO        "caballo_galope_frenar_2-3.wav"
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Caballeria frenando de 2 y 3 unidades"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         TCF3
+    *FICHERO        "caballo_galope_frenar_4-5.wav"
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Caballeria frenando de 4 y 5 undidades"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         TCF4
+    *FICHERO        "caballo_galope_frenar_6-9.wav"
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Caballeria frenando de 6 a 9 unidades"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         TCF5
+    *FICHERO        "caballo_galope_frenar_10.wav"
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Caballeria frenando mas de 9 unidades"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.7f
+  }
+  *SONIDO
+  {
+    *NOMBRE         TCCA
+    *FICHERO        "carro_andar.wav"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_EVITAR_ACOPLE
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Carro andando"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         TCCC
+    *FICHERO        "carro_correr.wav"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_EVITAR_ACOPLE
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Tropa Carro Corriendo"
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.8f
+  }
+
+}

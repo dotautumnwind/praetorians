@@ -1,0 +1,518 @@
+{
+// **************************************************************************
+// ************************FORMACION  CENTURION  ROMANO**********************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_MOVIBLE
+		*FLAG                   FLAG_CORRER
+		*FLAG                   FLAG_FRENAR
+		*FLAG			              FLAG_STANDARD
+		*FLAG										FLAG_NO_EMBOSCADA_PRADERA
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				1
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.03
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.7
+		*AMPLITUDC							0.7
+		*ARMA_CUERPO_CUERPO     CENTURION NORMAL
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					ROMANO_CENTURION
+		*ID_ICONO								4
+		*ICONO									1 2	
+	}
+// **************************************************************************
+// *********************** FORMACION  MEDICO  ROMANOS************************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_MOVIBLE
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				1
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.025
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.7
+		*AMPLITUDC							0.7
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					ROMANO_MEDICO
+		*ID_ICONO								4
+		*ICONO									1 2
+	
+	}
+
+// **************************************************************************
+// ************************FORMACION CPESADA_STANDARD************************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_MOVIBLE
+		*FLAG                   FLAG_CORRER
+		*FLAG                   FLAG_FRENAR
+		*FLAG			              FLAG_STANDARD
+		*FLAG										FLAG_NO_EMBOSCADA_PRADERA
+		*FLAG										FLAG_DISTRIBUCION_DESORDENADA
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				12
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.042
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.7
+		*AMPLITUDC							1.8
+		*ARMA_CUERPO_CUERPO     CABALLERIA_PESADA NORMAL
+		*ARMA_DESMANTELAR       CABALLERIA_PESADA DESMANTELAR
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					CPESADA_STANDARD
+		*ID_ICONO								4
+		*ICONO									1 2
+		*GRUPO									STANDARD
+		*TOOLTIP								LTEXT_FORMACION_STANDARD
+	}
+
+// **************************************************************************
+// ************************FORMACION IPESADA_STANDARD************************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			3
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_MOVIBLE
+		*FLAG										FLAG_STANDARD
+		*FLAG                   FLAG_CORRER
+		*MINIMO_UNIDADES				2
+		*MAXIMO_UNIDADES				30
+		*ESPECIAL								0
+		*MAGIA									0
+		*GASTO_MAGIA						0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.017
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.6
+		*AMPLITUDC							0.5
+		*ARMA_CUERPO_CUERPO     INFANTERIA_PESADA NORMAL
+		*ARMA_DESMANTELAR       INFANTERIA_PESADA DESMANTELAR
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					IPESADA_STANDARD
+		*ID_ICONO								4
+		*ICONO									1 2
+		*TOOLTIP								LTEXT_FORMACION_STANDARD
+		*GRUPO									STANDARD	
+	}
+
+// **************************************************************************
+// ************************FORMACION IPESADA_TORTUGA*************************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			4
+		*MOVILIDAD							MOVILIDAD_RIGIDA
+		*FLAG										FLAG_MOVIBLE
+		*FLAG										FLAG_TORTUGA
+		*FLAG										FLAG_NO_EMBOSCADA_PRADERA
+		*MINIMO_UNIDADES				20
+		*MAXIMO_UNIDADES				30
+		*ESPECIAL								0
+		*MAGIA									0
+		*GASTO_MAGIA						0
+	/*	*BONIFICACION_DEFENSA
+		{
+			*MELEE								-25
+			*PROYECTIL						-98
+			*INCENDIO							0
+			*EDIFICIO							15
+			*GOLPE                50
+		}*/
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.010
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								2 OPERACION_CONST 4
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.3
+		*AMPLITUDC							0.3
+		*ARMA_CUERPO_CUERPO     INFANTERIA_PESADA TORTUGA
+		*ARMA_DESMANTELAR       INFANTERIA_PESADA DESMANTELAR
+		*DEFENSA								TORTUGA
+		*IDENTIFICADOR					IPESADA_TORTUGA
+		*ID_ICONO								4
+		*ICONO									0 2
+		*TOOLTIP								LTEXT_FORMACION_TORTUGA
+		*TORTUGA		
+		*GRUPO									TORTUGA
+	}
+// **************************************************************************
+// ************************FORMACION  MURALLA IPESADA ***********************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_MOVIBLE
+		*FLAG                   FLAG_CORRER
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				16
+		*FLAG 									FLAG_MURALLA
+		*FLAG 									FLAG_NOSELECCIONABLE
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.017
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								2 OPERACION_CONST 2
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.3
+		*AMPLITUDC							0.4
+		*NOISE_X								0.04
+		*NOISE_Y								0.04
+		*ARMA_CUERPO_CUERPO     INFANTERIA_PESADA NORMAL
+		*ARMA_DESMANTELAR       INFANTERIA_PESADA DESMANTELAR
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					MURALLA_IPESADA
+		*ID_ICONO								4
+		*ICONO									1 2
+	}
+// **************************************************************************
+// ************************FORMACION ILIGERA_STANDARD************************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			3
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_MOVIBLE
+		*FLAG                   FLAG_CORRER
+		*FLAG										FLAG_STANDARD
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				30
+		*ESPECIAL								0
+		*MAGIA									0
+		*GASTO_MAGIA						0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.025
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.5
+		*AMPLITUDC							0.5
+		*ARMA_CUERPO_CUERPO     INFANTERIA_LIGERA NORMAL
+		*ARMA_DESMANTELAR       INFANTERIA_LIGERA DESMANTELAR
+		*ARMA_DEFENSA_MAQUINA   INFANTERIA_LIGERA DEFENSA_MAQUINA
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					ILIGERA_STANDARD
+		*ID_ICONO								4
+		*ICONO									0 2
+		*TOOLTIP								LTEXT_FORMACION_STANDARD
+		*GRUPO									STANDARD
+	}
+// **************************************************************************
+// ************************FORMACION  MURALLA ILIGERA ***********************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_MOVIBLE
+		*FLAG                   FLAG_CORRER
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				16
+		*FLAG 									FLAG_MURALLA
+		*FLAG 									FLAG_NOSELECCIONABLE
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.025
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								2 OPERACION_CONST 2
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.3
+		*AMPLITUDC							0.4
+		*NOISE_X								0.04
+		*NOISE_Y								0.04
+		*ARMA_CUERPO_CUERPO     INFANTERIA_LIGERA NORMAL
+		*ARMA_DESMANTELAR       INFANTERIA_LIGERA DESMANTELAR
+		*ARMA_DEFENSA_MAQUINA   INFANTERIA_LIGERA DEFENSA_MAQUINA
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					MURALLA_ILIGERA
+		*ID_ICONO								4
+		*ICONO									1 2
+	}
+// **************************************************************************
+// ************************FORMACION PiQUEROS_PLANTADOS**********************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			5
+		*MOVILIDAD							MOVILIDAD_RIGIDA
+		*FLAG										FLAG_PLANTADA
+		*FLAG                   FLAG_CORRER
+		*MINIMO_UNIDADES				10
+		*MAXIMO_UNIDADES				30
+		*ESPECIAL								0
+		*MAGIA									1
+		*GASTO_MAGIA						0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.02
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								5 OPERACION_SQRT_UP OPERACION_DIV_UP 1.41 OPERACION_MUL 2
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.5
+		*AMPLITUDC							0.5
+		*ARMA_CUERPO_CUERPO     PIQUERO PLANTADOS
+		*ARMA_DESMANTELAR       PIQUERO DESMANTELAR
+		*ARMA_PEGADO            PIQUERO CUERPO
+		*DEFENSA								PLANTADOS
+		*IDENTIFICADOR					PIQUEROS_PLANTADOS
+		*ID_ICONO								4
+		*ICONO									0 1
+		*TOOLTIP								LTEXT_FORMACION_PLANTADOS
+		*GRUPO									PLANTADOS	
+	}
+// **************************************************************************
+// ************************FORMACION PIQUEROS_LANZAS_LEVANTADAS**************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			3
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_MOVIBLE
+		*FLAG                   FLAG_CORRER
+		*FLAG										FLAG_ARMAS_LEVANTADAS
+		*MINIMO_UNIDADES				10
+		*MAXIMO_UNIDADES				30
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.020
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.4
+		*AMPLITUDC							0.4
+		*ARMA_CUERPO_CUERPO     PIQUERO LEVANTADAS
+		*ARMA_DESMANTELAR       PIQUERO DESMANTELAR
+		*ARMA_PEGADO            PIQUERO CUERPO
+		*DEFENSA								LANZAS_LEVANTADAS
+		*IDENTIFICADOR					PIQUEROS_LANZAS_LEVANTADAS
+		*ID_ICONO								4
+		*ICONO									1 0
+		*TOOLTIP								LTEXT_FORMACION_LANZAS_LEVANTADAS
+		*GRUPO									DEFENSIVA	
+	}
+// **************************************************************************
+// ************************FORMACION PIQUEROS_STANDARD***********************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			1
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_MOVIBLE
+		*FLAG                   FLAG_CORRER
+		*FLAG										FLAG_STANDARD
+		*MINIMO_UNIDADES				10
+		*MAXIMO_UNIDADES				30
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.022
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.5
+		*AMPLITUDC							0.5
+		*ARMA_CUERPO_CUERPO     PIQUERO NORMAL
+		*ARMA_DESMANTELAR       PIQUERO DESMANTELAR
+		*ARMA_PEGADO            PIQUERO CUERPO
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					PIQUEROS_STANDARD
+		*ID_ICONO								4
+		*ICONO									1 2
+		*TOOLTIP								LTEXT_FORMACION_STANDARD
+		*GRUPO									STANDARD	
+	}
+// **************************************************************************
+// ************************FORMACION  MURALLA PIQUEROS **********************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_MOVIBLE
+		*FLAG                   FLAG_CORRER
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				16
+		*FLAG 									FLAG_MURALLA
+		*FLAG 									FLAG_NOSELECCIONABLE
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.022
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								2 OPERACION_CONST 2
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.3
+		*AMPLITUDC							0.4
+		*NOISE_X								0.04
+		*NOISE_Y								0.04
+		*ARMA_CUERPO_CUERPO     PIQUERO NORMAL
+		*ARMA_DESMANTELAR       PIQUERO DESMANTELAR
+		*ARMA_PEGADO            PIQUERO CUERPO
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					MURALLA_PIQUEROS
+		*ID_ICONO								4
+		*ICONO									1 2
+	}
+// **************************************************************************
+// ************************FORMACION ARQUEROS_STANDARD***********************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_MOVIBLE
+		*FLAG										FLAG_STANDARD
+		*FLAG                   FLAG_CORRER
+		*FLAG										FLAG_FUEGO_CONCENTRADO
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				30
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.022
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.5
+		*AMPLITUDC							0.5
+		*ARMA_DISTANCIA         ARQUERO NORMAL
+		*ARMA_FUEGO             ARQUERO FUEGO
+		*ARMA_DESMANTELAR       ARQUERO DESMANTELAR
+		*ARMA_PEGADO            ARQUERO CUERPO
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					ARQUEROS_STANDARD
+		*ID_ICONO								4
+		*ICONO									1 2
+		*TOOLTIP								LTEXT_FORMACION_STANDARD
+		*GRUPO									STANDARD
+	}
+
+// **************************************************************************
+// ************************FORMACION ARQUEROS_PLANTADOS**********************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			3
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_PLANTADA
+		*FLAG     							FLAG_CARGAR
+		*FLAG                   FLAG_CORRER
+		*MINIMO_UNIDADES				2
+		*MAXIMO_UNIDADES				30
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.02
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.5
+		*AMPLITUDC							0.5
+		*ARMA_DISTANCIA         ARQUERO PLANTADOS
+		*ARMA_FUEGO             ARQUERO PLANTADOS_FUEGO
+		*ARMA_DESMANTELAR       ARQUERO DESMANTELAR
+		*ARMA_PEGADO            ARQUERO CUERPO
+		*DEFENSA                NORMAL
+		*IDENTIFICADOR					ARQUEROS_PLANTADOS
+		*ID_ICONO								4
+		*ICONO									0 1
+		*TOOLTIP								LTEXT_FORMACION_PLANTADOS
+		*GRUPO									PLANTADOS
+	}
+// **************************************************************************
+// ************************FORMACION  MURALLA ARQUEROS **********************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_MOVIBLE
+		*FLAG                   FLAG_CORRER
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				16
+		*FLAG 									FLAG_MURALLA
+		*FLAG 									FLAG_NOSELECCIONABLE
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.022
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								2 OPERACION_CONST 2
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.3
+		*AMPLITUDC							0.4
+		*NOISE_X								0.04
+		*NOISE_Y								0.04
+		*ARMA_DISTANCIA         ARQUERO NORMAL
+		*ARMA_FUEGO             ARQUERO FUEGO
+		*ARMA_DESMANTELAR       ARQUERO DESMANTELAR
+		*ARMA_PEGADO            ARQUERO CUERPO
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					MURALLA_ARQUEROS
+		*ID_ICONO								4
+		*ICONO									1 2
+	}
+// **************************************************************************
+// ************************FORMACION CARQUERA_STANDARD***********************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_MOVIBLE
+		*FLAG                   FLAG_CORRER
+		*FLAG                   FLAG_FRENAR
+		*FLAG			              FLAG_STANDARD
+		*FLAG										FLAG_NO_EMBOSCADA_PRADERA
+		*FLAG										FLAG_DISTRIBUCION_DESORDENADA
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				16
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.040
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.6
+		*AMPLITUDC							1.6
+		*ARMA_DISTANCIA         CABALLERIA_ARQUERA NORMAL
+		*ARMA_FUEGO             CABALLERIA_ARQUERA FUEGO
+		*ARMA_DESMANTELAR       CABALLERIA_ARQUERA DESMANTELAR
+		*ARMA_PEGADO            CABALLERIA_ARQUERA CUERPO
+		*DEFENSA								NORMAL
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					CARQUERA_STANDARD
+		*ID_ICONO								4
+		*ICONO									1 2
+		*GRUPO									STANDARD
+		*TOOLTIP								LTEXT_FORMACION_STANDARD
+	}
+}

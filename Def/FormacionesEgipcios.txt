@@ -1,0 +1,519 @@
+{
+
+// **************************************************************************
+// ************************FORMACION  PESADA  EGIPCIO**************************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG 									FLAG_DISTRIBUCION_DESORDENADA
+		*FLAG										FLAG_MOVIBLE
+		*FLAG                   FLAG_CORRER
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				16
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.020
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.5
+		*AMPLITUDC							1.3
+		*ARMA_CUERPO_CUERPO     EGIPCIO_PESADA NORMAL
+		*ARMA_DESMANTELAR       EGIPCIO_PESADA DESMANTELAR
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					EGIPCIO_IPESADA
+		*ICONO									0 4
+	
+	}
+// **************************************************************************
+// ************************FORMACION  MURALLA IPESADA EGIPCIOS **************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_MOVIBLE
+		*FLAG                   FLAG_CORRER
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				8
+		*FLAG 									FLAG_MURALLA
+		*FLAG 									FLAG_NOSELECCIONABLE
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.020
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								2 OPERACION_CONST 2
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.6
+		*AMPLITUDC							0.4
+		*NOISE_X								0.04
+		*NOISE_Y								0.04
+		*ARMA_CUERPO_CUERPO     EGIPCIO_PESADA NORMAL
+		*ARMA_DESMANTELAR       EGIPCIO_PESADA DESMANTELAR
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					MURALLA_IPESADA_EGIPCIO
+		*ICONO									0 4
+	}
+	
+// **************************************************************************
+// ************************FORMACION  CENTURION  EGIPCIO*********************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_MOVIBLE
+		*FLAG                   FLAG_CORRER
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				1
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.025
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.7
+		*AMPLITUDC							0.7
+		*ARMA_CUERPO_CUERPO     EGIPCIO_CENTURION NORMAL
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					EGIPCIO_CENTURION
+		*ICONO									0 4	
+	}
+	
+
+// **************************************************************************
+// ********************* FORMACION  MEDICO  EGIPCIOS ************************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_MOVIBLE
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				1
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.025
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.7
+		*AMPLITUDC							0.7
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					EGIPCIO_MEDICO
+		*ICONO									0 4	
+	}
+	
+
+// **************************************************************************
+// ************************FORMACION  LIGERA EGIPCIOS  **********************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG 									FLAG_DISTRIBUCION_DESORDENADA
+		*FLAG										FLAG_MOVIBLE
+		*FLAG                   FLAG_CORRER
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				16
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.025
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.5
+		*AMPLITUDC							1.3
+		*ARMA_CUERPO_CUERPO     EGIPCIO_LIGERA NORMAL
+		*ARMA_DESMANTELAR       EGIPCIO_LIGERA DESMANTELAR
+		*ARMA_DEFENSA_MAQUINA   EGIPCIO_LIGERA DEFENSA_MAQUINA
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					EGIPCIO_ILIGERA
+		*ICONO									0 4
+	}
+	
+// **************************************************************************
+// ************************FORMACION  MURALLA ILIGERA EGIPCIOS **************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_MOVIBLE
+		*FLAG                   FLAG_CORRER
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				8
+		*FLAG 									FLAG_MURALLA
+		*FLAG 									FLAG_NOSELECCIONABLE
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.025
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								2 OPERACION_CONST 2
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.6
+		*AMPLITUDC							0.4
+		*NOISE_X								0.04
+		*NOISE_Y								0.04
+		*ARMA_CUERPO_CUERPO     EGIPCIO_LIGERA NORMAL
+		*ARMA_DESMANTELAR       EGIPCIO_LIGERA DESMANTELAR
+		*ARMA_DEFENSA_MAQUINA   EGIPCIO_LIGERA DEFENSA_MAQUINA
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					MURALLA_ILIGERA_EGIPCIO
+		*ICONO									0 4
+	}
+
+// **************************************************************************
+// ************************FORMACION  ARQUEROS EGIPCIOS *********************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG 									FLAG_DISTRIBUCION_DESORDENADA
+		*FLAG										FLAG_MOVIBLE
+		*FLAG                   FLAG_CORRER
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				16
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.022
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.4
+		*AMPLITUDC							1.2
+		*ARMA_DISTANCIA         EGIPCIO_ARQUERO NORMAL
+		*ARMA_FUEGO             EGIPCIO_ARQUERO FUEGO
+		*ARMA_DESMANTELAR       EGIPCIO_ARQUERO DESMANTELAR
+		*ARMA_PEGADO            EGIPCIO_ARQUERO CUERPO
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					EGIPCIO_ARQUERO
+		*ID_ICONO								4
+		*ICONO									1 2
+		*TOOLTIP								LTEXT_FORMACION_STANDARD
+		*GRUPO									STANDARD
+	}
+// **************************************************************************
+// *******************FORMACION  ARQUEROS EGIPCIOS PLANTADOS ****************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			3
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_PLANTADA
+		*FLAG 									FLAG_DISTRIBUCION_DESORDENADA
+		*FLAG                   FLAG_CORRER
+		*MINIMO_UNIDADES				2
+		*MAXIMO_UNIDADES				16
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.02
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.4
+		*AMPLITUDC							1.2
+		*ARMA_DISTANCIA         EGIPCIO_ARQUERO PLANTADOS
+		*ARMA_FUEGO             EGIPCIO_ARQUERO PLANTADOS_FUEGO
+		*ARMA_DESMANTELAR       EGIPCIO_ARQUERO DESMANTELAR
+		*ARMA_PEGADO            EGIPCIO_ARQUERO CUERPO
+		*DEFENSA								PLANTADOS
+		*IDENTIFICADOR					EGIPCIO_ARQUERO_PLANTADOS
+		*ID_ICONO								4
+		*ICONO									0 1
+		*TOOLTIP								LTEXT_FORMACION_PLANTADOS
+		*GRUPO									PLANTADOS
+	}
+// **************************************************************************
+// ************************FORMACION  MURALLA ARQUERO EGIPCIOS **************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_MOVIBLE
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				8
+		*FLAG 									FLAG_MURALLA
+		*FLAG                   FLAG_CORRER
+		*FLAG 									FLAG_NOSELECCIONABLE
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.022
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								2 OPERACION_CONST 2
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.6
+		*AMPLITUDC							0.4
+		*NOISE_X								0.04
+		*NOISE_Y								0.04
+		*ARMA_DISTANCIA         EGIPCIO_ARQUERO NORMAL
+		*ARMA_FUEGO             EGIPCIO_ARQUERO FUEGO
+		*ARMA_DESMANTELAR       EGIPCIO_ARQUERO DESMANTELAR
+		*ARMA_PEGADO            EGIPCIO_ARQUERO CUERPO
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					MURALLA_ARQUERO_EGIPCIO
+		*ICONO									0 4
+	}
+
+// **************************************************************************
+// ************************FORMACION  PIQUEROS EGIPCIOS *********************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG 									FLAG_DISTRIBUCION_DESORDENADA
+		*FLAG										FLAG_MOVIBLE
+		*FLAG                   FLAG_CORRER
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				16
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.022
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.5
+		*AMPLITUDC							1.5
+		*ARMA_CUERPO_CUERPO     EGIPCIO_PIQUERO NORMAL
+		*ARMA_DESMANTELAR       EGIPCIO_PIQUERO DESMANTELAR
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					EGIPCIO_PIQUERO
+		*ID_ICONO								4
+		*ICONO									1 2
+		*TOOLTIP								LTEXT_FORMACION_STANDARD
+		*GRUPO									STANDARD	
+	}
+	
+// **************************************************************************
+// ********************FORMACION  PIQUEROS EGIPCIOS PLANTADOS ***************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			5
+		*MOVILIDAD							MOVILIDAD_RIGIDA
+		*FLAG										FLAG_PLANTADA
+		*FLAG                   FLAG_CORRER
+		*MINIMO_UNIDADES				10
+		*MAXIMO_UNIDADES				16
+		*ESPECIAL								0
+		*MAGIA									1
+		*GASTO_MAGIA						0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.02
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								5 OPERACION_SQRT_UP OPERACION_DIV_UP 1 OPERACION_MUL 2
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.6
+		*AMPLITUDC							0.6
+		*ARMA_CUERPO_CUERPO     EGIPCIO_PIQUERO PLANTADOS
+		*ARMA_DESMANTELAR       EGIPCIO_PIQUERO DESMANTELAR
+		*DEFENSA								PLANTADOS
+		*IDENTIFICADOR					EGIPCIO_PIQUERO_PLANTADOS
+		*ID_ICONO								4
+		*ICONO									0 1
+		*TOOLTIP								LTEXT_FORMACION_PLANTADOS
+		*GRUPO									PLANTADOS	
+	}
+	
+// **************************************************************************
+// ************************FORMACION  MURALLA PIQUERO EGIPCIOS **************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_MOVIBLE
+		*FLAG                   FLAG_CORRER
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				8
+		*FLAG 									FLAG_MURALLA
+		*FLAG 									FLAG_NOSELECCIONABLE
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.022
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								2 OPERACION_CONST 2
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.6
+		*AMPLITUDC							0.4
+		*NOISE_X								0.04
+		*NOISE_Y								0.04
+		*ARMA_CUERPO_CUERPO     EGIPCIO_PIQUERO NORMAL
+		*ARMA_DESMANTELAR       EGIPCIO_PIQUERO DESMANTELAR
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					MURALLA_PIQUERO_EGIPCIO
+		*ICONO									0 4
+	}
+	
+// **************************************************************************
+// ************************FORMACION  CPESADA  EGIPCIOS *********************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_MOVIBLE
+		*FLAG                   FLAG_CORRER
+		*FLAG                   FLAG_FRENAR
+		*FLAG 									FLAG_DISTRIBUCION_DESORDENADA
+		*FLAG										FLAG_NO_EMBOSCADA_PRADERA
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				12
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.038
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.7
+		*AMPLITUDC							1.8
+		*ARMA_CUERPO_CUERPO     EGIPCIO_CABALLERIA_PESADA NORMAL
+		*ARMA_DESMANTELAR       EGIPCIO_CABALLERIA_PESADA DESMANTELAR
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					EGIPCIO_CPESADA
+		*ICONO									0 4	
+	}
+// **************************************************************************
+// ************************FORMACION  CARQUERA  EGIPCIOS ********************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_MOVIBLE
+		*FLAG                   FLAG_CORRER
+		*FLAG                   FLAG_FRENAR
+		*FLAG 									FLAG_DISTRIBUCION_DESORDENADA
+		*FLAG										FLAG_NO_EMBOSCADA_PRADERA
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				16
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.040
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.7
+		*AMPLITUDC							1.8
+		*ARMA_DISTANCIA        	EGIPCIO_CABALLERIA_ARQUERA NORMAL
+		*ARMA_FUEGO             EGIPCIO_CABALLERIA_ARQUERA FUEGO
+		*ARMA_DESMANTELAR       EGIPCIO_CABALLERIA_ARQUERA DESMANTELAR
+		*ARMA_PEGADO            EGIPCIO_CABALLERIA_ARQUERA CUERPO
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					EGIPCIO_CARQUERA
+		*ICONO									0 4	
+	}
+	
+	
+// **************************************************************************
+// ************************FORMACION  CUADRIGA EGIPCIOS *********************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_MOVIBLE
+		*FLAG                   FLAG_CORRER
+		*FLAG 									FLAG_DISTRIBUCION_DESORDENADA
+		*FLAG										FLAG_NO_EMBOSCADA_PRADERA
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				8
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.040
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							1.3
+		*AMPLITUDC							4.0
+		*ARMA_CUERPO_CUERPO     EGIPCIO_CUADRIGA NORMAL
+		*ARMA_DESMANTELAR       EGIPCIO_CUADRIGA DESMANTELAR
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					EGIPCIO_CUADRIGA
+		*ICONO									0 4	
+	}
+	
+// **************************************************************************
+// ************************ FORMACION  ARQUEROS NUBIOS **********************
+// **************************************************************************
+	
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG 									FLAG_DISTRIBUCION_DESORDENADA
+		*FLAG										FLAG_MOVIBLE
+		*FLAG                   FLAG_CORRER
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				16
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.027
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.4
+		*AMPLITUDC							1.2
+		*ARMA_DISTANCIA         EGIPCIO_ARQUERON NORMAL
+		*ARMA_FUEGO             EGIPCIO_ARQUERON FUEGO
+		*ARMA_DESMANTELAR       EGIPCIO_ARQUERON DESMANTELAR
+		*ARMA_PEGADO            EGIPCIO_ARQUERON CUERPO
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					EGIPCIO_ARQUERON
+		*ICONO									0 4
+	
+	}
+// **************************************************************************
+// ************************ FORMACION  MURALLA ARQUEROS NUBIOS **************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_MOVIBLE
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				8
+		*FLAG 									FLAG_MURALLA
+		*FLAG                   FLAG_CORRER
+		*FLAG 									FLAG_NOSELECCIONABLE
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.027
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								2 OPERACION_CONST 2
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.6
+		*AMPLITUDC							0.4
+		*NOISE_X								0.04
+		*NOISE_Y								0.04
+		*ARMA_DISTANCIA         EGIPCIO_ARQUERON NORMAL
+		*ARMA_FUEGO             EGIPCIO_ARQUERON FUEGO
+		*ARMA_DESMANTELAR       EGIPCIO_ARQUERON DESMANTELAR
+		*ARMA_PEGADO            EGIPCIO_ARQUERON CUERPO
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					MURALLA_ARQUERO_NUBIO
+		*ICONO									0 4
+	}
+}

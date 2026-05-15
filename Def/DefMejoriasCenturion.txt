@@ -1,0 +1,376 @@
+//---------------------------------------------------------------------------------
+// Aqui se definen las habilidades de mejorias de los centuriones de las tres razas
+
+{
+	// ------------------------------------------------------------------------------
+	// Mejorias del centurión romano
+	// ------------------------------------------------------------------------------
+	*HABILIDAD
+	{
+		*NOMBRE												MEJORIA_CENTURION_NIVEL_0
+		*FLAG_ACTIVACION							FLAG_HABILIDAD_MEJORIA_CENTURION_NIVEL_0
+		*FLAG													FLAG_MODIFICADOR		
+		*FLAG													FLAG_MEJORIA_CENTURION
+		*FLAG													FLAG_PUEDE_RECUPERAR_MANA
+		*NIVEL_NECESARIO							0
+		*INCREMENTO_DEFENSA
+		{
+			*MELEE											{	*VALOR	%-10	}
+			*PROYECTIL 									{	*VALOR	%-10	}
+			*EDIFICIO										{	*VALOR	%-10	}
+			*GOLPE											{	*VALOR 	%-10	}
+		}
+		*INCREMENTO_ATAQUE
+		{
+			*MELEE											{	*VALOR	%0	}
+			*PROYECTIL 									{	*VALOR	%0	}
+			*INCENDIO  									{	*VALOR	%0	}
+			*EDIFICIO										{	*VALOR	%0	}
+			*GOLPE											{	*VALOR 	%0	}
+		}
+	}
+	*HABILIDAD
+	{
+		*NOMBRE												MEJORIA_CENTURION_NIVEL_1
+		*FLAG_ACTIVACION							FLAG_HABILIDAD_MEJORIA_CENTURION_NIVEL_1
+		*FLAG													FLAG_MODIFICADOR		
+		*FLAG													FLAG_MEJORIA_CENTURION
+		*FLAG													FLAG_PUEDE_RECUPERAR_MANA
+		*NIVEL_NECESARIO							1
+		*INCREMENTO_DEFENSA
+		{
+			*MELEE											{	*VALOR	%-15	}
+			*PROYECTIL 									{	*VALOR	%-15	}
+			*EDIFICIO										{	*VALOR	%-15	}
+			*GOLPE											{	*VALOR 	%-15	}
+		}
+		*INCREMENTO_ATAQUE
+		{
+			*MELEE											{	*VALOR	%2	}
+			*PROYECTIL 									{	*VALOR	%2	}
+			*INCENDIO  									{	*VALOR	%2	}
+			*EDIFICIO										{	*VALOR	%2	}
+			*GOLPE											{	*VALOR 	%2	}
+		}
+	}
+	*HABILIDAD
+	{
+		*NOMBRE												MEJORIA_CENTURION_NIVEL_2
+		*FLAG_ACTIVACION							FLAG_HABILIDAD_MEJORIA_CENTURION_NIVEL_2
+		*FLAG													FLAG_MODIFICADOR		
+		*FLAG													FLAG_MEJORIA_CENTURION
+		*FLAG													FLAG_PUEDE_RECUPERAR_MANA
+		*NIVEL_NECESARIO							2
+		*INCREMENTO_DEFENSA
+		{
+			*MELEE											{	*VALOR	%-20	}
+			*PROYECTIL 									{	*VALOR	%-20	}
+			*EDIFICIO										{	*VALOR	%-20	}
+			*GOLPE											{	*VALOR 	%-20	}
+		}
+		*INCREMENTO_ATAQUE
+		{
+			*MELEE											{	*VALOR	%5	}
+			*PROYECTIL 									{	*VALOR	%5	}
+			*INCENDIO  									{	*VALOR	%5	}
+			*EDIFICIO										{	*VALOR	%5	}
+			*GOLPE											{	*VALOR 	%5	}
+		}
+	}
+	*HABILIDAD
+	{
+		*NOMBRE												MEJORIA_CENTURION_NIVEL_3
+		*FLAG_ACTIVACION							FLAG_HABILIDAD_MEJORIA_CENTURION_NIVEL_3
+		*FLAG													FLAG_MODIFICADOR		
+		*FLAG													FLAG_MEJORIA_CENTURION
+		*FLAG													FLAG_PUEDE_RECUPERAR_MANA
+		*NIVEL_NECESARIO							3
+		*INCREMENTO_DEFENSA
+		{
+			*MELEE											{	*VALOR	%-25	}
+			*PROYECTIL 									{	*VALOR	%-25	}
+			*EDIFICIO										{	*VALOR	%-25	}
+			*GOLPE											{	*VALOR 	%-25	}
+		}
+		*INCREMENTO_ATAQUE
+		{
+			*MELEE											{	*VALOR	%7	}
+			*PROYECTIL 									{	*VALOR	%7	}
+			*INCENDIO  									{	*VALOR	%7	}
+			*EDIFICIO										{	*VALOR	%7	}
+			*GOLPE											{	*VALOR 	%7	}
+		}
+	}
+	*HABILIDAD
+	{
+		*NOMBRE												MEJORIA_CENTURION_NIVEL_4
+		*FLAG_ACTIVACION							FLAG_HABILIDAD_MEJORIA_CENTURION_NIVEL_4
+		*FLAG													FLAG_MODIFICADOR		
+		*FLAG													FLAG_MEJORIA_CENTURION
+		*FLAG													FLAG_PUEDE_RECUPERAR_MANA
+		*NIVEL_NECESARIO							4
+		*INCREMENTO_DEFENSA
+		{
+			*MELEE											{	*VALOR	%-30	}
+			*PROYECTIL 									{	*VALOR	%-30	}
+			*EDIFICIO										{	*VALOR	%-30	}
+			*GOLPE											{	*VALOR 	%-30	}
+		}
+		*INCREMENTO_ATAQUE
+		{
+			*MELEE											{	*VALOR	%10	}
+			*PROYECTIL 									{	*VALOR	%10	}
+			*INCENDIO  									{	*VALOR	%10	}
+			*EDIFICIO										{	*VALOR	%10	}
+			*GOLPE											{	*VALOR 	%10	}
+		}
+	}
+	
+	// ------------------------------------------------------------------------------
+	// Mejorias del jefe galo
+	// ------------------------------------------------------------------------------
+	*HABILIDAD
+	{
+		*NOMBRE												MEJORIA_JEFE_GALO_NIVEL_0
+		*FLAG_ACTIVACION							FLAG_HABILIDAD_MEJORIA_JEFE_GALO_NIVEL_0
+		*FLAG													FLAG_MODIFICADOR		
+		*FLAG													FLAG_MEJORIA_CENTURION
+		*FLAG													FLAG_PUEDE_RECUPERAR_MANA
+		*NIVEL_NECESARIO							0
+		*INCREMENTO_DEFENSA
+		{
+			*MELEE											{	*VALOR	%0	}
+			*PROYECTIL 									{	*VALOR	%0	}
+			*EDIFICIO										{	*VALOR	%0	}
+			*GOLPE											{	*VALOR 	%0	}
+		}
+		*INCREMENTO_ATAQUE
+		{
+			*MELEE											{	*VALOR	%10	}
+			*PROYECTIL 									{	*VALOR	%10	}
+			*INCENDIO  									{	*VALOR	%10	}
+			*EDIFICIO										{	*VALOR	%10	}
+			*GOLPE											{	*VALOR 	%10	}
+		}
+	}
+	*HABILIDAD
+	{
+		*NOMBRE												MEJORIA_JEFE_GALO_NIVEL_1
+		*FLAG_ACTIVACION							FLAG_HABILIDAD_MEJORIA_JEFE_GALO_NIVEL_1
+		*FLAG													FLAG_MODIFICADOR		
+		*FLAG													FLAG_MEJORIA_CENTURION
+		*FLAG													FLAG_PUEDE_RECUPERAR_MANA
+		*NIVEL_NECESARIO							1
+		*INCREMENTO_DEFENSA
+		{
+			*MELEE											{	*VALOR	%-2	}
+			*PROYECTIL 									{	*VALOR	%-2	}
+			*EDIFICIO										{	*VALOR	%-2	}
+			*GOLPE											{	*VALOR 	%-2	}
+		}
+		*INCREMENTO_ATAQUE
+		{
+			*MELEE											{	*VALOR	%15	}
+			*PROYECTIL 									{	*VALOR	%15	}
+			*INCENDIO  									{	*VALOR	%15	}
+			*EDIFICIO										{	*VALOR	%15	}
+			*GOLPE											{	*VALOR 	%15	}
+		}
+	}
+	*HABILIDAD
+	{
+		*NOMBRE												MEJORIA_JEFE_GALO_NIVEL_2
+		*FLAG_ACTIVACION							FLAG_HABILIDAD_MEJORIA_JEFE_GALO_NIVEL_2
+		*FLAG													FLAG_MODIFICADOR		
+		*FLAG													FLAG_MEJORIA_CENTURION
+		*FLAG													FLAG_PUEDE_RECUPERAR_MANA
+		*NIVEL_NECESARIO							2
+		*INCREMENTO_DEFENSA
+		{
+			*MELEE											{	*VALOR	%-5	}
+			*PROYECTIL 									{	*VALOR	%-5	}
+			*EDIFICIO										{	*VALOR	%-5	}
+			*GOLPE											{	*VALOR 	%-5	}
+		}
+		*INCREMENTO_ATAQUE
+		{
+			*MELEE											{	*VALOR	%20	}
+			*PROYECTIL 									{	*VALOR	%20	}
+			*INCENDIO  									{	*VALOR	%20	}
+			*EDIFICIO										{	*VALOR	%20	}
+			*GOLPE											{	*VALOR 	%20	}
+		}
+	}
+	*HABILIDAD
+	{
+		*NOMBRE												MEJORIA_JEFE_GALO_NIVEL_3
+		*FLAG_ACTIVACION							FLAG_HABILIDAD_MEJORIA_JEFE_GALO_NIVEL_3
+		*FLAG													FLAG_MODIFICADOR		
+		*FLAG													FLAG_MEJORIA_CENTURION
+		*FLAG													FLAG_PUEDE_RECUPERAR_MANA
+		*NIVEL_NECESARIO							3
+		*INCREMENTO_DEFENSA
+		{
+			*MELEE											{	*VALOR	%-7	}
+			*PROYECTIL 									{	*VALOR	%-7	}
+			*EDIFICIO										{	*VALOR	%-7	}
+			*GOLPE											{	*VALOR 	%-7	}
+		}
+		*INCREMENTO_ATAQUE
+		{
+			*MELEE											{	*VALOR	%25	}
+			*PROYECTIL 									{	*VALOR	%25	}
+			*INCENDIO  									{	*VALOR	%25	}
+			*EDIFICIO										{	*VALOR	%25	}
+			*GOLPE											{	*VALOR 	%25	}
+		}
+	}
+	*HABILIDAD
+	{
+		*NOMBRE												MEJORIA_JEFE_GALO_NIVEL_4
+		*FLAG_ACTIVACION							FLAG_HABILIDAD_MEJORIA_JEFE_GALO_NIVEL_4
+		*FLAG													FLAG_MODIFICADOR		
+		*FLAG													FLAG_MEJORIA_CENTURION
+		*FLAG													FLAG_PUEDE_RECUPERAR_MANA
+		*NIVEL_NECESARIO							4
+		*INCREMENTO_DEFENSA
+		{
+			*MELEE											{	*VALOR	%-10	}
+			*PROYECTIL 									{	*VALOR	%-10	}
+			*EDIFICIO										{	*VALOR	%-10	}
+			*GOLPE											{	*VALOR 	%-10	}
+		}
+		*INCREMENTO_ATAQUE
+		{
+			*MELEE											{	*VALOR	%30	}
+			*PROYECTIL 									{	*VALOR	%30	}
+			*INCENDIO  									{	*VALOR	%30	}
+			*EDIFICIO										{	*VALOR	%30	}
+			*GOLPE											{	*VALOR 	%30	}
+		}
+	}
+	
+	// ------------------------------------------------------------------------------
+	// Mejorias del general egipcio
+	// ------------------------------------------------------------------------------
+	*HABILIDAD
+	{
+		*NOMBRE												MEJORIA_GENERAL_EGIPCIO_NIVEL_0
+		*FLAG_ACTIVACION							FLAG_HABILIDAD_MEJORIA_GENERAL_EGIPCIO_NIVEL_0
+		*FLAG													FLAG_MODIFICADOR		
+		*FLAG													FLAG_MEJORIA_CENTURION
+		*FLAG													FLAG_PUEDE_RECUPERAR_MANA
+		*NIVEL_NECESARIO							0
+		*INCREMENTO_DEFENSA
+		{
+			*MELEE											{	*VALOR	%-5	}
+			*PROYECTIL 									{	*VALOR	%-5	}
+			*EDIFICIO										{	*VALOR	%-5	}
+			*GOLPE											{	*VALOR 	%-5	}
+		}
+		*INCREMENTO_ATAQUE
+		{
+			*MELEE											{	*VALOR	%5	}
+			*PROYECTIL 									{	*VALOR	%5	}
+			*INCENDIO  									{	*VALOR	%5	}
+			*EDIFICIO										{	*VALOR	%5	}
+			*GOLPE											{	*VALOR 	%5	}
+		}
+	}
+	*HABILIDAD
+	{
+		*NOMBRE												MEJORIA_GENERAL_EGIPCIO_NIVEL_1
+		*FLAG_ACTIVACION							FLAG_HABILIDAD_MEJORIA_GENERAL_EGIPCIO_NIVEL_1
+		*FLAG													FLAG_MODIFICADOR		
+		*FLAG													FLAG_MEJORIA_CENTURION
+		*FLAG													FLAG_PUEDE_RECUPERAR_MANA
+		*NIVEL_NECESARIO							1
+		*INCREMENTO_DEFENSA
+		{
+			*MELEE											{	*VALOR	%-8	}
+			*PROYECTIL 									{	*VALOR	%-8	}
+			*EDIFICIO										{	*VALOR	%-8	}
+			*GOLPE											{	*VALOR 	%-8	}
+		}
+		*INCREMENTO_ATAQUE
+		{
+			*MELEE											{	*VALOR	%8	}
+			*PROYECTIL 									{	*VALOR	%8	}
+			*INCENDIO  									{	*VALOR	%8	}
+			*EDIFICIO										{	*VALOR	%8	}
+			*GOLPE											{	*VALOR 	%8	}
+		}
+	}
+	*HABILIDAD
+	{
+		*NOMBRE												MEJORIA_GENERAL_EGIPCIO_NIVEL_2
+		*FLAG_ACTIVACION							FLAG_HABILIDAD_MEJORIA_GENERAL_EGIPCIO_NIVEL_2
+		*FLAG													FLAG_MODIFICADOR		
+		*FLAG													FLAG_MEJORIA_CENTURION
+		*FLAG													FLAG_PUEDE_RECUPERAR_MANA
+		*NIVEL_NECESARIO							2
+		*INCREMENTO_DEFENSA
+		{
+			*MELEE											{	*VALOR	%-13	}
+			*PROYECTIL 									{	*VALOR	%-13	}
+			*EDIFICIO										{	*VALOR	%-13	}
+			*GOLPE											{	*VALOR 	%-13	}
+		}
+		*INCREMENTO_ATAQUE
+		{
+			*MELEE											{	*VALOR	%13	}
+			*PROYECTIL 									{	*VALOR	%13	}
+			*INCENDIO  									{	*VALOR	%13	}
+			*EDIFICIO										{	*VALOR	%13	}
+			*GOLPE											{	*VALOR 	%13	}
+		}
+	}
+	*HABILIDAD
+	{
+		*NOMBRE												MEJORIA_GENERAL_EGIPCIO_NIVEL_3
+		*FLAG_ACTIVACION							FLAG_HABILIDAD_MEJORIA_GENERAL_EGIPCIO_NIVEL_3
+		*FLAG													FLAG_MODIFICADOR		
+		*FLAG													FLAG_MEJORIA_CENTURION
+		*FLAG													FLAG_PUEDE_RECUPERAR_MANA
+		*NIVEL_NECESARIO							3
+		*INCREMENTO_DEFENSA
+		{
+			*MELEE											{	*VALOR	%-17	}
+			*PROYECTIL 									{	*VALOR	%-17	}
+			*EDIFICIO										{	*VALOR	%-17	}
+			*GOLPE											{	*VALOR 	%-17	}
+		}
+		*INCREMENTO_ATAQUE
+		{
+			*MELEE											{	*VALOR	%17	}
+			*PROYECTIL 									{	*VALOR	%17	}
+			*INCENDIO  									{	*VALOR	%17	}
+			*EDIFICIO										{	*VALOR	%17	}
+			*GOLPE											{	*VALOR 	%17	}
+		}
+	}
+	*HABILIDAD
+	{
+		*NOMBRE												MEJORIA_GENERAL_EGIPCIO_NIVEL_4
+		*FLAG_ACTIVACION							FLAG_HABILIDAD_MEJORIA_GENERAL_EGIPCIO_NIVEL_4
+		*FLAG													FLAG_MODIFICADOR		
+		*FLAG													FLAG_MEJORIA_CENTURION
+		*FLAG													FLAG_PUEDE_RECUPERAR_MANA
+		*NIVEL_NECESARIO							4
+		*INCREMENTO_DEFENSA
+		{
+			*MELEE											{	*VALOR	%-20	}
+			*PROYECTIL 									{	*VALOR	%-20	}
+			*EDIFICIO										{	*VALOR	%-20	}
+			*GOLPE											{	*VALOR 	%-20	}
+		}
+		*INCREMENTO_ATAQUE
+		{
+			*MELEE											{	*VALOR	%20	}
+			*PROYECTIL 									{	*VALOR	%20	}
+			*INCENDIO  									{	*VALOR	%20	}
+			*EDIFICIO										{	*VALOR	%20	}
+			*GOLPE											{	*VALOR 	%20	}
+		}
+	}
+}

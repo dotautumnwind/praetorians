@@ -1,0 +1,227 @@
+{
+  // -------------------------------------------------------------------------------------
+  // MAQUINAS
+  // -------------------------------------------------------------------------------------
+  
+  *SONIDO
+  {
+    *NOMBRE         MCAN
+    *FICHERO        "mover_maquina_3.wav"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_EVITAR_ACOPLE
+    *ALIAS          "Catapulta andando"
+    *FLAG           FLAG_GENERICO
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.4f
+  }
+  *SONIDO
+  {
+    *NOMBRE         MAAN
+    *FICHERO        "mover_maquina_1.wav"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_EVITAR_ACOPLE
+    *ALIAS          "Ariete andando"
+    *FLAG           FLAG_GENERICO
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.4f
+  }
+  *SONIDO
+  {
+    *NOMBRE         MBAN
+    *FICHERO        "mover_maquina_3.wav"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_EVITAR_ACOPLE
+    *ALIAS          "Ballesta movil andando"
+    *FLAG           FLAG_GENERICO
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.4f
+  }
+  *SONIDO
+  {
+    *NOMBRE         MEAN
+    *FICHERO        "mover_maquina_3.wav"
+    *FLAG           FLAG_LOOP
+    *ALIAS          "Escudo movil andando"
+    *FLAG           FLAG_EVITAR_ACOPLE
+    *FLAG           FLAG_GENERICO
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.4f
+  }
+  *SONIDO
+  {
+    *NOMBRE         MTAN
+    *FICHERO        "mover_maquina_1.wav"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_EVITAR_ACOPLE
+    *ALIAS          "Torre andando"
+    *FLAG           FLAG_GENERICO
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.4f
+  }
+  *SONIDO
+  {
+    *NOMBRE         MBCP
+    *FICHERO        "catapulta_cargar_1.wav"
+    *ALIAS          "Ballesta cargando"
+    *TIPO           TIPO_EFECTO
+    *FLAG           FLAG_GENERICO
+    *FLAG           FLAG_SONIDO_CORTO
+    *VOLUMEN        0.2f
+  }
+  *SONIDO
+  {
+    *NOMBRE         MCCP
+    *FICHERO        "catapulta_cargar_1.wav"
+    *ALIAS          "Catapulta cargando"
+    *FLAG           FLAG_GENERICO
+    *TIPO           TIPO_EFECTO
+    *FLAG           FLAG_SONIDO_CORTO
+    *VOLUMEN        0.5f
+  }
+  *SONIDO
+  {
+    *NOMBRE         MBLZ
+    *FICHERO        "ballesta_lanzar2.wav"
+    *ALIAS          "Ballesta lanzando proyectil"
+    *TIPO           TIPO_EFECTO
+    *FLAG           FLAG_GENERICO
+    *FLAG           FLAG_SONIDO_CORTO
+    *VOLUMEN        0.4f
+  }
+  *SONIDO
+  {
+    *NOMBRE         MCLZ
+    *FICHERO        "catapulta_lanzar.wav"
+    *ALIAS          "Catapulta lanzando proyectil"
+    *TIPO           TIPO_EFECTO
+    *FLAG           FLAG_GENERICO
+    *FLAG           FLAG_SONIDO_CORTO
+    *VOLUMEN        0.4f
+  }
+  *SONIDO
+  {
+    *NOMBRE         MINC
+    *FICHERO        "Fuego.wav"
+    *ALIAS          "Maquina incendiandose"
+    *TIPO           TIPO_EFECTO
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_GENERICO
+    *VOLUMEN        0.4f
+  }
+  *SONIDO
+  {
+    *NOMBRE         MCDT
+    *FICHERO        "derrumbamiento_04.wav"
+    *ALIAS          "Catapulta destruyendose"
+    *FLAG           FLAG_GENERICO
+    *TIPO           TIPO_EFECTO
+    *FLAG           FLAG_SONIDO_CORTO
+    *TRANSPOSE_MAX  1.2f
+    *VOLUMEN        0.2f
+  }
+  *SONIDO
+  {
+    *NOMBRE         MADT
+    *FICHERO        "derrumbamiento_04.wav"
+    *ALIAS          "Ariete destruyendose"
+    *FLAG           FLAG_GENERICO
+    *FLAG           FLAG_SONIDO_CORTO
+    *TIPO           TIPO_EFECTO
+    *TRANSPOSE_MAX  1.2f
+    *VOLUMEN        0.2f
+  }
+  *SONIDO
+  {
+    *NOMBRE         MBDT
+    *FICHERO        "derrumbamiento_04.wav"
+    *FLAG           FLAG_GENERICO
+    *ALIAS          "Ballesta movil destruyendose"
+    *FLAG           FLAG_SONIDO_CORTO
+    *TIPO           TIPO_EFECTO
+    *TRANSPOSE_MAX  1.2f
+    *VOLUMEN        0.2f
+  }
+  *SONIDO
+  {
+    *NOMBRE         MEDT
+    *FICHERO        "derrumbamiento_04.wav"
+    *ALIAS          "Escudo movil destruyendose"
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_GENERICO
+    *TIPO           TIPO_EFECTO
+    *TRANSPOSE_MAX  1.2f
+    *VOLUMEN        0.2f
+  }
+  *SONIDO
+  {
+    *NOMBRE         MTDT
+    *FICHERO        "derrumbamiento_04.wav"
+    *ALIAS          "Torre asalto destruyendose"
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_GENERICO
+    *TIPO           TIPO_EFECTO
+    *TRANSPOSE_MAX  1.2f
+    *VOLUMEN        0.2f
+  }
+  *SONIDO
+  {
+    *NOMBRE         MCC2
+    *FICHERO        "catapulta_cargar_2.wav"
+    *ALIAS          "Catapulta cargando municion"
+    *FLAG           FLAG_GENERICO
+    *FLAG           FLAG_SONIDO_CORTO
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.5f
+  }
+  *SONIDO
+  {
+    *NOMBRE         MCFN
+    *FICHERO        ".wav"
+    *ALIAS          "Catapulta parando"
+    *FLAG           FLAG_GENERICO
+    *FLAG           FLAG_SONIDO_CORTO
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.4f
+  }
+  *SONIDO
+  {
+    *NOMBRE         MAFN
+    *FICHERO        ".wav"
+    *ALIAS          "Ariete parando"
+    *FLAG           FLAG_GENERICO
+    *FLAG           FLAG_SONIDO_CORTO
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.4f
+  }
+  *SONIDO
+  {
+    *NOMBRE         MBFN
+    *FICHERO        ".wav"
+    *ALIAS          "Ballesta movil parando.wav"
+    *FLAG           FLAG_GENERICO
+    *FLAG           FLAG_SONIDO_CORTO
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.4f
+  }
+  *SONIDO
+  {
+    *NOMBRE         MEFN
+    *FICHERO        ".wav"
+    *ALIAS          "Escudo movil parando"
+    *FLAG           FLAG_EVITAR_ACOPLE
+    *FLAG           FLAG_GENERICO
+    *FLAG           FLAG_SONIDO_CORTO
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.4f
+  }
+  *SONIDO
+  {
+    *NOMBRE         MTFN
+    *FICHERO        ".wav"
+    *ALIAS          "Torre parando"
+    *FLAG           FLAG_GENERICO
+    *FLAG           FLAG_SONIDO_CORTO
+    *TIPO           TIPO_EFECTO
+    *VOLUMEN        0.4f
+  }
+}

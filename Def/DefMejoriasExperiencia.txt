@@ -1,0 +1,81 @@
+//---------------------------------------------------------------------------------
+// Aqui se definen las habilidades de mejorias proporcionadas por la experiencia
+
+{
+	// ------------------------------------------------------------------------------
+	// Habilidades de mejoras proporcionadas por los niveles de experiencia
+	// ------------------------------------------------------------------------------
+	// NOTA: Los valores no están ajustados !!!!!
+	*HABILIDAD
+	{
+		*NOMBRE												MEJORIA_EXPERIENCIA_NIVEL_1
+		*FLAG_ACTIVACION							FLAG_HABILIDAD_MEJORIA_EXPERIENCIA_NIVEL_1
+		*FLAG													FLAG_MODIFICADOR		
+		*FLAG													FLAG_MEJORIA_EXPERIENCIA
+		*FLAG													FLAG_PUEDE_RECUPERAR_MANA
+		*NIVEL_NECESARIO							1
+		*INCREMENTO_DEFENSA
+		{
+			*MELEE											{	*VALOR	%-10	}
+			*PROYECTIL 									{	*VALOR	%-10	}
+			*EDIFICIO										{	*VALOR	%-10	}
+			*GOLPE											{	*VALOR 	%-10	}
+		}
+		*INCREMENTO_ATAQUE
+		{
+			*MELEE											{	*VALOR	%10	}
+			*PROYECTIL 									{	*VALOR	%10	}
+			*INCENDIO  									{	*VALOR	%10	}
+			*EDIFICIO										{	*VALOR	%10	}
+			*GOLPE											{	*VALOR 	%10	}
+		}
+	}
+	*HABILIDAD
+	{
+		*NOMBRE												MEJORIA_EXPERIENCIA_NIVEL_2
+		*FLAG_ACTIVACION							FLAG_HABILIDAD_MEJORIA_EXPERIENCIA_NIVEL_2
+		*FLAG													FLAG_MODIFICADOR		
+		*FLAG													FLAG_MEJORIA_EXPERIENCIA
+		*FLAG													FLAG_PUEDE_RECUPERAR_MANA
+		*NIVEL_NECESARIO							2
+		*INCREMENTO_DEFENSA
+		{
+			*MELEE											{	*VALOR	%-10	}
+			*PROYECTIL 									{	*VALOR	%-10	}
+			*EDIFICIO										{	*VALOR	%-10	}
+			*GOLPE											{	*VALOR 	%-10	}
+		}
+		*INCREMENTO_ATAQUE
+		{
+			*MELEE											{	*VALOR	%15	}
+			*PROYECTIL 									{	*VALOR	%15	}
+			*INCENDIO  									{	*VALOR	%15	}
+			*EDIFICIO										{	*VALOR	%15	}
+			*GOLPE											{	*VALOR 	%15	}
+		}
+	}
+	*HABILIDAD
+	{
+		*NOMBRE												MEJORIA_EXPERIENCIA_NIVEL_3
+		*FLAG_ACTIVACION							FLAG_HABILIDAD_MEJORIA_EXPERIENCIA_NIVEL_3
+		*FLAG													FLAG_MODIFICADOR		
+		*FLAG													FLAG_MEJORIA_EXPERIENCIA
+		*FLAG													FLAG_PUEDE_RECUPERAR_MANA
+		*NIVEL_NECESARIO							3
+		*INCREMENTO_DEFENSA
+		{
+			*MELEE											{	*VALOR	%-10	}
+			*PROYECTIL 									{	*VALOR	%-10	}
+			*EDIFICIO										{	*VALOR	%-10	}
+			*GOLPE											{	*VALOR 	%-10	}
+		}
+		*INCREMENTO_ATAQUE
+		{
+			*MELEE											{	*VALOR	%10	}
+			*PROYECTIL 									{	*VALOR	%10	}
+			*INCENDIO  									{	*VALOR	%10	}
+			*EDIFICIO										{	*VALOR	%10	}
+			*GOLPE											{	*VALOR 	%10	}
+		}
+	}	
+}

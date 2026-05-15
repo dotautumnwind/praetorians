@@ -1,0 +1,82 @@
+{
+  // -----------------------------------------------------------------------------------------------------------------------------------------------
+  // - DEFINICION DE SONIDO -
+  //
+  //  Parametros:
+  //    FICHERO str                       Nombre del fichero que contiene el sonido (.WAV, .MP3 o .SMD)
+  //    NOMBRE str4                       String identificativo de 4 caracteres 
+  //    POLIFONIA n                       Polifonia (defecto a 4)
+  //    TRANSPOSE_MAX f                   Transpose maximo (1=ninguno  2=hasta el doble o mitad de frecuencia)
+  //    VOLUMEN f                         Volumen (1=100%  0=0% 0.5=50%)
+  //    VAR_VOLUMEN f                     Variacion de volumen (1=ninguna 0=aleatorio entre 100% y 0% 0.5=aleatorio entre 50% y 100%)
+  //    ALIAS str                         Alias con la descripcion del sonido
+  //    TIEMPO_ESPERA_MIN                 Tiempo minimo de espera entre la reproduccion de un sample y otro (cuando esta el flag de loop entre samples)
+  //    TIEMPO_ESPERA_MAX                 Tiempo maximo de espera entre la reproduccion de un sample y otro (cuando esta el flag de loop entre samples)
+  //
+  //  Flags: (defecto ninguno)
+  //    FLAG_SONIDO_CORTO                 Sonido corto. Consecuencias: Si no se puede reproducir el sonido debido a la polifonia max del sonido o global del motor de sonido, si es corto se ignora para siempre, si no lo es se acumula para reproducirlo cuando se pueda
+  //    FLAG_STREAM                       Se reproducira por streaming
+  //    FLAG_IGNORAR_SI_MAX_POLIFONIA     Se ignorara la reproduccion si la polifonia del sonido esta completa. 
+  //    FLAG_PRIORIDAD_BAJA               Tiene baja prioridad
+  //    FLAG_LOOP                         Se reproducira con loop
+  //    FLAG_SIN_LOCALIZACION             No se localiza el espacio
+  //    FLAG_ACK                          Es un ACK
+  //    FLAG_LIMITAR_DISTANCIA_MAX        Limita la maxima distancia. Los ACK incluyen este flag automaticamente
+  //    FLAG_LOOP_ENTRE_SAMPLES           Reproduce un sample detras de otro teniendo en cuenta el tiempo de espera minimo y maximo entre ellos
+  //    FLAG_EVITAR_ACOPLE                Escoge una posicion aleatoria y una variacion de frecuencia (transpose) minima para iniciar la reproduccion desde ese punto
+  //    FLAG_GENERICO                     Es un sonido generico (se hara la precarga para todas las misiones)
+  //
+  //  Tipos: ( defecto efecto )
+  //    TIPO_EFECTO                       Efecto
+  //    TIPO_MUSICA                       Musica
+  //    TIPO_AMBIENTE                     Ambiente
+  //    TIPO_VOZ                          Voz
+  //    TIPO_INTERFAZ                     Interfaz
+  //    
+  // -----------------------------------------------------------------------------------------------------------------------------------------------
+  // -----------------------------------------------------------------------------------------------------------------------------------------------
+  //  Nombres:
+  //
+  //    Efectos:
+  //      Txxx                              Tropa
+  //      Uxxx                              Unidad
+  //      Mxxx                              Maquina
+  //      Pxxx                              Proyectil
+  //      Xxxx                              Estructura
+  //      Exxx                              Efecto
+  //      Wxxx                              Sonidos de misiones
+  //
+  //    Interfaz:
+  //      IRxx                              Interfaz tropa romana
+  //      IGxx                              Interfaz tropa barbara (gala)
+  //      IExx                              Interfaz tropa egipcia
+  //      IXxx                              Interfaz estructura
+  //      IAxx                              Interfaz mensaje
+  //      IBxx                              Interfaz boton
+  //      IIxx                              Interfaz misc
+  //
+  //    Locuciones:
+  //      xxyy                              Locucion yy de la mision xx
+  //                                          - Para la yy seguimos el siguiente esquema, si es locucion del narrador cominenza por N, sino es
+  //                                            de un personaje.
+  //                                              * Ny -> Narrador
+  //                                              * ny -> personaje ( 0 >= n >= Z )
+  //
+  //      Sxxx                              Cancion
+  //
+  // -----------------------------------------------------------------------------------------------------------------------------------------------
+
+  *INCLUDE "Def\SonidosTropas.dat"
+  *INCLUDE "Def\SonidosUnidades.dat"
+  *INCLUDE "Def\SonidosMaquinas.dat"
+  *INCLUDE "Def\SonidosProyectiles.dat"
+  *INCLUDE "Def\SonidosEstructuras.dat"
+  *INCLUDE "Def\SonidosACKTropasRomanas.dat"
+  *INCLUDE "Def\SonidosACKTropasBarbaras.dat"
+  *INCLUDE "Def\SonidosACKTropasEgipcias.dat"
+  *INCLUDE "Def\Musicas.dat"
+  *INCLUDE "Def\SonidosAmbiente.dat"
+  *INCLUDE "Def\SonidosInterfaz.dat"
+  *INCLUDE "Def\SonidosLocuciones.dat"
+  *INCLUDE "Def\SonidosMisiones.dat"
+}

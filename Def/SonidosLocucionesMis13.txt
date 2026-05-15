@@ -1,0 +1,131 @@
+{
+  // -------------------------------------------------------------------------------------
+  // LOCUCIONES MISION 13
+  // -------------------------------------------------------------------------------------
+
+  // -------------------------------------------------------------------------------------
+  // BRIEFING
+  // -------------------------------------------------------------------------------------
+  *SONIDO
+  {
+    *NOMBRE         13N0
+    *FICHERO        "Narrador\13N0.ogi"
+    *ALIAS          "Briefing 1"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         13N1
+    *FICHERO        "Narrador\13N1.ogi"
+    *ALIAS          "Briefing 2"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         13N2
+    *FICHERO        "Narrador\13N2.ogi"
+    *ALIAS          "Briefing 3"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         13N3
+    *FICHERO        "Narrador\13N3.ogi"
+    *ALIAS          "Briefing 4"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         13N4
+    *FICHERO        "Narrador\13N4.ogi"
+    *ALIAS          "Briefing 5"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  
+  // -------------------------------------------------------------------------------------
+  // MENSAJES
+  // -------------------------------------------------------------------------------------
+  *SONIDO
+  {
+    *NOMBRE         13N5
+    *FICHERO        "Narrador\13N5.ogi"
+    *ALIAS          "Mensaje 1"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+
+  // -------------------------------------------------------------------------------------
+  // EVENTO 1
+  // -------------------------------------------------------------------------------------
+  *SONIDO
+  {
+    *NOMBRE         13B0
+    *FICHERO        "Characters\13B0.ogi"
+    *ALIAS          "Evento 1-0"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         13B1
+    *FICHERO        "Characters\13B1.ogi"
+    *ALIAS          "Evento 1-1"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+
+  // -------------------------------------------------------------------------------------
+  // EVENTO 2
+  // -------------------------------------------------------------------------------------
+  *SONIDO
+  {
+    *NOMBRE         13C0
+    *FICHERO        "Characters\13C0.ogi"
+    *ALIAS          "Evento 2-0"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         13C1
+    *FICHERO        "Characters\13C1.ogi"
+    *ALIAS          "Evento 2-1"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+}

@@ -1,0 +1,1574 @@
+{
+/////////////////////////////////////////////////////////////////////////////////
+//////////////// HEROES ////////////////////////////////////////////////////////
+
+// Ágrado of Talagatta 			HEROE_AGRADO (*)							PGHE_BASE				A Pie romano
+// Caius Titus Rudus   			HEROE_CAYO_TITO (*)						PRECE_BASE			A caballo romano
+// Tito Labieno				 			LABIENO (*)										PRHL_2_BASE			A caballo romano
+// Cneo Gabino el Ilírico	  HEROE_CNEO_GABINO (*)					PRIN_BASE				A pie romano medico
+// Diviciacus								HEROE_DIVICIACO (*)						PGHD_BASE				A pie galo medico
+// Cayo Crastino            HEROE_CAYO_CRASTINO (*)				PRHL_4_BASE     A Pie romano
+// Publio Craso             HEROE_PUBLIO_CRASO (*)				PRGC_BASE				A caballo romano
+// Marco Craso              HEROE_MARCO_CRASO (*)					PRECR_BASE			A Pie romano
+// Casio Longino            HEROE_CASIO_LONGINO (*)				PRHL_BASE				A caballo romano
+// Quinto Cicero            HEROE_QUINTO_CICERO (*)				PRHL_3_BASE			A caballo romano
+// Comio                    HEROE_COMIO (*)								PREC_BASE				A Pie romano
+// Dumnorix									HEROE_DUMNORIX (*)						PGHJC_BASE			A caballo Galo
+// Casiovelauno							HEROE_CASIOVELAUNO (*)				PGHJ_BASE				A Pie Galo
+
+
+
+// Duvalix									HEROE_DUBALIX   							PGHDU_BASE 			A Caballo Galo
+// Gobanitio								HEROE_GOBANITIO               PGHGO_BASE 			A Pie Galo
+
+// Para pirineos:           HEROE_SEXTO_CALPURNIO centurión romano jincho (copiar cayo tito rudo)
+//                          HEROE_TITO_LUCIO centurión romano jincho (idem)
+
+
+// Para Munda               HEROE_ROMANO_MUNDA						PRC1_BASE       A Caballo Romano
+//                          HEROE_GALO_MUNDA              PGJE_BASE				A Pie Galo
+//                          HEROE_EGIPCIO_MUNDA           PEJE_BASE				A Pie Egipcio
+
+
+
+	////////////////////////////
+	// Ágrado of Talagatta
+	
+	*UNIDAD
+	{
+		*RAZA 										EGIPCIOS
+		*TIPO 										HEROE_AGRADO
+		*BASE 										EXPLORADOR
+		*UNIDAD_AFIN              EXPLORADOR_HALCON
+		*TIPO_FAMILIAR						HALCON
+		*NOMBRE_UNIDAD						"Ágrado de Talagatta"
+		*ORDEN_GRUPO 							ORDEN_GRUPO_FILA4
+		*VIDA 										2000
+		*RAD_VISION 							25		 
+		*FLAG											FLAG_TROPA_ESPECIAL		 
+		*FLAG											FLAG_EXPLORADOR
+		*FLAG											FLAG_NO_CEGUERA
+		*FLAG											FLAG_NO_ATAQUE
+		*FLAG											FLAG_BOTON_ESPECIALES
+		*FLAG											FLAG_ATACA_PROTEGIENDO
+		*FLAG                     FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*FLAG                     FLAG_ACK_CIVILIZACION
+		*ORDENACION_ZONA_INFO     0
+		*FLAG                     FLAG_CENTRAR_EN_DISTRIBUCION
+		*CANTIDAD_HUMO_RASTRO     0.2
+		*TERRENO 									AGUA_PROFUNDA
+		*TERRENO						      FIN_ESCENARIO
+		*MOTOR 										PGHE_BASE 
+		*FLAGSNOPASABLES 					FLAG_PENDIENTE2
+		*ALCANCE 									CORTO 
+		*CATEGORIA_CARGA 					0
+		*IDTEXICONOTROPA 					UnidadesCiv3.tga
+		*IDTEXPINFO 							0
+		*IDTEXPINFOGRANDE 				0
+		*COORDICONOTROPA 					0
+		*COORDPINFO 							3 6
+		*COORDPINFOGRANDE 				3 3		
+		*NOMBRE_TRADUCIBLE 				LTEXT_UNIDAD_AGRADO		
+		*ALTURA_PROYECTIL 				0.5						
+		*POSICION_FAMILIAR				0.0 0.0 0.0
+		*POSICION_PROYECTIL 			0.0 0.0 0.0		
+		*FORMACION 								EXPLORADOR
+		*FORMACION_ESTANDAR 			EXPLORADOR
+		*MAX_UNIDADES_TROPA				1
+		*MANA_MAXIMO 							1000
+		*MANA_CRECIMIENTO 				25
+		*EXPERIENCIA_POR_MUERTE		10
+		*EXPERIENCIA_POR_MORIR		1
+		*ANCHO_SOMBRA 						0.5
+		*ALTO_SOMBRA 							0.5
+		*IDSOMBRA 								0
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE								25
+				*PROYECTIL						10
+				*INCENDIO							0
+				*EDIFICIO							25
+				*GOLPE								0
+			}
+			*NOMBRE									NORMAL
+		}		 
+		*HABILIDAD								SOLTAR_FAMILIAR_HALCON
+		*POTENCIA_TROPA           0
+	}
+	
+	
+  ////////////////////////////
+	// Cayo Tito Rudo
+	// Caius Titus Rudus
+	
+	*UNIDAD
+	{
+		*RAZA 										ROMANOS
+		*TIPO 										HEROE_CAYO_TITO
+		*FLAG               			FLAG_GIRAR_AL_ANDAR
+		*FLAG                     FLAG_IGNORA_ATAQUES
+		*FLAG											FLAG_BOTON_ESPECIALES
+		*FLAG                     FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*ORDENACION_ZONA_INFO     0
+		*FLAG                     FLAG_SOMBRA_ROTABLE
+		*FLAG											FLAG_ATACA_PROTEGIENDO
+		*FLAG                     FLAG_CENTRAR_EN_DISTRIBUCION
+		*CANTIDAD_HUMO_RASTRO     0.2
+		*ORDEN_GRUPO 							ORDEN_GRUPO_FILA5
+		*BASE 										CENTURION
+		*UNIDAD_AFIN              CENTURION
+		*NOMBRE_UNIDAD						"Cayo Tito"
+		*TERRENO 									AGUA_PROFUNDA
+		*TERRENO									FIN_ESCENARIO		
+		*VIDA 										3000
+		*RAD_VISION 							15
+		*MOTOR 										PRECE_BASE
+		*FLAGSNOPASABLES 					FLAG_PENDIENTE2
+		*ALCANCE 									CORTO
+		*CATEGORIA_CARGA 					0
+		*IDTEXICONOTROPA 					UnidadesCiv2.tga
+		*IDTEXPINFO 							0
+		*IDTEXPINFOGRANDE 				0		
+		*COORDICONOTROPA 					1
+		*COORDPINFO 							0 6
+		*COORDPINFOGRANDE 				1 2
+		*ANCHO_SOMBRA 						0.5
+		*ALTO_SOMBRA 							0.5
+		*IDSOMBRA 								8
+		*NOMBRE_TRADUCIBLE 				LTEXT_UNIDAD_CAIUS
+		*FORMACION 								HEROE_A_CABALLO
+		*FORMACION_ESTANDAR 			HEROE_A_CABALLO
+		*MAX_UNIDADES_TROPA				1
+		*RADIO_ACCION_CENTURION		12
+		*EXPERIENCIA_POR_MUERTE		10
+		*EXPERIENCIA_POR_MORIR		1
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE								20
+				*PROYECTIL						20
+				*INCENDIO							0
+				*EDIFICIO							40
+				*GOLPE								0
+			}
+			*NOMBRE									NORMAL
+			*VELOCIDAD							35
+		}
+		*ESPECIAL
+		{
+			*TIPO										ESPECIAL_CENTURION
+			*ARMA										NORMAL
+		}
+		*HABILIDAD 								FISICO
+		*HABILIDAD								ACELERAR_RECUPERACION_MANA
+		*POTENCIA_TROPA 					0
+		*MANA_CRECIMIENTO 				25
+		*MANA_MAXIMO 							1000
+	}
+	
+	 ////////////////////////////
+	// Labieno
+	// 
+	
+	*UNIDAD
+	{
+		*RAZA 										ROMANOS
+		*TIPO 										LABIENO
+		*FLAG               			FLAG_GIRAR_AL_ANDAR
+		*FLAG                     FLAG_IGNORA_ATAQUES
+		*FLAG											FLAG_BOTON_ESPECIALES
+		*FLAG                     FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*ORDENACION_ZONA_INFO     0
+		*FLAG                     FLAG_SOMBRA_ROTABLE
+		*FLAG											FLAG_ATACA_PROTEGIENDO
+		*FLAG                     FLAG_CENTRAR_EN_DISTRIBUCION
+		*CANTIDAD_HUMO_RASTRO     0.2
+		*ORDEN_GRUPO 							ORDEN_GRUPO_FILA5
+		*BASE 										CENTURION
+		*UNIDAD_AFIN              CENTURION
+		*NOMBRE_UNIDAD						"Labieno"
+		*TERRENO 									AGUA_PROFUNDA
+		*TERRENO									FIN_ESCENARIO		
+		*VIDA 										3000
+		*RAD_VISION 							15
+		*MOTOR 										PRHL_2_BASE
+		*FLAGSNOPASABLES 					FLAG_PENDIENTE2
+		*ALCANCE 									CORTO
+		*CATEGORIA_CARGA 					0
+		*IDTEXICONOTROPA 					UnidadesCiv2.tga
+		*IDTEXPINFO 							0
+		*IDTEXPINFOGRANDE 				0		
+		*COORDICONOTROPA 					1
+		*COORDPINFO 							0 6
+		*COORDPINFOGRANDE 				1 2
+		*ANCHO_SOMBRA 						0.5
+		*ALTO_SOMBRA 							0.5
+		*IDSOMBRA 								8
+		*NOMBRE_TRADUCIBLE 				LTEXT_UNIDAD_LABIENO      
+		*FORMACION 								HEROE_A_CABALLO
+		*FORMACION_ESTANDAR 			HEROE_A_CABALLO
+		*MAX_UNIDADES_TROPA				1
+		*RADIO_ACCION_CENTURION		12
+		*EXPERIENCIA_POR_MUERTE		10
+		*EXPERIENCIA_POR_MORIR		1
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE								20
+				*PROYECTIL						20
+				*INCENDIO							0
+				*EDIFICIO							40
+				*GOLPE								0
+			}
+			*NOMBRE									NORMAL
+			*VELOCIDAD							35
+		}
+		*ESPECIAL
+		{
+			*TIPO										ESPECIAL_CENTURION
+			*ARMA										NORMAL
+		}
+		*HABILIDAD 								FISICO
+		*HABILIDAD								ACELERAR_RECUPERACION_MANA
+		*POTENCIA_TROPA 					0
+		*MANA_CRECIMIENTO 				25
+		*MANA_MAXIMO 							1000
+	}
+	
+  ////////////////////////////
+	// Cneo Gabino el Ilírico
+	// Cnaeus Gabinus Illyricus
+	
+  *UNIDAD
+	{
+		*RAZA											ROMANOS
+		*TIPO 										HEROE_CNEO_GABINO
+		*BASE 										MEDICO
+		*UNIDAD_AFIN              MEDICO
+		*NOMBRE_UNIDAD						"Cneo Gabino el Ilírico"
+		*ORDEN_GRUPO 							ORDEN_GRUPO_FILA5
+		*TERRENO 									AGUA_PROFUNDA
+		*TERRENO									FIN_ESCENARIO
+		*FLAG											FLAG_PUEDE_CURAR
+		*FLAG											FLAG_BOTON_ESPECIALES
+		*FLAG                     FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*ORDENACION_ZONA_INFO     0
+		*FLAG											FLAG_ATACA_PROTEGIENDO
+		*FLAG                     FLAG_CENTRAR_EN_DISTRIBUCION
+		*FLAG											FLAG_NO_ATAQUE
+		*CANTIDAD_HUMO_RASTRO     0.2
+		*VIDA 										2000
+		*NOMBRE_UNIDAD						"CNEO GABINO"
+		*RAD_VISION 							15
+		*MOTOR 										PREM_BASE
+		*FLAGSNOPASABLES 					FLAG_PENDIENTE2
+		*ALCANCE 									CORTO
+		*CATEGORIA_CARGA 					0
+		*IDTEXICONOTROPA 					UnidadesCiv2.tga
+		*IDTEXPINFO 							0
+		*IDTEXPINFOGRANDE 				0
+		*COORDICONOTROPA 					0
+		*COORDPINFO 							0 4
+		*COORDPINFOGRANDE 				1 1
+		*NOMBRE_TRADUCIBLE 				LTEXT_UNIDAD_CNAEUS
+		*FORMACION 								ROMANO_MEDICO
+		*FORMACION_ESTANDAR 			ROMANO_MEDICO
+		*MAX_UNIDADES_TROPA				1
+		*EXPERIENCIA_POR_MUERTE		10
+		*EXPERIENCIA_POR_MORIR		1
+		*ANCHO_SOMBRA 						0.5
+		*ALTO_SOMBRA 							0.5
+		*IDSOMBRA 								0
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE								40
+				*PROYECTIL						10
+				*INCENDIO							0
+				*EDIFICIO							40
+				*GOLPE								0
+			}
+			*NOMBRE									NORMAL
+			*VELOCIDAD							20
+		}		
+		*ESPECIAL
+		{
+			*TIPO										ESPECIAL_MEDICO
+		}
+		*HABILIDAD								CURACION_RAPIDA
+		*HABILIDAD								RANGO_REGENERACION
+		*HABILIDAD								KIT_CURACION_EXTRA
+		*POTENCIA_TROPA 					0
+		*MANA_CRECIMIENTO 				25
+		*MANA_MAXIMO 							1000
+	}
+	
+	
+	
+	////////////////////////////
+	// Diviciacus
+	// Diviciaco
+  *UNIDAD
+	{
+		*RAZA 										BARBAROS
+		*TIPO 										HEROE_DIVICIACO
+		*BASE 										MEDICO
+		*UNIDAD_AFIN              MEDICO
+		*NOMBRE_UNIDAD						"Diviciacus el Druida"
+		*ORDEN_GRUPO 							ORDEN_GRUPO_FILA5
+		*TERRENO 									AGUA_PROFUNDA
+		*TERRENO									FIN_ESCENARIO
+		*FLAG											FLAG_PUEDE_CURAR
+		*FLAG											FLAG_NO_ATAQUE
+		*FLAG											FLAG_BOTON_ESPECIALES
+		*FLAG                     FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*ORDENACION_ZONA_INFO     0
+		*FLAG											FLAG_ATACA_PROTEGIENDO
+		*FLAG                     FLAG_CENTRAR_EN_DISTRIBUCION
+		*CANTIDAD_HUMO_RASTRO     0.2
+		*VIDA 										2000
+		*RAD_VISION 							15
+		*MOTOR 										PGHD_BASE
+		*FLAGSNOPASABLES 					FLAG_PENDIENTE2
+		*ALCANCE                  CORTO
+		*CATEGORIA_CARGA 					0
+		*IDTEXICONOTROPA 					UnidadesCiv2.tga
+		*IDTEXPINFO 							0
+		*IDTEXPINFOGRANDE 				1
+		*COORDICONOTROPA 					0
+		*COORDPINFO 							1 4
+		*COORDPINFOGRANDE 				1 1
+		*IDTEXORDEN 							1
+		*COORDORDEN								2 4
+		*COSTE_ENTRENAMIENTO 			5
+		*COSTE_HABITANTES					5
+		*INCREMENTO_ENTRENAMIENTO 1
+		*NOMBRE_TRADUCIBLE 				LTEXT_UNIDAD_DIVICIACO
+		*FORMACION 								GALO_MEDICO
+		*FORMACION_ESTANDAR 			GALO_MEDICO
+		*MAX_UNIDADES_TROPA				1
+		*EXPERIENCIA_POR_MUERTE		10
+		*EXPERIENCIA_POR_MORIR		1
+		*PCU											5
+		*PCT											1
+		*PUNTOS_HONOR							0
+		*ANCHO_SOMBRA 						0.5
+		*ALTO_SOMBRA 							0.5
+		*IDSOMBRA 								0
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE								40
+				*PROYECTIL						10
+				*INCENDIO							0
+				*EDIFICIO							40
+				*GOLPE                0				
+			}
+			*NOMBRE									NORMAL
+			*VELOCIDAD							20
+		}
+		*ESPECIAL
+		{
+			*TIPO										ESPECIAL_MEDICO
+		}
+    *HABILIDAD                CEGAR_TROPA
+		*HABILIDAD								CURACION_RAPIDA
+		*HABILIDAD								RANGO_REGENERACION
+		*POTENCIA_TROPA 					0
+		*MANA_CRECIMIENTO 				25
+		*MANA_MAXIMO 							1000
+	}
+
+	
+	
+		////////////////////////////
+	// Cayo Crastino
+	// Caius Crastinus
+	
+	*UNIDAD
+	{
+		*RAZA 										ROMANOS
+		*TIPO 										HEROE_CAYO_CRASTINO
+		*FLAG                     FLAG_IGNORA_ATAQUES
+		*FLAG											FLAG_BOTON_ESPECIALES
+		*FLAG                     FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*ORDENACION_ZONA_INFO     0
+		*FLAG											FLAG_ATACA_PROTEGIENDO
+		*FLAG                     FLAG_CENTRAR_EN_DISTRIBUCION
+		*CANTIDAD_HUMO_RASTRO     0.2
+		*ORDEN_GRUPO 							ORDEN_GRUPO_FILA5
+		*BASE 										CENTURION_A_PIE
+		*UNIDAD_AFIN              CENTURION
+		*NOMBRE_UNIDAD						"Cayo Crastino"										// Distingue que la unidad es especial, con nombre propio
+		*TERRENO 									AGUA_PROFUNDA
+		*TERRENO									FIN_ESCENARIO		
+		*VIDA 										3000
+		*RAD_VISION 							15
+		*MOTOR 										PRHL_4_BASE
+		*FLAGSNOPASABLES 					FLAG_PENDIENTE2
+		*ALCANCE 									CORTO
+		*CATEGORIA_CARGA 					0
+		*IDTEXICONOTROPA 					UnidadesCiv2.tga
+		*IDTEXPINFO 							0
+		*IDTEXPINFOGRANDE 				0
+		*IDTEXORDEN 							0
+		*COORDORDEN								4 0
+		*COORDICONOTROPA 					1
+		*COORDPINFO 							0 6
+		*COORDPINFOGRANDE 				1 2
+	  *ANCHO_SOMBRA 						0.5
+		*ALTO_SOMBRA 							0.5
+		*IDSOMBRA 								0
+		*NOMBRE_TRADUCIBLE 				LTEXT_UNIDAD_CRASTINUS
+		*FORMACION 								HEROE_A_PIE
+		*FORMACION_ESTANDAR 			HEROE_A_PIE
+		*MAX_UNIDADES_TROPA				1
+		*RADIO_ACCION_CENTURION		12
+		*EXPERIENCIA_POR_MUERTE		10
+		*EXPERIENCIA_POR_MORIR		1
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE								20
+				*PROYECTIL						20
+				*INCENDIO							0
+				*EDIFICIO							40
+				*GOLPE								0
+			}
+			*NOMBRE									NORMAL
+			*VELOCIDAD							35
+		}
+		*ESPECIAL
+		{
+			*TIPO										ESPECIAL_CENTURION
+			*ARMA										NORMAL
+		}
+		*HABILIDAD 								FISICO
+		*HABILIDAD								ACELERAR_RECUPERACION_MANA
+		*POTENCIA_TROPA 					0
+		*MANA_CRECIMIENTO 				25
+		*MANA_MAXIMO 							1000
+	}
+	
+	// Publio Craso
+	*UNIDAD
+	{
+		*RAZA 										ROMANOS
+		*TIPO 										HEROE_PUBLIO_CRASO
+		*FLAG               			FLAG_GIRAR_AL_ANDAR
+		*FLAG                     FLAG_IGNORA_ATAQUES
+		*FLAG											FLAG_BOTON_ESPECIALES
+		*FLAG                     FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*ORDENACION_ZONA_INFO     0
+		*FLAG                     FLAG_SOMBRA_ROTABLE
+		*FLAG											FLAG_ATACA_PROTEGIENDO
+		*FLAG                     FLAG_CENTRAR_EN_DISTRIBUCION
+		*CANTIDAD_HUMO_RASTRO     0.2
+		*ORDEN_GRUPO 							ORDEN_GRUPO_FILA5
+		*BASE 										CENTURION
+		*UNIDAD_AFIN              CENTURION
+		*NOMBRE_UNIDAD						"Publio Craso"										// Distingue que la unidad es especial, con nombre propio
+		*TERRENO 									AGUA_PROFUNDA
+		*TERRENO									FIN_ESCENARIO		
+		*VIDA 										3000
+		*RAD_VISION 							15
+		*MOTOR 										PRGC_BASE
+		*FLAGSNOPASABLES 					FLAG_PENDIENTE2
+		*ALCANCE 									CORTO
+		*CATEGORIA_CARGA 					0
+		*IDTEXICONOTROPA 					UnidadesCiv2.tga
+		*IDTEXPINFO 							0
+		*IDTEXPINFOGRANDE 				0
+		*IDTEXORDEN 							0
+		*COORDORDEN								4 0
+		*COORDICONOTROPA 					1
+		*COORDPINFO 							0 6
+		*COORDPINFOGRANDE 				1 2
+	  *ANCHO_SOMBRA 						0.5
+		*ALTO_SOMBRA 							0.5
+		*IDSOMBRA 								8
+		*NOMBRE_TRADUCIBLE 				LTEXT_UNIDAD_PUBLIO
+		*FORMACION 								HEROE_A_CABALLO
+		*FORMACION_ESTANDAR 			HEROE_A_CABALLO
+		*MAX_UNIDADES_TROPA				1
+		*RADIO_ACCION_CENTURION		12
+		*EXPERIENCIA_POR_MUERTE		10
+		*EXPERIENCIA_POR_MORIR		1
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE								20
+				*PROYECTIL						20
+				*INCENDIO							0
+				*EDIFICIO							40
+				*GOLPE								0
+			}
+			*NOMBRE									NORMAL
+			*VELOCIDAD							35
+		}
+		*ESPECIAL
+		{
+			*TIPO										ESPECIAL_CENTURION
+			*ARMA										NORMAL
+		}
+		*HABILIDAD 								FISICO
+		*HABILIDAD								ACELERAR_RECUPERACION_MANA
+		*POTENCIA_TROPA 					0
+		*MANA_CRECIMIENTO 				25
+		*MANA_MAXIMO 							1000
+	}
+	
+	
+	//Marco Craso
+	
+		*UNIDAD
+	{
+		*RAZA 										ROMANOS
+		*TIPO 										HEROE_MARCO_CRASO
+		*FLAG                     FLAG_IGNORA_ATAQUES
+		*FLAG											FLAG_BOTON_ESPECIALES
+		*FLAG                     FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*ORDENACION_ZONA_INFO     0
+		*FLAG											FLAG_ATACA_PROTEGIENDO
+		*FLAG                     FLAG_CENTRAR_EN_DISTRIBUCION
+		*CANTIDAD_HUMO_RASTRO     0.2
+		*ORDEN_GRUPO 							ORDEN_GRUPO_FILA5
+		*BASE 										CENTURION_A_PIE
+		*UNIDAD_AFIN              CENTURION
+		*NOMBRE_UNIDAD						"Marco Craso"										// Distingue que la unidad es especial, con nombre propio
+		*TERRENO 									AGUA_PROFUNDA
+		*TERRENO									FIN_ESCENARIO		
+		*VIDA 										3000
+		*RAD_VISION 							15
+		*MOTOR 										PRECR_BASE
+		*FLAGSNOPASABLES 					FLAG_PENDIENTE2
+		*ALCANCE 									CORTO
+		*CATEGORIA_CARGA 					0
+		*IDTEXICONOTROPA 					UnidadesCiv2.tga
+		*IDTEXPINFO 							0
+		*IDTEXPINFOGRANDE 				0
+		*IDTEXORDEN 							0
+		*COORDORDEN								4 0
+		*COORDICONOTROPA 					1
+		*COORDPINFO 							0 6
+		*COORDPINFOGRANDE 				1 2
+	  *ANCHO_SOMBRA 						0.5
+		*ALTO_SOMBRA 							0.5
+		*IDSOMBRA 								0
+		*NOMBRE_TRADUCIBLE 				LTEXT_UNIDAD_MARCO
+		*FORMACION 								HEROE_A_PIE
+		*FORMACION_ESTANDAR 			HEROE_A_PIE
+		*MAX_UNIDADES_TROPA				1
+		*RADIO_ACCION_CENTURION		12
+		*EXPERIENCIA_POR_MUERTE		10
+		*EXPERIENCIA_POR_MORIR		1
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE								20
+				*PROYECTIL						20
+				*INCENDIO							0
+				*EDIFICIO							40
+				*GOLPE								0
+			}
+			*NOMBRE									NORMAL
+			*VELOCIDAD							35
+		}
+		*ESPECIAL
+		{
+			*TIPO										ESPECIAL_CENTURION
+			*ARMA										NORMAL
+		}
+		*HABILIDAD 								FISICO
+		*HABILIDAD								ACELERAR_RECUPERACION_MANA
+		*POTENCIA_TROPA 					0
+		*MANA_CRECIMIENTO 				25
+		*MANA_MAXIMO 							1000
+	}
+	
+	
+	// Casio Longino
+	*UNIDAD
+	{
+		*RAZA 										ROMANOS
+		*TIPO 										HEROE_CASIO_LONGINO
+		*FLAG               			FLAG_GIRAR_AL_ANDAR
+		*FLAG                     FLAG_IGNORA_ATAQUES
+		*FLAG											FLAG_BOTON_ESPECIALES
+		*FLAG                     FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*ORDENACION_ZONA_INFO     0
+		*FLAG                     FLAG_SOMBRA_ROTABLE
+		*FLAG											FLAG_ATACA_PROTEGIENDO
+		*FLAG                     FLAG_CENTRAR_EN_DISTRIBUCION
+		*CANTIDAD_HUMO_RASTRO     0.2
+		*ORDEN_GRUPO 							ORDEN_GRUPO_FILA5
+		*BASE 										CENTURION
+		*UNIDAD_AFIN              CENTURION
+		*NOMBRE_UNIDAD						"Casio Longino"										// Distingue que la unidad es especial, con nombre propio
+		*TERRENO 									AGUA_PROFUNDA
+		*TERRENO									FIN_ESCENARIO		
+		*VIDA 										3000
+		*RAD_VISION 							15
+		*MOTOR 										PRHL_BASE
+		*FLAGSNOPASABLES 					FLAG_PENDIENTE2
+		*ALCANCE 									CORTO
+		*CATEGORIA_CARGA 					0
+		*IDTEXICONOTROPA 					UnidadesCiv2.tga
+		*IDTEXPINFO 							0
+		*IDTEXPINFOGRANDE 				0
+		*IDTEXORDEN 							0
+		*COORDORDEN								4 0
+		*COORDICONOTROPA 					1
+		*COORDPINFO 							0 6
+		*COORDPINFOGRANDE 				1 2
+	  *ANCHO_SOMBRA 						0.5
+		*ALTO_SOMBRA 							0.5
+		*IDSOMBRA 								8
+		*NOMBRE_TRADUCIBLE 				LTEXT_UNIDAD_CASIO
+		*FORMACION 								HEROE_A_CABALLO
+		*FORMACION_ESTANDAR 			HEROE_A_CABALLO
+		*MAX_UNIDADES_TROPA				1
+		*RADIO_ACCION_CENTURION		12
+		*EXPERIENCIA_POR_MUERTE		10
+		*EXPERIENCIA_POR_MORIR		1
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE								20
+				*PROYECTIL						20
+				*INCENDIO							0
+				*EDIFICIO							40
+				*GOLPE								0
+			}
+			*NOMBRE									NORMAL
+			*VELOCIDAD							35
+		}
+		*ESPECIAL
+		{
+			*TIPO										ESPECIAL_CENTURION
+			*ARMA										NORMAL
+		}
+		*HABILIDAD 								FISICO
+		*HABILIDAD								ACELERAR_RECUPERACION_MANA
+		*POTENCIA_TROPA 					0
+		*MANA_CRECIMIENTO 				25
+		*MANA_MAXIMO 							1000
+	}
+	
+		// HEROE QUINTO_CICERO
+	*UNIDAD
+	{
+		*RAZA 										ROMANOS
+		*TIPO 										HEROE_QUINTO_CICERO
+		*FLAG               			FLAG_GIRAR_AL_ANDAR
+		*FLAG                     FLAG_IGNORA_ATAQUES
+		*FLAG											FLAG_BOTON_ESPECIALES
+		*FLAG                     FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*ORDENACION_ZONA_INFO     0
+		*FLAG                     FLAG_SOMBRA_ROTABLE
+		*FLAG											FLAG_ATACA_PROTEGIENDO
+		*FLAG                     FLAG_CENTRAR_EN_DISTRIBUCION
+		*CANTIDAD_HUMO_RASTRO     0.2
+		*ORDEN_GRUPO 							ORDEN_GRUPO_FILA5
+		*BASE 										CENTURION
+		*UNIDAD_AFIN              CENTURION
+		*NOMBRE_UNIDAD						"Quinto Cicero"										// Distingue que la unidad es especial, con nombre propio
+		*TERRENO 									AGUA_PROFUNDA
+		*TERRENO									FIN_ESCENARIO		
+		*VIDA 										3000
+		*RAD_VISION 							15
+		*MOTOR 										PRHL_3_BASE
+		*FLAGSNOPASABLES 					FLAG_PENDIENTE2
+		*ALCANCE 									CORTO
+		*CATEGORIA_CARGA 					0
+		*IDTEXICONOTROPA 					UnidadesCiv2.tga
+		*IDTEXPINFO 							0
+		*IDTEXPINFOGRANDE 				0
+		*IDTEXORDEN 							0
+		*COORDORDEN								4 0
+		*COORDICONOTROPA 					1
+		*COORDPINFO 							0 6
+		*COORDPINFOGRANDE 				1 2
+	  *ANCHO_SOMBRA 						0.5
+		*ALTO_SOMBRA 							0.5
+		*IDSOMBRA 								8
+		*NOMBRE_TRADUCIBLE 				LTEXT_UNIDAD_QUINTO
+		*FORMACION 								HEROE_A_CABALLO
+		*FORMACION_ESTANDAR 			HEROE_A_CABALLO
+		*MAX_UNIDADES_TROPA				1
+		*RADIO_ACCION_CENTURION		12
+		*EXPERIENCIA_POR_MUERTE		10
+		*EXPERIENCIA_POR_MORIR		1
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE								20
+				*PROYECTIL						20
+				*INCENDIO							0
+				*EDIFICIO							40
+				*GOLPE								0
+			}
+			*NOMBRE									NORMAL
+			*VELOCIDAD							35
+		}
+		*ESPECIAL
+		{
+			*TIPO										ESPECIAL_CENTURION
+			*ARMA										NORMAL
+		}
+		*HABILIDAD 								FISICO
+		*HABILIDAD								ACELERAR_RECUPERACION_MANA
+		*POTENCIA_TROPA 					0
+		*MANA_CRECIMIENTO 				25
+		*MANA_MAXIMO 							1000
+	}
+	
+	// HEROE COMIO
+	*UNIDAD
+	{
+		*RAZA 										BARBAROS
+		*TIPO 										HEROE_COMIO
+		*UNIDAD_AFIN              CENTURION
+		*BASE 										CENTURION_A_PIE
+		*ORDEN_GRUPO 							ORDEN_GRUPO_FILA5
+		*TERRENO 									AGUA_PROFUNDA
+		*TERRENO									FIN_ESCENARIO
+		*FLAG											FLAG_BOTON_ESPECIALES
+		*FLAG                     FLAG_IGNORA_ATAQUES
+		*FLAG                     FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*ORDENACION_ZONA_INFO     0
+		*FLAG											FLAG_ATACA_PROTEGIENDO
+		*FLAG                     FLAG_CENTRAR_EN_DISTRIBUCION
+		*NOMBRE_UNIDAD						"Comio"	
+		*CANTIDAD_HUMO_RASTRO     0.2
+		*VIDA 										3000
+		*RAD_VISION 							15
+		*MOTOR 										PREC_BASE
+		*FLAGSNOPASABLES 					FLAG_PENDIENTE2
+		*ALCANCE 									CORTO
+		*CATEGORIA_CARGA 					0
+		*IDTEXICONOTROPA 					UnidadesCiv2.tga
+		*IDTEXPINFO 							0
+		*IDTEXPINFOGRANDE 				1
+		*COORDICONOTROPA 					1
+		*COORDPINFO 							1 6
+		*COORDPINFOGRANDE 				1 2
+		*IDTEXORDEN 							0
+		*COORDORDEN								4 0
+	  *ANCHO_SOMBRA 						0.5
+		*ALTO_SOMBRA 							0.5
+		*IDSOMBRA 								0
+		*NOMBRE_TRADUCIBLE        LTEXT_UNIDAD_COMIO
+		*FORMACION 								HEROE_A_PIE
+		*FORMACION_ESTANDAR 			HEROE_A_PIE
+		*MAX_UNIDADES_TROPA				1
+		*RADIO_ACCION_CENTURION		12
+		*EXPERIENCIA_POR_MUERTE		10
+		*EXPERIENCIA_POR_MORIR		1
+		*PCU											5
+		*PCT											1		
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE								20
+				*PROYECTIL						20
+				*INCENDIO							0
+				*EDIFICIO							40
+				*GOLPE                0
+			}
+			*NOMBRE									NORMAL
+			*VELOCIDAD							20
+		}
+			*ESPECIAL
+			{
+				*TIPO										ESPECIAL_CENTURION
+				*ARMA										NORMAL
+			}
+			*HABILIDAD 								FISICO
+			*HABILIDAD 								REZAR_ROBAR
+			*POTENCIA_TROPA 					0
+			*MANA_CRECIMIENTO 				25
+			*MANA_MAXIMO 							1000
+	}
+		
+// Dumnorix									
+
+	*UNIDAD
+	{
+		*RAZA 										BARBAROS
+		*TIPO 										HEROE_DUMNORIX
+		*BASE 										CENTURION
+		*UNIDAD_AFIN              CENTURION
+		*ORDEN_GRUPO 							ORDEN_GRUPO_FILA5
+		*TERRENO 									AGUA_PROFUNDA
+		*TERRENO									FIN_ESCENARIO
+		*FLAG                     FLAG_IGNORA_ATAQUES
+		*FLAG											FLAG_BOTON_ESPECIALES
+		*FLAG               			FLAG_GIRAR_AL_ANDAR
+		*FLAG               			FLAG_SOMBRA_ROTABLE
+		*FLAG                     FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*ORDENACION_ZONA_INFO     0
+		*NOMBRE_UNIDAD						"DUMNORIX"
+		*FLAG											FLAG_ATACA_PROTEGIENDO
+		*FLAG                     FLAG_CENTRAR_EN_DISTRIBUCION
+		*CANTIDAD_HUMO_RASTRO     0.2
+		*VIDA 										3000
+		*RAD_VISION 							15
+		*MOTOR 										PGHJC_BASE
+		*FLAGSNOPASABLES 					FLAG_PENDIENTE2
+		*ALCANCE 									CORTO
+		*CATEGORIA_CARGA 					0
+		*IDTEXICONOTROPA 					UnidadesCiv2.tga
+		*IDTEXPINFO 							0
+		*IDTEXPINFOGRANDE 				1
+		*COORDICONOTROPA 					1
+		*COORDPINFO 							1 6
+		*COORDPINFOGRANDE 				1 2
+		*IDTEXORDEN 							0
+		*COORDORDEN								4 0
+	  *ANCHO_SOMBRA 						0.5
+		*ALTO_SOMBRA 							0.5
+		*IDSOMBRA 								8
+		*NOMBRE_TRADUCIBLE        LTEXT_UNIDAD_DUMNORIX
+		*FORMACION 								HEROE_A_CABALLO
+		*FORMACION_ESTANDAR 			HEROE_A_CABALLO
+		*MAX_UNIDADES_TROPA				1
+		*RADIO_ACCION_CENTURION		12
+		*EXPERIENCIA_POR_MUERTE		10
+		*EXPERIENCIA_POR_MORIR		1
+		*PCU											5
+		*PCT											1		
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE								20
+				*PROYECTIL						20
+				*INCENDIO							0
+				*EDIFICIO							40
+				*GOLPE                0
+			}
+			*NOMBRE									NORMAL
+			*VELOCIDAD							20
+		}
+			*ESPECIAL
+			{
+				*TIPO										ESPECIAL_CENTURION
+				*ARMA										NORMAL
+			}
+			*HABILIDAD 								FISICO
+			*HABILIDAD 								REZAR_ROBAR
+			*POTENCIA_TROPA 					0
+			*MANA_CRECIMIENTO 				25
+			*MANA_MAXIMO 							1000
+	}
+	
+
+// Casiovelauno							HEROE_CASIOVELAUNO
+	*UNIDAD
+	{
+		*RAZA 										BARBAROS
+		*TIPO 										HEROE_CASIOVELAUNO
+		*BASE 										CENTURION_A_PIE
+		*UNIDAD_AFIN              CENTURION
+		*ORDEN_GRUPO 							ORDEN_GRUPO_FILA5
+		*TERRENO 									AGUA_PROFUNDA
+		*TERRENO									FIN_ESCENARIO
+		*FLAG                     FLAG_IGNORA_ATAQUES
+		*FLAG											FLAG_BOTON_ESPECIALES
+		*FLAG                     FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*ORDENACION_ZONA_INFO     0
+		*FLAG											FLAG_ATACA_PROTEGIENDO
+		*FLAG                     FLAG_CENTRAR_EN_DISTRIBUCION
+		*CANTIDAD_HUMO_RASTRO     0.2
+		*VIDA 										3000
+		*RAD_VISION 							15
+		*NOMBRE_UNIDAD						"CASIOVELAUNO"	
+		*MOTOR 										PGHJ_BASE
+		*FLAGSNOPASABLES 					FLAG_PENDIENTE2
+		*ALCANCE 									CORTO
+		*CATEGORIA_CARGA 					0
+		*IDTEXICONOTROPA 					UnidadesCiv2.tga
+		*IDTEXPINFO 							0
+		*IDTEXPINFOGRANDE 				1
+		*COORDICONOTROPA 					1
+		*COORDPINFO 							1 6
+		*COORDPINFOGRANDE 				1 2
+		*IDTEXORDEN 							0
+		*COORDORDEN								4 0
+	  *ANCHO_SOMBRA 						0.5
+		*ALTO_SOMBRA 							0.5
+		*IDSOMBRA 								0
+		*NOMBRE_TRADUCIBLE        LTEXT_UNIDAD_CASIOVELAUNO
+		*FORMACION 								HEROE_A_PIE
+		*FORMACION_ESTANDAR 			HEROE_A_PIE
+		*MAX_UNIDADES_TROPA				1
+		*RADIO_ACCION_CENTURION		12
+		*EXPERIENCIA_POR_MUERTE		10
+		*EXPERIENCIA_POR_MORIR		1
+		*PCU											5
+		*PCT											1		
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE								20
+				*PROYECTIL						20
+				*INCENDIO							0
+				*EDIFICIO							40
+				*GOLPE                0
+			}
+			*NOMBRE									NORMAL
+			*VELOCIDAD							20
+		}
+			*ESPECIAL
+			{
+				*TIPO										ESPECIAL_CENTURION
+				*ARMA										NORMAL
+			}
+			*HABILIDAD 								FISICO
+			*HABILIDAD 								REZAR_ROBAR
+			*POTENCIA_TROPA 					0
+			*MANA_CRECIMIENTO 				25
+			*MANA_MAXIMO 							1000
+	}
+	
+	// HEROE DUBALIX
+	*UNIDAD
+	{
+		*RAZA 										BARBAROS
+		*TIPO 										HEROE_DUBALIX
+		*BASE 										CENTURION
+		*UNIDAD_AFIN              CENTURION
+		*ORDEN_GRUPO 							ORDEN_GRUPO_FILA5
+		*TERRENO 									AGUA_PROFUNDA
+		*TERRENO									FIN_ESCENARIO
+		*FLAG                     FLAG_IGNORA_ATAQUES
+		*FLAG											FLAG_BOTON_ESPECIALES
+		*FLAG               			FLAG_GIRAR_AL_ANDAR
+		*FLAG               			FLAG_SOMBRA_ROTABLE
+		*FLAG                     FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*ORDENACION_ZONA_INFO     0
+		*NOMBRE_UNIDAD						"DUBALIX"
+		*FLAG											FLAG_ATACA_PROTEGIENDO
+		*FLAG                     FLAG_CENTRAR_EN_DISTRIBUCION
+		*CANTIDAD_HUMO_RASTRO     0.2
+		*VIDA 										3000
+		*RAD_VISION 							15
+		*MOTOR 										PGHDU_BASE
+		*FLAGSNOPASABLES 					FLAG_PENDIENTE2
+		*ALCANCE 									CORTO
+		*CATEGORIA_CARGA 					0
+		*IDTEXICONOTROPA 					UnidadesCiv2.tga
+		*IDTEXPINFO 							0
+		*IDTEXPINFOGRANDE 				1
+		*COORDICONOTROPA 					1
+		*COORDPINFO 							1 6
+		*COORDPINFOGRANDE 				1 2
+		*IDTEXORDEN 							0
+		*COORDORDEN								4 0
+	  *ANCHO_SOMBRA 						0.5
+		*ALTO_SOMBRA 							0.5
+		*IDSOMBRA 								8
+		*NOMBRE_TRADUCIBLE        LTEXT_UNIDAD_DUBALIX
+		*FORMACION 								HEROE_A_CABALLO
+		*FORMACION_ESTANDAR 			HEROE_A_CABALLO
+		*MAX_UNIDADES_TROPA				1
+		*RADIO_ACCION_CENTURION		12
+		*EXPERIENCIA_POR_MUERTE		10
+		*EXPERIENCIA_POR_MORIR		1
+		*PCU											5
+		*PCT											1		
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE								20
+				*PROYECTIL						20
+				*INCENDIO							0
+				*EDIFICIO							40
+				*GOLPE                0
+			}
+			*NOMBRE									NORMAL
+			*VELOCIDAD							20
+		}
+			*ESPECIAL
+			{
+				*TIPO										ESPECIAL_CENTURION
+				*ARMA										NORMAL
+			}
+			*HABILIDAD 								FISICO
+			*HABILIDAD 								REZAR_ROBAR
+			*POTENCIA_TROPA 					0
+			*MANA_CRECIMIENTO 				25
+			*MANA_MAXIMO 							1000
+	}
+	
+	
+	*UNIDAD
+	{
+		*RAZA 										BARBAROS
+		*TIPO 										HEROE_GOBANITIO
+		*BASE 										CENTURION_A_PIE
+		*UNIDAD_AFIN              CENTURION
+		*ORDEN_GRUPO 							ORDEN_GRUPO_FILA5
+		*TERRENO 									AGUA_PROFUNDA
+		*TERRENO									FIN_ESCENARIO
+		*FLAG                     FLAG_IGNORA_ATAQUES
+		*FLAG											FLAG_BOTON_ESPECIALES
+		*FLAG                     FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*ORDENACION_ZONA_INFO     0
+		*FLAG											FLAG_ATACA_PROTEGIENDO
+		*FLAG                     FLAG_CENTRAR_EN_DISTRIBUCION
+		*CANTIDAD_HUMO_RASTRO     0.2
+		*VIDA 										3000
+		*RAD_VISION 							15
+		*NOMBRE_UNIDAD						"GOBANITIO"	
+		*MOTOR 										PGHGO_BASE
+		*FLAGSNOPASABLES 					FLAG_PENDIENTE2
+		*ALCANCE 									CORTO
+		*CATEGORIA_CARGA 					0
+		*IDTEXICONOTROPA 					UnidadesCiv2.tga
+		*IDTEXPINFO 							0
+		*IDTEXPINFOGRANDE 				1
+		*COORDICONOTROPA 					1
+		*COORDPINFO 							1 6
+		*COORDPINFOGRANDE 				1 2
+		*IDTEXORDEN 							0
+		*COORDORDEN								4 0
+	  *ANCHO_SOMBRA 						0.5
+		*ALTO_SOMBRA 							0.5
+		*IDSOMBRA 								0
+		*NOMBRE_TRADUCIBLE        LTEXT_UNIDAD_GOBANITIO
+		*FORMACION 								HEROE_A_PIE
+		*FORMACION_ESTANDAR 			HEROE_A_PIE
+		*MAX_UNIDADES_TROPA				1
+		*RADIO_ACCION_CENTURION		12
+		*EXPERIENCIA_POR_MUERTE		10
+		*EXPERIENCIA_POR_MORIR		1
+		*PCU											5
+		*PCT											1		
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE								20
+				*PROYECTIL						20
+				*INCENDIO							0
+				*EDIFICIO							40
+				*GOLPE                0
+			}
+			*NOMBRE									NORMAL
+			*VELOCIDAD							20
+		}
+			*ESPECIAL
+			{
+				*TIPO										ESPECIAL_CENTURION
+				*ARMA										NORMAL
+			}
+			*HABILIDAD 								FISICO
+			*HABILIDAD 								REZAR_ROBAR
+			*POTENCIA_TROPA 					0
+			*MANA_CRECIMIENTO 				25
+			*MANA_MAXIMO 							1000
+	}
+	
+	
+	
+	// maRCO lUCIO
+	*UNIDAD
+	{
+		*RAZA 										ROMANOS
+		*TIPO 										HEROE_MARCO_LUCIO
+		*BASE 										EXPLORADOR
+		*UNIDAD_AFIN              EXPLORADOR
+		*NOMBRE_UNIDAD						"Marco Lucio Vero"
+		*TIPO_FAMILIAR						LOBO
+		*ORDEN_GRUPO 							ORDEN_GRUPO_FILA4
+		*VIDA 										1000
+		*RAD_VISION 							25		 
+		*FLAG											FLAG_TROPA_ESPECIAL		 
+		*FLAG											FLAG_EXPLORADOR
+		*FLAG											FLAG_NO_CEGUERA
+		*FLAG											FLAG_NO_ATAQUE
+		*FLAG											FLAG_BOTON_ESPECIALES
+		*FLAG                     FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*FLAG                     FLAG_ACK_CIVILIZACION
+		*ORDENACION_ZONA_INFO     0
+		*FLAG											FLAG_ATACA_PROTEGIENDO
+		*FLAG                     FLAG_CENTRAR_EN_DISTRIBUCION
+		*CANTIDAD_HUMO_RASTRO     0.2
+		*TERRENO 									AGUA_PROFUNDA
+		*TERRENO						      FIN_ESCENARIO
+		*MOTOR 										PGE_BASE 
+		*FLAGSNOPASABLES 					FLAG_PENDIENTE2
+		*ALCANCE 									CORTO 
+		*CATEGORIA_CARGA 					0
+		*IDTEXICONOTROPA 					UnidadesCiv3.tga
+		*IDTEXPINFO 							0
+		*IDTEXPINFOGRANDE 				1
+		*COORDICONOTROPA 					1
+		*COORDPINFO 							3 3
+		*COORDPINFOGRANDE 				3 3
+		*IDTEXORDEN 							1
+		*COORDORDEN								2 6
+		*COSTE_ENTRENAMIENTO 			10
+		*COSTE_HABITANTES					5
+		*NOMBRE_TRADUCIBLE 				LTEXT_UNIDAD_MARCUS
+		*INCREMENTO_ENTRENAMIENTO 1
+		*ALTURA_PROYECTIL 				0.5				
+		*POSICION_FAMILIAR				0.1 1.0 0.4
+		*POSICION_PROYECTIL 			0.0 0.0 0.0		
+		*FORMACION 								EXPLORADOR
+		*FORMACION_ESTANDAR 			EXPLORADOR
+		*MAX_UNIDADES_TROPA				1
+		*MANA_MAXIMO 							1000
+		*MANA_CRECIMIENTO 				25
+		*EXPERIENCIA_POR_MUERTE		10
+		*EXPERIENCIA_POR_MORIR		1
+		*ANCHO_SOMBRA 						0.5
+		*ALTO_SOMBRA 							0.5
+		*IDSOMBRA 								0
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE								50
+				*PROYECTIL						10
+				*INCENDIO							0
+				*EDIFICIO							50
+				*GOLPE								0
+			}
+			*NOMBRE									NORMAL
+		}		  		
+		*HABILIDAD								SOLTAR_FAMILIAR_LOBO
+		*POTENCIA_TROPA 0
+	}
+	
+	
+	
+	// Sexto Calpurnio
+	*UNIDAD
+	{
+		*RAZA 										ROMANOS
+		*TIPO 										HEROE_SEXTO_CALPURNIO
+		*FLAG               			FLAG_GIRAR_AL_ANDAR
+		*FLAG                     FLAG_IGNORA_ATAQUES
+		*FLAG											FLAG_BOTON_ESPECIALES
+		*FLAG                     FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*ORDENACION_ZONA_INFO     0
+		*FLAG                     FLAG_SOMBRA_ROTABLE
+		*FLAG											FLAG_ATACA_PROTEGIENDO
+		*FLAG                     FLAG_CENTRAR_EN_DISTRIBUCION
+		*CANTIDAD_HUMO_RASTRO     0.2
+		*ORDEN_GRUPO 							ORDEN_GRUPO_FILA5
+		*BASE 										CENTURION
+		*UNIDAD_AFIN              CENTURION
+		*NOMBRE_UNIDAD						"Sexto Calpurnio"
+		*TERRENO 									AGUA_PROFUNDA
+		*TERRENO									FIN_ESCENARIO		
+		*VIDA 										3000
+		*RAD_VISION 							15
+		*MOTOR 										PRECE_BASE
+		*FLAGSNOPASABLES 					FLAG_PENDIENTE2
+		*ALCANCE 									CORTO
+		*CATEGORIA_CARGA 					0
+		*IDTEXICONOTROPA 					UnidadesCiv2.tga
+		*IDTEXPINFO 							0
+		*IDTEXPINFOGRANDE 				0		
+		*COORDICONOTROPA 					1
+		*COORDPINFO 							0 6
+		*COORDPINFOGRANDE 				1 2
+		*ANCHO_SOMBRA 						0.5
+		*ALTO_SOMBRA 							0.5
+		*IDSOMBRA 								8
+		*NOMBRE_TRADUCIBLE 				LTEXT_UNIDAD_SEXTUS
+		*FORMACION 								HEROE_A_CABALLO
+		*FORMACION_ESTANDAR 			HEROE_A_CABALLO
+		*MAX_UNIDADES_TROPA				1
+		*RADIO_ACCION_CENTURION		12
+		*EXPERIENCIA_POR_MUERTE		10
+		*EXPERIENCIA_POR_MORIR		1
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE								20
+				*PROYECTIL						20
+				*INCENDIO							0
+				*EDIFICIO							40
+				*GOLPE								0
+			}
+			*NOMBRE									NORMAL
+			*VELOCIDAD							35
+		}
+		*ESPECIAL
+		{
+			*TIPO										ESPECIAL_CENTURION
+			*ARMA										NORMAL
+		}
+		*HABILIDAD 								FISICO
+		*HABILIDAD								ACELERAR_RECUPERACION_MANA
+		*POTENCIA_TROPA 					0
+		*MANA_CRECIMIENTO 				25
+		*MANA_MAXIMO 							1000
+	}
+	
+	// Tito Lucio
+		*UNIDAD
+	{
+		*RAZA 										ROMANOS
+		*TIPO 										HEROE_TITO_LUCIO
+		*FLAG               			FLAG_GIRAR_AL_ANDAR
+		*FLAG                     FLAG_IGNORA_ATAQUES
+		*FLAG											FLAG_BOTON_ESPECIALES
+		*FLAG                     FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*ORDENACION_ZONA_INFO     0
+		*FLAG                     FLAG_SOMBRA_ROTABLE
+		*FLAG											FLAG_ATACA_PROTEGIENDO
+		*FLAG                     FLAG_CENTRAR_EN_DISTRIBUCION
+		*CANTIDAD_HUMO_RASTRO     0.2
+		*ORDEN_GRUPO 							ORDEN_GRUPO_FILA5
+		*BASE 										CENTURION
+		*UNIDAD_AFIN              CENTURION
+		*NOMBRE_UNIDAD						"Tito Lucio"
+		*TERRENO 									AGUA_PROFUNDA
+		*TERRENO									FIN_ESCENARIO		
+		*VIDA 										3000
+		*RAD_VISION 							15
+		*MOTOR 										PRECE_BASE
+		*FLAGSNOPASABLES 					FLAG_PENDIENTE2
+		*ALCANCE 									CORTO
+		*CATEGORIA_CARGA 					0
+		*IDTEXICONOTROPA 					UnidadesCiv2.tga
+		*IDTEXPINFO 							0
+		*IDTEXPINFOGRANDE 				0		
+		*COORDICONOTROPA 					1
+		*COORDPINFO 							0 6
+		*COORDPINFOGRANDE 				1 2
+		*ANCHO_SOMBRA 						0.5
+		*ALTO_SOMBRA 							0.5
+		*IDSOMBRA 								8
+		*NOMBRE_TRADUCIBLE 				LTEXT_UNIDAD_TITUS_LUCIUS
+		*FORMACION 								HEROE_A_CABALLO
+		*FORMACION_ESTANDAR 			HEROE_A_CABALLO
+		*MAX_UNIDADES_TROPA				1
+		*RADIO_ACCION_CENTURION		12
+		*EXPERIENCIA_POR_MUERTE		10
+		*EXPERIENCIA_POR_MORIR		1
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE								20
+				*PROYECTIL						20
+				*INCENDIO							0
+				*EDIFICIO							40
+				*GOLPE								0
+			}
+			*NOMBRE									NORMAL
+			*VELOCIDAD							35
+		}
+		*ESPECIAL
+		{
+			*TIPO										ESPECIAL_CENTURION
+			*ARMA										NORMAL
+		}
+		*HABILIDAD 								FISICO
+		*HABILIDAD								ACELERAR_RECUPERACION_MANA
+		*POTENCIA_TROPA 					0
+		*MANA_CRECIMIENTO 				25
+		*MANA_MAXIMO 							1000
+	}
+	
+	
+// HEROE_ROMANO_MUNDA
+	*UNIDAD
+	{
+		*RAZA 										ROMANOS
+		*TIPO 										HEROE_ROMANO_MUNDA
+		*FLAG               			FLAG_GIRAR_AL_ANDAR
+		*FLAG                     FLAG_IGNORA_ATAQUES
+		*FLAG											FLAG_BOTON_ESPECIALES
+		*FLAG                     FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*ORDENACION_ZONA_INFO     0
+		*FLAG                     FLAG_SOMBRA_ROTABLE
+		*FLAG											FLAG_ATACA_PROTEGIENDO
+		*FLAG                     FLAG_CENTRAR_EN_DISTRIBUCION
+		*CANTIDAD_HUMO_RASTRO     0.2
+		*ORDEN_GRUPO 							ORDEN_GRUPO_FILA5
+		*BASE 										CENTURION
+		*UNIDAD_AFIN              CENTURION
+		*NOMBRE_UNIDAD						"HEROE_ROMANO_MUNDA"
+		*TERRENO 									AGUA_PROFUNDA
+		*TERRENO									FIN_ESCENARIO		
+		*VIDA 										3000
+		*RAD_VISION 							15
+		*MOTOR 										PRC1_BASE
+		*FLAGSNOPASABLES 					FLAG_PENDIENTE2
+		*ALCANCE 									CORTO
+		*CATEGORIA_CARGA 					0
+		*IDTEXICONOTROPA 					UnidadesCiv2.tga
+		*IDTEXPINFO 							0
+		*IDTEXPINFOGRANDE 				0		
+		*COORDICONOTROPA 					1
+		*COORDPINFO 							0 6
+		*COORDPINFOGRANDE 				1 2
+		*ANCHO_SOMBRA 						0.5
+		*ALTO_SOMBRA 							0.5
+		*IDSOMBRA 								8
+		*NOMBRE_TRADUCIBLE 				LTEXT_UNIDAD_PROVINCIAL_CENT
+		*FORMACION 								HEROE_A_CABALLO
+		*FORMACION_ESTANDAR 			HEROE_A_CABALLO
+		*MAX_UNIDADES_TROPA				1
+		*RADIO_ACCION_CENTURION		12
+		*EXPERIENCIA_POR_MUERTE		10
+		*EXPERIENCIA_POR_MORIR		1
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE								20
+				*PROYECTIL						20
+				*INCENDIO							0
+				*EDIFICIO							40
+				*GOLPE								0
+			}
+			*NOMBRE									NORMAL
+			*VELOCIDAD							35
+		}
+		*ESPECIAL
+		{
+			*TIPO										ESPECIAL_CENTURION
+			*ARMA										NORMAL
+		}
+		*HABILIDAD 								FISICO
+		*HABILIDAD								ACELERAR_RECUPERACION_MANA
+		*POTENCIA_TROPA 					0
+		*MANA_CRECIMIENTO 				25
+		*MANA_MAXIMO 							1000
+	}		
+		
+	// HEROE_GALO_MUNDA
+	*UNIDAD
+	{
+		*RAZA 										BARBAROS
+		*TIPO 										HEROE_GALO_MUNDA
+		*BASE 										CENTURION_A_PIE
+		*UNIDAD_AFIN              CENTURION
+		*ORDEN_GRUPO 							ORDEN_GRUPO_FILA5
+		*TERRENO 									AGUA_PROFUNDA
+		*TERRENO									FIN_ESCENARIO
+		*FLAG                     FLAG_IGNORA_ATAQUES
+		*FLAG											FLAG_BOTON_ESPECIALES
+		*FLAG                     FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*ORDENACION_ZONA_INFO     0
+		*FLAG											FLAG_ATACA_PROTEGIENDO
+		*FLAG                     FLAG_CENTRAR_EN_DISTRIBUCION
+		*CANTIDAD_HUMO_RASTRO     0.2
+		*VIDA 										3000
+		*RAD_VISION 							15
+		*NOMBRE_UNIDAD						"HEROE_GALO_MUNDA"	
+		*MOTOR 										PGJE_BASE
+		*FLAGSNOPASABLES 					FLAG_PENDIENTE2
+		*ALCANCE 									CORTO
+		*CATEGORIA_CARGA 					0
+		*IDTEXICONOTROPA 					UnidadesCiv2.tga
+		*IDTEXPINFO 							0
+		*IDTEXPINFOGRANDE 				1
+		*COORDICONOTROPA 					1
+		*COORDPINFO 							1 6
+		*COORDPINFOGRANDE 				1 2
+		*IDTEXORDEN 							0
+		*COORDORDEN								4 0
+	  *ANCHO_SOMBRA 						0.5
+		*ALTO_SOMBRA 							0.5
+		*IDSOMBRA 								0
+		*NOMBRE_TRADUCIBLE        LTEXT_UNIDAD_IBERIAN_CHIEF
+		*FORMACION 								HEROE_A_PIE
+		*FORMACION_ESTANDAR 			HEROE_A_PIE
+		*MAX_UNIDADES_TROPA				1
+		*RADIO_ACCION_CENTURION		12
+		*EXPERIENCIA_POR_MUERTE		10
+		*EXPERIENCIA_POR_MORIR		1
+		*PCU											5
+		*PCT											1		
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE								20
+				*PROYECTIL						20
+				*INCENDIO							0
+				*EDIFICIO							40
+				*GOLPE                0
+			}
+			*NOMBRE									NORMAL
+			*VELOCIDAD							20
+		}
+			*ESPECIAL
+			{
+				*TIPO										ESPECIAL_CENTURION
+				*ARMA										NORMAL
+			}
+			*HABILIDAD 								FISICO
+			*HABILIDAD 								REZAR_ROBAR
+			*POTENCIA_TROPA 					0
+			*MANA_CRECIMIENTO 				25
+			*MANA_MAXIMO 							1000
+	}
+	
+	
+	
+	
+	// HEROE_EGIPCIO_MUNDA
+	*UNIDAD
+	{
+		*RAZA 										EGIPCIOS
+		*TIPO 										HEROE_EGIPCIO_MUNDA
+		*BASE 										CENTURION_A_PIE
+		*UNIDAD_AFIN              CENTURION
+		*ORDEN_GRUPO 							ORDEN_GRUPO_FILA5
+		*TERRENO 									AGUA_PROFUNDA
+		*TERRENO									FIN_ESCENARIO
+		*FLAG                     FLAG_IGNORA_ATAQUES
+		*FLAG											FLAG_BOTON_ESPECIALES
+		*FLAG                     FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*ORDENACION_ZONA_INFO     0
+		*FLAG											FLAG_ATACA_PROTEGIENDO
+		*FLAG                     FLAG_CENTRAR_EN_DISTRIBUCION
+		*CANTIDAD_HUMO_RASTRO     0.2
+		*VIDA 										3000
+		*RAD_VISION 							15
+		*NOMBRE_UNIDAD						"HEROE_EGIPCIO_MUNDA"	
+		*MOTOR 										PEJE_BASE
+		*FLAGSNOPASABLES 					FLAG_PENDIENTE2
+		*ALCANCE 									CORTO
+		*CATEGORIA_CARGA 					0
+		*IDTEXICONOTROPA 					UnidadesCiv2.tga
+		*IDTEXPINFO 							0
+		*IDTEXPINFOGRANDE 				2
+		*COORDICONOTROPA 					1
+		*COORDPINFO 							2 6
+		*COORDPINFOGRANDE 				1 2			
+		*IDTEXORDEN 							0
+		*COORDORDEN								4 0
+	  *ANCHO_SOMBRA 						0.5
+		*ALTO_SOMBRA 							0.5
+		*IDSOMBRA 								0
+		*NOMBRE_TRADUCIBLE        LTEXT_UNIDAD_MAURETANEAN_OFF
+		*FORMACION 								HEROE_A_PIE
+		*FORMACION_ESTANDAR 			HEROE_A_PIE
+		*MAX_UNIDADES_TROPA				1
+		*RADIO_ACCION_CENTURION		12
+		*EXPERIENCIA_POR_MUERTE		10
+		*EXPERIENCIA_POR_MORIR		1
+		*PCU											5
+		*PCT											1		
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE								20
+				*PROYECTIL						20
+				*INCENDIO							0
+				*EDIFICIO							40
+				*GOLPE                0
+			}
+			*NOMBRE									NORMAL
+			*VELOCIDAD							20
+		}
+			*ESPECIAL
+			{
+				*TIPO										ESPECIAL_CENTURION
+				*ARMA										NORMAL
+			}
+			*HABILIDAD 								FISICO
+			*HABILIDAD 								ESPEJISMO_MANEJABLE
+			*POTENCIA_TROPA 					0
+			*MANA_CRECIMIENTO 				25
+			*MANA_MAXIMO 							1000
+	}
+	// HEROE COMIO
+	*UNIDAD
+	{
+		*RAZA 										BARBAROS
+		*TIPO 										HEROE_COMIO_PRESO
+		*UNIDAD_AFIN              CENTURION
+		*BASE 										PRISIONERO
+		*ORDEN_GRUPO 							ORDEN_GRUPO_FILA5
+		*TERRENO 									AGUA_PROFUNDA
+		*TERRENO									FIN_ESCENARIO
+		*FLAG											FLAG_BOTON_ESPECIALES
+		*FLAG                     FLAG_IGNORA_ATAQUES
+		*FLAG                     FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*FLAG                     FLAG_NO_ES_EMPUJADA
+		*ORDENACION_ZONA_INFO     0
+		*FLAG											FLAG_ATACA_PROTEGIENDO
+		*FLAG                     FLAG_CENTRAR_EN_DISTRIBUCION
+		*NOMBRE_UNIDAD						"Comio"	
+		*CANTIDAD_HUMO_RASTRO     0.2
+		*VIDA 										3000
+		*RAD_VISION 							15
+		*MOTOR 										PREC_BASE_preso
+		*FLAGSNOPASABLES 					FLAG_PENDIENTE2
+		*ALCANCE 									CORTO
+		*CATEGORIA_CARGA 					0
+		*IDTEXICONOTROPA 					UnidadesCiv2.tga
+		*IDTEXPINFO 							0
+		*IDTEXPINFOGRANDE 				1
+		*COORDICONOTROPA 					1
+		*COORDPINFO 							1 6
+		*COORDPINFOGRANDE 				1 2
+		*IDTEXORDEN 							0
+		*COORDORDEN								4 0
+	  *ANCHO_SOMBRA 						0.5
+		*ALTO_SOMBRA 							0.5
+		*IDSOMBRA 								0
+		*NOMBRE_TRADUCIBLE        LTEXT_UNIDAD_COMIO
+		*FORMACION 								HEROE_A_PIE
+		*FORMACION_ESTANDAR 			HEROE_A_PIE
+		*MAX_UNIDADES_TROPA				1
+		*RADIO_ACCION_CENTURION		12
+		*EXPERIENCIA_POR_MUERTE		10
+		*EXPERIENCIA_POR_MORIR		1
+		*PCU											5
+		*PCT											1		
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE								20
+				*PROYECTIL						20
+				*INCENDIO							0
+				*EDIFICIO							40
+				*GOLPE                0
+			}
+			*NOMBRE									NORMAL
+			*VELOCIDAD							20
+		}
+			*ESPECIAL
+			{
+				*TIPO										ESPECIAL_CENTURION
+				*ARMA										NORMAL
+			}
+			*HABILIDAD 								FISICO
+			*POTENCIA_TROPA 					0
+			*MANA_CRECIMIENTO 				25
+			*MANA_MAXIMO 							1000
+	}
+	
+}
+

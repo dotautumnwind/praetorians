@@ -1,0 +1,21 @@
+//--------------------------------------------------------------------------------------------------------
+// Define la información de los niveles de experiencia. El número de puntos para alcanzar cada nivel está
+// definido en def razas, cada raza sube los niveles con una puntuación distintaw
+//--------------------------------------------------------------------------------------------------------
+{
+	*NIVEL_EXPERIENCIA
+	{
+		*NOMBRE						LTEXT_NIVEL_EXPERIENCIA_1
+		*MEJORIA					MEJORIA_EXPERIENCIA_NIVEL_1
+	}
+	*NIVEL_EXPERIENCIA
+	{
+		*NOMBRE						LTEXT_NIVEL_EXPERIENCIA_2
+		*MEJORIA					MEJORIA_EXPERIENCIA_NIVEL_2
+	}
+	*NIVEL_EXPERIENCIA
+	{
+		*NOMBRE						LTEXT_NIVEL_EXPERIENCIA_3
+		*MEJORIA					MEJORIA_EXPERIENCIA_NIVEL_3
+	}
+}

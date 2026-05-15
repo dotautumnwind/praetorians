@@ -1,0 +1,242 @@
+{
+  *CURSOR
+  {
+    *FICHERO    "IconoDefecto.tga"
+    *NOMBRE     ICONO_DEFECTO
+    *HOTSPOT    0 0
+  }
+  *CURSOR
+  {
+    *FICHERO    "Cursor.tga"
+    *NOMBRE     NORMAL
+    *HOTSPOT    0 0
+  }
+  *CURSOR
+  {
+    *FICHERO    "Cursor_Bosque.tga"
+    *NOMBRE     NORMAL_BOSQUE
+    *HOTSPOT    0 0
+  }
+  *CURSOR
+  {
+    *FICHERO    "Cursor_Pradera.tga"
+    *NOMBRE     NORMAL_PRADERA
+    *HOTSPOT    0 0
+  }
+  *CURSOR
+  {
+    *FICHERO    "Cursor_Orilla.tga"
+    *NOMBRE     NORMAL_ORILLA
+    *HOTSPOT    0 0
+  }
+  *CURSOR
+  {
+    *FICHERO    "Monigote.tga"
+    *NOMBRE     MONIGOTE
+    *HOTSPOT    2 2
+  }
+  *CURSOR
+  {
+    *FICHERO    "Prohibido.tga"
+    *NOMBRE     PROHIBIDO
+    *HOTSPOT    16 16
+  }
+  *CURSOR
+  {
+    *FICHERO    "Mover.tga"
+    *NOMBRE     MOVER
+    *HOTSPOT    1 1
+  }
+  *CURSOR
+  {
+    *FICHERO    "Mover_Bosque.tga"
+    *NOMBRE     MOVER_BOSQUE
+    *HOTSPOT    1 1
+  }
+  *CURSOR
+  {
+    *FICHERO    "Mover_Pradera.tga"
+    *NOMBRE     MOVER_PRADERA
+    *HOTSPOT    1 1
+  }
+  *CURSOR
+  {
+    *FICHERO    "Mover_Orilla.tga"
+    *NOMBRE     MOVER_ORILLA
+    *HOTSPOT    1 1
+  }
+  *CURSOR
+  {
+    *FICHERO    "Atacar.tga"
+    *NOMBRE     ATACAR
+    *HOTSPOT    1 1
+  }
+  *CURSOR
+  {
+    *FICHERO    "Atacar_Bosque.tga"
+    *NOMBRE     ATACAR_BOSQUE
+    *HOTSPOT    1 1
+  }
+  *CURSOR
+  {
+    *FICHERO    "Atacar_Pradera.tga"
+    *NOMBRE     ATACAR_PRADERA
+    *HOTSPOT    1 1
+  }
+  *CURSOR
+  {
+    *FICHERO    "Atacar_Orilla.tga"
+    *NOMBRE     ATACAR_ORILLA
+    *HOTSPOT    1 1
+  }
+  *CURSOR
+  {
+    *FICHERO    "Atacar_Predicado.tga"
+    *NOMBRE     ATACAR_PREDICADO
+    *HOTSPOT    1 1
+  }
+  *CURSOR
+  {
+    *FICHERO    "Atacar_Bosque_Predicado.tga"
+    *NOMBRE     ATACAR_BOSQUE_PREDICADO
+    *HOTSPOT    1 1
+  }
+  *CURSOR
+  {
+    *FICHERO    "Atacar_Pradera_Predicado.tga"
+    *NOMBRE     ATACAR_PRADERA_PREDICADO
+    *HOTSPOT    1 1
+  }
+  *CURSOR
+  {
+    *FICHERO    "Atacar_Orilla_Predicado.tga"
+    *NOMBRE     ATACAR_ORILLA_PREDICADO
+    *HOTSPOT    1 1
+  }
+  *CURSOR
+  {
+    *FICHERO    "Unir.tga"
+    *NOMBRE     UNIR
+    *HOTSPOT    1 1
+  }
+  *CURSOR
+  {
+    *FICHERO    "Desmantelar.tga"
+    *NOMBRE     DESMANTELAR
+    *HOTSPOT    16 16
+  }
+  *CURSOR
+  {
+    *FICHERO    "Orientar.tga"
+    *NOMBRE     ORIENTAR
+    *HOTSPOT    1 1
+  }
+  *CURSOR
+  {
+    *FICHERO    "Correr.tga"
+    *NOMBRE     CORRER
+    *HOTSPOT    1 1
+  }
+  *CURSOR
+  {
+    *FICHERO    "Proteger.tga"
+    *NOMBRE     PROTEGER
+    *HOTSPOT    1 1
+  }
+  *CURSOR
+  {
+    *FICHERO    "Proteger_Predicado.tga"
+    *NOMBRE     PROTEGER_PREDICADO
+    *HOTSPOT    1 1
+  }
+  *CURSOR
+  {
+    *FICHERO    "Patrullar.tga"
+    *NOMBRE     PATRULLAR
+    *HOTSPOT    1 1
+  }
+  *CURSOR
+  {
+    *FICHERO    "Patrullar_Pradera.tga"
+    *NOMBRE     PATRULLAR_PRADERA
+    *HOTSPOT    1 1
+  }
+  *CURSOR
+  {
+    *FICHERO    "Patrullar_Orilla.tga"
+    *NOMBRE     PATRULLAR_ORILLA
+    *HOTSPOT    1 1
+  }
+  *CURSOR
+  {
+    *FICHERO    "Aviso.tga"
+    *NOMBRE     AVISO
+    *HOTSPOT    1 1
+  }
+  *CURSOR
+  {
+    *FICHERO    "Reparar.tga"
+    *NOMBRE     REPARAR
+    *HOTSPOT    1 1
+  }
+  *CURSOR
+  {
+    *FICHERO    "Reparar_Predicado.tga"
+    *NOMBRE     REPARAR_PREDICADO
+    *HOTSPOT    1 1
+  }
+  *CURSOR
+  {
+    *FICHERO    "Kill.tga"
+    *NOMBRE     KILL
+    *HOTSPOT    0 0
+  }
+  *CURSOR
+  {
+    *FICHERO    "Cure.tga"
+    *NOMBRE     CURAR
+    *HOTSPOT    0 0
+  }
+  *CURSOR
+  {
+    *FICHERO    "build_garrison.tga"
+    *NOMBRE     BUILD_GARRISON
+    *HOTSPOT    0 0
+  }
+  *CURSOR
+  {
+    *FICHERO    "Construir_Puente.tga"
+    *NOMBRE     CONSTRUIR_PUENTE
+    *HOTSPOT    0 0
+  }
+  *CURSOR
+  {
+    *FICHERO    "EntrarPueblo.tga"
+    *NOMBRE     ENTRAR_PUEBLO
+    *HOTSPOT    0 0
+  }
+  *CURSOR
+  {
+    *FICHERO    "EjecutarHabilidad.tga"
+    *NOMBRE     EJECUTAR_HABILIDAD
+    *HOTSPOT    1 1
+  }
+  *CURSOR
+  {
+    *FICHERO    "AtacarTorre.tga"
+    *NOMBRE     ATACAR_TORRE
+    *HOTSPOT    3 3
+  }
+  *CURSOR
+  {
+    *FICHERO    "AsaltarTorre.tga"
+    *NOMBRE     ASALTAR_TORRE
+    *HOTSPOT    16 28
+  }
+  *CURSOR
+  {
+    *FICHERO    "ENTRARTORREASALTO.tga"
+    *NOMBRE     ENTRAR_TORRE_ASALTO
+    *HOTSPOT    16 28
+  }
+}

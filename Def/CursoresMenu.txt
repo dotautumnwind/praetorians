@@ -1,0 +1,8 @@
+{
+  *CURSOR
+  {
+    *FICHERO    "FlechaMenu.tga"
+    *NOMBRE     FLECHA_MENU
+    *HOTSPOT    0 0
+  }
+}

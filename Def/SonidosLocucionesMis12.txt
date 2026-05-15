@@ -1,0 +1,157 @@
+{
+  // -------------------------------------------------------------------------------------
+  // LOCUCIONES MISION 12
+  // -------------------------------------------------------------------------------------
+
+  // -------------------------------------------------------------------------------------
+  // BRIEFING
+  // -------------------------------------------------------------------------------------
+  *SONIDO
+  {
+    *NOMBRE         12N0
+    *FICHERO        "Narrador\12N0.ogi"
+    *ALIAS          "Briefing 1"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         12N1
+    *FICHERO        "Narrador\12N1.ogi"
+    *ALIAS          "Briefing 2"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         12N2
+    *FICHERO        "Narrador\12N2.ogi"
+    *ALIAS          "Briefing 3"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         12N3
+    *FICHERO        "Narrador\12N3.ogi"
+    *ALIAS          "Briefing 4"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         12N4
+    *FICHERO        "Narrador\12N4.ogi"
+    *ALIAS          "Briefing 5"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         12N5
+    *FICHERO        "Narrador\12N5.ogi"
+    *ALIAS          "Briefing 6"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+
+  // -------------------------------------------------------------------------------------
+  // MENSAJES
+  // -------------------------------------------------------------------------------------
+  *SONIDO
+  {
+    *NOMBRE         12N6
+    *FICHERO        "Narrador\12N6.ogi"
+    *ALIAS          "Mensaje 1"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         12N7
+    *FICHERO        "Narrador\12N7.ogi"
+    *ALIAS          "Mensaje 2"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         12N8
+    *FICHERO        "Narrador\12N8.ogi"
+    *ALIAS          "Mensaje 3"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         12N9
+    *FICHERO        "Narrador\12N9.ogi"
+    *ALIAS          "Mensaje 4"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         12NA
+    *FICHERO        "Narrador\12NA.ogi"
+    *ALIAS          "Mensaje 5"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         12NB
+    *FICHERO        "Narrador\12NB.ogi"
+    *ALIAS          "Mensaje 6"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         12NC
+    *FICHERO        "Narrador\12NC.ogi"
+    *ALIAS          "Mensaje 6"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+
+}

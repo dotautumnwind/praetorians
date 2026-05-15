@@ -1,0 +1,162 @@
+{
+  // -------------------------------------------------------------------------------------
+  // LOCUCIONES MISION 4
+  // -------------------------------------------------------------------------------------
+  
+  // -------------------------------------------------------------------------------------
+  // EVENTO 1
+  // -------------------------------------------------------------------------------------
+  *SONIDO
+  {
+    *NOMBRE         0440
+    *FICHERO        "Characters\0440.ogi"
+    *ALIAS          "Evento 1-0"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         0441
+    *FICHERO        "Characters\0441.ogi"
+    *ALIAS          "Evento 1-1"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         0442
+    *FICHERO        "Characters\0442.ogi"
+    *ALIAS          "Evento 1-2"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         0443
+    *FICHERO        "Characters\0443.ogi"
+    *ALIAS          "Evento 1-3"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  // -------------------------------------------------------------------------------------
+  // EVENTO 2
+  // -------------------------------------------------------------------------------------
+  *SONIDO
+  {
+    *NOMBRE         0444
+    *FICHERO        "Characters\0444.ogi"
+    *ALIAS          "Evento 2"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         0445
+    *FICHERO        "Characters\0445.ogi"
+    *ALIAS          "Evento 2"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  // -------------------------------------------------------------------------------------
+  // EVENTO 3
+  // -------------------------------------------------------------------------------------
+  *SONIDO
+  {
+    *NOMBRE         0410
+    *FICHERO        "Characters\0410.ogi"
+    *ALIAS          "Evento 3"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         0411
+    *FICHERO        "Characters\0411.ogi"
+    *ALIAS          "Evento 3"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  // -------------------------------------------------------------------------------------
+  // EVENTO 4
+  // -------------------------------------------------------------------------------------
+  *SONIDO
+  {
+    *NOMBRE         0446
+    *FICHERO        "Characters\0446.ogi"
+    *ALIAS          "Evento 4"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         0447
+    *FICHERO        "Characters\0447.ogi"
+    *ALIAS          "Evento 4"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         0448
+    *FICHERO        "Characters\0448.ogi"
+    *ALIAS          "Evento 4"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         0449
+    *FICHERO        "Characters\0449.ogi"
+    *ALIAS          "Evento 4"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         044A
+    *FICHERO        "Characters\044A.ogi"
+    *ALIAS          "Evento 4"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+
+}

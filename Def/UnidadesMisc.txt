@@ -1,0 +1,175 @@
+{
+  // Unidades varias que no luchan
+  
+  *UNIDAD
+	{
+		*RAZA 									ROMANOS
+		*NOMBRE_TRADUCIBLE      LTEXT_UNIDAD_CARRO
+		*TIPO 									CARRO
+		*ORDEN_									GRUPO ORDEN_GRUPO_FILA5
+		*BASE 									CARRO
+		*FLAG 									FLAG_NO_PUEDE_CONSTRUIR
+		*FLAG 									FLAG_ESQUIVABLE
+		*FLAG                   FLAG_HACE_INCLINACION
+		*FLAG									  FLAG_NO_ATAQUE
+		*FLAG                   FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*FLAG                   FLAG_SOMBRA_ROTABLE
+		*CANTIDAD_HUMO_RASTRO   1.0
+		*TERRENO 								AGUA_PROFUNDA
+		//*TERRENO 								BOSQUE_LIGERO
+		*TERRENO 								BOSQUE_CERRADO
+		*TERRENO                ORILLA
+		//*TERRENO 								MURALLA// este para que pueda pasar por la puerta de las murallas
+		*TERRENO								FIN_ESCENARIO
+		//*TERRENO 								PRADERA
+		*VIDA 									1000
+		*RAD_VISION 						15
+		*MOTOR 									CARRO
+		*FLAGSNOPASABLES 				FLAG_PENDIENTE2
+		*FLAGSNOPASABLES 			  FLAG_BLOQUEADO_MAQUINAS
+		*ALCANCE 								CORTO
+		*CATEGORIA_CARGA 				0
+		*IDTEXICONOTROPA 				UnidadesCiv2.tga
+		*IDTEXPINFO 						0
+		*IDTEXPINFOGRANDE 			3		
+		*COORDICONOTROPA 				1
+		*COORDPINFO 					  6 3
+		*COORDPINFOGRANDE 			1 1
+		*REPOSOS_E 							0		
+    *RADIO_RODEO_X					1.1
+		*RADIO_RODEO_Y					0.8
+		*ANCHO 									2.5
+		*ALTO 									1.5
+		*IDSOMBRA 							4
+		*ANCHO_SOMBRA 					1
+		*ALTO_SOMBRA 						1
+		*VELOCIDADGIRO          1
+		//*HABILIDAD 						  FISICO
+		*FORMACION 							CARRO
+		*FORMACION 							CARRO_GIRO_DERECHA
+		*FORMACION 							CARRO_GIRO_IZQUIERDA
+		*FORMACION_ESTANDAR 		CARRO		
+		*EXPERIENCIA_POR_MORIR	5
+		//*CENTRO_RODEO           1.0 0
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE							30
+				*PROYECTIL					0
+				*INCENDIO						10
+				*EDIFICIO						80
+				*GOLPE							0
+			}
+			*NOMBRE								NORMAL
+			*VELOCIDAD						20
+		}
+		*ESPECIAL
+		{
+			*TIPO									ESPECIAL_MAQUINA
+			*ENGANCHE
+			{
+			  *REPRESENTACION 		MRE_CR_GUIA_Base
+			  *REF_POS        		0 -0.25
+			  *REF_UNIDAD     		0 0
+			  *POSICION       		1.0 0
+			}
+		}	
+		*POTENCIA_TROPA 				0
+	}
+	*UNIDAD
+	{
+		*RAZA 									ROMANOS
+		*TIPO 									CABALLO_CARRO
+		*ORDEN_GRUPO 						ORDEN_GRUPO_FILA5
+		*BASE 									CARRO
+		*TERRENO 								AGUA_PROFUNDA
+		*TERRENO								FIN_ESCENARIO
+		*TERRENO                ORILLA
+		*FLAG									  FLAG_NO_ATAQUE
+		*FLAG                   FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*FLAG                   FLAG_SOMBRA_ROTABLE
+		*CANTIDAD_HUMO_RASTRO   0.7
+		*VIDA 									100
+		*RAD_VISION 						15
+		*MOTOR 									MRE_CR_CABALLO_Base
+		*FLAGSNOPASABLES 				FLAG_PENDIENTE2
+		*FLAGSNOPASABLES 			  FLAG_BLOQUEADO_MAQUINAS
+		*ALCANCE 								CORTO
+		*CATEGORIA_CARGA 				0
+		*IDTEXICONOTROPA 				UnidadesCiv2.tga
+		*IDTEXPINFO	 						0
+		*IDTEXPINFOGRANDE 			0
+		*IDTEXORDEN 						0
+		*COORDORDEN							4 0
+		*COORDICONOTROPA 				1
+		*COORDPINFO 						0 6
+		*COORDPINFOGRANDE 			1 2
+		*REPOSOS_E 							3
+		*ANCHO_SOMBRA 					0.7
+		*ALTO_SOMBRA 						0.2
+		*IDSOMBRA 							8
+		*FORMACION 							CARRO
+		*FORMACION_ESTANDAR 		CARRO 
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE							80
+				*PROYECTIL					80
+				*INCENDIO						0
+				*EDIFICIO						80
+				*GOLPE							0
+				
+			}
+			*NOMBRE								NORMAL
+			*VELOCIDAD						20
+		}
+		*POTENCIA_TROPA 				0
+	}
+	*UNIDAD
+	{
+		*RAZA 									ROMANOS
+		*TIPO 									PILOTO_CARRO
+		*ORDEN_GRUPO 						ORDEN_GRUPO_FILA5
+		*BASE 									CARRO
+		*TERRENO 								AGUA_PROFUNDA
+		*TERRENO								FIN_ESCENARIO
+		*TERRENO                ORILLA
+		*FLAG									  FLAG_NO_ATAQUE
+		*FLAG                   FLAG_SOMBRA_ROTABLE
+		*VIDA 									100
+		*RAD_VISION 						15
+		*MOTOR 									MRE_CR_PILOTO_Base
+		*FLAGSNOPASABLES 				FLAG_PENDIENTE2
+		*FLAGSNOPASABLES 			  FLAG_BLOQUEADO_MAQUINAS
+		*ALCANCE 								CORTO
+		*CATEGORIA_CARGA 				0
+		*IDTEXICONOTROPA		 		UnidadesCiv2.tga
+		*IDTEXPINFO 						0
+		*IDTEXPINFOGRANDE 			0
+		*IDTEXORDEN 						0
+		*COORDORDEN							4 0
+		*COORDICONOTROPA	 			1
+		*COORDPINFO 						0 6
+		*COORDPINFOGRANDE 			1 2
+		*REPOSOS_E 							1
+		*ANDARES_E 							1
+		*FORMACION 							CARRO
+		*FORMACION_ESTANDAR 		CARRO 
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE							80
+				*PROYECTIL					80
+				*INCENDIO						0
+				*EDIFICIO						80
+				*GOLPE							0
+			}
+			*NOMBRE								NORMAL
+			*VELOCIDAD						20
+		}
+		*POTENCIA_TROPA 				0
+	}
+}

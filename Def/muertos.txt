@@ -1,0 +1,549 @@
+{
+	*TEXTURA_SOMBRAS "SHADOW_MUERTOS.TGA"
+	*UNIDAD
+	{
+		*MOTOR 					"PRIL_BASE"
+		*TAM 						0.28 0.55
+		*OFFSET 				0.04 0 -0.21
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0.25 0.63
+		*OFFSET_SOMBRA 	0.01 -0.1 -0.16
+		*ID_SOMBRA 0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"PRAR_BASE"
+		*TAM 						0.37 0.58
+		*OFFSET 				-0.08 0 -0.19
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0.27 0.59
+		*OFFSET_SOMBRA 	0.03 -0.1 -0.2
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"PRAC_BASE"
+		*TAM 						0.54 0.51
+		*OFFSET 				0.19 0 -0.03
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0.07 -0.03
+		*OFFSET_SOMBRA 	0 0 0
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"PRC1_BASE"
+		*TAM 						0.54 0.58
+		*OFFSET 				0.11 0 -0.19
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0.32 0.69
+		*OFFSET_SOMBRA 	0 -0.1 -0.2
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"PRCP_BASE"
+		*TAM 						0.61 0.66
+		*OFFSET 				0.13 0 -0.13
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0.48 0.61
+		*OFFSET_SOMBRA 	0.24 -0.1 -0.25
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"PRIP_BASE"
+		*TAM 						0.3 0.58
+		*OFFSET 				0.18 0 -0.21
+		*TEXTURA	 			0 "R1.TGA"
+		*TAM_SOMBRA 		0.27 0.62
+		*OFFSET_SOMBRA 	0.21 -0.1 -0.15
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"PRIN_BASE"
+		*TAM 						0.39 0.68
+		*OFFSET 				0.06 0 -0.29
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0.29 0.6
+		*OFFSET_SOMBRA 	0.09 -0.1 -0.18
+		*ID_SOMBRA 			0
+	}
+  *UNIDAD
+	{
+		*MOTOR 					"PRPI_BASE"
+		*TAM 						0.33 0.92
+		*OFFSET 				0.03 0 -0.49
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0.27 0.64
+		*OFFSET_SOMBRA 	0.07 -0.1 -0.14
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"PRME_BASE"
+		*TAM 						0.63 0.68
+		*OFFSET 				0.04 0 -0.25
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0 0
+		*OFFSET_SOMBRA 	0 0 0
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"PRE_BASE"
+		*TAM 						0.35 0.48
+		*OFFSET 				0.05 0 -0.26
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0 0
+		*OFFSET_SOMBRA 	0 0 0
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR	 				"PRGL_T2_BASE"
+		*TAM 						0.54 0.67
+		*OFFSET 				0.1 0 -0.45
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0 0
+		*OFFSET_SOMBRA 	0 0 0
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"PRGL_BASE"
+		*TAM 						0.56 0.68
+		*OFFSET 				0.09 0 -0.46
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0 0
+		*OFFSET_SOMBRA 	0 0 0
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"PRGL_T3_BASE"
+		*TAM 						0.51 0.75
+		*OFFSET 				0.05 0 -0.49
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0 0
+		*OFFSET_SOMBRA 	0 0 0
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"PRHO_BASE"
+		*TAM 						0.4 0.5
+		*OFFSET 				0.1 0 -0.32
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0.07 -0.03
+		*OFFSET_SOMBRA 	0 0 0
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"PRESP_BASE"
+		*TAM 						0.4 0.5
+		*OFFSET 				0.1 0 -0.32
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0.07 -0.03
+		*OFFSET_SOMBRA 	0 0 0
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"PRECE_BASE"
+		*TAM 						0.4 0.5
+		*OFFSET 				0.1 0 -0.32
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0.07 -0.03
+		*OFFSET_SOMBRA 	0 0 0
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"PRGC_BASE"
+		*TAM 						0.58 0.59
+		*OFFSET 				-0.06 0 -0.13
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0 0
+		*OFFSET_SOMBRA 	0 0 0
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"PRECR_BASE"
+		*TAM 						0.58 0.59
+		*OFFSET 				-0.06 0 -0.13
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0 0
+		*OFFSET_SOMBRA 	0 0 0
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"MRE_CATAPULTA"
+		*TAM_SOMBRA 		0.26 0.63
+		*OFFSET_SOMBRA 	0 -0.1 -0.2
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"MRE_ARIETE"
+		*TAM_SOMBRA 		0.26 0.63
+		*OFFSET_SOMBRA 	0 -0.1 -0.2
+		*ID_SOMBRA	 		0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"MRE_BALLESTA"
+		*TAM_SOMBRA 		0.26 0.63
+		*OFFSET_SOMBRA 	0 -0.1 -0.2
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"MRE_CR_CARRO_BASE"
+		*TAM_SOMBRA 		0.26 0.63
+		*OFFSET_SOMBRA 	0 -0.1 -0.2
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"MRE_TORRE_ASALTO"
+		*TAM_SOMBRA 		0.26 0.63
+		*OFFSET_SOMBRA 	0 -0.1 -0.2
+		*ID_SOMBRA 			0
+	}
+	
+	*UNIDAD
+	{
+		*MOTOR 					"PGAC_BASE"
+		*TAM 						0.57 0.51
+		*OFFSET 				0.18 0 -0.06
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0 0
+		*OFFSET_SOMBRA 	0 0 0
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"PGAR_BASE"
+		*TAM 						0.39 0.6
+		*OFFSET 				0.04 0 -0.27
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0.27 0.61
+		*OFFSET_SOMBRA 	0.04 -0.1 -0.17
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"PGCP_BASE"
+		*TAM 						0.63 0.59
+		*OFFSET 				0.04 0 -0.09
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0.71 0.78
+		*OFFSET_SOMBRA 	0.08 0 -0.09
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"PGIL_BASE"
+		*TAM 						0.52 0.47
+		*OFFSET 				0.16 0 -0.3
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0.27 0.58
+		*OFFSET_SOMBRA 	0 -0.1 -0.19
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"PGIP_BASE"
+		*TAM 						0.52 0.51
+		*OFFSET 				0.04 0 -0.23
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0.28 0.7
+		*OFFSET_SOMBRA 	0.09 -0.1 -0.25
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"PGIN_BASE"
+		*TAM 						0.49 0.52
+		*OFFSET 				-0.02 0 -0.25
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0.42 0.63
+		*OFFSET_SOMBRA 	0.04 -0.1 -0.16
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"PGJE_BASE"
+		*TAM 						0.59 0.55
+		*OFFSET 				0.27 0 -0.26
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0.36 0.67
+		*OFFSET_SOMBRA 	0.07 -0.1 -0.21
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"PGPI_BASE"
+		*TAM 						0.49 0.56
+		*OFFSET 				0.01 0 -0.34
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0.26 0.63
+		*OFFSET_SOMBRA 	0 -0.1 -0.2
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"PGME_BASE"
+		*TAM 						0.58 0.59
+		*OFFSET 				-0.06 0 -0.13
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0 0
+		*OFFSET_SOMBRA 	0 0 0
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"PGCA_BASE"
+		*TAM 						0.58 0.59
+		*OFFSET 				-0.06 0 -0.13
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0 0
+		*OFFSET_SOMBRA 	0 0 0
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"PGTA_BASE"
+		*TAM 						0.58 0.59
+		*OFFSET 				-0.06 0 -0.13
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0 0
+		*OFFSET_SOMBRA 	0 0 0
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"MGE_CATAPULTA"
+		*TAM_SOMBRA 		0.26 0.63
+		*OFFSET_SOMBRA 	0 -0.1 -0.2
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"MGE_ARIETE"
+		*TAM_SOMBRA 		0.26 0.63
+		*OFFSET_SOMBRA 	0 -0.1 -0.2
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"MGE_BALLESTA"
+		*TAM_SOMBRA 		0.26 0.63
+		*OFFSET_SOMBRA 	0 -0.1 -0.2
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"MGE_CR_CARRO_BASE"
+		*TAM_SOMBRA 		0.26 0.63
+		*OFFSET_SOMBRA 	0 -0.1 -0.2
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"MGE_TORRE_ASALTO"
+		*TAM_SOMBRA 		0.26 0.63
+		*OFFSET_SOMBRA 	0 -0.1 -0.2
+		*ID_SOMBRA 			0
+	}
+  *UNIDAD
+	{
+		*MOTOR 					"PACP_BASE"
+		*TAM 						0.5 0.56
+		*OFFSET 				0.07 0 -0.42
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0 0
+		*OFFSET_SOMBRA 	0 0 0
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"PGE_BASE"
+		*TAM 						0.5 0.56
+		*OFFSET 				0.07 0 -0.42
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0 0
+		*OFFSET_SOMBRA 	0 0 0
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR					"PEAR_BASE"
+		*TAM 						0.32 0.53
+		*OFFSET 				0.08 0 -0.22
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0.26 0.59
+		*OFFSET_SOMBRA 	0.12 0 -0.23
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"PEARN_BASE"
+		*TAM 						0.34 0.56
+		*OFFSET 				0.1 0 -0.25
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0.24 0.55
+		*OFFSET_SOMBRA 	0.16 0 -0.29
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"PEAC_BASE"
+		*TAM 						0.69 0.44
+		*OFFSET 				0.18 0 0.04
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0 0
+		*OFFSET_SOMBRA 	0 0 0
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"PECP_BASE"
+		*TAM 						0.5 0.68
+		*OFFSET 				-0.02 0 0.04
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA		 	0 0
+		*OFFSET_SOMBRA 	0 0 0
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"PEIL_BASE"
+		*TAM 						0.27 0.54
+		*OFFSET 				0.09 0 -0.16
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0.32 0.58
+		*OFFSET_SOMBRA 	0.11 0 -0.21
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"PEIP_BASE"
+		*TAM 						0.31 0.59
+		*OFFSET 				0.06 0 -0.21
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0.33 0.59
+		*OFFSET_SOMBRA 	0.04 0 -0.18
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"PEIN_BASE"
+		*TAM 						0.35 0.62
+		*OFFSET 				0.05 0 -0.2
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0.31 0.67
+		*OFFSET_SOMBRA 	0.12 0 -0.29
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"PEJE_BASE"
+		*TAM 						0.29 0.61
+		*OFFSET 				0.06 0 -0.19
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0.24 0.55
+		*OFFSET_SOMBRA 	0.07 0 -0.25
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"PEPI_BASE"
+		*TAM 						0.32 0.73
+		*OFFSET 				0.08 0 -0.35
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0.19 0.62
+		*OFFSET_SOMBRA 	0.13 0 -0.27
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"PEME_BASE"
+		*TAM 						0.58 0.66
+		*OFFSET 				0.02 0 -0.06
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0 0
+		*OFFSET_SOMBRA 	0 0 0
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"PECPA_BASE"
+		*TAM 						0.59 0.64
+		*OFFSET 				0.08 0 -0.12
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0 0
+		*OFFSET_SOMBRA 	0 0 0
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"PEE_BASE"
+		*TAM 						0.37 0.74
+		*OFFSET 				0.05 0 -0.34
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0.34 0.71
+		*OFFSET_SOMBRA 	0.18 0 -0.2
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"PEC_BASE"
+		*TAM 						0.37 0.74
+		*OFFSET 				0.05 0 -0.34
+		*TEXTURA 				0 "R1.TGA"
+		*TAM_SOMBRA 		0.34 0.71
+		*OFFSET_SOMBRA 	0.18 0 -0.2
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"MEE_CATAPULTA"
+		*TAM_SOMBRA 		0.26 0.63
+		*OFFSET_SOMBRA 	0 -0.1 -0.2
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"MEE_ARIETE"
+		*TAM_SOMBRA 		0.26 0.63
+		*OFFSET_SOMBRA 	0 -0.1 -0.2
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"MEE_BALLESTA"
+		*TAM_SOMBRA 		0.26 0.63
+		*OFFSET_SOMBRA 	0 -0.1 -0.2
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"MEE_CR_CARRO_BASE"
+		*TAM_SOMBRA 		0.26 0.63
+		*OFFSET_SOMBRA 	0 -0.1 -0.2
+		*ID_SOMBRA 			0
+	}
+	*UNIDAD
+	{
+		*MOTOR 					"MEE_TORRE_ASALTO"
+		*TAM_SOMBRA 		0.26 0.63
+		*OFFSET_SOMBRA 	0 -0.1 -0.2
+		*ID_SOMBRA 			0
+	}
+}

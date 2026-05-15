@@ -1,0 +1,49 @@
+{
+  // -------------------------------------------------------------------------------------
+  // ESTRUCTURAS
+  // -------------------------------------------------------------------------------------
+  
+  *SONIDO
+  {
+    *NOMBRE         XGDT
+    *FICHERO        "derrumbamiento_03.wav"
+    *FICHERO        "derrumbamiento_04.wav"
+    *FICHERO        "derrumbamiento_05.wav"
+    *FICHERO        "derrumbamiento_06.wav"
+    *FICHERO        "derrumbamiento_07.wav"
+    *ALIAS          "Estructura guarnicion destruyendose"
+    *FLAG           FLAG_GENERICO
+    *TIPO           TIPO_EFECTO
+    *FLAG           FLAG_SONIDO_CORTO
+    *VOLUMEN        0.2f
+  }  
+  *SONIDO
+  {
+    *NOMBRE         XTDT
+    *FICHERO        "derrumbamiento_03.wav"
+    *FICHERO        "derrumbamiento_04.wav"
+    *FICHERO        "derrumbamiento_05.wav"
+    *FICHERO        "derrumbamiento_06.wav"
+    *FICHERO        "derrumbamiento_07.wav"
+    *ALIAS          "Estructura torre defensa destruyendose"
+    *TIPO           TIPO_EFECTO
+    *FLAG           FLAG_GENERICO
+    *FLAG           FLAG_SONIDO_CORTO
+    *VOLUMEN        0.2f
+  }  
+  *SONIDO
+  {
+    *NOMBRE         XADT
+    *FICHERO        "derrumbamiento_03.wav"
+    *FICHERO        "derrumbamiento_04.wav"
+    *FICHERO        "derrumbamiento_05.wav"
+    *FICHERO        "derrumbamiento_06.wav"
+    *FICHERO        "derrumbamiento_07.wav"
+    *ALIAS          "Estructura andamio destruyendose"
+    *FLAG           FLAG_GENERICO
+    *TIPO           TIPO_EFECTO
+    *FLAG           FLAG_SONIDO_CORTO
+    *VOLUMEN        0.2f
+  }  
+
+}

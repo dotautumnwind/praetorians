@@ -1,0 +1,578 @@
+{
+//***************************************************************************
+//***************************************************************************
+//*************************        MAQUNAS       ****************************
+//***************************************************************************
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD 							CATAPULTA_ROMANA
+		*ESTADO 							NORMAL
+		*DANYO
+		{
+			*MELEE 							1000
+			*PROYECTIL 					2000
+			*INCENDIO 					0
+			*EDIFICIO					 	2000
+			*GOLPE							0
+		}
+		*RITMO 								10
+		*RANGO_MIN 						5
+		*RANGO_MAX 						20
+		*TIPO_DANYO 					DANYO_AREA 
+		*RADIO_AREA					 	0.7
+		*COEF_AREA_A 					1
+		*COEF_AREA_B					0 
+		*FUEGO_ALIADO 				SI
+		*TIPO									TIPO_DISTANCIA
+		*TIPOLOGIA_DANYO			PROYECTIL
+		*MUNICION							PIEDRA
+	}
+	*ARMA
+	{
+		*UNIDAD 							CATAPULTA_ROMANA
+		*ESTADO 							FUEGO
+		*FLAG 								FLAG_FUEGO
+		*DANYO
+		{
+			*MELEE 							100                 
+			*PROYECTIL 					200                 
+			*INCENDIO 					6000                
+			*EDIFICIO					 	200
+			*GOLPE							0
+		}
+		*RITMO 								10
+		*RANGO_MIN 						5
+		*RANGO_MAX 						20
+		*TIPO_DANYO 					DANYO_AREA
+		*RADIO_AREA 					0.9
+		*COEF_AREA_A					1
+		*COEF_AREA_B					0
+		*FUEGO_ALIADO 				SI
+		*TIPO									TIPO_DISTANCIA
+		*TIPOLOGIA_DANYO			PROYECTIL
+		*MUNICION							PIEDRA
+	}
+	*ARMA
+	{
+		*UNIDAD 							CATAPULTA_ROMANA
+		*ESTADO 							DISPARO_METRALLA
+		*FLAG 								FLAG_METRALLA
+		*DANYO
+		{
+			*MELEE 							500
+			*PROYECTIL 					500
+			*INCENDIO 					0
+			*EDIFICIO 					0
+			*GOLPE							0
+		}
+		*RITMO 								10
+		*RANGO_MIN 						5
+		*RANGO_MAX 						20
+		*TIPO_DANYO 					DANYO_AREA
+		*RADIO_AREA 					2.5
+		*COEF_AREA_A					1
+		*COEF_AREA_B					1
+		*FUEGO_ALIADO 				SI
+		*TIPO									TIPO_DISTANCIA
+		*TIPOLOGIA_DANYO			PROYECTIL
+		*MUNICION							PIEDRA_METRALLA
+	}	
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD 							CATAPULTA_BARBARA
+		*ESTADO					 			NORMAL
+		*DANYO
+		{
+			*MELEE 							1000
+			*PROYECTIL 					2000
+			*INCENDIO 					0
+			*EDIFICIO 					2000
+			*GOLPE							0
+		}
+		*RITMO 								10
+		*RANGO_MIN 						5
+		*RANGO_MAX 						20
+		*TIPO_DANYO 					DANYO_AREA 
+		*RADIO_AREA 					0.9
+		*COEF_AREA_A 					1 
+		*COEF_AREA_B					0 
+		*FUEGO_ALIADO 				SI
+		*TIPO									TIPO_DISTANCIA
+		*TIPOLOGIA_DANYO			PROYECTIL
+		*MUNICION							PIEDRA
+	}
+	*ARMA
+	{
+		*UNIDAD 							CATAPULTA_BARBARA
+		*ESTADO 							FUEGO
+		*FLAG 								FLAG_FUEGO
+		*DANYO
+		{
+			*MELEE 							100                 
+			*PROYECTIL 					200                 
+			*INCENDIO 					6000                
+			*EDIFICIO					 	200
+			*GOLPE							0
+		}
+		*RITMO 								10
+		*RANGO_MIN 						5
+		*RANGO_MAX 						20
+		*TIPO_DANYO 					DANYO_AREA
+		*RADIO_AREA 					0.7
+		*COEF_AREA_A					1
+		*COEF_AREA_B					0
+		*FUEGO_ALIADO 				SI
+		*TIPO									TIPO_DISTANCIA
+		*TIPOLOGIA_DANYO			PROYECTIL
+		*MUNICION							PIEDRA
+	}
+	*ARMA
+	{
+		*UNIDAD 							CATAPULTA_BARBARA
+		*ESTADO 							DISPARO_METRALLA
+		*FLAG 								FLAG_METRALLA
+		*DANYO
+		{
+			*MELEE 							500
+			*PROYECTIL 					500
+			*INCENDIO 					0
+			*EDIFICIO 					0
+			*GOLPE							0
+		}
+		*RITMO 								10
+		*RANGO_MIN 						5
+		*RANGO_MAX 						20
+		*TIPO_DANYO 					DANYO_AREA
+		*RADIO_AREA 					2.5
+		*COEF_AREA_A					1
+		*COEF_AREA_B					1
+		*FUEGO_ALIADO 				SI
+		*TIPO									TIPO_DISTANCIA
+		*TIPOLOGIA_DANYO			PROYECTIL
+		*MUNICION							PIEDRA_METRALLA
+	}
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD 							CATAPULTA_EGIPCIA
+		*ESTADO					 			NORMAL
+		*DANYO
+		{
+			*MELEE 							1000
+			*PROYECTIL 					2000
+			*INCENDIO 					0
+			*EDIFICIO					 	2000
+			*GOLPE							0
+		}
+		*RITMO 								10
+		*RANGO_MIN 						5
+		*RANGO_MAX 						20
+		*TIPO_DANYO 					DANYO_AREA 
+		*RADIO_AREA 					0.9
+		*COEF_AREA_A 					1 
+		*COEF_AREA_B					0 
+		*FUEGO_ALIADO 				SI
+		*TIPO									TIPO_DISTANCIA
+		*MUNICION							PIEDRA
+	}
+	*ARMA
+	{
+		*UNIDAD 							CATAPULTA_EGIPCIA
+		*ESTADO 							FUEGO
+		*FLAG					 				FLAG_FUEGO
+		*DANYO
+		{
+			*MELEE 							100                 
+			*PROYECTIL 					200                 
+			*INCENDIO 					6000                
+			*EDIFICIO					 	200
+			*GOLPE							0
+		}
+		*RITMO 								10
+		*RANGO_MIN 						5
+		*RANGO_MAX 						20
+		*TIPO_DANYO 					DANYO_AREA
+		*RADIO_AREA 					0.7
+		*COEF_AREA_A					1
+		*COEF_AREA_B					0
+		*FUEGO_ALIADO 				SI
+		*TIPO									TIPO_DISTANCIA
+		*TIPOLOGIA_DANYO			PROYECTIL
+		*MUNICION							PIEDRA
+	}
+	*ARMA
+	{
+		*UNIDAD 							CATAPULTA_EGIPCIA
+		*ESTADO 							DISPARO_METRALLA
+		*FLAG 								FLAG_METRALLA
+		*DANYO
+		{
+			*MELEE 							500
+			*PROYECTIL 					500
+			*INCENDIO 					0
+			*EDIFICIO 					0
+			*GOLPE							0
+		}
+		*RITMO 								10
+		*RANGO_MIN 						5
+		*RANGO_MAX 						20
+		*TIPO_DANYO 					DANYO_AREA
+		*RADIO_AREA 					2.5
+		*COEF_AREA_A					1
+		*COEF_AREA_B					1
+		*FUEGO_ALIADO 				SI
+		*TIPO									TIPO_DISTANCIA
+		*TIPOLOGIA_DANYO			PROYECTIL
+		*MUNICION							PIEDRA_METRALLA
+	}
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD 							BALLESTA_MOVIL_ROMANA
+		*ESTADO 							NORMAL
+		*DANYO
+		{
+			*MELEE 							500
+			*PROYECTIL 					5000
+			*INCENDIO 					0
+			*EDIFICIO 					1000
+			*GOLPE							0
+		}
+		*RITMO 								6
+		*RANGO_MIN 						5
+		*RANGO_MAX 						18
+		*TIPO_DANYO 					DANYO_MOVIMIENTO
+		*DISTANCIA_EMBESTIDA 	0.5
+		*FUEGO_ALIADO 				SI
+		*TIPO									TIPO_DISTANCIA
+		*MUNICION							FLECHA_BALLESTA
+	}
+	*ARMA
+	{
+		*UNIDAD 							BALLESTA_MOVIL_ROMANA
+		*ESTADO 							FUEGO
+		*FLAG 								FLAG_FUEGO
+		*DANYO
+		{
+			*MELEE 							300
+			*PROYECTIL 					3000
+			*INCENDIO 					700
+			*EDIFICIO 					1000
+			*GOLPE							0
+		}
+		*RITMO 								6
+		*RANGO_MIN 						5
+		*RANGO_MAX 						18
+		*TIPO_DANYO 					DANYO_MOVIMIENTO
+		*DISTANCIA_EMBESTIDA 	0.5
+		*FUEGO_ALIADO 				SI
+		*TIPO									TIPO_DISTANCIA
+		*TIPOLOGIA_DANYO			PROYECTIL
+		*MUNICION							FLECHA_BALLESTA
+	}
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD 							BALLESTA_MOVIL_EGIPCIA
+		*ESTADO 							NORMAL
+		*DANYO
+		{
+			*MELEE 							500
+			*PROYECTIL 					5000
+			*INCENDIO 					0
+			*EDIFICIO 					1000
+			*GOLPE							0
+		}
+		*RITMO 								6
+		*RANGO_MIN 						5
+		*RANGO_MAX 						18
+		*TIPO_DANYO 					DANYO_MOVIMIENTO
+		*DISTANCIA_EMBESTIDA 	0.5
+		*FUEGO_ALIADO 				SI
+		*TIPO									TIPO_DISTANCIA
+		*MUNICION							FLECHA_BALLESTA
+	}
+	*ARMA
+	{
+		*UNIDAD 							BALLESTA_MOVIL_EGIPCIA
+		*ESTADO 							FUEGO
+		*FLAG 								FLAG_FUEGO
+		*DANYO
+		{
+			*MELEE 							300
+			*PROYECTIL 					3000
+			*INCENDIO 					700
+			*EDIFICIO 					1000
+			*GOLPE							0
+		}
+		*RITMO 								6
+		*RANGO_MIN 						5
+		*RANGO_MAX 						18
+		*TIPO_DANYO 					DANYO_MOVIMIENTO
+		*DISTANCIA_EMBESTIDA 	0.5
+		*FUEGO_ALIADO 				SI
+		*TIPO									TIPO_DISTANCIA
+		*TIPOLOGIA_DANYO			PROYECTIL
+		*MUNICION							FLECHA_BALLESTA
+	}
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD					 			BALLESTA_MOVIL_BARBARA
+		*ESTADO 							NORMAL
+		*DANYO
+		{
+			*MELEE 							500
+			*PROYECTIL 					5000
+			*INCENDIO 					0
+			*EDIFICIO 					1000
+			*GOLPE							0
+		}
+		*RITMO 								6
+		*RANGO_MIN 						5
+		*RANGO_MAX 						18
+		*TIPO_DANYO 					DANYO_MOVIMIENTO
+		*DISTANCIA_EMBESTIDA 	0.5
+		*FUEGO_ALIADO		 			SI
+		*TIPO									TIPO_DISTANCIA
+		*MUNICION							FLECHA_BALLESTA
+	}
+	*ARMA
+	{
+		*UNIDAD 							BALLESTA_MOVIL_BARBARA
+		*ESTADO 							FUEGO
+		*FLAG 								FLAG_FUEGO
+		*DANYO
+		{
+			*MELEE 							300
+			*PROYECTIL 					3000
+			*INCENDIO 					700
+			*EDIFICIO 					1000
+			*GOLPE							0
+		}
+		*RITMO 								6
+		*RANGO_MIN 						5
+		*RANGO_MAX 						18
+		*TIPO_DANYO 					DANYO_MOVIMIENTO
+		*DISTANCIA_EMBESTIDA 	0.5
+		*FUEGO_ALIADO 				SI
+		*TIPO									TIPO_DISTANCIA
+		*TIPOLOGIA_DANYO			PROYECTIL
+		*MUNICION							FLECHA_BALLESTA
+	}
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD 							ARIETE_ROMANO
+		*ESTADO 							CARGA
+		*DANYO
+		{
+			*MELEE 							3000
+			*PROYECTIL 					10
+			*INCENDIO 					0
+			*EDIFICIO 					3000
+			*GOLPE							0
+		}
+		*RITMO 								3
+		*RANGO_MIN 						0
+		*RANGO_MAX 						6
+		*FUEGO_ALIADO 				SI
+		*TIPO									TIPO_CC
+	}
+	*ARMA
+	{
+		*UNIDAD					 			ARIETE_ROMANO
+		*ESTADO 							NORMAL
+		*DANYO
+		{
+			*MELEE 							200
+			*PROYECTIL 					100
+			*INCENDIO 					0
+			*EDIFICIO 					3000
+			*GOLPE							0
+		}
+		*RITMO 								3
+		*RANGO_MIN 						6
+		*RANGO_MAX 						12
+		*TIPO									TIPO_CC
+	}
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD 							ARIETE_BARBARO
+		*ESTADO					 			CARGA
+		*DANYO
+		{
+			*MELEE 							3000
+			*PROYECTIL 					10
+			*INCENDIO 					0
+			*EDIFICIO 					3000
+			*GOLPE							0
+		}
+		*RITMO 								3
+		*RANGO_MIN	 					0
+		*RANGO_MAX 						6
+		*FUEGO_ALIADO 				SI
+		*TIPO									TIPO_CC
+	}
+	*ARMA
+	{
+		*UNIDAD 							ARIETE_BARBARO
+		*ESTADO 							NORMAL
+		*DANYO
+		{
+			*MELEE 							200
+			*PROYECTIL 					100
+			*INCENDIO 					0
+			*EDIFICIO 					3000
+		}
+		*RITMO 								3
+		*RANGO_MIN 						6
+		*RANGO_	MAX 					12
+		*TIPO									TIPO_CC
+	}
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD					 			ARIETE_EGIPCIO
+		*ESTADO 							CARGA
+		*DANYO
+		{
+			*MELEE 							3000
+			*PROYECTIL 					10
+			*INCENDIO 					0
+			*EDIFICIO 					3000
+			*GOLPE							0
+		}
+		*RITMO 								3
+		*RANGO_MIN 						0
+		*RANGO_MAX 						6
+		*FUEGO_ALIADO					SI
+		*TIPO									TIPO_CC
+	}
+	*ARMA
+	{
+		*UNIDAD 							ARIETE_EGIPCIO
+		*ESTADO 							NORMAL
+		*DANYO
+		{
+			*MELEE 							200
+			*PROYECTIL 					100
+			*INCENDIO 					0
+			*EDIFICIO 					3000
+			*GOLPE							0
+		}
+		*RITMO 								3
+		*RANGO_MIN 						6
+		*RANGO_MAX 						12
+		*TIPO									TIPO_CC
+	}
+	
+	//*************************************************************************
+	*ARMA
+	{
+		*UNIDAD 							ESCALA_ROMANO
+		*ESTADO 							NORMAL
+		*DANYO
+		{
+			*MELEE 							0
+			*PROYECTIL 					0
+			*INCENDIO 					0
+			*EDIFICIO 					0
+		}
+		*RITMO 								3
+		*RANGO_MIN	 					0
+		*RANGO_MAX 						1
+		*FUEGO_ALIADO 				NO
+		*TIPO									TIPO_CC
+	}
+	*ARMA
+	{
+		*UNIDAD 							ESCALA_BARBARO
+		*ESTADO 							NORMAL
+		*DANYO
+		{
+			*MELEE 							0
+			*PROYECTIL 					0
+			*INCENDIO 					0
+			*EDIFICIO 					0
+		}
+		*RITMO 								3
+		*RANGO_MIN	 					0
+		*RANGO_MAX 						1
+		*FUEGO_ALIADO 				NO
+		*TIPO									TIPO_CC
+	}
+	*ARMA
+	{
+		*UNIDAD 							ESCALA_EGIPCIO
+		*ESTADO 							NORMAL
+		*DANYO
+		{
+			*MELEE 							0
+			*PROYECTIL 					0
+			*INCENDIO 					0
+			*EDIFICIO 					0
+		}
+		*RITMO 								3
+		*RANGO_MIN	 					0
+		*RANGO_MAX 						1
+		*FUEGO_ALIADO 				NO
+		*TIPO									TIPO_CC
+	}
+	
+	//*************************************************************************
+	*ARMA
+	{
+		*UNIDAD 							TORRE_ASALTO_ROMANO
+		*ESTADO 							NORMAL
+		*DANYO
+		{
+			*MELEE 							0
+			*PROYECTIL 					0
+			*INCENDIO 					0
+			*EDIFICIO 					0
+		}
+		*RITMO 								3
+		*RANGO_MIN	 					0
+		*RANGO_MAX 						1
+		*FUEGO_ALIADO					NO
+		*TIPO									TIPO_CC
+	}
+	*ARMA
+	{
+		*UNIDAD 							TORRE_ASALTO_BARBARO
+		*ESTADO 							NORMAL
+		*DANYO
+		{
+			*MELEE 							0
+			*PROYECTIL 					0
+			*INCENDIO 					0
+			*EDIFICIO 					0
+		}
+		*RITMO 								3	
+		*RANGO_MIN	 					0
+		*RANGO_MAX 						1
+		*FUEGO_ALIADO 				NO
+		*TIPO									TIPO_CC
+	}
+	*ARMA
+	{
+		*UNIDAD 							TORRE_ASALTO_EGIPCIO
+		*ESTADO 							NORMAL
+		*DANYO
+		{
+			*MELEE 							0
+			*PROYECTIL 					0
+			*INCENDIO 					0
+			*EDIFICIO 					0
+		}
+		*RITMO 								3
+		*RANGO_MIN	 					0
+		*RANGO_MAX 						1
+		*FUEGO_ALIADO 				NO
+		*TIPO									TIPO_CC
+	}
+}

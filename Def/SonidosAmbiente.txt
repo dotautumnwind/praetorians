@@ -1,0 +1,142 @@
+{
+  // -------------------------------------------------------------------------------------
+  // AMBIENTE
+  // -------------------------------------------------------------------------------------
+  *SONIDO
+  {
+    // Cascada
+    *NOMBRE         ACSD
+    *FICHERO        ".wav"
+    *FLAG           FLAG_LOOP
+    *ALIAS          "Cascada"
+    *TIPO           TIPO_AMBIENTE
+    *VOLUMEN        0.3f
+  }
+  *SONIDO
+  {
+    *NOMBRE         ABSQ
+    *FICHERO        ".wav"
+    *FLAG           FLAG_LOOP
+    *ALIAS          "Bosque"
+    *TIPO           TIPO_AMBIENTE
+    *TRANSPOSE_MAX  1.4f
+  }
+  *SONIDO
+  {
+    *NOMBRE         ALLV
+    *FICHERO        "lluvia2.wav"
+    *FLAG           FLAG_LOOP
+    *ALIAS          "Lluvia"
+    *TIPO           TIPO_AMBIENTE
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *VOLUMEN        0.3f
+  }
+  *SONIDO
+  {
+    *NOMBRE         AVNT
+    *FICHERO        "viento_ventisca1.wav"
+    *FICHERO        "viento_ventisca1.wav"
+    *FLAG           FLAG_LOOP
+    *ALIAS          "Ventisca nieve"
+    *FLAG           FLAG_FADE_OUT
+    *TIPO           TIPO_AMBIENTE
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *VOLUMEN        0.2f
+  }
+  *SONIDO
+  {
+    *NOMBRE         AVND
+    *FICHERO        "viento_desierto1.wav"
+    *FICHERO        "viento_desierto2.wav"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_FADE_OUT
+    *ALIAS          "Ventisca desierto"
+    *TIPO           TIPO_AMBIENTE
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *VOLUMEN        0.7f
+  }
+  *SONIDO
+  {
+    *NOMBRE         ARLM
+    *FICHERO        "trueno01.wav"
+    *FICHERO        "trueno02.wav"
+    *FICHERO        "trueno03.wav"
+    *FICHERO        "trueno04.wav"
+    *FICHERO        "trueno05.wav"
+    *ALIAS          "Relampago"
+    *TIPO           TIPO_AMBIENTE
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_SONIDO_CORTO
+    *VOLUMEN        0.9f
+    *POLIFONIA      1
+  }
+  *SONIDO
+  {
+    // Rio
+    *NOMBRE         ARIO
+    *FICHERO        "rio.wav"
+    *FLAG           FLAG_LOOP
+    *ALIAS          "Rio"
+    *TIPO           TIPO_AMBIENTE
+    *VOLUMEN        0.1f
+  }
+  *SONIDO
+  {
+    *NOMBRE         AOLA
+    *FICHERO        "ola_01.wav"
+    *FICHERO        "ola_02.wav"
+    *FICHERO        "ola_03.wav"
+    *FICHERO        "ola_04.wav"
+    *FICHERO        "ola_05.wav"
+    *FICHERO        "ola_06.wav"
+    *FICHERO        "ola_07.wav"
+    *FICHERO        "ola_08.wav"
+    *FICHERO        "ola_09.wav"
+    *ALIAS          "Ola 1"
+    *TIPO           TIPO_AMBIENTE
+    *VOLUMEN        0.15f
+    *FLAG           FLAG_LOOP_ENTRE_SAMPLES
+    *TIEMPO_ESPERA_MIN  10
+    *TIEMPO_ESPERA_MAX  20
+  }
+  *SONIDO
+  {
+    *NOMBRE         APAJ
+    *FICHERO        "pajaro01.wav"
+    *FICHERO        "pajaro02.wav"
+    *FICHERO        "pajaro03.wav"
+    *FICHERO        "pajaro04.wav"
+    *FICHERO        "pajaro05.wav"
+    *FICHERO        "pajaro06.wav"
+    *FICHERO        "pajaro07.wav"
+    *FICHERO        "pajaro09.wav"
+    *FICHERO        "pajaro0A.wav"
+    *FICHERO        "pajaro0B.wav"
+    *ALIAS          "Pajaro 1"
+    *TIPO           TIPO_AMBIENTE
+    *VOLUMEN        0.025f
+    *FLAG           FLAG_LOOP_ENTRE_SAMPLES
+    *TIEMPO_ESPERA_MIN 10 
+    *TIEMPO_ESPERA_MAX 20
+  }
+  // -------------------------------------------------------------------------------------
+  // EFECTOS
+  // -------------------------------------------------------------------------------------
+  *SONIDO
+  {
+    *NOMBRE         EOAG
+    *FICHERO        "pasos_agua_1.wav"
+    *FICHERO        "pasos_agua_2.wav"
+    *FICHERO        "pasos_agua_3.wav"
+    *FICHERO        "pasos_agua_4.wav"
+    *FICHERO        "pasos_agua_5.wav"
+    *FICHERO        "pasos_agua_6.wav"
+    *FICHERO        "pasos_agua_7.wav"
+    *ALIAS          "Onda agua"
+    *TIPO           TIPO_EFECTO
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA
+    *POLIFONIA      4
+    *VOLUMEN        0.05f
+  } 
+}

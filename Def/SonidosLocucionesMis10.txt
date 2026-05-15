@@ -1,0 +1,192 @@
+{
+  // -------------------------------------------------------------------------------------
+  // LOCUCIONES MISION 10
+  // -------------------------------------------------------------------------------------
+
+  // -------------------------------------------------------------------------------------
+  // BRIEFING
+  // -------------------------------------------------------------------------------------
+  *SONIDO
+  {
+    *NOMBRE         10N0
+    *FICHERO        "Narrador\10N0.ogi"
+    *ALIAS          "Briefing 1"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         10N1
+    *FICHERO        "Narrador\10N1.ogi"
+    *ALIAS          "Briefing 2"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         10N2
+    *FICHERO        "Narrador\10N2.ogi"
+    *ALIAS          "Briefing 3"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         10N3
+    *FICHERO        "Narrador\10N3.ogi"
+    *ALIAS          "Briefing 4"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         10N4
+    *FICHERO        "Narrador\10N4.ogi"
+    *ALIAS          "Briefing 5"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         10N5
+    *FICHERO        "Narrador\10N5.ogi"
+    *ALIAS          "Briefing 6"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+
+  // -------------------------------------------------------------------------------------
+  // BRIEFING
+  // -------------------------------------------------------------------------------------
+  *SONIDO
+  {
+    *NOMBRE         10N6
+    *FICHERO        "Narrador\10N6.ogi"
+    *ALIAS          "Mensaje 1"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         10N7
+    *FICHERO        "Narrador\10N7.ogi"
+    *ALIAS          "Mensaje 2"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+
+
+  // -------------------------------------------------------------------------------------
+  // EVENTO 1
+  // -------------------------------------------------------------------------------------
+  *SONIDO
+  {
+    *NOMBRE         1080
+    *FICHERO        "Characters\1080.ogi"
+    *ALIAS          "Evento 1-0"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         1081
+    *FICHERO        "Characters\1081.ogi"
+    *ALIAS          "Evento 1-1"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         1082
+    *FICHERO        "Characters\1082.ogi"
+    *ALIAS          "Evento 1-2"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+
+  // -------------------------------------------------------------------------------------
+  // EVENTO 2
+  // -------------------------------------------------------------------------------------
+  *SONIDO
+  {
+    *NOMBRE         1083
+    *FICHERO        "Characters\1083.ogi"
+    *ALIAS          "Evento 2-0"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         1084
+    *FICHERO        "Characters\1084.ogi"
+    *ALIAS          "Evento 2-1"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+
+  // -------------------------------------------------------------------------------------
+  // EVENTO 3
+  // -------------------------------------------------------------------------------------
+  *SONIDO
+  {
+    *NOMBRE         10G0
+    *FICHERO        "Characters\10G0.ogi"
+    *ALIAS          "Evento 3-0"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         10G1
+    *FICHERO        "Characters\10G1.ogi"
+    *ALIAS          "Evento 3-1"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+
+}

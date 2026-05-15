@@ -1,0 +1,106 @@
+{
+  // -------------------------------------------------------------------------------------
+  // LOCUCIONES MISION 2
+  // -------------------------------------------------------------------------------------
+
+  // -------------------------------------------------------------------------------------
+  // EVENTO 1
+  // -------------------------------------------------------------------------------------
+  *SONIDO
+  {
+    *NOMBRE         0210
+    *FICHERO        "Characters\0210.ogi"
+    *ALIAS          "Evento 1-0"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  // -------------------------------------------------------------------------------------
+  // EVENTO 2
+  // -------------------------------------------------------------------------------------
+  *SONIDO
+  {
+    *NOMBRE         0211
+    *FICHERO        "Characters\0211.ogi"
+    *ALIAS          "Evento 2-0"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         0212
+    *FICHERO        "Characters\0212.ogi"
+    *ALIAS          "Evento 2-1"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  // -------------------------------------------------------------------------------------
+  // EVENTO 3
+  // -------------------------------------------------------------------------------------
+  *SONIDO
+  {
+    *NOMBRE         0220
+    *FICHERO        "Characters\0220.ogi"
+    *ALIAS          "Evento 3-0"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         0221
+    *FICHERO        "Characters\0221.ogi"
+    *ALIAS          "Evento 3-1"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  // -------------------------------------------------------------------------------------
+  // EVENTO 4
+  // -------------------------------------------------------------------------------------
+  *SONIDO
+  {
+    *NOMBRE         0213
+    *FICHERO        "Characters\0213.ogi"
+    *ALIAS          "Evento 4-0"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         0214
+    *FICHERO        "Characters\0214.ogi"
+    *ALIAS          "Evento 4-1"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+  *SONIDO
+  {
+    *NOMBRE         0215
+    *FICHERO        "Characters\0215.ogi"
+    *ALIAS          "Evento 4-2"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *VOLUMEN        1.0f
+  }
+}

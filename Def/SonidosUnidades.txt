@@ -1,0 +1,244 @@
+{
+  // -------------------------------------------------------------------------------------
+  // UNIDADES
+  // -------------------------------------------------------------------------------------
+  
+  *SONIDO
+  {
+    *NOMBRE         UMOR
+    *FICHERO        "muerto_4.wav"
+    *FICHERO        "muerto_5.wav"
+    *FICHERO        "muerto_6.wav"
+    *FICHERO        "muerto_7.wav"
+    *ALIAS          "Unidad muriendo"
+    *TIPO           TIPO_EFECTO
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_GENERICO
+    *POLIFONIA      1
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA
+    *VOLUMEN        0.7f
+  }
+  *SONIDO
+  {
+    *NOMBRE         UATC
+    *FICHERO        "espadazo_1.wav"
+    *FICHERO        "espadazo_2.wav"
+    *FICHERO        "espadazo_3.wav"
+    *FICHERO        "espadazo_4.wav"
+    *FICHERO        "espadazo_5.wav"
+    *FICHERO        "espadazo_6.wav"
+    *FICHERO        "espadazo_7.wav"
+    *FICHERO        "espadazo_8.wav"
+    *FICHERO        "espadazo_9.wav"
+    *FICHERO        "espadazo_10.wav"
+    *FICHERO        "espadazo_11.wav"
+    *FICHERO        "espadazo_12.wav"
+    *FICHERO        "espadazo_13.wav"
+    *FICHERO        "espadazo_14.wav"
+    *ALIAS          "Unidad atacando"
+    *TIPO           TIPO_EFECTO
+    *POLIFONIA      2
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_GENERICO
+    *VOLUMEN        0.25f
+  }
+  *SONIDO
+  {
+    *NOMBRE         UHGT
+    *FICHERO        "halcon.wav"
+    *ALIAS          "Halcon gritando"
+    *TIPO           TIPO_EFECTO
+    *FLAG           FLAG_SONIDO_CORTO
+    *VOLUMEN        0.5f
+  }
+  *SONIDO
+  {
+    *NOMBRE         ULGT
+    *FICHERO        "lobo5.wav"
+    *ALIAS          "Lobo gritando"
+    *TIPO           TIPO_EFECTO
+    *FLAG           FLAG_SONIDO_CORTO
+    *VOLUMEN        0.5f
+  }
+  *SONIDO
+  {
+    *NOMBRE         ULFL
+    *FICHERO        "proyectil_1.wav"
+    *FICHERO        "proyectil_2.wav"
+    *FICHERO        "proyectil_3.wav"
+    *FICHERO        "proyectil_4.wav"
+    *FICHERO        "proyectil_5.wav"
+    *FICHERO        "proyectil_6.wav"
+    *FICHERO        "proyectil_7.wav"
+    *FICHERO        "proyectil_8.wav"
+    *FICHERO        "proyectil_9.wav"
+    *FICHERO        "proyectil_10.wav"
+    *FICHERO        "proyectil_11.wav"
+    *FICHERO        "proyectil_12.wav"
+    *ALIAS          "Unidad lanzando flecha"
+    *TIPO           TIPO_EFECTO
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA
+    *FLAG           FLAG_GENERICO
+    *POLIFONIA      4
+    *VOLUMEN        0.4f
+  }
+  *SONIDO
+  {
+    *NOMBRE         ULFB
+    *FICHERO        "proyectil_1.wav"
+    *FICHERO        "proyectil_2.wav"
+    *FICHERO        "proyectil_3.wav"
+    *FICHERO        "proyectil_4.wav"
+    *FICHERO        "proyectil_5.wav"
+    *FICHERO        "proyectil_6.wav"
+    *FICHERO        "proyectil_7.wav"
+    *FICHERO        "proyectil_8.wav"
+    *FICHERO        "proyectil_9.wav"
+    *FICHERO        "proyectil_10.wav"
+    *FICHERO        "proyectil_11.wav"
+    *FICHERO        "proyectil_12.wav"
+    *ALIAS          "Unidad lanzando flecha ballesta"
+    *TIPO           TIPO_EFECTO
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA
+    *FLAG           FLAG_GENERICO
+    *POLIFONIA      4
+    *VOLUMEN        0.4f
+  }
+  *SONIDO
+  {
+    *NOMBRE         ULFF
+    *FICHERO        "proyectil_1.wav"
+    *FICHERO        "proyectil_2.wav"
+    *FICHERO        "proyectil_3.wav"
+    *FICHERO        "proyectil_4.wav"
+    *FICHERO        "proyectil_5.wav"
+    *FICHERO        "proyectil_6.wav"
+    *FICHERO        "proyectil_7.wav"
+    *FICHERO        "proyectil_8.wav"
+    *FICHERO        "proyectil_9.wav"
+    *FICHERO        "proyectil_10.wav"
+    *FICHERO        "proyectil_11.wav"
+    *FICHERO        "proyectil_12.wav"
+    *ALIAS          "Unidad lanzando flecha fuego"
+    *TIPO           TIPO_EFECTO
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA
+    *FLAG           FLAG_GENERICO
+    *POLIFONIA      4
+    *VOLUMEN        0.4f
+  }
+  *SONIDO
+  {
+    *NOMBRE         ULPC
+    *FICHERO        ".wav"
+    *ALIAS          "Unidad lanzando piedra catapulta"
+    *TIPO           TIPO_EFECTO
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA
+    *FLAG           FLAG_GENERICO
+    *POLIFONIA      2
+    *TRANSPOSE_MAX  1.6f
+    *VOLUMEN        0.4f
+  }
+  *SONIDO
+  {
+    *NOMBRE         ULFR
+    *FICHERO        "proyectil_1.wav"
+    *FICHERO        "proyectil_2.wav"
+    *FICHERO        "proyectil_3.wav"
+    *FICHERO        "proyectil_4.wav"
+    *FICHERO        "proyectil_5.wav"
+    *FICHERO        "proyectil_6.wav"
+    *FICHERO        "proyectil_7.wav"
+    *FICHERO        "proyectil_8.wav"
+    *FICHERO        "proyectil_9.wav"
+    *FICHERO        "proyectil_10.wav"
+    *FICHERO        "proyectil_11.wav"
+    *FICHERO        "proyectil_12.wav"
+    *ALIAS          "Unidad lanzando francisca"
+    *TIPO           TIPO_EFECTO
+    *FLAG           FLAG_GENERICO
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA
+    *POLIFONIA      4
+    *VOLUMEN        0.4f
+  }
+  *SONIDO
+  {
+    *NOMBRE         ULBL
+    *FICHERO        ".wav"
+    *ALIAS          "Unidad lanzando boleadoras"
+    *TIPO           TIPO_EFECTO
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA
+    *FLAG           FLAG_GENERICO
+    *POLIFONIA      2
+    *TRANSPOSE_MAX  1.6f
+    *VOLUMEN        0.4f
+  }
+  *SONIDO
+  {
+    *NOMBRE         ULPH
+    *FICHERO        "proyectil_1.wav"
+    *FICHERO        "proyectil_2.wav"
+    *FICHERO        "proyectil_3.wav"
+    *FICHERO        "proyectil_4.wav"
+    *FICHERO        "proyectil_5.wav"
+    *FICHERO        "proyectil_6.wav"
+    *FICHERO        "proyectil_7.wav"
+    *FICHERO        "proyectil_8.wav"
+    *FICHERO        "proyectil_9.wav"
+    *FICHERO        "proyectil_10.wav"
+    *FICHERO        "proyectil_11.wav"
+    *FICHERO        "proyectil_12.wav"
+    *ALIAS          "Unidad lanzando piedra honderos"
+    *FLAG           FLAG_GENERICO
+    *TIPO           TIPO_EFECTO
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA
+    *POLIFONIA      4
+    *VOLUMEN        0.4f
+  }
+  *SONIDO
+  {
+    *NOMBRE         ULPI
+    *FICHERO        "proyectil_1.wav"
+    *FICHERO        "proyectil_2.wav"
+    *FICHERO        "proyectil_3.wav"
+    *FICHERO        "proyectil_4.wav"
+    *FICHERO        "proyectil_5.wav"
+    *FICHERO        "proyectil_6.wav"
+    *FICHERO        "proyectil_7.wav"
+    *FICHERO        "proyectil_8.wav"
+    *FICHERO        "proyectil_9.wav"
+    *FICHERO        "proyectil_10.wav"
+    *FICHERO        "proyectil_11.wav"
+    *FICHERO        "proyectil_12.wav"
+    *ALIAS          "Unidad lanzando pilum"
+    *FLAG           FLAG_GENERICO
+    *TIPO           TIPO_EFECTO
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA
+    *POLIFONIA      4
+    *VOLUMEN        0.4f
+  }
+  *SONIDO
+  {
+    *NOMBRE         UCRG
+    *FICHERO        "flechas_cargar_01.wav"
+    *FICHERO        "flechas_cargar_02.wav"
+    *FICHERO        "flechas_cargar_03.wav"
+    *FICHERO        "flechas_cargar_04.wav"
+    *FICHERO        "flechas_cargar_05.wav"
+    *ALIAS          "Unidad cargando (arqueros)"
+    *FLAG           FLAG_GENERICO
+    *TIPO           TIPO_EFECTO
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA
+    *POLIFONIA      2
+    *VOLUMEN        0.4f
+  }
+}

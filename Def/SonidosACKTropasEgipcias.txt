@@ -1,0 +1,1291 @@
+{
+  // -------------------------------------------------------------------------------------
+  // ACK TROPAS EGIPCIAS
+  // -------------------------------------------------------------------------------------
+  
+  // -------------------------------------------------------------------------------------
+  // CENTURION
+  // -------------------------------------------------------------------------------------  
+  *SONIDO
+  {
+    *NOMBRE         IEZM
+    *FICHERO        "Voices\IETO_2.wav"
+    *FICHERO        "Voices\IETK_3.wav"
+    *ALIAS          "ACK Tropa Egipcia Centurion Mover"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEZN
+    *FICHERO        "Voices\IEAN_1.wav"
+    *ALIAS          "ACK Tropa Egipcia Mover"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEZR
+    *FICHERO        "Voices\IETM_2.wav"
+    *ALIAS          "ACK Tropa Egipcia Centurion Correr"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEZA
+    *FICHERO        "Voices\IETA_1.wav"
+    *FICHERO        "Voices\IETA_3.wav"
+    *ALIAS          "ACK Tropa Egipcia Centurion Atacar"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEZT
+    *FICHERO        "Voices\IETA_2.wav"
+    *ALIAS          "ACK Tropa Egipcia Centurion Atacar Corriendo"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEZS
+    *FICHERO        "Voices\IECK_1.wav"
+    *ALIAS          "ACK Tropa Egipcia Centurion Seleccion"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEZG
+    *FICHERO        "Voices\IETO_2.wav"
+    *FICHERO        "Voices\IETO_3.wav"
+    *ALIAS          "ACK Tropa Egipcia Centurion Orden Generica"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+
+  // -------------------------------------------------------------------------------------
+  // MEDICO
+  // -------------------------------------------------------------------------------------  
+  *SONIDO
+  {
+    *NOMBRE         IEIM
+    *FICHERO        "Voices\IETO_2.wav"
+    *FICHERO        "Voices\IETK_3.wav"
+    *ALIAS          "ACK Tropa Egipcia Medico Mover"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEIN
+    *FICHERO        "Voices\IEAN_1.wav"
+    *ALIAS          "ACK Tropa Egipcia Mover"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEIR
+    *FICHERO        "Voices\IETM_2.wav"
+    *ALIAS          "ACK Tropa Egipcia Medico Correr"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEIA
+    *FICHERO        "Voices\IETA_1.wav"
+    *FICHERO        "Voices\IETA_3.wav"
+    *ALIAS          "ACK Tropa Egipcia Medico Atacar"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEIT
+    *FICHERO        "Voices\IETA_2.wav"
+    *ALIAS          "ACK Tropa Egipcia Medico Atacar Corriendo"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEIS
+    *FICHERO        "Voices\IEMK_1.wav"
+    *ALIAS          "ACK Tropa Egipcia Medico Seleccion"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEIG
+    *FICHERO        "Voices\IETO_1.wav"
+    *FICHERO        "Voices\IETO_2.wav"
+    *FICHERO        "Voices\IETO_3.wav"
+    *ALIAS          "ACK Tropa Egipcia Medico Orden Generica"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+
+
+  // -------------------------------------------------------------------------------------
+  // EXPLORADOR
+  // -------------------------------------------------------------------------------------  
+  *SONIDO
+  {
+    *NOMBRE         IEEM
+    *FICHERO        "Voices\IETO_2.wav"
+    *FICHERO        "Voices\IETK_3.wav"
+    *ALIAS          "ACK Tropa Egipcia Medico Mover"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEEN
+    *FICHERO        "Voices\IEAN_1.wav"
+    *ALIAS          "ACK Tropa Egipcia Mover"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEER
+    *FICHERO        "Voices\IETM_2.wav"
+    *ALIAS          "ACK Tropa Egipcia Medico Correr"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEEA
+    *FICHERO        "Voices\IETA_1.wav"
+    *FICHERO        "Voices\IETA_3.wav"
+    *ALIAS          "ACK Tropa Egipcia Medico Atacar"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEET
+    *FICHERO        "Voices\IETA_2.wav"
+    *ALIAS          "ACK Tropa Egipcia Medico Atacar Corriendo"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEES
+    *FICHERO        "Voices\IETO_1.wav"
+    *FICHERO        "Voices\IETO_2.wav"
+    *FICHERO        "Voices\IETO_3.wav"
+    *ALIAS          "ACK Tropa Egipcia Medico Seleccion"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEEG
+    *FICHERO        "Voices\IETO_1.wav"
+    *FICHERO        "Voices\IETO_2.wav"
+    *FICHERO        "Voices\IETO_3.wav"
+    *ALIAS          "ACK Tropa Egipcia Medico Orden Generica"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+
+
+  // -------------------------------------------------------------------------------------
+  // INFANTERIA PESADA
+  // -------------------------------------------------------------------------------------  
+  *SONIDO
+  {
+    *NOMBRE         IEPM
+    *FICHERO        "Voices\IETM_1.wav"
+    *FICHERO        "Voices\IETK_3.wav"
+    *FICHERO        "Voices\IETK_2.wav"
+    *FICHERO        "Voices\IETO_2.wav"
+    *ALIAS          "ACK Tropa Egipcia Infanteria Pesada Mover"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEPN
+    *FICHERO        "Voices\IETN_1.wav"
+    *ALIAS          "ACK Tropa Egipcia Mover"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEPR
+    *FICHERO        "Voices\IETM_2.wav"
+    *ALIAS          "ACK Tropa Egipcia Infanteria Pesada Correr"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEPA
+    *FICHERO        "Voices\IETA_1.wav"
+    *FICHERO        "Voices\IETA_3.wav"
+    *ALIAS          "ACK Tropa Egipcia Infanteria Pesada Atacar"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEPT
+    *FICHERO        "Voices\IETA_2.wav"
+    *ALIAS          "ACK Tropa Egipcia Infanteria Pesada Atacar Corriendo"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEPS
+    *FICHERO        "Voices\IETK_3.wav"
+    *FICHERO        "Voices\IETK_4.wav"
+    *FICHERO        "Voices\IETK_1.wav"
+    *FICHERO        "Voices\IETK_2.wav"
+    *FICHERO        "Voices\IETK_5.wav"
+    *ALIAS          "ACK Tropa Egipcia Infanteria Pesada Seleccion"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEPG
+    *FICHERO        "Voices\IETO_1.wav"
+    *FICHERO        "Voices\IETO_2.wav"
+    *FICHERO        "Voices\IETO_3.wav"
+    *ALIAS          "ACK Tropa Egipcia Infanteria Pesada Orden Generica"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+
+  // -------------------------------------------------------------------------------------
+  // INFANTERIA LIGERA
+  // -------------------------------------------------------------------------------------  
+  *SONIDO
+  {
+    *NOMBRE         IELM
+    *FICHERO        "Voices\IETM_1.wav"
+    *FICHERO        "Voices\IETK_3.wav"
+    *FICHERO        "Voices\IETK_2.wav"
+    *FICHERO        "Voices\IETO_2.wav"
+    *ALIAS          "ACK Tropa Egipcia Infanteria Ligera Mover"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IELN
+    *FICHERO        "Voices\IETN_1.wav"
+    *ALIAS          "ACK Tropa Egipcia Mover"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IELR
+    *FICHERO        "Voices\IETM_2.wav"
+    *ALIAS          "ACK Tropa Egipcia Infanteria Ligera Correr"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IELA
+    *FICHERO        "Voices\IETA_1.wav"
+    *FICHERO        "Voices\IETA_3.wav"
+    *ALIAS          "ACK Tropa Egipcia Infanteria Ligera Atacar"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IELT
+    *FICHERO        "Voices\IETA_2.wav"
+    *ALIAS          "ACK Tropa Egipcia Infanteria Ligera Correr"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IELS
+    *FICHERO        "Voices\IETK_3.wav"
+    *FICHERO        "Voices\IETK_4.wav"
+    *FICHERO        "Voices\IETK_1.wav"
+    *FICHERO        "Voices\IETK_2.wav"
+    *FICHERO        "Voices\IETK_5.wav"
+    *ALIAS          "ACK Tropa Egipcia Infanteria Ligera Seleccion"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IELG
+    *FICHERO        "Voices\IETO_1.wav"
+    *FICHERO        "Voices\IETO_2.wav"
+    *FICHERO        "Voices\IETO_3.wav"
+    *ALIAS          "ACK Tropa Egipcia Infanteria Ligera Orden Generica"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+
+
+  // -------------------------------------------------------------------------------------
+  // ARQUERO
+  // -------------------------------------------------------------------------------------  
+  *SONIDO
+  {
+    *NOMBRE         IEAM
+    *FICHERO        "Voices\IETM_1.wav"
+    *FICHERO        "Voices\IETK_3.wav"
+    *FICHERO        "Voices\IETK_2.wav"
+    *FICHERO        "Voices\IETO_2.wav"
+    *ALIAS          "ACK Tropa Egipcia Arquero Mover"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEAN
+    *FICHERO        "Voices\IETN_1.wav"
+    *ALIAS          "ACK Tropa Egipcia Mover"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEAR
+    *FICHERO        "Voices\IETM_2.wav"
+    *ALIAS          "ACK Tropa Egipcia Arquero Correr"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEAA
+    *FICHERO        "Voices\IETA_1.wav"
+    *FICHERO        "Voices\IETA_3.wav"
+    *ALIAS          "ACK Tropa Egipcia Arquero Atacar"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEAT
+    *FICHERO        "Voices\IETA_2.wav"
+    *ALIAS          "ACK Tropa Egipcia Arquero Atacar Corriendo"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEAS
+    *FICHERO        "Voices\IETK_3.wav"
+    *FICHERO        "Voices\IETK_4.wav"
+    *FICHERO        "Voices\IETK_1.wav"
+    *FICHERO        "Voices\IETK_2.wav"
+    *FICHERO        "Voices\IETK_5.wav"
+    *ALIAS          "ACK Tropa Egipcia Arquero Seleccion"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEAG
+    *FICHERO        "Voices\IETO_1.wav"
+    *FICHERO        "Voices\IETO_2.wav"
+    *FICHERO        "Voices\IETO_3.wav"
+    *ALIAS          "ACK Tropa Egipcia Arquero Orden Generica"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+
+
+  // -------------------------------------------------------------------------------------
+  // PIQUERO
+  // -------------------------------------------------------------------------------------  
+  *SONIDO
+  {
+    *NOMBRE         IEQM
+    *FICHERO        "Voices\IETM_1.wav"
+    *ALIAS          "ACK Tropa Egipcia Piquero Mover"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEQN
+    *FICHERO        "Voices\IETN_1.wav"
+    *ALIAS          "ACK Tropa Egipcia Mover"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEQR
+    *FICHERO        "Voices\IETM_2.wav"
+    *ALIAS          "ACK Tropa Egipcia Piquero Correr"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEQA
+    *FICHERO        "Voices\IETA_1.wav"
+    *FICHERO        "Voices\IETA_3.wav"
+    *ALIAS          "ACK Tropa Egipcia Piquero Atacar"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEQT
+    *FICHERO        "Voices\IETA_2.wav"
+    *ALIAS          "ACK Tropa Egipcia Piquero Atacar Corriendo"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEQS
+    *FICHERO        "Voices\IETK_3.wav"
+    *FICHERO        "Voices\IETK_4.wav"
+    *FICHERO        "Voices\IETK_1.wav"
+    *FICHERO        "Voices\IETK_2.wav"
+    *FICHERO        "Voices\IETK_5.wav"
+    *ALIAS          "ACK Tropa Egipcia Piquero Seleccion"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEQG
+    *FICHERO        "Voices\IETO_1.wav"
+    *FICHERO        "Voices\IETO_2.wav"
+    *FICHERO        "Voices\IETO_3.wav"
+    *ALIAS          "ACK Tropa Egipcia Piquero Orden Generica"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+
+
+  // -------------------------------------------------------------------------------------
+  // CABALLERIA PESADA
+  // -------------------------------------------------------------------------------------  
+  *SONIDO
+  {
+    *NOMBRE         IECM
+    *FICHERO        "Voices\IETM_1.wav"
+    *FICHERO        "Voices\IETK_3.wav"
+    *FICHERO        "Voices\IETK_2.wav"
+    *FICHERO        "Voices\IETO_2.wav"
+    *ALIAS          "ACK Tropa Egipcia Caballeria Pesada Mover"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IECN
+    *FICHERO        "Voices\IETN_1.wav"
+    *ALIAS          "ACK Tropa Egipcia Mover"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IECR
+    *FICHERO        "Voices\IETM_2.wav"
+    *ALIAS          "ACK Tropa Egipcia Caballeria Pesada Correr"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IECA
+    *FICHERO        "Voices\IETA_1.wav"
+    *FICHERO        "Voices\IETA_3.wav"
+    *ALIAS          "ACK Tropa Egipcia Caballeria Pesada Atacar"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IECT
+    *FICHERO        "Voices\IETA_2.wav"
+    *ALIAS          "ACK Tropa Egipcia Caballeria Pesada Atacar Corriendo"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IECS
+    *FICHERO        "Voices\IETK_3.wav"
+    *FICHERO        "Voices\IETK_4.wav"
+    *FICHERO        "Voices\IETK_1.wav"
+    *FICHERO        "Voices\IETK_2.wav"
+    *FICHERO        "Voices\IETK_5.wav"
+    *ALIAS          "ACK Tropa Egipcia Caballeria Pesada Seleccion"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IECG
+    *FICHERO        "Voices\IETO_1.wav"
+    *FICHERO        "Voices\IETO_2.wav"
+    *FICHERO        "Voices\IETO_3.wav"
+    *ALIAS          "ACK Tropa Egipcia Caballeria Pesada Orden Generica"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+
+
+  // -------------------------------------------------------------------------------------
+  // CABALLERIA ARQUERA
+  // -------------------------------------------------------------------------------------  
+  *SONIDO
+  {
+    *NOMBRE         IEKM
+    *FICHERO        "Voices\IETM_1.wav"
+    *FICHERO        "Voices\IETK_3.wav"
+    *FICHERO        "Voices\IETK_2.wav"
+    *FICHERO        "Voices\IETO_2.wav"
+    *ALIAS          "ACK Tropa Egipcia Caballeria Arquera Mover"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEKN
+    *FICHERO        "Voices\IETN_1.wav"
+    *ALIAS          "ACK Tropa Egipcia No Puede Mover"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEKR
+    *FICHERO        "Voices\IETM_2.wav"
+    *ALIAS          "ACK Tropa Egipcia Caballeria Arquera Correr"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEKA
+    *FICHERO        "Voices\IETA_1.wav"
+    *FICHERO        "Voices\IETA_3.wav"
+    *ALIAS          "ACK Tropa Egipcia Caballeria Arquera Atacar"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEKT
+    *FICHERO        "Voices\IETA_2.wav"
+    *ALIAS          "ACK Tropa Egipcia Caballeria Arquera Atacar Corriendo"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEKS
+    *FICHERO        "Voices\IETK_3.wav"
+    *FICHERO        "Voices\IETK_4.wav"
+    *FICHERO        "Voices\IETK_1.wav"
+    *FICHERO        "Voices\IETK_2.wav"
+    *FICHERO        "Voices\IETK_5.wav"
+    *ALIAS          "ACK Tropa Egipcia Caballeria Arquera Seleccion"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEKG
+    *FICHERO        "Voices\IETO_1.wav"
+    *FICHERO        "Voices\IETO_2.wav"
+    *FICHERO        "Voices\IETO_3.wav"
+    *ALIAS          "ACK Tropa Egipcia Caballeria Arquera Orden Generica"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+
+
+  // -------------------------------------------------------------------------------------
+  // CATAPULTA
+  // -------------------------------------------------------------------------------------  
+  *SONIDO
+  {
+    *NOMBRE         IETM
+    *FICHERO        "Voices\IETM_1.wav"
+    *FICHERO        "Voices\IETK_3.wav"
+    *FICHERO        "Voices\IETK_2.wav"
+    *FICHERO        "Voices\IETO_2.wav"
+    *ALIAS          "ACK Tropa Egipcia Catapulta Mover"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IETN
+    *FICHERO        "Voices\IETN_1.wav"
+    *ALIAS          "ACK Tropa Egipcia No Puede Mover"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IETR
+    *FICHERO        "Voices\IETM_2.wav"
+    *ALIAS          "ACK Tropa Egipcia Catapulta Correr"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IETA
+    *FICHERO        "Voices\IETA_1.wav"
+    *FICHERO        "Voices\IETA_3.wav"
+    *ALIAS          "ACK Tropa Egipcia Catapulta Atacar"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IETT
+    *FICHERO        "Voices\IETA_1.wav"
+    *FICHERO        "Voices\IETA_3.wav"
+    *ALIAS          "ACK Tropa Egipcia Catapulta Atacar Corriendo"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IETS
+    *FICHERO        "Voices\IETK_3.wav"
+    *FICHERO        "Voices\IETK_4.wav"
+    *FICHERO        "Voices\IETK_1.wav"
+    *FICHERO        "Voices\IETK_2.wav"
+    *FICHERO        "Voices\IETK_5.wav"
+    *ALIAS          "ACK Tropa Egipcia Catapulta Seleccion"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IETG
+    *FICHERO        "Voices\IETO_1.wav"
+    *FICHERO        "Voices\IETO_2.wav"
+    *FICHERO        "Voices\IETO_3.wav"
+    *ALIAS          "ACK Tropa Egipcia Catapulta Orden Generica"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+
+
+  // -------------------------------------------------------------------------------------
+  // BALLESTA
+  // -------------------------------------------------------------------------------------  
+  *SONIDO
+  {
+    *NOMBRE         IEBM
+    *FICHERO        "Voices\IETM_1.wav"
+    *FICHERO        "Voices\IETK_3.wav"
+    *FICHERO        "Voices\IETK_2.wav"
+    *FICHERO        "Voices\IETO_2.wav"
+    *ALIAS          "ACK Tropa Egipcia Catapulta Mover"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEBN
+    *FICHERO        "Voices\IETN_1.wav"
+    *ALIAS          "ACK Tropa Egipcia No Puede Mover"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEBR
+    *FICHERO        "Voices\IETM_2.wav"
+    *ALIAS          "ACK Tropa Egipcia Catapulta Correr"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEBA
+    *FICHERO        "Voices\IETA_1.wav"
+    *FICHERO        "Voices\IETA_3.wav"
+    *ALIAS          "ACK Tropa Egipcia Catapulta Atacar"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEBT
+    *FICHERO        "Voices\IETA_1.wav"
+    *FICHERO        "Voices\IETA_3.wav"
+    *ALIAS          "ACK Tropa Egipcia Catapulta Atacar Corriendo"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEBS
+    *FICHERO        "Voices\IETK_3.wav"
+    *FICHERO        "Voices\IETK_4.wav"
+    *FICHERO        "Voices\IETK_1.wav"
+    *FICHERO        "Voices\IETK_2.wav"
+    *FICHERO        "Voices\IETK_5.wav"
+    *ALIAS          "ACK Tropa Egipcia Catapulta Seleccion"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEBG
+    *FICHERO        "Voices\IETO_1.wav"
+    *FICHERO        "Voices\IETO_2.wav"
+    *FICHERO        "Voices\IETO_3.wav"
+    *ALIAS          "ACK Tropa Egipcia Catapulta Orden Generica"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+
+
+  // -------------------------------------------------------------------------------------
+  // ARIETE
+  // -------------------------------------------------------------------------------------  
+  *SONIDO
+  {
+    *NOMBRE         IEWM
+    *FICHERO        "Voices\IETM_1.wav"
+    *FICHERO        "Voices\IETK_3.wav"
+    *FICHERO        "Voices\IETK_2.wav"
+    *FICHERO        "Voices\IETO_2.wav"
+    *ALIAS          "ACK Tropa Egipcia Ariete Mover"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEWN
+    *FICHERO        "Voices\IETN_1.wav"
+    *ALIAS          "ACK Tropa Egipcia No Puede Mover"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEWR
+    *FICHERO        "Voices\IETM_2.wav"
+    *ALIAS          "ACK Tropa Egipcia Ariete Correr"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEWA
+    *FICHERO        "Voices\IETA_1.wav"
+    *FICHERO        "Voices\IETA_3.wav"
+    *ALIAS          "ACK Tropa Egipcia Ariete Atacar"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEWT
+    *FICHERO        "Voices\IETA_1.wav"
+    *FICHERO        "Voices\IETA_3.wav"
+    *ALIAS          "ACK Tropa Egipcia Ariete Atacar Corriendo"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEWS
+    *FICHERO        "Voices\IETK_3.wav"
+    *FICHERO        "Voices\IETK_4.wav"
+    *FICHERO        "Voices\IETK_1.wav"
+    *FICHERO        "Voices\IETK_2.wav"
+    *FICHERO        "Voices\IETK_5.wav"
+    *ALIAS          "ACK Tropa Egipcia Ariete Seleccion"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEWG
+    *FICHERO        "Voices\IETO_1.wav"
+    *FICHERO        "Voices\IETO_2.wav"
+    *FICHERO        "Voices\IETO_3.wav"
+    *ALIAS          "ACK Tropa Egipcia Ariete Orden Generica"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+
+
+  // -------------------------------------------------------------------------------------
+  // TORRE ASALTO
+  // -------------------------------------------------------------------------------------  
+  *SONIDO
+  {
+    *NOMBRE         IEYM
+    *FICHERO        "Voices\IETM_1.wav"
+    *FICHERO        "Voices\IETK_3.wav"
+    *FICHERO        "Voices\IETK_2.wav"
+    *FICHERO        "Voices\IETO_2.wav"
+    *ALIAS          "ACK Tropa Egipcia Torre Asalto Mover"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEYN
+    *FICHERO        "Voices\IETN_1.wav"
+    *ALIAS          "ACK Tropa Egipcia No Puede Mover"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEYR
+    *FICHERO        "Voices\IETM_2.wav"
+    *ALIAS          "ACK Tropa Egipcia Torre Asalto Correr"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEYA
+    *FICHERO        "Voices\IETA_1.wav"
+    *FICHERO        "Voices\IETA_3.wav"
+    *ALIAS          "ACK Tropa Egipcia Torre Asalto Atacar"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEYT
+    *FICHERO        "Voices\IETA_1.wav"
+    *FICHERO        "Voices\IETA_3.wav"
+    *ALIAS          "ACK Tropa Egipcia Torre Asalto Atacar Corriendo"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEYS
+    *FICHERO        "Voices\IETK_3.wav"
+    *FICHERO        "Voices\IETK_4.wav"
+    *FICHERO        "Voices\IETK_1.wav"
+    *FICHERO        "Voices\IETK_2.wav"
+    *FICHERO        "Voices\IETK_5.wav"
+    *ALIAS          "ACK Tropa Egipcia Torre Asalto Seleccion"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEYG
+    *FICHERO        "Voices\IETO_1.wav"
+    *FICHERO        "Voices\IETO_2.wav"
+    *FICHERO        "Voices\IETO_3.wav"
+    *ALIAS          "ACK Tropa Egipcia Torre Asalto Orden Generica"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+
+
+  // -------------------------------------------------------------------------------------
+  // ESCALA
+  // -------------------------------------------------------------------------------------  
+  *SONIDO
+  {
+    *NOMBRE         IEXM
+    *FICHERO        "Voices\IETM_1.wav"
+    *FICHERO        "Voices\IETK_3.wav"
+    *FICHERO        "Voices\IETK_2.wav"
+    *FICHERO        "Voices\IETO_2.wav"
+    *ALIAS          "ACK Tropa Egipcia Escala Mover"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEXR
+    *FICHERO        "Voices\IETM_2.wav"
+    *ALIAS          "ACK Tropa Egipcia Escala Correr"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEXA
+    *FICHERO        "Voices\IETA_1.wav"
+    *FICHERO        "Voices\IETA_3.wav"
+    *ALIAS          "ACK Tropa Egipcia Escala Atacar"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEXT
+    *FICHERO        "Voices\IETA_1.wav"
+    *FICHERO        "Voices\IETA_3.wav"
+    *ALIAS          "ACK Tropa Egipcia Escala Atacar Corriendo"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEXS
+    *FICHERO        "Voices\IETK_3.wav"
+    *FICHERO        "Voices\IETK_4.wav"
+    *FICHERO        "Voices\IETK_1.wav"
+    *FICHERO        "Voices\IETK_2.wav"
+    *FICHERO        "Voices\IETK_5.wav"
+    *ALIAS          "ACK Tropa Egipcia Escala Seleccion"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IEXG
+    *FICHERO        "Voices\IETO_1.wav"
+    *FICHERO        "Voices\IETO_2.wav"
+    *FICHERO        "Voices\IETO_3.wav"
+    *ALIAS          "ACK Tropa Egipcia Escala Orden Generica"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_EGIPCIO
+    *VOLUMEN        0.8f
+  }
+  
+  // -------------------------------------------------------------------------------------
+  // GENERICAS
+  // -------------------------------------------------------------------------------------  
+
+  *SONIDO
+  {
+    *NOMBRE         IETU
+    *FICHERO        "Voices\IETN_2.wav"
+    *ALIAS          "ACK Tropa Egipcia No puede"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IETB
+    *FICHERO        "Voices\IETB_1.wav"
+    *ALIAS          "ACK Tropa Egipcia No puede Construir"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }  
+}

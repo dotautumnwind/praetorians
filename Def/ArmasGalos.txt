@@ -1,0 +1,368 @@
+{
+//***************************************************************************
+//***************************************************************************
+//***********************          GALOS          ***************************
+//***************************************************************************
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD 			GALO_CENTURION
+		*ESTADO 			NORMAL
+		*FLAG 				FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 			13
+			*PROYECTIL 	0
+			*INCENDIO 	0
+			*EDIFICIO 	0
+			*GOLPE 			0
+		}
+		*RITMO 				0.5
+		*RANGO_MIN 		0
+		*RANGO_MAX 		0.5
+		*TIPO					TIPO_CC
+	}
+
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD 			JEFE_GERMANO
+		*ESTADO 			NORMAL
+		*FLAG 				FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 			13
+			*PROYECTIL 	0
+			*INCENDIO 	0
+			*EDIFICIO 	0
+			*GOLPE 			0
+		}
+		*RITMO 				0.5
+		*RANGO_MIN 		0
+		*RANGO_MAX 		0.5
+		*TIPO					TIPO_CC
+	}
+
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD 			GALO_LIGERA
+		*ESTADO 			NORMAL
+		*FLAG 				FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 			70
+			*PROYECTIL 	0
+			*INCENDIO 	0
+			*EDIFICIO 	0
+			*GOLPE 			0
+		}
+		*RITMO 				0.5
+		*RANGO_MIN 		0
+		*RANGO_MAX 		0.5
+		*TIPO					TIPO_CC
+	}
+
+	*ARMA
+	{
+		*UNIDAD 			GALO_LIGERA
+		*ESTADO 			DEFENSA_MAQUINA
+		*FLAG 				FLAG_DEFENSA_MAQUINA
+		*DANYO
+		{
+			*MELEE 			25
+			*PROYECTIL	0
+			*INCENDIO 	0
+			*EDIFICIO 	0
+			*GOLPE 			0
+		}
+		*RITMO 				0.5
+		*RANGO_MIN 		0
+		*RANGO_MAX 		0.5
+		*TIPO					TIPO_CC
+	}
+
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD 			GALO_PESADA
+		*ESTADO 			NORMAL
+		*FLAG 				FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 			140
+			*PROYECTIL 	0
+			*INCENDIO 	0
+			*EDIFICIO 	0
+			*GOLPE 			0
+		}
+		*RITMO 				0.5
+		*RANGO_MIN 		0
+		*RANGO_MAX 		0.5
+		*TIPO					TIPO_CC
+	}
+
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD 			GALO_ARQUERO
+		*ESTADO 			NORMAL
+		*DANYO
+		{
+			*MELEE 			50
+			*PROYECTIL 	400
+			*INCENDIO 	0
+			*EDIFICIO 	0
+			*GOLPE 			0
+		}
+		*PRECISION 		100
+		*RITMO 				2
+		*RANGO_MIN 		3
+		*RANGO_MAX 		15
+		*TIPO					TIPO_DISTANCIA
+		*TIPOLOGIA_DANYO		PROYECTIL
+		*MUNICION			FLECHA
+	}
+	*ARMA
+	{
+		*UNIDAD 			GALO_ARQUERO
+		*ESTADO 			CUERPO
+		*FLAG 				FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 			70
+			*PROYECTIL 	0
+			*INCENDIO 	0
+			*EDIFICIO 	0
+			*GOLPE 			0
+		}
+		*RITMO 				0.5
+		*RANGO_MIN 		0
+		*RANGO_MAX 		0.5
+		*TIPO					TIPO_CC
+		*MUNICION			FLECHA
+	}
+
+	*ARMA
+	{
+		*UNIDAD 			GALO_ARQUERO
+		*ESTADO 			FUEGO
+		*FLAG 				FLAG_FUEGO
+		*DANYO
+		{
+			*MELEE 			0
+			*PROYECTIL 	0
+			*INCENDIO 	80
+			*EDIFICIO 	0
+			*GOLPE 			0
+		}
+		*PRECISION 		100
+		*RITMO 				2
+		*RANGO_MIN 		3
+		*RANGO_MAX 		15
+		*TIPO					TIPO_DISTANCIA
+		*TIPOLOGIA_DANYO		PROYECTIL
+		*MUNICION			FLECHA_FUEGO
+	}
+	*ARMA
+	{
+		*UNIDAD 			GALO_ARQUERO
+		*ESTADO 			PLANTADO
+		*DANYO
+		{
+			*MELEE 			0
+			*PROYECTIL 	200
+			*INCENDIO 	0
+			*EDIFICIO 	0
+			*GOLPE 			0
+		}
+		*PRECISION 		100
+		*RITMO 				2
+		*RANGO_MIN 		3
+		*RANGO_MAX 		18
+		*TIPO					TIPO_DISTANCIA
+		*TIPOLOGIA_DANYO		PROYECTIL
+		*MUNICION			FLECHA
+	}
+	*ARMA
+	{
+		*UNIDAD 			GALO_ARQUERO
+		*ESTADO 			PLANTADO_FUEGO
+		*FLAG 				FLAG_FUEGO
+		*DANYO
+		{
+			*MELEE 			0
+			*PROYECTIL 	0
+			*INCENDIO 	80
+			*EDIFICIO 	0
+			*GOLPE 			0
+		}
+		*PRECISION 		100
+		*RITMO 				2
+		*RANGO_MIN 		5
+		*RANGO_MAX 		15
+		*TIPO					TIPO_DISTANCIA
+		*TIPOLOGIA_DANYO		PROYECTIL
+		*MUNICION			FLECHA_FUEGO
+	}
+	
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD 			GALO_PIQUERO
+		*ESTADO 			NORMAL
+		*FLAG 				FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 			0
+			*PROYECTIL 	200
+			*INCENDIO 	0
+			*EDIFICIO 	40
+			*GOLPE 			60
+		}
+		*RITMO 				1
+		*RANGO_MIN		0
+		*RANGO_MAX 		1
+		*TIPO					TIPO_CC
+	}
+	*ARMA
+	{
+		*UNIDAD 			GALO_PIQUERO
+		*ESTADO 			PLANTADO
+		*FLAG 				FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 			0
+			*PROYECTIL 	350
+			*INCENDIO 	0
+			*EDIFICIO 	0
+			*GOLPE 			60
+		}
+		*RITMO 				0.5
+		*RANGO_MIN 		0
+		*RANGO_MAX 		2
+		*TIPO					TIPO_CC
+	}
+
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD 			GALO_CABALLERIA_PESADA
+		*ESTADO 			NORMAL
+		*FLAG 				FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 			150
+			*PROYECTIL 	33
+			*INCENDIO 	0
+			*EDIFICIO 	0
+			*GOLPE 			0
+		}
+		*RITMO 				0.5
+		*RANGO_MIN 		0
+		*RANGO_MAX 		0.5
+		*TIPO					TIPO_CC
+	}
+
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD 			GALO_CABALLERIA_ARQUERA
+		*ESTADO 			NORMAL
+		*DANYO
+		{
+			*MELEE 			50
+			*PROYECTIL 	300
+			*INCENDIO 	0
+			*EDIFICIO 	0
+			*GOLPE 			0
+		}
+		*PRECISION 		100
+		*RITMO 				2
+		*RANGO_MIN 		3
+		*RANGO_MAX 		15
+		*TIPO					TIPO_DISTANCIA
+		*TIPOLOGIA_DANYO		PROYECTIL
+		*MUNICION			FLECHA
+	}
+	*ARMA
+	{
+		*UNIDAD 			GALO_CABALLERIA_ARQUERA
+		*ESTADO 			FUEGO
+		*FLAG 				FLAG_FUEGO
+		*DANYO
+		{
+			*MELEE 			0
+			*PROYECTIL 	0
+			*INCENDIO 	40
+			*EDIFICIO 	0
+			*GOLPE 			0
+		}
+		*PRECISION 		100
+		*RITMO 				0.5
+		*RANGO_MIN 		3
+		*RANGO_MAX 		15
+		*TIPO					TIPO_DISTANCIA
+		*TIPOLOGIA_DANYO		PROYECTIL
+		*MUNICION			FLECHA_FUEGO
+	}
+
+	*ARMA
+	{
+		*UNIDAD 			GALO_CABALLERIA_ARQUERA
+		*ESTADO 			CUERPO
+		*FLAG 				FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 			25
+			*PROYECTIL 	0
+			*INCENDIO 	0
+			*EDIFICIO 	0
+			*GOLPE 			0
+		}
+		*RITMO 				0.5
+		*RANGO_MIN 		0
+		*RANGO_MAX 		0.5
+		*TIPO					TIPO_CC
+	}
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD 			GALO_LIGERA
+		*ESTADO 			FRANCISCAS
+		*DANYO
+		{
+			*MELEE			300
+			*PROYECTIL	350
+			*INCENDIO		0
+			*EDIFICIO		0
+			*GOLPE			0
+		}		
+		*RITMO				1
+		*RANGO_MIN		2
+		*RANGO_MAX		11
+		*TIPO					TIPO_DISTANCIA
+		*TIPOLOGIA_DANYO	PROYECTIL
+		*MUNICION			FRANCISCA
+	}
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD 			GALO_PESADA
+		*ESTADO 			BOLEADORAS
+		*DANYO
+		{
+			*MELEE			150
+			*PROYECTIL	150
+			*INCENDIO		0
+			*EDIFICIO		0
+			*GOLPE			0
+		}		
+		*RITMO				1
+		*RANGO_MIN		2
+		*RANGO_MAX		10
+		*TIPO					TIPO_DISTANCIA
+		*TIPOLOGIA_DANYO	PROYECTIL
+		*MUNICION			BOLEADORAS
+	}
+}

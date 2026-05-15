@@ -1,0 +1,1276 @@
+{
+// **************************************************************************
+// ***********************     ESPECIALES ROMANOS     ***********************
+// **************************************************************************
+
+	*UNIDAD
+	{
+		*RAZA 										ROMANOS
+		*TIPO 										GLADIADOR
+		*BASE 										GLADIADOR
+		*ORDEN_GRUPO 							ORDEN_GRUPO_FILA4
+		*VIDA 										2000
+		*RAD_VISION 							15
+		*FLAG											FLAG_TRANSFORMA_CENTURION
+		*FLAG											FLAG_MAXIMO_DANYO	
+		*FLAG											FLAG_TROPA_ESPECIAL
+		*FLAG											FLAG_SIEMPRE_AGRESIVO
+		*FLAG                     FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*ORDENACION_ZONA_INFO     5
+		*CANTIDAD_HUMO_RASTRO     0.2
+		*TERRENO 									AGUA_PROFUNDA
+		*TERRENO						      FIN_ESCENARIO
+		*MOTOR 										GLADIADOR
+		*FLAGSNOPASABLES 					FLAG_PENDIENTE2
+		*ALCANCE 									CORTO 
+		*CATEGORIA_CARGA 					0
+		*IDTEXICONOTROPA 					UnidadesCiv3.tga
+		*IDTEXPINFO 							0
+		*IDTEXPINFOGRANDE 				0
+		*COORDICONOTROPA 					3
+		*COORDPINFO 							3 0
+		*COORDPINFOGRANDE 				3 1
+		*IDTEXORDEN 							1
+		*COORDORDEN								2 0
+		*COSTE_ENTRENAMIENTO 			5.625
+		*COSTE_HABITANTES					3
+		*NOMBRE_TRADUCIBLE 				LTEXT_UNIDAD_GLADIADOR
+		*INCREMENTO_ENTRENAMIENTO 16
+		*MIN_DIVISION             8						
+		*ALTURA_PROYECTIL 				0.5
+		*POSICION_PROYECTIL 			0.0 0.0 0.0
+		*FORMACION 								GLADIADOR
+		*FORMACION 								MURALLA_GLADIADOR
+		*FORMACION_ESTANDAR 			GLADIADOR
+		*MAX_UNIDADES_TROPA				16
+		*EXPERIENCIA_POR_MUERTE		10
+		*EXPERIENCIA_POR_MORIR		3
+		*PCU											3
+		*PCT											1
+		*PUNTOS_HONOR							2
+		*ANCHO_SOMBRA 						0.5
+		*ALTO_SOMBRA 							0.5
+		*IDSOMBRA 								0
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE								50
+				*PROYECTIL						55
+				*INCENDIO							0
+				*EDIFICIO							50
+				*GOLPE								0
+			}
+			*NOMBRE									NORMAL
+		}		 
+		*HABILIDAD								RED
+		*HABILIDAD 								FISICO
+
+		*POTENCIA_TROPA 					625
+		*MANA_CRECIMIENTO 				200
+		*MANA_MAXIMO 							1000
+	}
+		
+	*UNIDAD
+	{
+		*RAZA 										ROMANOS
+		*TIPO 										MENSAJERO
+		*BASE 										MENSAJERO
+		*ORDEN_GRUPO 							ORDEN_GRUPO_FILA4
+		*VIDA 										1000
+		*RAD_VISION 							15
+		*FLAG											FLAG_TROPA_ESPECIAL
+		*FLAG											FLAG_ATACA_PROTEGIENDO
+
+//		De momento, lo descobardizamos
+//		*FLAG											FLAG_EVITA_ENEMIGOS
+
+		*FLAG											FLAG_BOTON_ESPECIALES
+		*FLAG											FLAG_NO_ATAQUE
+		*FLAG                     FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*FLAG                     FLAG_SOMBRA_ROTABLE
+		*CANTIDAD_HUMO_RASTRO     0.2
+		*TERRENO 									AGUA_PROFUNDA
+		*TERRENO						      FIN_ESCENARIO
+		*MOTOR 										PRME_BASE 
+		*FLAGSNOPASABLES 					FLAG_PENDIENTE2
+		*ALCANCE 									CORTO 
+		*CATEGORIA_CARGA 					0
+		*IDTEXICONOTROPA 					UnidadesCiv1.tga
+		*IDTEXPINFO 							0
+		*IDTEXPINFOGRANDE 				3
+		*COORDICONOTROPA 					0
+		*COORDPINFO 							6 0
+		*COORDPINFOGRANDE 				0 2		
+		*ANCHO_SOMBRA 						0.5
+		*ALTO_SOMBRA 							0.5
+		*IDSOMBRA 								8
+		*NOMBRE_TRADUCIBLE 				LTEXT_UNIDAD_MENSAJERO
+		*ALTURA_PROYECTIL 				0.5
+		*POSICION_PROYECTIL 			0.0 0.0 0.0
+		*FORMACION 								MENSAJERO
+		*FORMACION_ESTANDAR 			MENSAJERO	
+		*MAX_UNIDADES_TROPA				1
+		*MANA_CRECIMIENTO 				25
+		*MANA_MAXIMO 							1000
+		*EXPERIENCIA_POR_MUERTE		10
+		*EXPERIENCIA_POR_MORIR		1
+		*ANCHO_SOMBRA 						0.5
+		*ALTO_SOMBRA 							0.5
+		*IDSOMBRA 								0
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE								100
+				*PROYECTIL						10
+				*INCENDIO							0
+				*EDIFICIO							100
+				*GOLPE								0
+			}
+			*NOMBRE									NORMAL
+		}		 
+		*HABILIDAD 								FISICO
+		*POTENCIA_TROPA 					0
+	}
+	
+	*UNIDAD
+	{
+		*RAZA 										ROMANOS
+		*TIPO 										HONDERO
+		*BASE 										HONDERO
+		*ORDEN_GRUPO 							ORDEN_GRUPO_FILA6
+		*VIDA 										2000
+		*RAD_VISION 							15
+		*FLAG											FLAG_TRANSFORMA_CENTURION
+		*FLAG											FLAG_MAXIMO_DANYO	
+		*FLAG											FLAG_TROPA_ESPECIAL
+		*FLAG											FLAG_ANTIMAQUINA	
+		*FLAG											FLAG_ATACA_DISTANCIA	
+		*FLAG                     FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*ORDENACION_ZONA_INFO     6
+		*CANTIDAD_HUMO_RASTRO     0.2
+		*TERRENO 									AGUA_PROFUNDA
+		*TERRENO						      FIN_ESCENARIO
+		*MOTOR 										PRHO_BASE
+		*FLAGSNOPASABLES 					FLAG_PENDIENTE2
+		*ALCANCE 									LARGO 
+		*CATEGORIA_CARGA 					0
+		*IDTEXICONOTROPA 					UnidadesCiv3.tga
+		*IDTEXPINFO 							0
+		*IDTEXPINFOGRANDE 				0
+		*COORDICONOTROPA 					4
+		*COORDPINFO 							3 1
+		*COORDPINFOGRANDE 				3 2
+		*IDTEXORDEN 							1
+		*COORDORDEN								2 1
+		*COSTE_ENTRENAMIENTO 			5.625
+		*COSTE_HABITANTES					3
+		*INCREMENTO_ENTRENAMIENTO 16
+		*MIN_DIVISION             8				
+		*NOMBRE_TRADUCIBLE 				LTEXT_UNIDAD_HONDERO
+		*ALTURA_PROYECTIL 				0.5
+		*POSICION_PROYECTIL 			0.0 0.0 0.0
+		*FORMACION 	          		HONDERO
+		*FORMACION 								MURALLA_HONDERO
+		*FORMACION_ESTANDAR 			HONDERO
+		*MAX_UNIDADES_TROPA				16
+		*MANA_CRECIMIENTO 				250
+		*MANA_MAXIMO 							1000
+		*EXPERIENCIA_POR_MUERTE		10
+		*EXPERIENCIA_POR_MORIR		3
+		*PCU											3
+		*PCT											1
+		*PUNTOS_HONOR							2
+		*ANCHO_SOMBRA 						0.5
+		*ALTO_SOMBRA 							0.5
+		*IDSOMBRA 								0
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE								50
+				*PROYECTIL						50
+				*INCENDIO							0
+				*EDIFICIO							50
+				*GOLPE								0
+			}
+			*NOMBRE									NORMAL
+		}		 
+		*HABILIDAD 								FISICO
+		*HABILIDAD								ATAQUE_CABEZA
+		*POTENCIA_TROPA           625
+	}
+	
+	*UNIDAD
+	{
+		*RAZA 										ROMANOS
+		*TIPO 										PIQUERO_ELITE
+		*BASE 										PIQUERO_ELITE
+		*ORDEN_GRUPO 							ORDEN_GRUPO_FILA1
+		*TERRENO 									AGUA_PROFUNDA
+		*TERRENO									FIN_ESCENARIO
+		*VIDA 										3000
+		*RAD_VISION 							15
+		*MOTOR 										PRESP_BASE
+		*FLAGSNOPASABLES 					FLAG_PENDIENTE2
+		*FLAG                     FLAG_DERRIBA_ESCALAS
+		*FLAG                     FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*ORDENACION_ZONA_INFO     7
+		*FLAG											FLAG_TROPA_ESPECIAL
+		*CANTIDAD_HUMO_RASTRO     0.2
+		*ALCANCE 									MEDIO
+		*CATEGORIA_CARGA 					0
+		*IDTEXICONOTROPA 					UnidadesCiv1.tga
+		*IDTEXPINFO 							0
+		*IDTEXPINFOGRANDE 				3
+		*COORDICONOTROPA 					3
+		*COORDPINFO 							3 2
+		*COORDPINFOGRANDE 				0 1
+		*IDTEXORDEN 							1
+		*COORDORDEN								2 3
+		*COSTE_ENTRENAMIENTO 			5.625
+		*COSTE_HABITANTES					3
+		*INCREMENTO_ENTRENAMIENTO 16
+		*MIN_DIVISION             8				
+		*NOMBRE_TRADUCIBLE 				LTEXT_UNIDAD_PIQUEROS_ELITE
+		*FORMACION 								MURALLA_PIQUERO_ELITE
+		*FORMACION 								PIQUERO_ELITE
+		*FORMACION_ESTANDAR 			PIQUERO_ELITE
+		*MAX_UNIDADES_TROPA				16
+		*EXPERIENCIA_POR_MUERTE		10
+		*EXPERIENCIA_POR_MORIR		3
+		*PCU											3
+		*PCT											1
+		*PUNTOS_HONOR							2
+		*ANCHO_SOMBRA 						0.5
+		*ALTO_SOMBRA 							0.5
+		*IDSOMBRA 								0
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE								30
+				*PROYECTIL						20
+				*INCENDIO							0
+				*EDIFICIO							40
+				*GOLPE								0
+			}
+			*NOMBRE									NORMAL
+		}
+		*HABILIDAD 								FISICO
+		*POTENCIA_TROPA           625
+		*MANA_CRECIMIENTO 				200
+		*MANA_MAXIMO 							1000
+	}
+
+// **************************************************************************
+// ***********************     ESPECIALES BARBAROS    ***********************
+// **************************************************************************
+	
+	*UNIDAD
+	{
+		*RAZA 										BARBAROS
+		*TIPO 										EXPLORADOR_LOBO
+		*BASE 										EXPLORADOR
+		*TIPO_FAMILIAR						LOBO
+		*ORDEN_GRUPO 							ORDEN_GRUPO_FILA4
+		*VIDA 										100
+		*RAD_VISION 							25		 
+		*FLAG											FLAG_TROPA_ESPECIAL		 
+		*FLAG											FLAG_EXPLORADOR
+		*FLAG											FLAG_NO_CEGUERA
+		*FLAG											FLAG_NO_ATAQUE
+		*FLAG                     FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*FLAG                     FLAG_ACK_CIVILIZACION
+		*ORDENACION_ZONA_INFO     4
+		*FLAG											FLAG_ATACA_PROTEGIENDO
+		*CANTIDAD_HUMO_RASTRO     0.2
+		*TERRENO 									AGUA_PROFUNDA
+		*TERRENO						      FIN_ESCENARIO
+		*MOTOR 										PGE_BASE 
+		*FLAGSNOPASABLES 					FLAG_PENDIENTE2
+		*ALCANCE 									CORTO 
+		*CATEGORIA_CARGA 					1
+		*IDTEXICONOTROPA 					UnidadesCiv3.tga
+		*IDTEXPINFO 							0
+		*IDTEXPINFOGRANDE 				1
+		*COORDICONOTROPA 					1
+		*COORDPINFO 							3 3
+		*COORDPINFOGRANDE 				3 3
+		*IDTEXORDEN 							2
+		*COORDORDEN							 	1 3
+		*COSTE_ENTRENAMIENTO 			5
+		*COSTE_HABITANTES					5
+		*NOMBRE_TRADUCIBLE 				LTEXT_UNIDAD_EXPLORADOR_LOBO
+		*INCREMENTO_ENTRENAMIENTO 1
+		*ALTURA_PROYECTIL 				0.5				
+		*POSICION_FAMILIAR				0.1 1.0 0.4
+		*POSICION_PROYECTIL 			0.0 0.0 0.0		
+		*FORMACION 								EXPLORADOR
+		*FORMACION_ESTANDAR 			EXPLORADOR
+		*MAX_UNIDADES_TROPA				1
+		*MANA_MAXIMO 							1000
+		*MANA_CRECIMIENTO 				25
+		*EXPERIENCIA_POR_MUERTE		10
+		*EXPERIENCIA_POR_MORIR		1
+		*PCU											5
+		*PCT											1
+		*PUNTOS_HONOR							0
+		*ANCHO_SOMBRA 						0.5
+		*ALTO_SOMBRA 							0.5
+		*IDSOMBRA 								0
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE								100
+				*PROYECTIL						10
+				*INCENDIO							0
+				*EDIFICIO							100
+				*GOLPE								0
+			}
+			*NOMBRE									NORMAL
+		}		  		
+		*HABILIDAD								SOLTAR_FAMILIAR_LOBO
+		*POTENCIA_TROPA 0
+	}
+	
+	*UNIDAD
+	{
+		*RAZA 										BARBAROS
+		*TIPO 										LOBO_SCOUT
+		*BASE 										LOBO_SCOUT
+		*FLAG                     FLAG_GIRAR_AL_ANDAR
+		*ORDEN_GRUPO 							ORDEN_GRUPO_FILA4
+		*VIDA 										1000
+		*RAD_VISION 							12
+		*RAD_OLFATO								35		 
+		*FLAG											FLAG_TROPA_ESPECIAL
+		*FLAG											FLAG_NO_CEGUERA
+		*FLAG                     FLAG_VISION_BOSQUES
+		*FLAG											FLAG_NO_ATAQUE
+		*FLAG                     FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*FLAG                     FLAG_SOMBRA_ROTABLE
+		*FLAG                     FLAG_FAMILIAR
+		*CANTIDAD_HUMO_RASTRO     0.2
+		*TERRENO 									AGUA_PROFUNDA
+		*TERRENO						      FIN_ESCENARIO
+		*MOTOR 										PGE_LOBO 
+		*FLAGSNOPASABLES 					FLAG_PENDIENTE2
+		*ALCANCE 									CORTO 
+		*CATEGORIA_CARGA 					1
+		*IDTEXICONOTROPA 					UnidadesCiv1.tga
+		*IDTEXPINFO 							0
+		*IDTEXPINFOGRANDE 				3
+		*COORDICONOTROPA 					0
+		*COORDPINFO 							3 3
+		*COORDPINFOGRANDE 				1 0
+		*IDTEXORDEN 							1
+		*COORDORDEN								2 6
+		*IDSOMBRA									8
+		*ANCHO_SOMBRA							0.4
+		*ALTO_SOMBRA 							0.2
+		*NOMBRE_TRADUCIBLE 				LTEXT_UNIDAD_LOBO
+	 	*FORMACION 								LOBO_SCOUT 
+		*FORMACION_ESTANDAR 			LOBO_SCOUT
+		*MAX_UNIDADES_TROPA				1
+		*MANA_MAXIMO 							1000		
+		*PCT											0
+		*PCU											0
+		*EXPERIENCIA_POR_MUERTE		7
+		*EXPERIENCIA_POR_MORIR		3 
+		*ESTADO
+		{
+			*DANYO
+			{
+			*DANYO                 	// El lobo no recibe daño
+				*MELEE								0
+				*PROYECTIL						0
+				*INCENDIO							0
+				*EDIFICIO							0
+				*GOLPE								0
+			}
+			*NOMBRE									NORMAL
+			*POTENCIA_TROPA         0
+		}	
+	}		   
+	*UNIDAD
+	{
+		*RAZA 										BARBAROS
+		*TIPO 										GALO_MENSAJERO
+		*BASE 										MENSAJERO
+		*ORDEN_GRUPO 							ORDEN_GRUPO_FILA4
+		*VIDA 										1000
+		*RAD_VISION 							15
+		*FLAG											FLAG_TROPA_ESPECIAL
+		*FLAG											FLAG_NO_ATAQUE
+		*FLAG                     FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*FLAG											FLAG_ATACA_PROTEGIENDO
+		*ORDENACION_ZONA_INFO     0
+		*FLAG                     FLAG_SOMBRA_ROTABLE
+		*CANTIDAD_HUMO_RASTRO     0.2
+		*TERRENO 									AGUA_PROFUNDA
+		*TERRENO						      FIN_ESCENARIO
+		*MOTOR 										PGME_BASE 
+		*FLAGSNOPASABLES 					FLAG_PENDIENTE2
+		*ALCANCE 									CORTO 
+		*CATEGORIA_CARGA 					0
+		*IDTEXICONOTROPA 					UnidadesCiv1.tga
+		*IDTEXPINFO 							0
+		*IDTEXPINFOGRANDE 				3
+		*COORDICONOTROPA 					0
+		*COORDPINFO 							6 1
+		*COORDPINFOGRANDE 				0 3		
+		*ANCHO_SOMBRA 						0.5
+		*ALTO_SOMBRA 							0.5
+		*IDSOMBRA 								8
+		*NOMBRE_TRADUCIBLE 				LTEXT_UNIDAD_MENSAJERO
+		*ALTURA_PROYECTIL 				0.5
+		*POSICION_PROYECTIL 			0.0 0.0 0.0
+		*FORMACION 								MENSAJERO
+		*FORMACION_ESTANDAR 			MENSAJERO	
+		*MAX_UNIDADES_TROPA				1
+		*MANA_CRECIMIENTO 				25
+		*MANA_MAXIMO 							1000
+		*EXPERIENCIA_POR_MUERTE		10
+		*EXPERIENCIA_POR_MORIR		1
+		*ANCHO_SOMBRA 						0.5
+		*ALTO_SOMBRA 							0.5
+		*IDSOMBRA 								0
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE								100
+				*PROYECTIL						10
+				*INCENDIO							0
+				*EDIFICIO							100
+				*GOLPE								0
+			}
+			*NOMBRE									NORMAL
+		}		 
+		*HABILIDAD 								FISICO
+		*POTENCIA_TROPA 					0
+	}
+	
+	*UNIDAD
+	{
+		*RAZA 										BARBAROS
+		*TIPO 										CABALLERIA_GERMANA
+		*BASE 										CABALLERIA_GERMANA
+		*FLAG                     FLAG_GIRAR_AL_ANDAR
+		*FLAG											FLAG_PUEDE_REALIZAR_CARGA
+		*FLAG                     FLAG_SOMBRA_ROTABLE
+		*ORDEN_GRUPO 							ORDEN_GRUPO_FILA3
+		*TERRENO 									AGUA_PROFUNDA		 
+		*TERRENO						      FIN_ESCENARIO
+		*VIDA 										3000
+		*RAD_VISION 							15
+		*FLAG											FLAG_TROPA_ESPECIAL
+		*FLAG                     FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*ORDENACION_ZONA_INFO     5
+		*CANTIDAD_HUMO_RASTRO     0.7
+		*MOTOR 										PGCG_BASE
+		*REPOSOS_E 								2
+		*FLAGSNOPASABLES 					FLAG_PENDIENTE2
+		*ALCANCE 									CORTO
+		*CATEGORIA_CARGA 					1
+		*IDTEXICONOTROPA 					UnidadesCiv1.tga
+		*IDTEXPINFO 							0
+		*IDTEXPINFOGRANDE 				1
+		*COORDICONOTROPA 					4
+		*COORDPINFO 							4 1
+		*COORDPINFOGRANDE 				3 1
+		*IDTEXORDEN 							2
+		*COORDORDEN								2 1
+	  *ANCHO_SOMBRA 						0.5
+		*ALTO_SOMBRA 							0.5
+		*IDSOMBRA 								8
+		*ANCHO                    1.2
+		*ALTO                     1.5
+		*IDSOMBRA 								8
+		*DESMONTABLE 							1
+		*COSTE_ENTRENAMIENTO 			7.5
+		*COSTE_HABITANTES					4
+		*NOMBRE_TRADUCIBLE 				LTEXT_UNIDAD_CGERMANA
+		*INCREMENTO_ENTRENAMIENTO 12
+		*MIN_DIVISION             6				
+		*FORMACION 								CGERMANA 
+		*FORMACION_ESTANDAR 			CGERMANA
+		*MAX_UNIDADES_TROPA				12
+		*EXPERIENCIA_POR_MUERTE		14
+		*EXPERIENCIA_POR_MORIR		4
+		*PCU											4
+		*PCT											1
+		*PUNTOS_HONOR							2
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE 								25
+				*PROYECTIL						75
+				*INCENDIO							0
+				*EDIFICIO							50
+				*GOLPE								75
+			}
+			*NOMBRE									NORMAL
+		}
+		*HABILIDAD 								FISICO  
+		*HABILIDAD								CARGA_EMPALADORA 
+
+		*POTENCIA_TROPA           833
+		*MANA_CRECIMIENTO 	      200
+		*MANA_MAXIMO 				      1000
+	}
+	
+	*UNIDAD
+	{
+		*RAZA 										BARBAROS
+		*TIPO 										GALO_CAZADOR
+		*BASE 										CAZADOR		
+		*ORDEN_GRUPO 							ORDEN_GRUPO_FILA4		
+		*TERRENO						      FIN_ESCENARIO
+		*VIDA 										2500
+		*RAD_VISION 							15
+		*FLAG											FLAG_TROPA_ESPECIAL
+		*FLAG 										FLAG_ATACA_DISTANCIA
+		*FLAG                     FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*FLAG											FLAG_ATACA_ESTRUCTURA_CC
+		*ORDENACION_ZONA_INFO     6
+		*CANTIDAD_HUMO_RASTRO     0.2
+		*MOTOR 										PGCA_BASE
+		*TERRENO 									AGUA_PROFUNDA
+		*FLAGSNOPASABLES 					FLAG_PENDIENTE2
+		*ALCANCE 									LARGO
+		*CATEGORIA_CARGA 					0
+		*IDTEXICONOTROPA 					UnidadesCiv3.tga
+		*IDTEXPINFO 							0
+		*IDTEXPINFOGRANDE 				2
+		*COORDICONOTROPA 					5
+		*COORDPINFO 							3 4
+		*COORDPINFOGRANDE 				3 1
+		*IDTEXORDEN 							2
+		*COORDORDEN								2 0
+		*COSTE_ENTRENAMIENTO 			5.625
+		*COSTE_HABITANTES					3
+		*NOMBRE_TRADUCIBLE 				LTEXT_UNIDAD_CAZADOR
+		*INCREMENTO_ENTRENAMIENTO 16
+		*MIN_DIVISION             8				
+		*POSICION_PROYECTIL 			0.0 0.7 0.0
+		*FORMACION 								GALO_CAZADOR
+		*FORMACION								MURALLA_CAZADOR
+		*FORMACION_ESTANDAR 			GALO_CAZADOR
+		*MAX_UNIDADES_TROPA				16
+		*EXPERIENCIA_POR_MUERTE		10
+		*EXPERIENCIA_POR_MORIR		3
+		*PCU											3
+		*PCT											1
+		*PUNTOS_HONOR							2
+		*TIEMPO_OCIOSO						5
+		*ANCHO_SOMBRA 						0.5
+		*ALTO_SOMBRA 							0.5
+		*IDSOMBRA 								0
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE 								60
+				*PROYECTIL						40
+				*INCENDIO							0
+				*EDIFICIO							50
+				*GOLPE								0
+			}
+			*NOMBRE									NORMAL
+		}
+		
+		*HABILIDAD 								FRENESI
+		*HABILIDAD 								FISICO  
+		*HABILIDAD								ATAQUE_SORPRESA
+
+		*POTENCIA_TROPA           650
+		*MANA_CRECIMIENTO 	      250
+		*MANA_MAXIMO 				      1000
+	}
+	
+	*UNIDAD
+	{
+		*RAZA											BARBAROS
+		*TIPO											GALO_ESPADON
+		*BASE											GALO_ESPADON
+		*ORDEN_GRUPO							ORDEN_GRUPO_FILA4
+		*TERRENO									AGUA_PROFUNDA
+		*TERRENO									FIN_ESCENARIO
+		*VIDA 										3500
+		*RAD_VISION 							15
+		*MOTOR 										PGTA_BASE
+		*FLAGSNOPASABLES 					FLAG_PENDIENTE2
+		*FLAG 										FLAG_DESENFUNDA_ARMA
+		*FLAG                     FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*ORDENACION_ZONA_INFO     7
+		*CANTIDAD_HUMO_RASTRO     0.2
+		*ALCANCE 									CORTO
+		*CATEGORIA_CARGA 					0
+		*IDTEXICONOTROPA 					UnidadesCiv1.tga
+		*IDTEXPINFO 							0
+		*IDTEXPINFOGRANDE 				1
+		*COORDICONOTROPA 					1
+		*COORDPINFO 							3 5
+		*COORDPINFOGRANDE 				3 2
+		*PROYECTIL 								0.0 0.0 0.0
+		*ALTURA_PROYECTIL 				0.5
+		*POSICION_PROYECTIL 			0.0 0.0 0.0
+		*IDTEXORDEN 							2
+		*COORDORDEN								2 2
+		*COSTE_ENTRENAMIENTO 			5.625
+		*COSTE_HABITANTES					3
+		*NOMBRE_TRADUCIBLE 				LTEXT_UNIDAD_GESPADON
+		*INCREMENTO_ENTRENAMIENTO 16
+		*MIN_DIVISION             8				
+		*FORMACION 								GALO_ESPADON
+		*FORMACION_ESTANDAR 			GALO_ESPADON
+		*MAX_UNIDADES_TROPA				16
+		*FORMACION 								MURALLA_GALO_ESPADON
+		*EXPERIENCIA_POR_MUERTE		10
+		*EXPERIENCIA_POR_MORIR		3
+		*PCU											3
+		*PCT											1
+		*PUNTOS_HONOR							2
+		*ANCHO_SOMBRA 						0.5
+		*ALTO_SOMBRA 							0.5
+		*IDSOMBRA 								0
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE								50
+				*PROYECTIL						75
+				*INCENDIO							0
+				*EDIFICIO							50
+				*GOLPE								0
+			}
+			*NOMBRE									NORMAL
+		}
+		*HABILIDAD							  FISICO
+		*MANA_CRECIMIENTO 				200
+		*MANA_MAXIMO 							1000
+		*POTENCIA_TROPA           650
+	}
+	*UNIDAD
+	{
+		*RAZA 										BARBAROS
+		*TIPO 										BARBARO_CUADRIGA
+		*BASE 										CUADRIGA
+  	*FLAG 										FLAG_GIRAR_AL_ANDAR
+		*FLAG											FLAG_TROPA_ESPECIAL
+		*FLAG											FLAG_NO_ENGANCHAR_EN_CARRERA
+		*FLAG											FLAG_DANYAR_EN_CARRERA
+		*FLAG											FLAG_POCA_MOVILIDAD
+		*FLAG                     FLAG_NOINTERPOLA_ANIM_E
+		*FLAG                     FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*ORDENACION_ZONA_INFO     7
+		*FLAG                     FLAG_SOMBRA_ROTABLE
+		*CANTIDAD_HUMO_RASTRO     0.8
+		*ORDEN_GRUPO 							ORDEN_GRUPO_FILA3
+		*TERRENO 									AGUA_PROFUNDA
+		*TERRENO 									BOSQUE_CERRADO
+		*TERRENO 									FIN_ESCENARIO
+		*VIDA 										4000
+		*REPOSOS_E                2
+		*ANDARES_E                1
+		*CORRER_E                 1
+		*RAD_VISION 							15
+		*MOTOR 										PGC_BASE
+		*FLAGSNOPASABLES 					FLAG_PENDIENTE2
+		*ALCANCE 									CORTO
+		*VELOCIDADGIRO 						9
+		*CATEGORIA_CARGA 					1
+		*IDTEXICONOTROPA 					UnidadesCiv2.tga
+		*IDTEXPINFO 							0
+		*IDTEXPINFOGRANDE 				3
+		*COORDICONOTROPA 					7
+		*COORDPINFO 							4 5
+		*COORDPINFOGRANDE 				0 0
+		*IDTEXORDEN 							3
+		*COORDORDEN								2 3
+		*IDSOMBRA 								8
+		*ANCHO_SOMBRA 						.9
+		*ALTO_SOMBRA 							0.8
+		*ANCHO                    2.2
+		*ALTO                     2.0
+		*DESMONTABLE 							1
+		*DANYO_CARRERA						200
+		*COSTE_ENTRENAMIENTO 			11.25
+		*COSTE_HABITANTES					6
+		*INCREMENTO_ENTRENAMIENTO 8
+		*MIN_DIVISION             4				
+		*NOMBRE_TRADUCIBLE 				LTEXT_UNIDAD_CUADRIGA
+		*FORMACION 								EGIPCIO_CUADRIGA
+		*FORMACION_ESTANDAR 			EGIPCIO_CUADRIGA
+		*MAX_UNIDADES_TROPA				8
+		*EXPERIENCIA_POR_MUERTE		20
+		*EXPERIENCIA_POR_MORIR		6
+		*PCU											6
+		*PCT											1
+		*PUNTOS_HONOR							2
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE 								30
+				*PROYECTIL						60
+				*INCENDIO							0
+				*EDIFICIO							50
+				*GOLPE								0
+			}
+			*NOMBRE									NORMAL
+			*VELOCIDAD							35
+		}
+		*HABILIDAD 								FISICO
+		*HABILIDAD								DESENGANCHARSE
+
+		*POTENCIA_TROPA 					2000
+		*MANA_CRECIMIENTO 				100
+		*MANA_MAXIMO 							1000
+	}
+	
+// **************************************************************************
+// ***********************     ESPECIALES EGIPCIOS    ***********************
+// **************************************************************************
+	
+	*UNIDAD
+	{
+		*RAZA 										EGIPCIOS
+		*TIPO 										EXPLORADOR_HALCON
+		*BASE 										EXPLORADOR
+		*TIPO_FAMILIAR						HALCON
+		*ORDEN_GRUPO 							ORDEN_GRUPO_FILA4
+		*VIDA 										100
+		*RAD_VISION 							25		 
+		*FLAG											FLAG_TROPA_ESPECIAL		 
+		*FLAG											FLAG_EXPLORADOR
+		*FLAG											FLAG_NO_CEGUERA
+		*FLAG											FLAG_NO_ATAQUE
+		*FLAG                     FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*FLAG                     FLAG_ACK_CIVILIZACION
+		*ORDENACION_ZONA_INFO     3
+		*FLAG											FLAG_ATACA_PROTEGIENDO
+		*CANTIDAD_HUMO_RASTRO     0.2
+		*TERRENO 									AGUA_PROFUNDA
+		*TERRENO						      FIN_ESCENARIO
+		*MOTOR 										PEE_BASE 
+		*FLAGSNOPASABLES 					FLAG_PENDIENTE2
+		*ALCANCE 									CORTO 
+		*CATEGORIA_CARGA 					1
+		*IDTEXICONOTROPA 					UnidadesCiv3.tga
+		*IDTEXPINFO 							0
+		*IDTEXPINFOGRANDE 				0
+		*COORDICONOTROPA 					0
+		*COORDPINFO 							3 6
+		*COORDPINFOGRANDE 				3 3
+		*IDTEXORDEN 							3
+		*COORDORDEN								2 0
+		*COSTE_ENTRENAMIENTO 			5
+		*COSTE_HABITANTES					5
+		*NOMBRE_TRADUCIBLE 				LTEXT_UNIDAD_EXPLORADOR_HALCON
+		*INCREMENTO_ENTRENAMIENTO 1
+		*ALTURA_PROYECTIL 				0.5				
+		//*POSICION_FAMILIAR				-0.05 0.2 0.0
+		*POSICION_FAMILIAR				0.0 0.0 0.0
+		*POSICION_PROYECTIL 			0.0 0.0 0.0		
+		*FORMACION 								EXPLORADOR
+		*FORMACION 								MURALLA_EXPLORADOR
+		*FORMACION_ESTANDAR 			EXPLORADOR
+		*MAX_UNIDADES_TROPA				1
+		*MANA_MAXIMO 							1000
+		*MANA_CRECIMIENTO 				25
+		*EXPERIENCIA_POR_MUERTE		10
+		*EXPERIENCIA_POR_MORIR		1
+		*PCU											5
+		*PCT											1
+		*PUNTOS_HONOR							0
+		*ANCHO_SOMBRA 						0.5
+		*ALTO_SOMBRA 							0.5
+		*IDSOMBRA 								0
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE								100
+				*PROYECTIL						10
+				*INCENDIO							0
+				*EDIFICIO							100
+				*GOLPE								0
+			}
+			*NOMBRE									NORMAL
+		}		 
+		*HABILIDAD								SOLTAR_FAMILIAR_HALCON
+		*POTENCIA_TROPA           0
+	}
+	
+	*UNIDAD
+	{
+		*RAZA 										EGIPCIOS
+		*TIPO 										HALCON
+		*BASE 										HALCON
+		*ORDEN_GRUPO 							ORDEN_GRUPO_FILA5
+		*VIDA 										100
+		*RAD_VISION 							9
+		*FLAG											FLAG_VOLADORA
+		*FLAG											FLAG_FAMILIAR
+		*FLAG											FLAG_NO_ATAQUE
+		*MOTOR 										PEE_HALCON_BASE
+		*ALCANCE 									CORTO
+		*CATEGORIA_CARGA 					0
+		*IDSOMBRA 								16
+		*ANCHO_SOMBRA 						0.5
+		*ALTO_SOMBRA 							0.5
+		*IDTEXICONOTROPA 					UnidadesCiv2.tga
+		*IDTEXPINFO 							0
+		*IDTEXPINFOGRANDE 				2
+		*COORDICONOTROPA 					2
+		*COORDPINFO 							3 6
+		*COORDPINFOGRANDE 				1 2			
+		*IDTEXORDEN 							0
+		*COORDORDEN								4 0		
+		*NOMBRE_TRADUCIBLE 				LTEXT_UNIDAD_HALCON
+		*FORMACION 								HALCON		
+		*FORMACION_ESTANDAR 			HALCON	
+		*MAX_UNIDADES_TROPA				1
+		*EXPERIENCIA_POR_MUERTE		10
+		*EXPERIENCIA_POR_MORIR		1
+		*PCT						0
+		*PCU						0
+		*ESTADO
+		{
+			*DANYO                 	// El halcón no recibe daño
+			{
+				*MELEE								0
+				*PROYECTIL						0
+				*INCENDIO							0
+				*EDIFICIO							0
+				*GOLPE								0
+			}
+			*NOMBRE									NORMAL
+			*POTENCIA_TROPA         0
+		}
+	}	
+	
+	*UNIDAD
+	{
+		*RAZA 										EGIPCIOS
+		*TIPO 										EGIPCIO_MENSAJERO
+		*BASE 										MENSAJERO
+		*ORDEN_GRUPO 							ORDEN_GRUPO_FILA4
+		*VIDA 										1000
+		*RAD_VISION 							15
+		*FLAG											FLAG_TROPA_ESPECIAL
+		*FLAG											FLAG_ATACA_PROTEGIENDO
+		*FLAG											FLAG_NO_ATAQUE
+		*FLAG                     FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*ORDENACION_ZONA_INFO     0
+		*FLAG                     FLAG_SOMBRA_ROTABLE
+		*CANTIDAD_HUMO_RASTRO     0.2
+		*TERRENO 									AGUA_PROFUNDA
+		*TERRENO						      FIN_ESCENARIO
+		*MOTOR 										PEME_BASE 
+		*FLAGSNOPASABLES 					FLAG_PENDIENTE2
+		*ALCANCE 									CORTO 
+		*CATEGORIA_CARGA 					0
+		*IDTEXICONOTROPA 					UnidadesCiv1.tga
+		*IDTEXPINFO 							0
+		*IDTEXPINFOGRANDE 				3
+		*COORDICONOTROPA 					0
+		*COORDPINFO 							6 2
+		*COORDPINFOGRANDE 				1 0
+		*IDTEXORDEN 							1
+		*COORDORDEN								1 0
+		*ANCHO_SOMBRA 						0.5
+		*ALTO_SOMBRA 							0.5
+		*IDSOMBRA 								8
+		*NOMBRE_TRADUCIBLE 				LTEXT_UNIDAD_MENSAJERO
+		*ALTURA_PROYECTIL 				0.5
+		*POSICION_PROYECTIL 			0.0 0.0 0.0
+		*FORMACION 								MENSAJERO
+		*FORMACION_ESTANDAR 			MENSAJERO	
+		*MAX_UNIDADES_TROPA				1
+		*MANA_CRECIMIENTO 				25
+		*MANA_MAXIMO 							1000
+		*EXPERIENCIA_POR_MUERTE		10
+		*EXPERIENCIA_POR_MORIR		1
+		*ANCHO_SOMBRA 						0.5
+		*ALTO_SOMBRA 							0.5
+		*IDSOMBRA 								0
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE								100
+				*PROYECTIL						10
+				*INCENDIO							0
+				*EDIFICIO							100
+				*GOLPE								0
+			}
+			*NOMBRE									NORMAL
+		}		 
+		*HABILIDAD 								FISICO
+		*POTENCIA_TROPA 					0
+	}
+	
+	*UNIDAD
+	{
+		*RAZA 										EGIPCIOS
+		*TIPO 										CABALLERIA_PARTHA
+		*BASE 										CABALLERIA_PARTHA
+		*ORDEN_GRUPO 							ORDEN_GRUPO_FILA4
+		*VIDA 										2500
+		*RAD_VISION 							15
+		*FLAG											FLAG_TRANSFORMA_CENTURION		 	
+		*FLAG											FLAG_TROPA_ESPECIAL
+		*FLAG											FLAG_NO_ORIENTAR_AL_DISPARAR
+		*FLAG 										FLAG_ATACA_DISTANCIA
+		*FLAG                     FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*ORDENACION_ZONA_INFO     6
+		*FLAG                     FLAG_SOMBRA_ROTABLE
+		*CANTIDAD_HUMO_RASTRO     0.7
+		*TERRENO 									AGUA_PROFUNDA
+		*TERRENO									BOSQUE_CERRADO
+		*TERRENO						      FIN_ESCENARIO
+		*MOTOR 										PECPA_BASE
+		*REPOSOS_E                2
+		*FLAGSNOPASABLES 					FLAG_PENDIENTE2
+		*ALCANCE 									CORTO 
+		*CATEGORIA_CARGA 					1
+		*IDTEXICONOTROPA 					UnidadesCiv3.tga
+		*IDTEXPINFO 							0
+		*IDTEXPINFOGRANDE 				2
+		*COORDICONOTROPA 					2
+		*COORDPINFO 							4 0
+		*COORDPINFOGRANDE 				3 2
+		*IDTEXORDEN 							3
+		*COORDORDEN								2 1
+	  *ANCHO_SOMBRA 						0.5
+		*ALTO_SOMBRA 							0.5
+		*IDSOMBRA 								8
+		*ANCHO                    1.2
+		*ALTO                     1.5
+		*COSTE_ENTRENAMIENTO 			5.625
+		*COSTE_HABITANTES					3
+		*NOMBRE_TRADUCIBLE 				LTEXT_UNIDAD_CPARTHA
+		*INCREMENTO_ENTRENAMIENTO 16	
+		*MIN_DIVISION             8					
+		*ALTURA_PROYECTIL 				0.5
+		*POSICION_PROYECTIL 			0.0 0.9 0.0
+		*FORMACION 								CPARTHA		
+		*FORMACION_ESTANDAR 			CPARTHA
+		*MAX_UNIDADES_TROPA				16
+		*EXPERIENCIA_POR_MUERTE		10
+		*EXPERIENCIA_POR_MORIR		3
+		*PCU											3
+		*PCT											1
+		*PUNTOS_HONOR							2
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE								50
+				*PROYECTIL						75
+				*INCENDIO							0
+				*EDIFICIO							50
+				*GOLPE								100
+			}
+			*NOMBRE									NORMAL
+		}		 
+		*HABILIDAD								DISPARO_PARTHO
+		*HABILIDAD 								FISICO
+
+		*POTENCIA_TROPA           650
+		*MANA_CRECIMIENTO 	      400
+		*MANA_MAXIMO 				      1000
+	}
+	*UNIDAD
+	{
+		*RAZA 										EGIPCIOS
+		*TIPO 										EGIPCIO_CUADRIGA
+		*BASE 										CUADRIGA
+   	*FLAG 										FLAG_GIRAR_AL_ANDAR
+		*FLAG											FLAG_TROPA_ESPECIAL
+    *FLAG											FLAG_NO_ENGANCHAR_EN_CARRERA
+		*FLAG											FLAG_DANYAR_EN_CARRERA
+		*FLAG											FLAG_POCA_MOVILIDAD
+		*FLAG                     FLAG_NOINTERPOLA_ANIM_E
+		*FLAG                     FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*ORDENACION_ZONA_INFO     7
+		*FLAG                     FLAG_SOMBRA_ROTABLE
+		*CANTIDAD_HUMO_RASTRO     0.8
+		*ORDEN_GRUPO 							ORDEN_GRUPO_FILA3
+		*TERRENO 									AGUA_PROFUNDA
+		*TERRENO 									BOSQUE_CERRADO
+		*TERRENO 									FIN_ESCENARIO
+		*VIDA 										4000
+		*REPOSOS_E                2
+		*ANDARES_E                1
+		*CORRER_E                 1
+		*RAD_VISION 							15
+		*MOTOR 										PEC_BASE
+		*FLAGSNOPASABLES 					FLAG_PENDIENTE2
+		*ALCANCE 									CORTO
+		*VELOCIDADGIRO 						9
+		*CATEGORIA_CARGA 					1
+		*IDTEXICONOTROPA 					UnidadesCiv2.tga
+		*IDTEXPINFO 							0
+		*IDTEXPINFOGRANDE 				3
+		*COORDICONOTROPA 					7
+		*COORDPINFO 							4 5
+		*COORDPINFOGRANDE 				0 0
+		*IDTEXORDEN 							3
+		*COORDORDEN								2 3
+		*IDSOMBRA 								8
+		*ANCHO_SOMBRA 						.9
+		*ALTO_SOMBRA 							0.8
+		*ANCHO                    2.2
+		*ALTO                     2.0
+		*DESMONTABLE 							1
+		*DANYO_CARRERA						200
+		*COSTE_ENTRENAMIENTO 			11.25
+		*COSTE_HABITANTES					6
+		*INCREMENTO_ENTRENAMIENTO 8
+		*MIN_DIVISION             4				
+		*NOMBRE_TRADUCIBLE 				LTEXT_UNIDAD_CUADRIGA
+		*FORMACION 								EGIPCIO_CUADRIGA
+		*FORMACION_ESTANDAR 			EGIPCIO_CUADRIGA
+		*MAX_UNIDADES_TROPA				8
+		*EXPERIENCIA_POR_MUERTE		20
+		*EXPERIENCIA_POR_MORIR		6
+		*PCU											6
+		*PCT											1
+		*PUNTOS_HONOR							2
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE 								30
+				*PROYECTIL						60
+				*INCENDIO							0
+				*EDIFICIO							50
+				*GOLPE								50
+			}
+			*NOMBRE									NORMAL
+			*VELOCIDAD							35
+		}
+		*HABILIDAD 								FISICO
+		*HABILIDAD								DESENGANCHARSE
+
+		*POTENCIA_TROPA 					2000
+		*MANA_CRECIMIENTO 				100
+		*MANA_MAXIMO 							1000
+	}
+	*UNIDAD
+	{
+		*RAZA 										EGIPCIOS
+		*TIPO 										EGIPCIO_ARQUERON
+		*FLAG											FLAG_TROPA_ESPECIAL
+		*BASE 										ARQUERO
+		*ORDEN_GRUPO 							ORDEN_GRUPO_FILA6
+		*TERRENO 									AGUA_PROFUNDA
+		*TERRENO						      FIN_ESCENARIO
+		*VIDA 										2000
+		*RAD_VISION 							18
+		*RADIO2_AGRESION 					15
+		*MOTOR 										PEARN_BASE
+		*FLAGSNOPASABLES 					FLAG_PENDIENTE2
+		*FLAG 										FLAG_ATACA_DISTANCIA
+		*FLAG                     FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*ORDENACION_ZONA_INFO     5
+		*CANTIDAD_HUMO_RASTRO     0.2
+		*ALCANCE 									LARGO
+		*CATEGORIA_CARGA 					0
+		*IDTEXICONOTROPA 					UnidadesCiv3.tga
+		*IDTEXPINFO 							0
+		*IDTEXPINFOGRANDE 				2
+		*COORDICONOTROPA 					6
+		*COORDPINFO 							4 6
+		*COORDPINFOGRANDE 				3 3
+		*IDTEXORDEN 							3
+		*COORDORDEN								1 3
+		*PROYECTIL 								0.0 0.0 0.0
+		*ALTURA_PROYECTIL 				0.5
+		*POSICION_PROYECTIL 			0.0 0.5 0.0
+		*COSTE_ENTRENAMIENTO 			5.625
+		*INCREMENTO_ENTRENAMIENTO 16
+		*MIN_DIVISION             8		
+		*COSTE_HABITANTES					3
+		*NOMBRE_TRADUCIBLE 				LTEXT_UNIDAD_ARQUERON
+		*FORMACION 								EGIPCIO_ARQUERON
+		*FORMACION_ESTANDAR 			EGIPCIO_ARQUERON
+		*MAX_UNIDADES_TROPA				16
+		*FORMACION 								MURALLA_ARQUERO_NUBIO
+		*EXPERIENCIA_POR_MUERTE		10
+		*EXPERIENCIA_POR_MORIR		3
+		*PCU											3
+		*PCT											1
+		*PUNTOS_HONOR							2
+		*ANCHO_SOMBRA 						0.5
+		*ALTO_SOMBRA 							0.5
+		*IDSOMBRA 								0
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE								50
+				*PROYECTIL						40
+				*INCENDIO							0
+				*EDIFICIO							50
+				*GOLPE								0
+			}
+			*NOMBRE									NORMAL
+			*VELOCIDAD							17
+		}
+		*HABILIDAD 								FISICO
+		*HABILIDAD								VENENO
+
+		*POTENCIA_TROPA 					650
+		*MANA_CRECIMIENTO 				250
+		*MANA_MAXIMO 							1000
+	}
+	
+	
+	
+	
+	 ////////////////////////////
+	// MENSAJERO RESISTENTE
+	// 
+	*UNIDAD
+	{
+		*RAZA 										ROMANOS
+		*TIPO 										MENSAJERO_RESISTENTE
+		*BASE 										MENSAJERO
+		*UNIDAD_AFIN              MENSAJERO
+		*ORDEN_GRUPO 							ORDEN_GRUPO_FILA4
+		*VIDA 										1000
+		*RAD_VISION 							15
+		*FLAG											FLAG_TROPA_ESPECIAL
+		*FLAG											FLAG_EVITA_ENEMIGOS
+		*FLAG											FLAG_BOTON_ESPECIALES
+		*FLAG											FLAG_NO_ATAQUE
+		*FLAG                     FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*ORDENACION_ZONA_INFO     0
+		*FLAG                     FLAG_SOMBRA_ROTABLE
+		*FLAG											FLAG_ATACA_PROTEGIENDO
+		*CANTIDAD_HUMO_RASTRO     0.2
+		*TERRENO 									AGUA_PROFUNDA
+		*TERRENO						      FIN_ESCENARIO
+		*MOTOR 										PRME_BASE 
+		*FLAGSNOPASABLES 					FLAG_PENDIENTE2
+		*ALCANCE 									CORTO 
+		*CATEGORIA_CARGA 					0
+		*IDTEXICONOTROPA 					UnidadesCiv1.tga
+		*IDTEXPINFO 							0
+		*IDTEXPINFOGRANDE 				3
+		*COORDICONOTROPA 					0
+		*COORDPINFO 							6 0
+		*COORDPINFOGRANDE 				0 2		
+	  *ANCHO_SOMBRA 						0.5
+		*ALTO_SOMBRA 							0.5
+		*IDSOMBRA 								8
+		*NOMBRE_TRADUCIBLE 				LTEXT_UNIDAD_MENSAJERO
+		*ALTURA_PROYECTIL 				0.5
+		*POSICION_PROYECTIL 			0.0 0.0 0.0
+		*FORMACION 								MENSAJERO
+		*FORMACION_ESTANDAR 			MENSAJERO	
+		*MAX_UNIDADES_TROPA				1
+		*MANA_CRECIMIENTO 				25
+		*MANA_MAXIMO 							1000
+		*EXPERIENCIA_POR_MUERTE		10
+		*EXPERIENCIA_POR_MORIR		1
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE								50
+				*PROYECTIL						10
+				*INCENDIO							0
+				*EDIFICIO							50
+				*GOLPE								0
+			}
+			*NOMBRE									NORMAL
+		}		 
+		*HABILIDAD 								FISICO
+		*POTENCIA_TROPA 					0
+	}
+	
+	
+	
+	
+	/////////////////////////////////////////////////////
+	//JEFE GERMANO
+	
+	*UNIDAD
+	{
+		*RAZA 										BARBAROS
+		*TIPO 										JEFE_GERMANO
+		*BASE 										CENTURION_A_PIE
+		*ORDEN_GRUPO 							ORDEN_GRUPO_FILA5
+		*TERRENO 									AGUA_PROFUNDA
+		*TERRENO									FIN_ESCENARIO
+		*FLAG                     FLAG_IGNORA_ATAQUES
+		*FLAG											FLAG_BOTON_ESPECIALES
+		*FLAG                     FLAG_RASTRO_HUMO_MIENTRAS_ANDA
+		*FLAG											FLAG_ATACA_PROTEGIENDO
+		*FLAG                     FLAG_CENTRAR_EN_DISTRIBUCION
+		*CANTIDAD_HUMO_RASTRO     0.2
+		*VIDA 										1000
+		*RAD_VISION 							15
+		*MOTOR 										PGJE_BASE
+		*FLAGSNOPASABLES 					FLAG_PENDIENTE2
+		*ALCANCE 									CORTO
+		*CATEGORIA_CARGA 					0
+		*IDTEXICONOTROPA 					UnidadesCiv2.tga
+		*IDTEXPINFO 							0
+		*IDTEXPINFOGRANDE 				1
+		*COORDICONOTROPA 					1
+		*COORDPINFO 							1 6
+		*COORDPINFOGRANDE 				1 2
+		*IDTEXORDEN 							0
+		*COORDORDEN								4 0
+	  *ANCHO_SOMBRA 						0.5
+		*ALTO_SOMBRA 							0.5
+		*IDSOMBRA 								0
+		*NOMBRE_TRADUCIBLE        LTEXT_UNIDAD_CHIEF
+		*FORMACION 								JEFE_GERMANO
+		*FORMACION_ESTANDAR 			JEFE_GERMANO
+		*MAX_UNIDADES_TROPA				1
+		*RADIO_ACCION_CENTURION		12
+		*EXPERIENCIA_POR_MUERTE		10
+		*EXPERIENCIA_POR_MORIR		1
+		*PCU											5
+		*PCT											1		
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE								20
+				*PROYECTIL						20
+				*INCENDIO							0
+				*EDIFICIO							80
+				*GOLPE                0
+			}
+			*NOMBRE									NORMAL
+			*VELOCIDAD							20
+		}
+		*ESPECIAL
+		{
+			*TIPO										ESPECIAL_CENTURION
+			*ARMA										NORMAL
+		}
+		
+		//*HABILIDAD 								FISICO
+		*HABILIDAD 								REZAR_ROBAR
+
+		*POTENCIA_TROPA 					0
+		*MANA_CRECIMIENTO 				25
+		*MANA_MAXIMO 							1000
+	}
+	
+}
+

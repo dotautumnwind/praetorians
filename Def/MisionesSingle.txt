@@ -1,0 +1,246 @@
+{
+  *MISION//1
+  {
+    *FICHERO_MIS  "Misiones\SP_Tutorial_1.mis"
+    *VARIANTE 1
+    *MAPA_MINI    "Imagenes\Single\Mapa_S_01.dds"
+    *MAPA_GRANDE  "Imagenes\Single\Mapa_C_01.dds"
+  }
+
+  *MISION//2
+  {
+    *FICHERO_MIS "Misiones\SP_Tutorial_2.mis"
+    *VARIANTE 1
+    *MAPA_MINI    "Imagenes\Single\Mapa_S_02.dds"
+    *MAPA_GRANDE  "Imagenes\Single\Mapa_C_02.dds"
+  }
+
+  *MISION//3
+  {
+    *FICHERO_MIS "Misiones\SP_Tutorial_3.mis"
+    *VARIANTE 2
+    *MAPA_MINI    "Imagenes\Single\Mapa_S_03.dds"
+    *MAPA_GRANDE  "Imagenes\Single\Mapa_C_03.dds"
+  }
+
+  *MISION//4
+  {
+    *FICHERO_MIS "Misiones\SP_Tutorial_4.mis"
+    *VARIANTE 2
+    *MAPA_MINI    "Imagenes\Single\Mapa_S_04.dds"
+    *MAPA_GRANDE  "Imagenes\Single\Mapa_C_04.dds"
+  }
+
+  *MISION//5
+  {
+    *FICHERO_MIS "Misiones\ZZZ_Rio Arar.mis"
+    *VARIANTE 1
+    *VARIANTE 2
+    *VARIANTE 3
+    *MAPA_MINI    "Imagenes\Single\Mapa_S_05.dds"
+    *MAPA_GRANDE  "Imagenes\Single\Mapa_C_05.dds"
+    *PREVIDEO "Intro.bik"
+  }
+
+  *MISION//6
+  {
+    *FICHERO_MIS "Misiones\ZZZ_Bibracte.mis"
+    *VARIANTE 1
+    *VARIANTE 2
+    *VARIANTE 3
+    *MAPA_MINI    "Imagenes\Single\Mapa_S_06.dds"
+    *MAPA_GRANDE  "Imagenes\Single\Mapa_C_06.dds"
+  }
+
+  *MISION//7
+  {
+    *FICHERO_MIS "Misiones\ZZZ_Defensa fuerte.mis"
+    *VARIANTE 1
+    *VARIANTE 2 
+    *VARIANTE 3
+    *MAPA_MINI    "Imagenes\Single\Mapa_S_07.dds"
+    *MAPA_GRANDE  "Imagenes\Single\Mapa_C_07.dds"
+  }
+
+  *MISION//8
+  {
+    *FICHERO_MIS "Misiones\ZZZ_Jefes germanos.mis"
+    *VARIANTE 1
+    *VARIANTE 2
+    *VARIANTE 3
+    *MAPA_MINI    "Imagenes\Single\Mapa_S_08.dds"
+    *MAPA_GRANDE  "Imagenes\Single\Mapa_C_08.dds"
+  }
+  
+  *MISION//9
+  {
+    *FICHERO_MIS "Misiones\ZZZ_Puentes sobre Rhin.mis"
+    *VARIANTE 1
+    *VARIANTE 2
+    *VARIANTE 3
+    *PREVIDEO "EscenaGalos.bik"
+    *MAPA_MINI    "Imagenes\Single\Mapa_S_09.dds"
+    *MAPA_GRANDE  "Imagenes\Single\Mapa_C_09.dds"
+  }
+   
+   *MISION//10
+  {
+    *FICHERO_MIS "Misiones\ZZZ_Rescate de Comio.mis"
+    *VARIANTE 1
+    *VARIANTE 2
+    *VARIANTE 3
+    *MAPA_MINI    "Imagenes\Single\Mapa_S_10.dds"
+    *MAPA_GRANDE  "Imagenes\Single\Mapa_C_10.dds"
+  }
+      
+  *MISION//11
+  {
+    *FICHERO_MIS "Misiones\ZZZ_TEMPLOS.mis"
+    *VARIANTE 1
+    *VARIANTE 2
+    *VARIANTE 3
+    *MAPA_MINI    "Imagenes\Single\Mapa_S_11.dds"
+    *MAPA_GRANDE  "Imagenes\Single\Mapa_C_11.dds"
+  }
+  
+  *MISION//12
+  {
+    *FICHERO_MIS "Misiones\ZZZ_BRITANNIA.mis"
+    *VARIANTE 1
+    *VARIANTE 2
+    *VARIANTE 3
+    *MAPA_MINI    "Imagenes\Single\Mapa_S_12.dds"
+    *MAPA_GRANDE  "Imagenes\Single\Mapa_C_12.dds"
+  }
+
+  *MISION//13
+  {
+    *FICHERO_MIS "Misiones\ZZZ_Ciceron.mis"
+    *VARIANTE 1
+    *VARIANTE 2 
+    *VARIANTE 3
+    *MAPA_MINI    "Imagenes\Single\Mapa_S_13.dds"
+    *MAPA_GRANDE  "Imagenes\Single\Mapa_C_13.dds"
+  }
+
+  *MISION//14
+  {
+    *FICHERO_MIS "Misiones\ZZZ_Charax.mis"
+    *VARIANTE 1
+    *VARIANTE 2
+    *VARIANTE 3
+    *PREVIDEO "EscenaBatalla.bik"
+    *MAPA_MINI    "Imagenes\Single\Mapa_S_14.dds"
+    *MAPA_GRANDE  "Imagenes\Single\Mapa_C_14.dds"
+  }
+
+  *MISION//15
+  {
+    *FICHERO_MIS "Misiones\ZZZ_Cevennes.mis"
+    *VARIANTE 1
+    *VARIANTE 2
+    *VARIANTE 3
+    *MAPA_MINI    "Imagenes\Single\Mapa_S_15.dds"
+    *MAPA_GRANDE  "Imagenes\Single\Mapa_C_15.dds"
+  }
+
+  *MISION//16
+  {
+    *FICHERO_MIS "Misiones\ZZZ_Antioquia.mis"
+    *VARIANTE 1
+    *VARIANTE 2
+    *VARIANTE 3
+    *MAPA_MINI    "Imagenes\Single\Mapa_S_16.dds"
+    *MAPA_GRANDE  "Imagenes\Single\Mapa_C_16.dds"
+  }
+
+  *MISION//17
+  {
+    *FICHERO_MIS "Misiones\ZZZ_Defensa carros.mis"
+    *VARIANTE 1
+    *VARIANTE 2
+    *VARIANTE 3
+    *MAPA_MINI    "Imagenes\Single\Mapa_S_17.dds"
+    *MAPA_GRANDE  "Imagenes\Single\Mapa_C_17.dds"
+  }
+
+
+/*
+  *MISION//18
+  {
+    *FICHERO_MIS "Misiones\TOUR_Alesia.mis"
+    *VARIANTE 3
+  }
+*/
+
+  *MISION//18
+  {
+    *FICHERO_MIS "Misiones\ZZZ_Rubicon.mis"
+    *VARIANTE 1
+    *VARIANTE 2
+    *VARIANTE 3
+    *PREVIDEO "EscenaSenado.bik"
+    *MAPA_MINI    "Imagenes\Single\Mapa_S_18.dds"
+    *MAPA_GRANDE  "Imagenes\Single\Mapa_C_18.dds"
+  }
+
+  *MISION//19
+  {
+    *FICHERO_MIS "Misiones\ZZZ_Pirineos.mis"
+    *VARIANTE 1
+    *VARIANTE 2
+    *VARIANTE 3
+    *MAPA_MINI    "Imagenes\Single\Mapa_S_19.dds"
+    *MAPA_GRANDE  "Imagenes\Single\Mapa_C_19.dds"
+  }
+
+  *MISION//20
+  {
+    *FICHERO_MIS "Misiones\ZZZ_Ninfeo.mis"
+    *VARIANTE 1
+    *VARIANTE 2
+    *VARIANTE 3
+    *MAPA_MINI    "Imagenes\Single\Mapa_S_20.dds"
+    *MAPA_GRANDE  "Imagenes\Single\Mapa_C_20.dds"
+  }
+
+  *MISION//21
+  {
+    *FICHERO_MIS "Misiones\ZZZ_Pompeyo.mis"
+    *VARIANTE 1
+    *VARIANTE 2
+    *VARIANTE 3
+    *MAPA_MINI    "Imagenes\Single\Mapa_S_21.dds"
+    *MAPA_GRANDE  "Imagenes\Single\Mapa_C_21.dds"
+  }
+  
+  *MISION//22
+  {
+    *FICHERO_MIS "Misiones\ZZZ_Puerto.mis"
+    *VARIANTE 1
+    *VARIANTE 2
+    *VARIANTE 3
+    *MAPA_MINI    "Imagenes\Single\Mapa_S_22.dds"
+    *MAPA_GRANDE  "Imagenes\Single\Mapa_C_22.dds"
+  }
+  
+  *MISION//23
+  {
+    *FICHERO_MIS "Misiones\ZZZ_Ayudar Aliados.mis"
+    *VARIANTE 1
+    *VARIANTE 2
+    *VARIANTE 3
+    *MAPA_MINI    "Imagenes\Single\Mapa_S_23.dds"
+    *MAPA_GRANDE  "Imagenes\Single\Mapa_C_23.dds"
+  }  
+  *MISION//24
+  {
+    *FICHERO_MIS "Misiones\ZZZ_Munda.mis"
+    *VARIANTE 1
+    *VARIANTE 2
+    *VARIANTE 3
+    *POSTVIDEO "SecuenciaFinal.bik"
+    *MAPA_MINI    "Imagenes\Single\Mapa_S_24.dds"
+    *MAPA_GRANDE  "Imagenes\Single\Mapa_C_24.dds"
+  }  
+}

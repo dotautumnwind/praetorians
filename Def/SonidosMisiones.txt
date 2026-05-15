@@ -1,0 +1,17 @@
+{
+  // -------------------------------------------------------------------------------------
+  // SONIDOS DE MISIONES
+  // -------------------------------------------------------------------------------------
+  
+  *SONIDO
+  {
+    *NOMBRE         W000
+    *FICHERO        ".wav"
+    *ALIAS          "Ayuda! Ayuda!"
+    *TIPO           TIPO_EFECTO
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *VOLUMEN        1.0f
+  }
+  
+}

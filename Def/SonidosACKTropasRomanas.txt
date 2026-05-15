@@ -1,0 +1,1334 @@
+{
+  // -------------------------------------------------------------------------------------
+  // ACK TROPAS ROMANAS
+  // -------------------------------------------------------------------------------------  
+
+  // -------------------------------------------------------------------------------------
+  // CENTURION
+  // -------------------------------------------------------------------------------------  
+  *SONIDO
+  {
+    *NOMBRE         IRZM
+    *FICHERO        "Voices\IRTK_3.wav"
+    *FICHERO        "Voices\IRTO_2.wav"
+    *ALIAS          "ACK Tropa Romana Centurion Mover"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRZN
+    *FICHERO        "Voices\IRAN_1.wav"
+    *ALIAS          "ACK Tropa Romana Centurion No puede Ir"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRZR
+    *FICHERO        "Voices\IRTM_2.wav"
+    *ALIAS          "ACK Tropa Romana Centurion Correr"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRZA
+    *FICHERO        "Voices\IRTA_1.wav"
+    *FICHERO        "Voices\IRTA_2.wav"
+    *FICHERO        "Voices\IRTA_3.wav"
+    *ALIAS          "ACK Tropa Romana Centurion Atacar"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRZT
+    *FICHERO        "Voices\IRTA_4.wav"
+    *ALIAS          "ACK Tropa Romana Centurion Atacar corriendo"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRZS
+    *FICHERO        "Voices\IRCK_1.wav"
+    *ALIAS          "ACK Tropa Romana Centurion Seleccion"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRZG
+    *FICHERO        "Voices\IRTO_2.wav"
+    *FICHERO        "Voices\IRTO_3.wav"
+    *ALIAS          "ACK Tropa Romana Centurion Orden Generica"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+
+  // -------------------------------------------------------------------------------------
+  // MEDICO
+  // -------------------------------------------------------------------------------------  
+  *SONIDO
+  {
+    *NOMBRE         IRIM
+    *FICHERO        "Voices\IRTK_3.wav"
+    *FICHERO        "Voices\IRTO_2.wav"
+    *ALIAS          "ACK Tropa Romana Medico Mover"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRIN
+    *FICHERO        "Voices\IRAN_1.wav"
+    *ALIAS          "ACK Tropa Romana Medico No puede Ir"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRIR
+    *FICHERO        "Voices\IRTM_2.wav"
+    *ALIAS          "ACK Tropa Romana Medico Correr"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRIA
+    *FICHERO        "Voices\IRTA_1.wav"
+    *FICHERO        "Voices\IRTA_2.wav"
+    *FICHERO        "Voices\IRTA_3.wav"
+    *ALIAS          "ACK Tropa Romana Medico Atacar"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRIT
+    *FICHERO        "Voices\IRTA_4.wav"
+    *ALIAS          "ACK Tropa Romana Medico Atacar Corriendo"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRIS
+    *FICHERO        "Voices\IRMK_1.wav"
+    *ALIAS          "ACK Tropa Romana Medico Seleccion"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRIG
+    *FICHERO        "Voices\IRTO_1.wav"
+    *FICHERO        "Voices\IRTO_2.wav"
+    *FICHERO        "Voices\IRTO_3.wav"
+    *ALIAS          "ACK Tropa Romana Medico Orden Generica"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+
+
+  // -------------------------------------------------------------------------------------
+  // EXPLORADOR
+  // -------------------------------------------------------------------------------------  
+  *SONIDO
+  {
+    *NOMBRE         IREM
+    *FICHERO        "Voices\IRTK_3.wav"
+    *FICHERO        "Voices\IRTO_2.wav"
+    *ALIAS          "ACK Tropa Romana Medico Mover"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IREN
+    *FICHERO        "Voices\IRAN_1.wav"
+    *ALIAS          "ACK Tropa Romana Explorador No puede Ir"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRER
+    *FICHERO        "Voices\IRTM_2.wav"
+    *ALIAS          "ACK Tropa Romana Medico Correr"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IREA
+    *FICHERO        "Voices\IRTA_1.wav"
+    *FICHERO        "Voices\IRTA_2.wav"
+    *FICHERO        "Voices\IRTA_3.wav"
+    *ALIAS          "ACK Tropa Romana Medico Atacar"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRET
+    *FICHERO        "Voices\IRTA_4.wav"
+    *ALIAS          "ACK Tropa Romana Medico Atacar Corriendo"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRES
+    *FICHERO        "Voices\IRTK_3.wav"
+    *FICHERO        "Voices\IRTK_4.wav"
+    *FICHERO        "Voices\IRTK_2.wav"
+    *FICHERO        "Voices\IRTK_5.wav"
+    *ALIAS          "ACK Tropa Romana Medico Seleccion"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IREG
+    *FICHERO        "Voices\IRTO_1.wav"
+    *FICHERO        "Voices\IRTO_2.wav"
+    *FICHERO        "Voices\IRTO_3.wav"
+    *ALIAS          "ACK Tropa Romana Medico Orden Generica"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+
+
+  // -------------------------------------------------------------------------------------
+  // INFANTERIA PESADA
+  // -------------------------------------------------------------------------------------  
+  *SONIDO
+  {
+    *NOMBRE         IRPM
+    *FICHERO        "Voices\IRTM_1.wav"
+    *FICHERO        "Voices\IRTO_1.wav"
+    *FICHERO        "Voices\IRTO_2.wav"
+    *FICHERO        "Voices\IRTK_3.wav"
+    *FICHERO        "Voices\IRTK_2.wav"
+    *ALIAS          "ACK Tropa Romana Infanteria Pesada Mover"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRPN
+    *FICHERO        "Voices\IRTN_1.wav"
+    *ALIAS          "ACK Tropa Romana No puede Ir"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRPR
+    *FICHERO        "Voices\IRTM_2.wav"
+    *ALIAS          "ACK Tropa Romana Infanteria Pesada Correr"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRPA
+    *FICHERO        "Voices\IRTA_1.wav"
+    *FICHERO        "Voices\IRTA_2.wav"
+    *FICHERO        "Voices\IRTA_3.wav"
+    *ALIAS          "ACK Tropa Romana Infanteria Pesada Atacar"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRPT
+    *FICHERO        "Voices\IRTA_4.wav"
+    *ALIAS          "ACK Tropa Romana Infanteria Pesada Atacar Corriendo"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRPS
+    *FICHERO        "Voices\IRTK_3.wav"
+    *FICHERO        "Voices\IRTK_4.wav"
+    *FICHERO        "Voices\IRTK_1.wav"
+    *FICHERO        "Voices\IRTK_2.wav"
+    *FICHERO        "Voices\IRTK_5.wav"
+    *ALIAS          "ACK Tropa Romana Infanteria Pesada Seleccion"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRPG
+    *FICHERO        "Voices\IRTO_1.wav"
+    *FICHERO        "Voices\IRTO_2.wav"
+    *FICHERO        "Voices\IRTO_3.wav"
+    *ALIAS          "ACK Tropa Romana Infanteria Pesada Orden Generica"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+
+  // -------------------------------------------------------------------------------------
+  // INFANTERIA LIGERA
+  // -------------------------------------------------------------------------------------  
+  *SONIDO
+  {
+    *NOMBRE         IRLM
+    *FICHERO        "Voices\IRTM_1.wav"
+    *FICHERO        "Voices\IRTO_1.wav"
+    *FICHERO        "Voices\IRTO_2.wav"
+    *FICHERO        "Voices\IRTK_3.wav"
+    *FICHERO        "Voices\IRTK_2.wav"
+    *ALIAS          "ACK Tropa Romana Infanteria Ligera Mover"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRLN
+    *FICHERO        "Voices\IRTN_1.wav"
+    *ALIAS          "ACK Tropa Romana No puede Ir"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRLR
+    *FICHERO        "Voices\IRTM_2.wav"
+    *ALIAS          "ACK Tropa Romana Infanteria Ligera Correr"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRLA
+    *FICHERO        "Voices\IRTA_1.wav"
+    *FICHERO        "Voices\IRTA_2.wav"
+    *FICHERO        "Voices\IRTA_3.wav"
+    *ALIAS          "ACK Tropa Romana Infanteria Ligera Atacar"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRLT
+    *FICHERO        "Voices\IRTA_4.wav"
+    *ALIAS          "ACK Tropa Romana Infanteria Ligera Atacar Corriendo"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRLS
+    *FICHERO        "Voices\IRTK_3.wav"
+    *FICHERO        "Voices\IRTK_4.wav"
+    *FICHERO        "Voices\IRTK_1.wav"
+    *FICHERO        "Voices\IRTK_2.wav"
+    *FICHERO        "Voices\IRTK_5.wav"
+    *ALIAS          "ACK Tropa Romana Infanteria Ligera Seleccion"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRLG
+    *FICHERO        "Voices\IRTO_1.wav"
+    *FICHERO        "Voices\IRTO_2.wav"
+    *FICHERO        "Voices\IRTO_3.wav"
+    *ALIAS          "ACK Tropa Romana Infanteria Ligera Orden Generica"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+
+
+  // -------------------------------------------------------------------------------------
+  // ARQUERO
+  // -------------------------------------------------------------------------------------  
+  *SONIDO
+  {
+    *NOMBRE         IRAM
+    *FICHERO        "Voices\IRTM_1.wav"
+    *FICHERO        "Voices\IRTO_1.wav"
+    *FICHERO        "Voices\IRTO_2.wav"
+    *FICHERO        "Voices\IRTK_3.wav"
+    *FICHERO        "Voices\IRTK_2.wav"
+    *ALIAS          "ACK Tropa Romana Arquero Mover"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRAN
+    *FICHERO        "Voices\IRTN_1.wav"
+    *ALIAS          "ACK Tropa Romana No puede Ir"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRAR
+    *FICHERO        "Voices\IRTM_2.wav"
+    *ALIAS          "ACK Tropa Romana Arquero Correr"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRAA
+    *FICHERO        "Voices\IRTA_1.wav"
+    *FICHERO        "Voices\IRTA_2.wav"
+    *FICHERO        "Voices\IRTA_3.wav"
+    *ALIAS          "ACK Tropa Romana Arquero Atacar"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRAT
+    *FICHERO        "Voices\IRTA_4.wav"
+    *ALIAS          "ACK Tropa Romana Arquero Atacar Corriendo"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRAS
+    *FICHERO        "Voices\IRTK_3.wav"
+    *FICHERO        "Voices\IRTK_4.wav"
+    *FICHERO        "Voices\IRTK_1.wav"
+    *FICHERO        "Voices\IRTK_2.wav"
+    *FICHERO        "Voices\IRTK_5.wav"
+    *ALIAS          "ACK Tropa Romana Arquero Seleccion"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRAG
+    *FICHERO        "Voices\IRTO_1.wav"
+    *FICHERO        "Voices\IRTO_2.wav"
+    *FICHERO        "Voices\IRTO_3.wav"
+    *ALIAS          "ACK Tropa Romana Arquero Orden Generica"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+
+
+  // -------------------------------------------------------------------------------------
+  // PIQUERO
+  // -------------------------------------------------------------------------------------  
+  *SONIDO
+  {
+    *NOMBRE         IRQM
+    *FICHERO        "Voices\IRTM_1.wav"
+    *FICHERO        "Voices\IRTO_1.wav"
+    *FICHERO        "Voices\IRTO_2.wav"
+    *FICHERO        "Voices\IRTK_3.wav"
+    *FICHERO        "Voices\IRTK_2.wav"
+    *ALIAS          "ACK Tropa Romana Piquero Mover"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRQN
+    *FICHERO        "Voices\IRTN_1.wav"
+    *ALIAS          "ACK Tropa Romana No puede Ir"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRQR
+    *FICHERO        "Voices\IRTM_2.wav"
+    *ALIAS          "ACK Tropa Romana Piquero Correr"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRQA
+    *FICHERO        "Voices\IRTA_1.wav"
+    *FICHERO        "Voices\IRTA_2.wav"
+    *FICHERO        "Voices\IRTA_3.wav"
+    *ALIAS          "ACK Tropa Romana Piquero Atacar"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRQT
+    *FICHERO        "Voices\IRTA_4.wav"
+    *ALIAS          "ACK Tropa Romana Piquero Atacar Corriendo"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRQS
+    *FICHERO        "Voices\IRTK_3.wav"
+    *FICHERO        "Voices\IRTK_4.wav"
+    *FICHERO        "Voices\IRTK_1.wav"
+    *FICHERO        "Voices\IRTK_2.wav"
+    *FICHERO        "Voices\IRTK_5.wav"
+    *ALIAS          "ACK Tropa Romana Piquero Seleccion"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRQG
+    *FICHERO        "Voices\IRTO_1.wav"
+    *FICHERO        "Voices\IRTO_2.wav"
+    *FICHERO        "Voices\IRTO_3.wav"
+    *ALIAS          "ACK Tropa Romana Piquero Orden Generica"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+
+
+  // -------------------------------------------------------------------------------------
+  // CABALLERIA PESADA
+  // -------------------------------------------------------------------------------------  
+  *SONIDO
+  {
+    *NOMBRE         IRCM
+    *FICHERO        "Voices\IRTM_1.wav"
+    *FICHERO        "Voices\IRTO_1.wav"
+    *FICHERO        "Voices\IRTO_2.wav"
+    *FICHERO        "Voices\IRTK_3.wav"
+    *FICHERO        "Voices\IRTK_2.wav"
+    *ALIAS          "ACK Tropa Romana Caballeria Pesada Mover"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRCN
+    *FICHERO        "Voices\IRTN_1.wav"
+    *ALIAS          "ACK Tropa Romana No puede Ir"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRCR
+    *FICHERO        "Voices\IRTM_2.wav"
+    *ALIAS          "ACK Tropa Romana Caballeria Pesada Correr"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRCA
+    *FICHERO        "Voices\IRTA_1.wav"
+    *FICHERO        "Voices\IRTA_2.wav"
+    *FICHERO        "Voices\IRTA_3.wav"
+    *ALIAS          "ACK Tropa Romana Caballeria Pesada Atacar"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRCT
+    *FICHERO        "Voices\IRTA_4.wav"
+    *ALIAS          "ACK Tropa Romana Caballeria Pesada Atacar Corriendo"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRCS
+    *FICHERO        "Voices\IRTK_3.wav"
+    *FICHERO        "Voices\IRTK_4.wav"
+    *FICHERO        "Voices\IRTK_1.wav"
+    *FICHERO        "Voices\IRTK_2.wav"
+    *FICHERO        "Voices\IRTK_5.wav"
+    *ALIAS          "ACK Tropa Romana Caballeria Pesada Seleccion"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRCG
+    *FICHERO        "Voices\IRTO_1.wav"
+    *FICHERO        "Voices\IRTO_2.wav"
+    *FICHERO        "Voices\IRTO_3.wav"
+    *ALIAS          "ACK Tropa Romana Caballeria Pesada Orden Generica"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+
+
+  // -------------------------------------------------------------------------------------
+  // CABALLERIA ARQUERA
+  // -------------------------------------------------------------------------------------  
+  *SONIDO
+  {
+    *NOMBRE         IRKM
+    *FICHERO        "Voices\IRTM_1.wav"
+    *FICHERO        "Voices\IRTO_1.wav"
+    *FICHERO        "Voices\IRTO_2.wav"
+    *FICHERO        "Voices\IRTK_3.wav"
+    *FICHERO        "Voices\IRTK_2.wav"
+    *ALIAS          "ACK Tropa Romana Caballeria Arquera Mover"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRKN
+    *FICHERO        "Voices\IRTN_1.wav"
+    *ALIAS          "ACK Tropa Romana No puede Ir"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRKR
+    *FICHERO        "Voices\IRTM_2.wav"
+    *ALIAS          "ACK Tropa Romana Caballeria Arquera Correr"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRKA
+    *FICHERO        "Voices\IRTA_4.wav"
+    *ALIAS          "ACK Tropa Romana Caballeria Arquera Atacar"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRKT
+    *FICHERO        "Voices\IRTA_4.wav"
+    *ALIAS          "ACK Tropa Romana Caballeria Arquera Atacar Corriendo"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRKS
+    *FICHERO        "Voices\IRTK_3.wav"
+    *FICHERO        "Voices\IRTK_4.wav"
+    *FICHERO        "Voices\IRTK_1.wav"
+    *FICHERO        "Voices\IRTK_2.wav"
+    *FICHERO        "Voices\IRTK_5.wav"
+    *ALIAS          "ACK Tropa Romana Caballeria Arquera Seleccion"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRKG
+    *FICHERO        "Voices\IRTO_1.wav"
+    *FICHERO        "Voices\IRTO_2.wav"
+    *FICHERO        "Voices\IRTO_3.wav"
+    *ALIAS          "ACK Tropa Romana Caballeria Arquera Orden Generica"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+
+
+  // -------------------------------------------------------------------------------------
+  // CATAPULTA
+  // -------------------------------------------------------------------------------------  
+  *SONIDO
+  {
+    *NOMBRE         IRTM
+    *FICHERO        "Voices\IRTM_1.wav"
+    *FICHERO        "Voices\IRTO_1.wav"
+    *FICHERO        "Voices\IRTO_2.wav"
+    *FICHERO        "Voices\IRTK_3.wav"
+    *FICHERO        "Voices\IRTK_2.wav"
+    *ALIAS          "ACK Tropa Romana Catapulta Mover"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRTN
+    *FICHERO        "Voices\IRTN_1.wav"
+    *ALIAS          "ACK Tropa Romana No puede Ir"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRTR
+    *FICHERO        "Voices\IRTM_2.wav"
+    *ALIAS          "ACK Tropa Romana Catapulta Correr"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRTA
+    *FICHERO        "Voices\IRTA_1.wav"
+    *FICHERO        "Voices\IRTA_2.wav"
+    *FICHERO        "Voices\IRTA_3.wav"
+    *ALIAS          "ACK Tropa Romana Catapulta Atacar"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRTT
+    *FICHERO        "Voices\IRTA_1.wav"
+    *FICHERO        "Voices\IRTA_2.wav"
+    *FICHERO        "Voices\IRTA_3.wav"
+    *ALIAS          "ACK Tropa Romana Catapulta Atacar Corriendo"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRTS
+    *FICHERO        "Voices\IRTK_3.wav"
+    *FICHERO        "Voices\IRTK_4.wav"
+    *FICHERO        "Voices\IRTK_1.wav"
+    *FICHERO        "Voices\IRTK_2.wav"
+    *FICHERO        "Voices\IRTK_5.wav"
+    *ALIAS          "ACK Tropa Romana Catapulta Seleccion"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRTG
+    *FICHERO        "Voices\IRTO_1.wav"
+    *FICHERO        "Voices\IRTO_2.wav"
+    *FICHERO        "Voices\IRTO_3.wav"
+    *ALIAS          "ACK Tropa Romana Catapulta Orden Generica"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+
+
+  // -------------------------------------------------------------------------------------
+  // BALLESTA
+  // -------------------------------------------------------------------------------------  
+  *SONIDO
+  {
+    *NOMBRE         IRBM
+    *FICHERO        "Voices\IRTM_1.wav"
+    *FICHERO        "Voices\IRTO_1.wav"
+    *FICHERO        "Voices\IRTO_2.wav"
+    *FICHERO        "Voices\IRTK_3.wav"
+    *FICHERO        "Voices\IRTK_2.wav"
+    *ALIAS          "ACK Tropa Romana Catapulta Mover"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRBN
+    *FICHERO        "Voices\IRTN_1.wav"
+    *ALIAS          "ACK Tropa Romana No puede Ir"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRBR
+    *FICHERO        "Voices\IRTM_2.wav"
+    *ALIAS          "ACK Tropa Romana Catapulta Correr"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRBA
+    *FICHERO        "Voices\IRTA_1.wav"
+    *FICHERO        "Voices\IRTA_2.wav"
+    *FICHERO        "Voices\IRTA_3.wav"
+    *ALIAS          "ACK Tropa Romana Catapulta Atacar"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRBT
+    *FICHERO        "Voices\IRTA_1.wav"
+    *FICHERO        "Voices\IRTA_2.wav"
+    *FICHERO        "Voices\IRTA_3.wav"
+    *ALIAS          "ACK Tropa Romana Catapulta Atacar Corriendo"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRBS
+    *FICHERO        "Voices\IRTK_3.wav"
+    *FICHERO        "Voices\IRTK_4.wav"
+    *FICHERO        "Voices\IRTK_1.wav"
+    *FICHERO        "Voices\IRTK_2.wav"
+    *FICHERO        "Voices\IRTK_5.wav"
+    *ALIAS          "ACK Tropa Romana Catapulta Seleccion"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRBG
+    *FICHERO        "Voices\IRTO_1.wav"
+    *FICHERO        "Voices\IRTO_2.wav"
+    *FICHERO        "Voices\IRTO_3.wav"
+    *ALIAS          "ACK Tropa Romana Catapulta Orden Generica"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+
+
+  // -------------------------------------------------------------------------------------
+  // ARIETE
+  // -------------------------------------------------------------------------------------  
+  *SONIDO
+  {
+    *NOMBRE         IRWM
+    *FICHERO        "Voices\IRTM_1.wav"
+    *FICHERO        "Voices\IRTO_1.wav"
+    *FICHERO        "Voices\IRTO_2.wav"
+    *FICHERO        "Voices\IRTK_3.wav"
+    *FICHERO        "Voices\IRTK_2.wav"
+    *ALIAS          "ACK Tropa Romana Ariete Mover"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRWN
+    *FICHERO        "Voices\IRTN_1.wav"
+    *ALIAS          "ACK Tropa Romana No puede Ir"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRWR
+    *FICHERO        "Voices\IRTM_2.wav"
+    *ALIAS          "ACK Tropa Romana Ariete Mover Corriendo"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRWA
+    *FICHERO        "Voices\IRTA_1.wav"
+    *FICHERO        "Voices\IRTA_2.wav"
+    *FICHERO        "Voices\IRTA_3.wav"
+    *ALIAS          "ACK Tropa Romana Ariete Atacar"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRWT
+    *FICHERO        "Voices\IRTA_1.wav"
+    *FICHERO        "Voices\IRTA_2.wav"
+    *FICHERO        "Voices\IRTA_3.wav"
+    *ALIAS          "ACK Tropa Romana Ariete Atacar Corriendo"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRWS
+    *FICHERO        "Voices\IRTK_3.wav"
+    *FICHERO        "Voices\IRTK_4.wav"
+    *FICHERO        "Voices\IRTK_1.wav"
+    *FICHERO        "Voices\IRTK_2.wav"
+    *FICHERO        "Voices\IRTK_5.wav"
+    *ALIAS          "ACK Tropa Romana Ariete Seleccion"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRWG
+    *FICHERO        "Voices\IRTO_1.wav"
+    *FICHERO        "Voices\IRTO_2.wav"
+    *FICHERO        "Voices\IRTO_3.wav"
+    *ALIAS          "ACK Tropa Romana Ariete Orden Generica"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+
+
+  // -------------------------------------------------------------------------------------
+  // TORRE ASALTO
+  // -------------------------------------------------------------------------------------  
+  *SONIDO
+  {
+    *NOMBRE         IRYM
+    *FICHERO        "Voices\IRTM_1.wav"
+    *FICHERO        "Voices\IRTO_1.wav"
+    *FICHERO        "Voices\IRTO_2.wav"
+    *FICHERO        "Voices\IRTK_3.wav"
+    *FICHERO        "Voices\IRTK_2.wav"
+    *ALIAS          "ACK Tropa Romana Torre Asalto Mover"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRYN
+    *FICHERO        "Voices\IRTN_1.wav"
+    *ALIAS          "ACK Tropa Romana No puede Ir"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRYR
+    *FICHERO        "Voices\IRTM_2.wav"
+    *ALIAS          "ACK Tropa Romana Torre Asalto Correr"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRYA
+    *FICHERO        "Voices\IRTA_1.wav"
+    *FICHERO        "Voices\IRTA_2.wav"
+    *FICHERO        "Voices\IRTA_3.wav"
+    *ALIAS          "ACK Tropa Romana Torre Asalto Atacar"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRYT
+    *FICHERO        "Voices\IRTA_1.wav"
+    *FICHERO        "Voices\IRTA_2.wav"
+    *FICHERO        "Voices\IRTA_3.wav"
+    *ALIAS          "ACK Tropa Romana Torre Asalto Atacar Corriendo"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRYS
+    *FICHERO        "Voices\IRTK_3.wav"
+    *FICHERO        "Voices\IRTK_4.wav"
+    *FICHERO        "Voices\IRTK_1.wav"
+    *FICHERO        "Voices\IRTK_2.wav"
+    *FICHERO        "Voices\IRTK_5.wav"
+    *ALIAS          "ACK Tropa Romana Torre Asalto Seleccion"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRYG
+    *FICHERO        "Voices\IRTO_1.wav"
+    *FICHERO        "Voices\IRTO_2.wav"
+    *FICHERO        "Voices\IRTO_3.wav"
+    *ALIAS          "ACK Tropa Romana Torre Asalto Orden Generica"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+
+
+  // -------------------------------------------------------------------------------------
+  // ESCALA
+  // -------------------------------------------------------------------------------------  
+  *SONIDO
+  {
+    *NOMBRE         IRXM
+    *FICHERO        "Voices\IRTM_1.wav"
+    *FICHERO        "Voices\IRTO_1.wav"
+    *FICHERO        "Voices\IRTO_2.wav"
+    *FICHERO        "Voices\IRTK_3.wav"
+    *FICHERO        "Voices\IRTK_2.wav"
+    *ALIAS          "ACK Tropa Romana Escala Mover"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRXN
+    *FICHERO        "Voices\IRTN_1.wav"
+    *ALIAS          "ACK Tropa Romana No puede Ir"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRXR
+    *FICHERO        "Voices\IRTM_2.wav"
+    *ALIAS          "ACK Tropa Romana Escala Correr"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRXA
+    *FICHERO        "Voices\IRTA_1.wav"
+    *FICHERO        "Voices\IRTA_2.wav"
+    *FICHERO        "Voices\IRTA_3.wav"
+    *ALIAS          "ACK Tropa Romana Escala Atacar"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRXT
+    *FICHERO        "Voices\IRTA_4.wav"
+    *ALIAS          "ACK Tropa Romana Escala Atacar Corriendo"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRXS
+    *FICHERO        "Voices\IRTK_3.wav"
+    *FICHERO        "Voices\IRTK_4.wav"
+    *FICHERO        "Voices\IRTK_1.wav"
+    *FICHERO        "Voices\IRTK_2.wav"
+    *FICHERO        "Voices\IRTK_5.wav"
+    *ALIAS          "ACK Tropa Romana Escala Seleccion"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRXG
+    *FICHERO        "Voices\IRTO_1.wav"
+    *FICHERO        "Voices\IRTO_2.wav"
+    *FICHERO        "Voices\IRTO_3.wav"
+    *ALIAS          "ACK Tropa Romana Escala Orden Generica"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+
+
+  // -------------------------------------------------------------------------------------
+  // GENERICAS
+  // -------------------------------------------------------------------------------------  
+
+  *SONIDO
+  {
+    *NOMBRE         IRTU
+    *FICHERO        "Voices\IRTN_2.wav"
+    *ALIAS          "ACK Tropa Romana No puede"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IRTB
+    *FICHERO        "Voices\IRTB_1.wav"
+    *ALIAS          "ACK Tropa Romana No puede Construir"
+    *TIPO           TIPO_VOZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_ACK
+    *FLAG           FLAG_GENERICO_ROMANO
+    *VOLUMEN        0.8f
+  }
+
+}

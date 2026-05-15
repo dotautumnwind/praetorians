@@ -1,0 +1,83 @@
+{
+  // -------------------------------------------------------------------------------------
+  // MUSICAS
+  // -------------------------------------------------------------------------------------
+  *SONIDO
+  {
+    *NOMBRE         SA01
+    *FICHERO        "m_001.ogi"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *TIPO           TIPO_MUSICA
+    *ALIAS          "Musica"
+    *VOLUMEN        0.3
+  }
+  *SONIDO
+  {
+    *NOMBRE         SMNU
+    *FICHERO        "m_a_001.ogi"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *FLAG           FLAG_FADE_OUT
+    *TIPO           TIPO_MUSICA
+    *ALIAS          "Musica menu"
+    *VOLUMEN        0.5
+  }
+  *SONIDO
+  {
+    *NOMBRE         SB01
+    *FICHERO        "m_b_001.ogi"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *TIPO           TIPO_MUSICA
+    *ALIAS          "Musica batalla"
+    *VOLUMEN        0.5
+  }
+  *SONIDO
+  {
+    *NOMBRE         SA02
+    *FICHERO        "m_nieve_01.ogi"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *TIPO           TIPO_MUSICA
+    *ALIAS          "Musica nieve"
+    *VOLUMEN        0.45
+  }
+  *SONIDO
+  {
+    *NOMBRE         SB02
+    *FICHERO        "batalla_nieve.ogi"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *TIPO           TIPO_MUSICA
+    *ALIAS          "Musica batalla Nieve"
+    *VOLUMEN        0.5
+  }
+  *SONIDO
+  {
+    *NOMBRE         SA03
+    *FICHERO        "musica_amb_egipto.ogi"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *TIPO           TIPO_MUSICA
+    *ALIAS          "Musica desierto"
+    *VOLUMEN        0.45
+  }
+  *SONIDO
+  {
+    *NOMBRE         SB03
+    *FICHERO        "m_bat_eg.ogi"
+    *FLAG           FLAG_LOOP
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_STREAM
+    *TIPO           TIPO_MUSICA
+    *ALIAS          "Musica batalla Egipto"
+    *VOLUMEN        0.45
+  }
+}

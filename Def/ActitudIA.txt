@@ -1,0 +1,98 @@
+{
+  *NOMBRE AGRESIVO
+  
+  // Defensa Pueblos
+  *POTMIN_DEFENSA_PUEBLO 20000                // Usado por ObjetivoConquistaPueblo2
+  *POT_DESEADA_DEFENSA_PUEBLO 40000           // Usado por ObjetivoConquistaPueblo2
+  *VENTAJA_MINIMA_DEFENSA_PUEBLO 1.0          // Usado por ObjetivoConquistaPueblo2
+  *VENTAJA_DESEADA_DEFENSA_PUEBLO 2.0         // Usado por ObjetivoConquistaPueblo2
+  *POTMIN_PUESTO_TORRE_DEFENSA 2000           // Usado por TacticaGestionPueblo2
+  *PEDIR_REFUERZOS_DEF_PUEBLO 0.7             // Desventaja, respecto a la potencia minima calculada, que hace que se pidan refuerzos
+  *DEFENSA_PUEBLO_STAND 1
+  *SEGS_HASTA_CONSTRUIR_TORRES 10
+
+  // Lanzar Ataque
+  *VENTAJA_MINIMA_ATAQUE 1.0    // Usado por ObjetivoAtacarZona2, ObjetivoCazaYCaptura y PosibleObjetivoLanzarAtaque
+  *VENTAJA_DESEADA_ATAQUE 2.0   // Usado por ObjetivoAtacarZona2, ObjetivoCazaYCaptura y PosibleObjetivoLanzarAtaque
+  *POT_MIN_LANZAR_ATAQUE 20000  // Usado por PosibleObjetivoLanzarAtaque
+  *POTMIN_CAZA_Y_CAPTURA 40000  // Usado por ObjetivoCazaYCaptura
+  *NUM_PUEBLOS_PREF_ATAQUE 3    // Numero de pueblos controlados que hacen que la CPU prefiera lanzar un ataque a conquistar un nuevo pueblo
+
+  // Atacar Pueblo
+  *POT_MINIMA_ATAQUE_PUEBLO 50000           // Usado por PosibleObjetivoPueblo
+  *POT_DESEADA_ATAQUE_PUEBLO 70000          // Usado por PosibleObjetivoPueblo
+  *POT_MIN_ABSOLUTO_ATAQUE_PUEBLO 5000      // Usado por PosibleObjetivoPueblo
+  *VENTAJA_MINIMA_ATAQUE_PUEBLO 1.5         // Usado por PosibleObjetivoPueblo
+  *VENTAJA_DESEADA_ATAQUE_PUEBLO 2.0        // Usado por PosibleObjetivoPueblo
+  
+  *VIAB_PUEBLO_RETIRARSE .2         // Usado por ObjetivoConquistaPueblo2
+
+  *MOVER_A_PUEBLO_OFENSIVO 1        // Usado por TacticaConquistaPueblo2
+  
+  *MINIMAS_UNIDADES_CONSTRUYENDO 20  // Usado por TacticaGestionPueblo2
+
+  // Combate
+  *VENTAJA_IR_GANANDO 1.2    // Usado por Batallon
+
+  // Diplomacia
+  *POT_MIN_APOYO_ALIADO 1000
+  *POT_MAX_APOYO_ALIADO 20000
+  *TIEMPO_ESPERA_APOYO_ALIADO 30
+  *APOYO_PRIORITARIO 1
+
+  // Exploracion
+  *MAX_TROPAS_EXPLORANDO 3    // Usado por ObjetivoExploracion
+
+  // Mas exploracion
+  *EXPLORAR_RESOLUCION              10    // Usado por TacticaCazaYCaptura y TacticaExploracion3
+  *EXPLORAR_MAX_TIEMPO_VISIBLE      200   // Usado por TacticaCazaYCaptura y TacticaExploracion3
+  *EXPLORAR_FACTOR_DISTANCIA        -1.0  // Usado por TacticaCazaYCaptura y TacticaExploracion3
+  *EXPLORAR_FACTOR_DIST_OTROS       1.0   // Usado por TacticaCazaYCaptura y TacticaExploracion3
+  *EXPLORAR_FACTOR_CUADROS_LIBRES   1.5   // Usado por TacticaCazaYCaptura y TacticaExploracion3
+  *EXPLORAR_FACTOR_ESTRUCTURAS      5.0   // Usado por TacticaCazaYCaptura y TacticaExploracion3
+  *EXPLORAR_FACTOR_PUEBLOS          10.0  // Usado por TacticaCazaYCaptura y TacticaExploracion3
+  *EXPLORAR_FACTOR_VISIBILIDAD      0     // Usado por TacticaCazaYCaptura y TacticaExploracion3
+  *EXPLORAR_FACTOR_RANDOM           10.0  // Usado por TacticaCazaYCaptura y TacticaExploracion3
+  *EXPLORAR_FACTOR_POS_INICIO       10.0  // Usado por TacticaCazaYCaptura y TacticaExploracion3
+  *EXPLORAR_FACTOR_ENEMIGOS         0.0   // Usado por TacticaCazaYCaptura y TacticaExploracion3
+  *EXPLORAR_FACTOR_VISTA_YA         1.0   // Usado por TacticaCazaYCaptura y TacticaExploracion3
+  
+  // Mapa de Influencia
+  *RESOLUCION_MAPA_INFLUENCIA 10  // Usado por CivilizacionStatus
+  *DECAY_POTENCIA_TROPAS 0.6      // Usado por CivilizacionStatus
+  *THRESOLD_POTENCIA_TROPAS 100   // Usado por CivilizacionStatus
+  
+  // Tropas a Entrenar
+  *GRUPO_TROPAS_ENTRENAR DISTANCIA        30  // Usado por CivilizacionStatus
+  *GRUPO_TROPAS_ENTRENAR PESADAS          30  // Usado por CivilizacionStatus
+  *GRUPO_TROPAS_ENTRENAR PIQUERO          20  // Usado por CivilizacionStatus
+  *GRUPO_TROPAS_ENTRENAR CABALLERIA       10  // Usado por CivilizacionStatus
+  *GRUPO_TROPAS_ENTRENAR MAQUINAS_ATAQUE   5
+  *GRUPO_TROPAS_ENTRENAR MAQUINAS_DEFENSA  5
+  *GRUPO_TROPAS_ENTRENAR ESPECIALES       20
+  *GRUPO_TROPAS_ENTRENAR ASALTO_FORTALEZA  0
+  *GRUPO_TROPAS_ENTRENAR EXPLORADOR        0
+  
+  
+  // Evaluacion de objetivos
+  // - Conquista de Pueblos
+  *EVAL_PUEBLO_FACTOR_NUM_HABS       0.2
+  *EVAL_PUEBLO_FACTOR_NECESIDAD      1.0
+  *EVAL_PUEBLO_FACTOR_FACIL_DEF      1.0
+  *EVAL_PUEBLO_FACTOR_POT_ENEMIGA    1.0
+  *EVAL_PUEBLO_FACTOR_DISTANCIA      2.0
+  
+  *EVAL_PUEBLO_MAX_NUM_HABS          1000
+  *EVAL_PUEBLO_MAX_NECESIDAD         10
+  *EVAL_PUEBLO_MAX_FACIL_DEF         1
+  *EVAL_PUEBLO_MAX_POT_ENEMIGA       50000
+  *EVAL_PUEBLO_MAX_DISTANCIA         30000
+  
+  // - Refuerzo
+  *EVAL_REFUERZO_FACTOR_DISTANCIA    1.0
+  *EVAL_REFUERZO_MAX_DISTANCIA			 30000
+  
+  // - Otros
+  *EVAL_VENTAJA_EN_CURSO						 1.3
+  *EVAL_PUEBLO_VS_REFUERZO					 1.0
+}

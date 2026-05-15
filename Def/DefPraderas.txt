@@ -1,0 +1,21 @@
+{
+  // Praderas
+  
+  *UNIDAD
+	{
+		*TIPO 									PRADERA
+		*BASE 									PRADERA
+		*VIDA 									15000
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE							0
+				*PROYECTIL					0
+				*INCENDIO						100
+				*EDIFICIO						0
+			}
+			*NOMBRE								NORMAL
+		}
+	}
+}

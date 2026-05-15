@@ -1,0 +1,457 @@
+{
+// **************************************************************************
+// ************************FORMACION  PESADA  GALOS**************************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_DISTRIBUCION_DESORDENADA
+		*FLAG                   FLAG_CORRER
+		*FLAG										FLAG_MOVIBLE
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				16
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.022
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.5
+		*AMPLITUDC							1.3
+		*ARMA_CUERPO_CUERPO     GALO_PESADA NORMAL
+		*ARMA_DESMANTELAR       GALO_PESADA DESMANTELAR
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					GALO_IPESADA
+		*ICONO									0 4
+	
+	}
+// **************************************************************************
+// ************************FORMACION  MURALLA IPESADA GALOS *****************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_MOVIBLE
+		*FLAG                   FLAG_CORRER
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				8
+		*FLAG 									FLAG_MURALLA
+		*FLAG 									FLAG_NOSELECCIONABLE
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.022
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								2 OPERACION_CONST 2
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.6
+		*AMPLITUDC							0.4
+		*NOISE_X								0.04
+		*NOISE_Y								0.04
+		*ARMA_CUERPO_CUERPO     GALO_PESADA NORMAL
+		*ARMA_DESMANTELAR       GALO_PESADA DESMANTELAR
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					MURALLA_IPESADA_GALO
+		*ICONO									0 4
+	}
+// **************************************************************************
+// ************************FORMACION  CENTURION  GALOS***********************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_MOVIBLE
+		*FLAG                   FLAG_CORRER
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				1
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.025
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.7
+		*AMPLITUDC							0.7
+		*ARMA_CUERPO_CUERPO     GALO_CENTURION NORMAL
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					GALO_CENTURION
+		*ICONO									0 4
+	
+	}
+
+// **************************************************************************
+// ************************FORMACION  JEFE GERMANO***********************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_MOVIBLE
+		//*FLAG                   FLAG_CORRER
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				1
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.014
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.7
+		*AMPLITUDC							0.7
+		*ARMA_CUERPO_CUERPO     GALO_CENTURION NORMAL
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					JEFE_GERMANO
+		*ICONO									0 4
+	
+	}
+
+// **************************************************************************
+// *********************** FORMACION  MEDICO  GALOS *************************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION	0
+		*MOVILIDAD		MOVILIDAD_MOVIL
+		*FLAG										FLAG_MOVIBLE
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				1
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.025
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.7
+		*AMPLITUDC							0.7
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					GALO_MEDICO
+		*ICONO									0 4
+	
+	}
+
+// **************************************************************************
+// ************************FORMACION  LIGERA GALOS***************************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG 									FLAG_DISTRIBUCION_DESORDENADA
+		*FLAG										FLAG_MOVIBLE
+		*FLAG                   FLAG_CORRER
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				16
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.027
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.5
+		*AMPLITUDC							1.3
+		*ARMA_CUERPO_CUERPO     GALO_LIGERA NORMAL
+		*ARMA_DESMANTELAR       GALO_LIGERA DESMANTELAR
+		*ARMA_DEFENSA_MAQUINA   GALO_LIGERA DEFENSA_MAQUINA
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					GALO_ILIGERA
+		*ICONO									0 4
+	
+	}
+// **************************************************************************
+// ************************FORMACION  MURALLA ILIGERA GALOS *****************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_MOVIBLE
+		*FLAG                   FLAG_CORRER
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				8
+		*FLAG 									FLAG_MURALLA
+		*FLAG 									FLAG_NOSELECCIONABLE
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.027
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								2 OPERACION_CONST 2
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.6
+		*AMPLITUDC							0.4
+		*NOISE_X								0.04
+		*NOISE_Y								0.04
+		*ARMA_CUERPO_CUERPO     GALO_LIGERA NORMAL
+		*ARMA_DESMANTELAR       GALO_LIGERA DESMANTELAR
+		*ARMA_DEFENSA_MAQUINA   GALO_LIGERA DEFENSA_MAQUINA
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					MURALLA_ILIGERA_GALO
+		*ICONO									0 4
+	}
+// **************************************************************************
+// ************************FORMACION  ARQUEROS GALOS*************************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG 									FLAG_DISTRIBUCION_DESORDENADA
+		*FLAG										FLAG_MOVIBLE
+		*FLAG                   FLAG_CORRER
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				16
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.022
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.4
+		*AMPLITUDC							1.2
+		*ARMA_DISTANCIA         GALO_ARQUERO NORMAL
+		*ARMA_FUEGO             GALO_ARQUERO FUEGO
+		*ARMA_DESMANTELAR       GALO_ARQUERO DESMANTELAR
+		*ARMA_PEGADO            GALO_ARQUERO CUERPO
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					GALO_ARQUERO		
+		*ID_ICONO								4
+		*ICONO									1 2
+		*TOOLTIP								LTEXT_FORMACION_STANDARD
+		*GRUPO									STANDARD
+	
+	}
+	
+// **************************************************************************
+// ************************FORMACION ARQUEROS_GALOS_ PLANTADOS **************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			3
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_PLANTADA
+		*FLAG                   FLAG_CORRER
+		*FLAG 									FLAG_DISTRIBUCION_DESORDENADA
+		*MINIMO_UNIDADES				2
+		*MAXIMO_UNIDADES				16
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.02
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.5
+		*AMPLITUDC							0.5
+		*ARMA_DISTANCIA         GALO_ARQUERO PLANTADO
+		*ARMA_FUEGO             GALO_ARQUERO PLANTADO_FUEGO
+		*ARMA_DESMANTELAR       GALO_ARQUERO DESMANTELAR
+		*ARMA_PEGADO            GALO_ARQUERO CUERPO
+		*DEFENSA                NORMAL
+		*IDENTIFICADOR					GALO_ARQUERO_PLANTADO
+		*ID_ICONO								4
+		*ICONO									0 1
+		*TOOLTIP								LTEXT_FORMACION_PLANTADOS
+		*GRUPO									PLANTADOS
+	}
+
+
+// **************************************************************************
+// ************************FORMACION  MURALLA ARQUERO GALOS *****************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_MOVIBLE
+		*FLAG                   FLAG_CORRER
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				8
+		*FLAG 									FLAG_MURALLA
+		*FLAG 									FLAG_NOSELECCIONABLE
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.022
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								2 OPERACION_CONST 2
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.6
+		*AMPLITUDC							0.4
+		*NOISE_X								0.04
+		*NOISE_Y								0.04
+		*ARMA_DISTANCIA         GALO_ARQUERO NORMAL
+		*ARMA_FUEGO             GALO_ARQUERO FUEGO
+		*ARMA_DESMANTELAR       GALO_ARQUERO DESMANTELAR
+		*ARMA_PEGADO            GALO_ARQUERO CUERPO
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					MURALLA_ARQUERO_GALO
+		*ICONO									0 4
+	}
+
+// **************************************************************************
+// ************************FORMACION  PIQUEROS GALOS*************************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG 									FLAG_DISTRIBUCION_DESORDENADA
+		*FLAG										FLAG_MOVIBLE
+		*FLAG                   FLAG_CORRER
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				16
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.022
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.5
+		*AMPLITUDC							1.5
+		*ARMA_CUERPO_CUERPO     GALO_PIQUERO NORMAL
+		*ARMA_DESMANTELAR       GALO_PIQUERO DESMANTELAR
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					GALO_PIQUERO
+		*ID_ICONO								4
+		*ICONO									1 2
+		*TOOLTIP								LTEXT_FORMACION_STANDARD
+		*GRUPO									STANDARD	
+	}
+	
+// **************************************************************************
+// ********************FORMACION  PIQUEROS GALOS PLANTADOS ******************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			5
+		*MOVILIDAD							MOVILIDAD_RIGIDA
+		*FLAG										FLAG_PLANTADA
+		*FLAG                   FLAG_CORRER
+		*MINIMO_UNIDADES				5
+		*MAXIMO_UNIDADES				16
+		*ESPECIAL								0
+		*MAGIA									1
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.02
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								5 OPERACION_SQRT_UP OPERACION_DIV_UP 2.41 OPERACION_MUL 4
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.5
+		*AMPLITUDC							0.5
+		*ARMA_CUERPO_CUERPO     GALO_PIQUERO PLANTADO
+		*ARMA_PEGADO            GALO_PIQUERO NORMAL
+		*ARMA_DESMANTELAR       GALO_PIQUERO DESMANTELAR
+		*DEFENSA								PLANTADOS
+		*IDENTIFICADOR					GALO_PIQUERO_PLANTADOS
+		*ID_ICONO								4
+		*ICONO									0 1
+		*TOOLTIP								LTEXT_FORMACION_PLANTADOS
+		*GRUPO									PLANTADOS	
+	}
+
+// **************************************************************************
+// ************************FORMACION  MURALLA PIQUERO GALOS *****************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_MOVIBLE
+		*FLAG                   FLAG_CORRER
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				8
+		*FLAG 									FLAG_MURALLA
+		*FLAG 									FLAG_NOSELECCIONABLE
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.022
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								2 OPERACION_CONST 2
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.6
+		*AMPLITUDC							0.4
+		*NOISE_X								0.04
+		*NOISE_Y								0.04
+		*ARMA_CUERPO_CUERPO     GALO_PIQUERO NORMAL
+		*ARMA_DESMANTELAR       GALO_PIQUERO DESMANTELAR
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					MURALLA_PIQUERO_GALO
+		*ICONO									0 4
+	}
+// **************************************************************************
+// ************************FORMACION  CPESADA  GALOS*************************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_MOVIBLE
+		*FLAG                   FLAG_DISTRIBUCION_DESORDENADA
+		*FLAG                   FLAG_CORRER
+		*FLAG                   FLAG_FRENAR
+		*FLAG										FLAG_NO_EMBOSCADA_PRADERA
+		*VELOCIDAD_CORRER 			0.04
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				12
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.038
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.7
+		*AMPLITUDC							2.0
+		*ARMA_CUERPO_CUERPO     GALO_CABALLERIA_PESADA NORMAL
+		*ARMA_DESMANTELAR       GALO_CABALLERIA_PESADA DESMANTELAR
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					GALO_CPESADA
+		*ICONO									0 4	
+	}
+// **************************************************************************
+// **************************FORMACION GALO_CARQUERA*************************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_MOVIBLE
+		*FLAG                   FLAG_CORRER
+		*FLAG                   FLAG_FRENAR
+		*FLAG			              FLAG_STANDARD
+		*FLAG										FLAG_NO_EMBOSCADA_PRADERA
+		*FLAG										FLAG_DISTRIBUCION_DESORDENADA
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				16
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.040
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.7
+		*AMPLITUDC							1.8
+		*ARMA_DISTANCIA         GALO_CABALLERIA_ARQUERA NORMAL
+		*ARMA_FUEGO             GALO_CABALLERIA_ARQUERA FUEGO
+		*ARMA_DESMANTELAR       GALO_CABALLERIA_ARQUERA DESMANTELAR
+		*ARMA_PEGADO            GALO_CABALLERIA_ARQUERA CUERPO
+		*DEFENSA								NORMAL
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					GALO_CARQUERA
+		*ID_ICONO								4
+		*ICONO									1 2
+		*TOOLTIP								LTEXT_FORMACION_STANDARD
+	}
+}

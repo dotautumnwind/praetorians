@@ -1,0 +1,41 @@
+{
+  // "Voy para alla"
+  *APOYO
+  {
+    *TEXTO "LTEXT_ACKCHAT_APOYO1"
+//    *TEXTO "LTEXT_ACKCHAT_APOYO2"
+//    *TEXTO "LTEXT_ACKCHAT_APOYO3"
+  }
+  
+  // "Vamos a petar ese pueblo"
+  *PUEBLO
+  {
+    *TEXTO "LTEXT_ACKCHAT_PUEBLO1"
+//    *TEXTO "LTEXT_ACKCHAT_PUEBLO2"
+//    *TEXTO "LTEXT_ACKCHAT_PUEBLO3"
+  }
+  
+  // "Necesito ayuda por aqui"
+  *AYUDAME
+  {
+    *TEXTO "LTEXT_ACKCHAT_AYUDAME1"
+//    *TEXTO "LTEXT_ACKCHAT_AYUDAME2"
+//    *TEXTO "LTEXT_ACKCHAT_AYUDAME3"
+  }
+  
+  // "No respondemos a peticiones de refuerzo, se siente"
+  *NO_DISPONIBLE
+  {
+    *TEXTO "LTEXT_ACKCHAT_NOTAVAIL1"
+//    *TEXTO "LTEXT_ACKCHAT_NOTAVAIL2"
+//    *TEXTO "LTEXT_ACKCHAT_NOTAVAIL3"
+  }
+  
+  // "Ahora mismo no tengo tropas para enviarte"
+  *NO_PUEDO
+  {
+    *TEXTO "LTEXT_ACKCHAT_NOTNOW1"
+//    *TEXTO "LTEXT_ACKCHAT_NOTNOW2"
+//    *TEXTO "LTEXT_ACKCHAT_NOTNOW3"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  // -------------------------------------------------------------------------------------
+  // PROYECTILES
+  // -------------------------------------------------------------------------------------
+  *SONIDO
+  {
+    *NOMBRE         PFGL
+    *FICHERO        "flechas_golpe_01.wav"
+    *FICHERO        "flechas_golpe_02.wav"
+    *FICHERO        "flechas_golpe_03.wav"
+    *FICHERO        "flechas_golpe_04.wav"
+    *FICHERO        "flechas_golpe_05.wav"
+    *FICHERO        "flechas_golpe_06.wav"
+    *FICHERO        "flechas_golpe_07.wav"
+    *ALIAS          "Flecha golpeando"
+    *TIPO           TIPO_EFECTO
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA
+    *FLAG           FLAG_GENERICO
+    *POLIFONIA      3
+    *VOLUMEN        0.1f
+  }
+  *SONIDO
+  {
+    *NOMBRE         PFBG
+    *FICHERO        "ballesta_golpear2.wav"
+    *ALIAS          "Flecha ballesta golpeando"
+    *TIPO           TIPO_EFECTO
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_GENERICO
+    *VOLUMEN        0.3f
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA
+    *POLIFONIA      2
+  }
+  *SONIDO
+  {
+    *NOMBRE         PFFG
+    *FICHERO        "flechas_golpe_01.wav"
+    *FICHERO        "flechas_golpe_02.wav"
+    *FICHERO        "flechas_golpe_03.wav"
+    *FICHERO        "flechas_golpe_04.wav"
+    *FICHERO        "flechas_golpe_05.wav"
+    *FICHERO        "flechas_golpe_06.wav"
+    *FICHERO        "flechas_golpe_07.wav"
+    *ALIAS          "Flecha fuego golpeando"
+    *TIPO           TIPO_EFECTO
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA
+    *FLAG           FLAG_GENERICO
+    *POLIFONIA      3
+    *VOLUMEN        0.1f
+  }
+  *SONIDO
+  {
+    *NOMBRE         PFRG
+    *FICHERO        "flechas_golpe_01.wav"
+    *FICHERO        "flechas_golpe_02.wav"
+    *FICHERO        "flechas_golpe_03.wav"
+    *FICHERO        "flechas_golpe_04.wav"
+    *FICHERO        "flechas_golpe_05.wav"
+    *FICHERO        "flechas_golpe_06.wav"
+    *FICHERO        "flechas_golpe_07.wav"
+    *ALIAS          "Francisca golpeando"
+    *TIPO           TIPO_EFECTO
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA
+    *FLAG           FLAG_GENERICO
+    *POLIFONIA      3
+    *FLAG           FLAG_SONIDO_CORTO
+    *VOLUMEN        0.1f
+  }
+  *SONIDO
+  {
+    *NOMBRE         PPCG
+    *FICHERO        "golpe_proyectil_01.wav"
+    *FICHERO        "golpe_proyectil_02.wav"
+    *ALIAS          "Piedra catapulta golpeando"
+    *TIPO           TIPO_EFECTO
+    *FLAG           FLAG_GENERICO
+    *FLAG           FLAG_SONIDO_CORTO
+    *VOLUMEN        0.7f
+  }
+  *SONIDO
+  {
+    *NOMBRE         PPHG
+    *FICHERO        ".wav"
+    *ALIAS          "Piedra hondero golpeando"
+    *TIPO           TIPO_EFECTO
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA
+    *FLAG           FLAG_GENERICO
+    *POLIFONIA      3
+    *VOLUMEN        0.3f
+  }
+  *SONIDO
+  {
+    *NOMBRE         PPLG
+    *FICHERO        "flechas_golpe_01.wav"
+    *FICHERO        "flechas_golpe_02.wav"
+    *FICHERO        "flechas_golpe_03.wav"
+    *FICHERO        "flechas_golpe_04.wav"
+    *FICHERO        "flechas_golpe_05.wav"
+    *FICHERO        "flechas_golpe_06.wav"
+    *FICHERO        "flechas_golpe_07.wav"
+    *ALIAS          "Pilum golpeando"
+    *TIPO           TIPO_EFECTO
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA
+    *FLAG           FLAG_GENERICO
+    *POLIFONIA      3
+    *VOLUMEN        0.1f
+  }
+  *SONIDO
+  {
+    *NOMBRE         PRDG
+    *FICHERO        ".wav"
+    *ALIAS          "Red golpeando"
+    *TIPO           TIPO_EFECTO
+    *FLAG           FLAG_SONIDO_CORTO
+    *VOLUMEN        0.3f
+  }
+}

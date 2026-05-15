@@ -1,0 +1,636 @@
+{
+
+  // -------------------------------------------------------------------------------------
+  // INTERFAZ AVISOS MINIMAPA
+  // -------------------------------------------------------------------------------------
+  *SONIDO
+  {
+    *NOMBRE         IAAM
+    *FICHERO        "Aviso06.wav"
+    *ALIAS          "Mensaje Accion Minimapa"
+    *TIPO           TIPO_INTERFAZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_LIMITAR_DISTANCIA_MAX
+    *VOLUMEN        0.8f
+  }   
+  *SONIDO
+  {
+    *NOMBRE         IAOC
+    *FICHERO        "Aviso06.wav"
+    *ALIAS          "Mensaje Objetivo completado"
+    *TIPO           TIPO_INTERFAZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *VOLUMEN        0.8f
+  }   
+  *SONIDO
+  {
+    *NOMBRE         IASG
+    *FICHERO        "Aviso06.wav"
+    *ALIAS          "Mensaje Generico"
+    *TIPO           TIPO_INTERFAZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *VOLUMEN        0.8f
+  }   
+  *SONIDO
+  {
+    *NOMBRE         IAAV
+    *FICHERO        "Aviso06.wav"
+    *ALIAS          "Mensaje Aviso"
+    *TIPO           TIPO_INTERFAZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *VOLUMEN        0.8f
+  }   
+  *SONIDO
+  {
+    *NOMBRE         IAAL
+    *FICHERO        "Aviso06.wav"
+    *ALIAS          "Mensaje Aliado"
+    *TIPO           TIPO_INTERFAZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *VOLUMEN        0.8f
+  }   
+  *SONIDO
+  {
+    *NOMBRE         IAEN
+    *FICHERO        "Aviso06.wav"
+    *ALIAS          "Mensaje Enemigo"
+    *TIPO           TIPO_INTERFAZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *VOLUMEN        0.8f
+  }   
+  // -------------------------------------------------------------------------------------
+  // INTERFAZ AVISOS MINIMAPA
+  // -------------------------------------------------------------------------------------
+  *SONIDO
+  {
+    *NOMBRE         IAMH
+    *FICHERO        "Voices\IAMH.wav"
+    *ALIAS          "Mensaje Heroe atacado"
+    *TIPO           TIPO_INTERFAZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA 
+    *POLIFONIA      1
+    *VOLUMEN        0.8f
+    *FLAG           FLAG_TESTEAR_PRIORIDAD
+    *PRIORIDAD      15
+  }   
+  *SONIDO
+  {
+    *NOMBRE         IAMP
+    *FICHERO        "Voices\IAMP.wav"
+    *ALIAS          "Mensaje Pueblo atacado"
+    *TIPO           TIPO_INTERFAZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA 
+    *POLIFONIA      1
+    *VOLUMEN        0.8f
+    *FLAG           FLAG_TESTEAR_PRIORIDAD
+    *PRIORIDAD      14
+  }   
+  *SONIDO
+  {
+    *NOMBRE         IAMT
+    *FICHERO        "Voices\IAMT.wav"
+    *ALIAS          "Mensaje Tropa atacada"
+    *TIPO           TIPO_INTERFAZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA 
+    *POLIFONIA      1
+    *VOLUMEN        0.8f
+    *FLAG           FLAG_TESTEAR_PRIORIDAD
+    *PRIORIDAD      13
+  }   
+  *SONIDO
+  {
+    *NOMBRE         IAMA
+    *FICHERO        "Voices\IAMA_1.wav"
+    *ALIAS          "Mensaje Tropa nuestra atacando"
+    *TIPO           TIPO_INTERFAZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA 
+    *POLIFONIA      1
+    *VOLUMEN        0.8f
+    *FLAG           FLAG_TESTEAR_PRIORIDAD
+    *PRIORIDAD      13
+  }   
+  *SONIDO
+  {
+    *NOMBRE         IAMC
+    *FICHERO        "Voices\IAMC.wav"
+    *ALIAS          "Mensaje Construccion acabada"
+    *TIPO           TIPO_INTERFAZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA 
+    *POLIFONIA      1
+    *VOLUMEN        0.8f
+    *FLAG           FLAG_TESTEAR_PRIORIDAD
+    *PRIORIDAD      11
+  }   
+  *SONIDO
+  {
+    *NOMBRE         IAME
+    *FICHERO        "Voices\IAME.wav"
+    *ALIAS          "Mensaje Entrenamiento acabado"
+    *TIPO           TIPO_INTERFAZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA 
+    *POLIFONIA      1
+    *VOLUMEN        0.8f
+    *FLAG           FLAG_TESTEAR_PRIORIDAD
+    *PRIORIDAD      10
+  }   
+  *SONIDO
+  {
+    *NOMBRE         IAMQ
+    *FICHERO        "Voices\IAMQ.wav"
+    *ALIAS          "Mensaje Pueblo aliado atacado"
+    *TIPO           TIPO_INTERFAZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA 
+    *POLIFONIA      1
+    *VOLUMEN        0.8f
+    *FLAG           FLAG_TESTEAR_PRIORIDAD
+    *PRIORIDAD      9
+  }   
+  *SONIDO
+  {
+    *NOMBRE         IAMU
+    *FICHERO        "Voices\IAMU.wav"
+    *ALIAS          "Mensaje aliado atacado"
+    *TIPO           TIPO_INTERFAZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA 
+    *POLIFONIA      1
+    *VOLUMEN        0.8f
+    *FLAG           FLAG_TESTEAR_PRIORIDAD
+    *PRIORIDAD      9
+  }   
+  *SONIDO
+  {
+    *NOMBRE         IAMB
+    *FICHERO        "Voices\IAMB.wav"
+    *ALIAS          "Mensaje Pueblo aliado atacando"
+    *TIPO           TIPO_INTERFAZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA 
+    *POLIFONIA      1
+    *VOLUMEN        0.8f
+    *FLAG           FLAG_TESTEAR_PRIORIDAD
+    *PRIORIDAD      10
+  }   
+
+  // -------------------------------------------------------------------------------------
+  // INTERFAZ AVISOS SINGLEPLAYER
+  // -------------------------------------------------------------------------------------
+  *SONIDO
+  {
+    *NOMBRE         IASE
+    *FICHERO        "Voices\IASE.wav"
+    *ALIAS          "Mensaje General SinglePlayer Entrenamiento"
+    *TIPO           TIPO_INTERFAZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA 
+    *POLIFONIA      1
+    *VOLUMEN        0.8f
+    *FLAG           FLAG_TESTEAR_PRIORIDAD
+    *PRIORIDAD      10
+  }   
+  *SONIDO
+  {
+    *NOMBRE         IASO
+    *FICHERO        "Voices\IASO.wav"
+    *ALIAS          "Mensaje General SinglePlayer Objetivo completo"
+    *TIPO           TIPO_INTERFAZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA 
+    *POLIFONIA      1
+    *VOLUMEN        0.8f
+    *FLAG           FLAG_TESTEAR_PRIORIDAD
+    *PRIORIDAD      32
+  }   
+  *SONIDO
+  {
+    *NOMBRE         IASC
+    *FICHERO        "Voices\IASC.wav"
+    *ALIAS          "Mensaje General SinglePlayer Objetivos Mision Cambiados"
+    *TIPO           TIPO_INTERFAZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA 
+    *POLIFONIA      1
+    *VOLUMEN        0.8f
+    *FLAG           FLAG_TESTEAR_PRIORIDAD
+    *PRIORIDAD      35
+  }   
+  *SONIDO
+  {
+    *NOMBRE         IASF
+    *FICHERO        "Voices\IASF.wav"
+    *ALIAS          "Mensaje General SinglePlayer Objetivos Fallidos"
+    *TIPO           TIPO_INTERFAZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA 
+    *POLIFONIA      1
+    *VOLUMEN        0.8f
+    *FLAG           FLAG_TESTEAR_PRIORIDAD
+    *PRIORIDAD      38
+  }   
+  *SONIDO
+  {
+    *NOMBRE         IASM
+    *FICHERO        "Voices\IASM.wav"
+    *ALIAS          "Mensaje General SinglePlayer Mision Completada"
+    *TIPO           TIPO_INTERFAZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA 
+    *POLIFONIA      1
+    *VOLUMEN        0.8f
+    *FLAG           FLAG_TESTEAR_PRIORIDAD
+    *PRIORIDAD      38
+  }   
+
+  // -------------------------------------------------------------------------------------
+  // INTERFAZ AVISOS MULTIPLAYER
+  // -------------------------------------------------------------------------------------
+  *SONIDO
+  {
+    *NOMBRE         IAWV
+    *FICHERO        "Voices\IAWV.wav"
+    *ALIAS          "Mensaje General MultiPlayer Victoria"
+    *TIPO           TIPO_INTERFAZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA 
+    *POLIFONIA      1
+    *VOLUMEN        0.8f
+    *FLAG           FLAG_TESTEAR_PRIORIDAD
+    *PRIORIDAD      40
+  }   
+  *SONIDO
+  {
+    *NOMBRE         IAWD
+    *FICHERO        "Voices\IAWD.wav"
+    *ALIAS          "Mensaje General MultiPlayer Derrota"
+    *TIPO           TIPO_INTERFAZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA 
+    *POLIFONIA      1
+    *VOLUMEN        0.8f
+    *FLAG           FLAG_TESTEAR_PRIORIDAD
+    *PRIORIDAD      40
+  }   
+  *SONIDO
+  {
+    *NOMBRE         IAWN
+    *FICHERO        "Voices\IAWN.wav"
+    *ALIAS          "Mensaje General MultiPlayer Aliado abandona partida"
+    *TIPO           TIPO_INTERFAZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA 
+    *POLIFONIA      1
+    *VOLUMEN        0.8f
+    *FLAG           FLAG_TESTEAR_PRIORIDAD
+    *PRIORIDAD      22
+}   
+  *SONIDO
+  {
+    *NOMBRE         IAWB
+    *FICHERO        "Voices\IAWB.wav"
+    *ALIAS          "Mensaje General MultiPlayer Enemigo abandona partida"
+    *TIPO           TIPO_INTERFAZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA 
+    *POLIFONIA      1
+    *VOLUMEN        0.8f
+    *FLAG           FLAG_TESTEAR_PRIORIDAD
+    *PRIORIDAD      22
+  }   
+  *SONIDO
+  {
+    *NOMBRE         IAWA
+    *FICHERO        "Voices\IAWA.wav"
+    *ALIAS          "Mensaje General MultiPlayer Aliado derrotado"
+    *TIPO           TIPO_INTERFAZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA 
+    *POLIFONIA      1
+    *VOLUMEN        0.8f
+    *FLAG           FLAG_TESTEAR_PRIORIDAD
+    *PRIORIDAD      23
+  }   
+  *SONIDO
+  {
+    *NOMBRE         IAWE
+    *FICHERO        "Voices\IAWE.wav"
+    *ALIAS          "Mensaje General MultiPlayer Enemigo Derrotado"
+    *TIPO           TIPO_INTERFAZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA 
+    *POLIFONIA      1
+    *VOLUMEN        0.8f
+    *FLAG           FLAG_TESTEAR_PRIORIDAD
+    *PRIORIDAD      23
+  }   
+  *SONIDO
+  {
+    *NOMBRE         IAWT
+    *FICHERO        "Voices\IAWT.wav"
+    *ALIAS          "Mensaje General MultiPlayer Equipo enemigo pierde"
+    *TIPO           TIPO_INTERFAZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA 
+    *POLIFONIA      1
+    *VOLUMEN        0.8f
+    *FLAG           FLAG_TESTEAR_PRIORIDAD
+    *PRIORIDAD      29
+  }   
+  *SONIDO
+  {
+    *NOMBRE         IAWP
+    *FICHERO        "Voices\IAWP.wav"
+    *ALIAS          "Mensaje General MultiPlayer Jugador derrotado"
+    *TIPO           TIPO_INTERFAZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA 
+    *POLIFONIA      1
+    *VOLUMEN        0.8f
+    *FLAG           FLAG_TESTEAR_PRIORIDAD
+    *PRIORIDAD      30
+  }   
+
+  // -------------------------------------------------------------------------------------
+  // INTERFAZ INFERIORIDAD
+  // -------------------------------------------------------------------------------------
+  *SONIDO
+  {
+    *NOMBRE         IAIE
+    *FICHERO        "Voices\IAIE.wav"
+    *ALIAS          "Mensaje General Inferioridad Muestran tropas enemigas"
+    *TIPO           TIPO_INTERFAZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA 
+    *POLIFONIA      1
+    *VOLUMEN        0.8f
+    *FLAG           FLAG_TESTEAR_PRIORIDAD
+    *PRIORIDAD      24
+  }   
+  *SONIDO
+  {
+    *NOMBRE         IAIC
+    *FICHERO        "Voices\IAIC.wav"
+    *ALIAS          "Mensaje General Inferioridad Empieza el contador"
+    *TIPO           TIPO_INTERFAZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA 
+    *POLIFONIA      1
+    *VOLUMEN        0.8f
+    *FLAG           FLAG_TESTEAR_PRIORIDAD
+    *PRIORIDAD      28
+  }   
+  *SONIDO
+  {
+    *NOMBRE         IAIJ
+    *FICHERO        "Voices\IAIJ.wav"
+    *ALIAS          "Mensaje General Inferioridad Muestran nuestras tropas"
+    *TIPO           TIPO_INTERFAZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA 
+    *POLIFONIA      1
+    *VOLUMEN        0.8f
+    *FLAG           FLAG_TESTEAR_PRIORIDAD
+    *PRIORIDAD      25
+  }   
+
+  // -------------------------------------------------------------------------------------
+  // INTERFAZ INFERIORIDAD
+  // -------------------------------------------------------------------------------------
+  *SONIDO
+  {
+    *NOMBRE         IACA
+    *FICHERO        "Voices\IACA.wav"
+    *ALIAS          "Mensaje CPU Apoyo"
+    *TIPO           TIPO_INTERFAZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA 
+    *POLIFONIA      1
+    *VOLUMEN        0.8f
+    *FLAG           FLAG_TESTEAR_PRIORIDAD
+    *PRIORIDAD      0
+  }   
+  *SONIDO
+  {
+    *NOMBRE         IACP
+    *FICHERO        "Voices\IACP.wav"
+    *ALIAS          "Mensaje CPU Conquista Pueblo"
+    *TIPO           TIPO_INTERFAZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA 
+    *POLIFONIA      1
+    *VOLUMEN        0.8f
+    *FLAG           FLAG_TESTEAR_PRIORIDAD
+    *PRIORIDAD      0
+  }   
+  *SONIDO
+  {
+    *NOMBRE         IACH
+    *FICHERO        "Voices\IACH.wav"
+    *ALIAS          "Mensaje CPU Aydame"
+    *TIPO           TIPO_INTERFAZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA 
+    *POLIFONIA      1
+    *VOLUMEN        0.8f
+    *FLAG           FLAG_TESTEAR_PRIORIDAD
+    *PRIORIDAD      0
+  }   
+  *SONIDO
+  {
+    *NOMBRE         IACN
+    *FICHERO        "Voices\IACN.wav"
+    *ALIAS          "Mensaje CPU Not available"
+    *TIPO           TIPO_INTERFAZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA 
+    *POLIFONIA      1
+    *VOLUMEN        0.8f
+    *FLAG           FLAG_TESTEAR_PRIORIDAD
+    *PRIORIDAD      0
+  }   
+  *SONIDO
+  {
+    *NOMBRE         IACM
+    *FICHERO        "Voices\IACM.wav"
+    *ALIAS          "Mensaje CPU Not now"
+    *TIPO           TIPO_INTERFAZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA 
+    *POLIFONIA      1
+    *VOLUMEN        0.8f
+    *FLAG           FLAG_TESTEAR_PRIORIDAD
+    *PRIORIDAD      0
+  }   
+  
+  // -------------------------------------------------------------------------------------
+  // INTERFAZ AVISOS OTROS
+  // -------------------------------------------------------------------------------------
+  *SONIDO
+  {
+    *NOMBRE         IATU
+    *FICHERO        "aviso_tut_02.wav"
+    *ALIAS          "Paso Tutorial"
+    *TIPO           TIPO_INTERFAZ
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *VOLUMEN        0.8f
+  }   
+  *SONIDO
+  {
+    *NOMBRE         IANO
+    *FICHERO        ".wav"
+    *ALIAS          "No se puede ejecutar la accion"
+    *TIPO           TIPO_INTERFAZ
+    *FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA 
+    *POLIFONIA      1
+    *FLAG           FLAG_SONIDO_CORTO
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *VOLUMEN        0.8f
+  }   
+
+  // -------------------------------------------------------------------------------------
+  // INTERFAZ BOTONES
+  // -------------------------------------------------------------------------------------
+  *SONIDO
+  {
+    *NOMBRE         IBPS
+    *FICHERO        "inv_abrir.wav"
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_SONIDO_CORTO
+    //*FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA 
+    *POLIFONIA      1
+    *TIPO           TIPO_INTERFAZ
+    *ALIAS          "Pulsar boton"
+    *VOLUMEN        0.4f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IBST
+    *FICHERO        ".wav"
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_SONIDO_CORTO
+    //*FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA 
+    *POLIFONIA      1
+    *TIPO           TIPO_INTERFAZ
+    *ALIAS          "Soltar boton"
+    *VOLUMEN        0.4f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IBOD
+    *FICHERO        "inv_abrir.wav"
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_SONIDO_CORTO
+    //*FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA 
+    *POLIFONIA      1
+    *TIPO           TIPO_INTERFAZ
+    *ALIAS          "Pulsar boton de orden"
+    *VOLUMEN        0.2f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IBOU
+    *FICHERO        ".wav"
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_SONIDO_CORTO
+    //*FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA 
+    *POLIFONIA      1
+    *TIPO           TIPO_INTERFAZ
+    *ALIAS          "Soltar boton de orden"
+    *VOLUMEN        0.2f
+  }
+  *SONIDO
+  {
+    *NOMBRE         IPDS
+    *FICHERO        "inv_desplazar.wav"
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_SONIDO_CORTO
+    //*FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA 
+    *POLIFONIA      1
+    *TIPO           TIPO_INTERFAZ
+    *VOLUMEN        0.2f
+    *ALIAS          "Desplazarse en una pantalla"
+  }
+  *SONIDO
+  {
+    *NOMBRE         IPEC
+    *FICHERO        "inv_cerrar.wav"
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_SONIDO_CORTO
+    //*FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA 
+    *POLIFONIA      1
+    *TIPO           TIPO_INTERFAZ
+    *ALIAS          "ESC en una pantalla"
+    *VOLUMEN        0.4f
+  }
+  // -------------------------------------------------------------------------------------
+  // INTERFAZ OTROS
+  // -------------------------------------------------------------------------------------
+  *SONIDO
+  {
+    *NOMBRE         IINM
+    *FICHERO        "inv_Cerrar.wav"
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_SONIDO_CORTO
+    *TIPO           TIPO_INTERFAZ
+    *ALIAS          "Muestra el interfaz"
+    //*FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA 
+    *POLIFONIA      1
+    *VOLUMEN        0.4f
+    *POLIFONIA      1
+  }
+  *SONIDO
+  {
+    *NOMBRE         IINO
+    *FICHERO        "inv_Cerrar.wav"
+    *FLAG           FLAG_SIN_LOCALIZACION
+    *FLAG           FLAG_SONIDO_CORTO
+    *TIPO           TIPO_INTERFAZ
+    *ALIAS          "Oculta el interfaz"
+    //*FLAG           FLAG_IGNORAR_SI_MAX_POLIFONIA 
+    *POLIFONIA      1
+    *VOLUMEN        0.4f
+    *POLIFONIA      1
+  }  
+}

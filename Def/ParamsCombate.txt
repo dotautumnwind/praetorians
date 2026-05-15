@@ -1,0 +1,128 @@
+{
+  *DISTANCIA "Default"
+  {
+    // -- Seleccion Blancos
+    
+    // Indica cuanto importa la proximidad de una tropa a la hora de elegirla como blanco (todas estan en rango, aunque unas mas cerca que otras)
+    *FACTOR_PROXIMO    0.5
+    // Indica cuanto influye que el enemigo nos haya visto para elegirlo como blanco
+    *FACTOR_MEHAVISTO  1
+    // Indica cuanto nos interesa seguir atacando al mismo objetivo
+    *FACTOR_SEGUIR     0.5
+    // Indica cuanta penalizacion queremos dar a atacar estructuras (frente a tropas)
+    *FACTOR_ESTRUCTURA 1
+    
+    // -- Evaluacion Posiciones
+    
+    // Indica cuanto afectan valores altos de influencia al elegir un destino al que moverse
+    *FACTOR_INFLUENCIA 0.5
+    // Este es el valor de influencia que da un peso de 0.7
+    *INFLUENCIA70      1000
+    
+    // Indica cuanto afecta la distancia al destino que se esta analizando como posibilidad
+    *FACTOR_DIST    1.5
+    // Valor de distancia (en casillas) que da un peso de 0.7
+    *DIST70         20
+    // Distancia maxima que se considerara
+    *DIST_MAX       30
+    // Multiplicadores para penalizar a las tropas mas lentas (como si tuvieran que recorrer mayor distancia)
+    *DIST_MULT_MAX  3
+    *DIST_MULT_MIN  1
+    
+    // Indica como influye que el enemigo tenga visibilidad en la posicion que estoy estudiando
+    *FACTOR_MEVEN     1
+    // Indica cuanto afecta la cantidad de enemigos que estan en rango en la posicion estudiada
+    *FACTOR_ENEMIGOS  5
+    // Numero de enemigos que dan un valor de 0.7
+    *ENEMIGOS70       1
+    // Indica cuanto afecta el terreno (bosque y orilla). Se aplica mas por la imposibilidad de otras tropas de llegar hasta el, no por visibilidad, para eso hay otro parametro
+    *FACTOR_TERRENO   1
+    // Indica cuanto afecta la altura
+    *FACTOR_ALTURA    0.5
+    // Indica cuanto interes tiene la tropa en meterse en una torre (se supone la torre libre)
+    *FACTOR_TORRES    5
+    // Bonificacion que se aplica a una tropa para que se quede en la posicion en la que esta
+    *BONIF_RESERVA    1
+    // Bonificacion que se usa para que una tropa no cancele un ataque para moverse
+    *BONIF_SEGUIR_ATACANDO 2
+    // Penalizacion que se aplica a una tropa si elige el mismo destino que otra
+    *PENAL_RESERVA    2
+    
+    // Distancia minima a la que pueden estar los enemigos para dar la orden de plantarse. Si hay alguno mas cerca no me planto
+    *DIST_MIN_PLANT   10
+  }
+
+  *DISTANCIA "Anti-Rush"
+  {
+    // -- Seleccion Blancos
+    
+    // Indica cuanto importa la proximidad de una tropa a la hora de elegirla como blanco (todas estan en rango, aunque unas mas cerca que otras)
+    *FACTOR_PROXIMO    0.5
+
+    // Indica cuanto influye que el enemigo nos haya visto para elegirlo como blanco
+    *FACTOR_MEHAVISTO  1
+
+    // Indica cuanto nos interesa seguir atacando al mismo objetivo
+    *FACTOR_SEGUIR     0.5
+
+    // Indica cuanta penalizacion queremos dar a atacar estructuras (frente a tropas)
+    *FACTOR_ESTRUCTURA 1
+    
+    // -- Evaluacion Posiciones
+    
+    // Indica cuanto afectan valores altos de influencia al elegir un destino al que moverse
+    *FACTOR_INFLUENCIA 0.5
+
+    // Este es el valor de influencia que da un peso de 0.7
+    *INFLUENCIA70      1000
+    
+    // Indica cuanto afecta la distancia al destino que se esta analizando como posibilidad
+    *FACTOR_DIST    1.5
+
+    // Valor de distancia (en casillas) que da un peso de 0.7
+    *DIST70         20
+
+    // Distancia maxima que se considerara
+    *DIST_MAX       30
+
+    // Multiplicadores para penalizar a las tropas mas lentas (como si tuvieran que recorrer mayor distancia)
+    *DIST_MULT_MAX  3
+    *DIST_MULT_MIN  1
+    
+    // Indica como influye que el enemigo tenga visibilidad en la posicion que estoy estudiando
+    *FACTOR_MEVEN     1
+
+    // Indica cuanto afecta la cantidad de enemigos que estan en rango en la posicion estudiada
+    *FACTOR_ENEMIGOS  5
+
+    // Numero de enemigos que dan un valor de 0.7
+    *ENEMIGOS70       1
+
+    // Indica cuanto afecta el terreno (bosque y orilla). Se aplica mas por la imposibilidad de otras tropas de llegar hasta el, no por visibilidad, para eso hay otro parametro
+    *FACTOR_TERRENO   10
+
+    // Indica cuanto afecta la altura
+    *FACTOR_ALTURA    0.5
+
+    // Indica cuanto interes tiene la tropa en meterse en una torre (se supone la torre libre)
+    *FACTOR_TORRES    5
+
+    // Bonificacion que se aplica a una tropa para que se quede en la posicion en la que esta
+    *BONIF_RESERVA    2
+
+    // Bonificacion que se usa para que una tropa no cancele un ataque para moverse
+    *BONIF_SEGUIR_ATACANDO 2
+
+    // Penalizacion que se aplica a una tropa si elige el mismo destino que otra
+    *PENAL_RESERVA    2
+    
+    // Distancia minima a la que pueden estar los enemigos para dar la orden de plantarse. Si hay alguno mas cerca no me planto
+    *DIST_MIN_PLANT   10
+  }
+  
+  
+  *DISTANCIA "AtacarFortaleza"
+  {
+    *FACTOR_MEVEN 3
+  }
+}

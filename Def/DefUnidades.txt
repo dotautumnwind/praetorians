@@ -1,0 +1,57 @@
+{
+	*INCLUDE "Def\UnidadesGalas.dat"
+	*INCLUDE "Def\UnidadesEgipcias.dat"
+	*INCLUDE "Def\UnidadesRomanas.dat"
+	*INCLUDE "Def\DefMaquinas.dat"
+	*INCLUDE "Def\UnidadesEspeciales.dat"	
+	*INCLUDE "Def\UnidadesMisc.dat"	
+	*INCLUDE "Def\UnidadesHeroes.dat"	
+	*INCLUDE "Def\DefPraderas.dat"
+	
+// **************************************************************************
+// ************************           EXTRAS          ***********************
+// **************************************************************************
+
+	*UNIDAD
+	{
+		*RAZA	NEUTRALES
+		*TIPO	LOBO
+		*BASE LOBO
+		*TERRENO						AGUA_PROFUNDA
+		*TERRENO						BLOQUEADO
+		*VIDA								800
+		*RAD_VISION					2
+		*FLAG								FLAG_MANADA
+		*FLAG								FLAG_NO_ATAQUE
+		*MOTOR							PGE_LOBO
+		*FLAGSNOPASABLES    FLAG_NOPASABLE
+    *FLAGSNOPASABLES    FLAG_PENDIENTE2
+    *FLAGSNOPASABLES    FLAG_PENDIENTE3
+    *FLAGSNOPASABLES    FLAG_ESTRUCTURA
+    *FLAGSNOPASABLES    FLAG_PUENTE
+    *FLAGSNOPASABLES    FLAG_PUERTA
+    *FLAGSNOPASABLES    FLAG_NO_ASALTABLE
+		*ALCANCE						CORTO
+		*CATEGORIA_CARGA		0
+		*IDTEXICONOTROPA 		UnidadesCiv2.tga
+		*IDTEXPINFO 				1
+		*IDTEXPINFOGRANDE 	0
+		*COORDICONOTROPA 		2
+		*COORDPINFO 				0 0
+		*COORDPINFOGRANDE 	1 3	
+		*FORMACION					MANADA
+		*FORMACION_ESTANDAR MANADA
+		*ESTADO
+		{
+			*DANYO
+			{
+				*MELEE			50
+				*PROYECTIL	50
+				*INCENDIO		0
+				*EDIFICIO		50
+			}
+			*NOMBRE				NORMAL
+			*VELOCIDAD		10
+		}
+	}
+}

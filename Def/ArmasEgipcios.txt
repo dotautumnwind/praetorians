@@ -1,0 +1,307 @@
+{
+//***************************************************************************
+//***************************************************************************
+//***********************          EGIPCIOS          ************************
+//***************************************************************************
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD 			EGIPCIO_CENTURION
+		*ESTADO 			NORMAL
+		*FLAG 				FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 			13
+			*PROYECTIL 	0
+			*INCENDIO 	0
+			*EDIFICIO 	12
+			*GOLPE      0
+		}
+		*RITMO 				0.5
+		*RANGO_MIN 		0
+		*RANGO_MAX 		0.5
+		*TIPO					TIPO_CC
+	}
+
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD 			EGIPCIO_LIGERA
+		*ESTADO 			NORMAL
+		*FLAG 				FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 			35
+			*PROYECTIL 	0
+			*INCENDIO 	0
+			*EDIFICIO 	0
+			*GOLPE      0
+		}
+		*RITMO 				0.5
+		*RANGO_MIN 		0
+		*RANGO_MAX 		0.5
+		*TIPO					TIPO_CC
+	}
+
+	*ARMA
+	{
+		*UNIDAD 			EGIPCIO_LIGERA
+		*ESTADO 			DEFENSA_MAQUINA
+		*FLAG 				FLAG_DEFENSA_MAQUINA
+		*DANYO
+		{
+			*MELEE 			25
+			*PROYECTIL	0
+			*INCENDIO 	0
+			*EDIFICIO 	0
+			*GOLPE      0
+		}
+		*RITMO 				0.5
+		*RANGO_MIN 		0
+		*RANGO_MAX		0.5
+		*TIPO					TIPO_CC
+	}
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD 			EGIPCIO_PESADA
+		*ESTADO 			NORMAL
+		*FLAG 				FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 			62
+			*PROYECTIL	0
+			*INCENDIO 	0
+			*EDIFICIO 	0
+			*GOLPE      0
+		}
+		*RITMO 				0.5
+		*RANGO_MIN 		0
+		*RANGO_MAX 		0.5
+		*TIPO					TIPO_CC
+	}
+
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD 			EGIPCIO_ARQUERO
+		*ESTADO 			NORMAL
+		*DANYO
+		{
+			*MELEE 			25
+			*PROYECTIL	200
+			*INCENDIO 	0
+			*EDIFICIO 	0
+			*GOLPE      0
+		}
+		*PRECISION 		100
+		*RITMO 				2
+		*RANGO_MIN 		3
+		*RANGO_MAX 		15
+		*TIPO					TIPO_DISTANCIA
+		*TIPOLOGIA_DANYO		PROYECTIL
+		*MUNICION			FLECHA
+	}
+	*ARMA
+	{
+		*UNIDAD 			EGIPCIO_ARQUERO
+		*ESTADO 			FUEGO
+		*FLAG 				FLAG_FUEGO
+		*DANYO
+		{
+			*MELEE 			0
+			*PROYECTIL 	0
+			*INCENDIO 	40
+			*EDIFICIO 	0
+			*GOLPE      0
+		}
+		*PRECISION 		100
+		*RITMO 				0.5
+		*RANGO_MIN 		3
+		*RANGO_MAX 		15
+		*TIPO					TIPO_DISTANCIA
+		*TIPOLOGIA_DANYO		PROYECTIL
+		*MUNICION			FLECHA_FUEGO
+	}
+
+	*ARMA
+	{
+		*UNIDAD 			EGIPCIO_ARQUERO
+		*ESTADO 			PLANTADOS
+		*DANYO
+		{
+			*MELEE 			25
+			*PROYECTIL 	250
+			*INCENDIO 	0
+			*EDIFICIO 	0
+			*GOLPE      0
+		}
+		*PRECISION 		100
+		*RITMO 				1.5
+		*RANGO_MIN 		3
+		*RANGO_MAX 		18
+		*TIPO					TIPO_DISTANCIA
+		*TIPOLOGIA_DANYO		PROYECTIL
+		*MUNICION			FLECHA
+	}
+	*ARMA
+	{
+		*UNIDAD 			EGIPCIO_ARQUERO
+		*ESTADO 			PLANTADOS_FUEGO
+		*FLAG 				FLAG_FUEGO
+		*DANYO
+		{
+			*MELEE 			0
+			*PROYECTIL 	0
+			*INCENDIO 	40
+			*EDIFICIO 	0
+			*GOLPE      0
+		}
+		*PRECISION 		100
+		*RITMO 				2
+		*RANGO_MIN 		3
+		*RANGO_MAX 		15
+		*TIPO					TIPO_DISTANCIA
+		*TIPOLOGIA_DANYO		PROYECTIL
+		*MUNICION			FLECHA_FUEGO
+	}
+	*ARMA
+	{
+		*UNIDAD 			EGIPCIO_ARQUERO
+		*ESTADO 			CUERPO
+		*FLAG 				FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 			20
+			*PROYECTIL	0
+			*INCENDIO 	0
+			*EDIFICIO 	0
+			*GOLPE      0
+		}
+		*RITMO 				0.5
+		*RANGO_MIN 		0
+		*RANGO_MAX 		0.5
+		*TIPO					TIPO_CC
+		*MUNICION			FLECHA
+	}
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD 			EGIPCIO_PIQUERO
+		*ESTADO 			NORMAL
+		*FLAG 				FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 			0
+			*PROYECTIL 	100
+			*INCENDIO 	0
+			*EDIFICIO 	20
+			*GOLPE      30
+		}
+		*RITMO 				1
+		*RANGO_MIN 		0
+		*RANGO_MAX 		1
+		*TIPO					TIPO_CC
+	}
+	*ARMA
+	{
+		*UNIDAD 			EGIPCIO_PIQUERO
+		*ESTADO 			PLANTADOS
+		*FLAG 				FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 			0
+			*PROYECTIL 	195
+			*INCENDIO 	0
+			*EDIFICIO 	0
+			*GOLPE      30
+		}
+		*RITMO 				0.5
+		*RANGO_MIN 		0
+		*RANGO_MAX 		2
+		*TIPO					TIPO_CC
+	}
+
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD 			EGIPCIO_CABALLERIA_PESADA
+		*ESTADO 			NORMAL
+		*FLAG 				FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE 			185
+			*PROYECTIL 	0
+			*INCENDIO 	0
+			*EDIFICIO 	0
+			*GOLPE      0
+		}
+		*RITMO 				0.5
+		*RANGO_MIN 		0
+		*RANGO_MAX 		1
+		*TIPO					TIPO_CC
+	}
+
+//***************************************************************************
+	*ARMA
+	{
+		*UNIDAD 			EGIPCIO_CABALLERIA_ARQUERA
+		*ESTADO 			NORMAL
+		*DANYO
+		{
+			*MELEE 			50
+			*PROYECTIL 	300
+			*INCENDIO 	0
+			*EDIFICIO 	0
+			*GOLPE      0
+		}
+		*PRECISION 		100
+		*RITMO 				2
+		*RANGO_MIN 		3
+		*RANGO_MAX 		15
+		*TIPO					TIPO_DISTANCIA
+		*TIPOLOGIA_DANYO		PROYECTIL
+		*MUNICION			FLECHA
+	}
+	*ARMA
+	{
+		*UNIDAD 			EGIPCIO_CABALLERIA_ARQUERA
+		*ESTADO 			FUEGO
+		*FLAG 				FLAG_FUEGO
+		*DANYO
+		{
+			*MELEE 			0
+			*PROYECTIL 	0
+			*INCENDIO 	40
+			*EDIFICIO 	0
+			*GOLPE      0
+		}
+		*PRECISION 		100
+		*RITMO 				0.5
+		*RANGO_MIN 		3
+		*RANGO_MAX 		15
+		*TIPO					TIPO_DISTANCIA
+		*TIPOLOGIA_DANYO		PROYECTIL
+		*MUNICION			FLECHA_FUEGO
+	}
+	*ARMA
+	{
+		*UNIDAD 			EGIPCIO_CABALLERIA_ARQUERA
+		*ESTADO 			CUERPO
+		*FLAG 				FLAG_CUERPO_A_CUERPO
+		*DANYO
+		{
+			*MELEE      20
+			*PROYECTIL 	0
+			*INCENDIO 	0
+			*EDIFICIO 	0
+			*GOLPE      0
+		}
+		*RITMO 				0.5
+		*RANGO_MIN 		0
+		*RANGO_MAX 		0.5
+		*TIPO					TIPO_CC
+		*MUNICION			FLECHA
+	}
+
+}

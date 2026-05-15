@@ -1,0 +1,545 @@
+{
+	*INCLUDE "Def\FormacionesGalos.dat"
+	*INCLUDE "Def\FormacionesEgipcios.dat"
+	*INCLUDE "Def\FormacionesRomanos.dat"
+	*INCLUDE "Def\FormacionesMaquinas.dat"
+	*INCLUDE "Def\FormacionesHeroes.dat"
+	
+	
+// NOTA: eliminado temporalmente el campo VELOCIDAD_CORRIENDO
+	
+// **************************************************************************
+// ************************FORMACION  STANDARD TEMPORAL *********************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_MOVIBLE
+		*FLAG                   FLAG_CORRER
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				30
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.025
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.5
+		*AMPLITUDC							0.5
+		*ARMA_CUERPO_CUERPO     INFANTERIA_LIGERA NORMAL
+		*ARMA_DESMANTELAR       INFANTERIA_LIGERA DESMANTELAR
+		*ARMA_DEFENSA_MAQUINA   INFANTERIA_LIGERA DEFENSA_MAQUINA
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					DEFAULT
+		*ICONO									0 4
+	}
+	
+// **************************************************************************
+// *************************  FORMACION GLADIADOR ***************************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG 									FLAG_DISTRIBUCION_DESORDENADA
+		*FLAG										FLAG_MOVIBLE
+		*FLAG                   FLAG_CORRER
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				16
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.022
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.5
+		*AMPLITUDC							0.5
+		*ARMA_CUERPO_CUERPO     GLADIADOR NORMAL
+		*ARMA_DESMANTELAR       GLADIADOR DESMANTELAR
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					GLADIADOR
+	}
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_MOVIBLE
+		*FLAG 									FLAG_MURALLA
+		*FLAG 									FLAG_NOSELECCIONABLE
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				8
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.022
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								2 OPERACION_CONST 2
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.6
+		*AMPLITUDC							0.4
+		*NOISE_X								0.04
+		*NOISE_Y								0.04
+		*ARMA_CUERPO_CUERPO     GLADIADOR NORMAL
+		*ARMA_DESMANTELAR       GLADIADOR DESMANTELAR
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					MURALLA_GLADIADOR		 
+	}
+	
+// **************************************************************************
+// *****************  FORMACION PIQUERO ELITE (SUPERPIKEROS) ****************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG 									FLAG_DISTRIBUCION_DESORDENADA
+		*FLAG										FLAG_MOVIBLE
+		*FLAG                   FLAG_CORRER
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				16
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.017
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.5
+		*AMPLITUDC							0.5
+		*ARMA_CUERPO_CUERPO     PIQUERO_ELITE NORMAL
+		*ARMA_DESMANTELAR       PIQUERO_ELITE DESMANTELAR
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					PIQUERO_ELITE
+	}
+	
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_MOVIBLE
+		*FLAG										FLAG_MURALLA
+		*FLAG 									FLAG_NOSELECCIONABLE
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				8
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.017
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								2 OPERACION_CONST 2
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.6
+		*AMPLITUDC							0.4
+		*NOISE_X								0.04
+		*NOISE_Y								0.04
+		*ARMA_CUERPO_CUERPO			PIQUERO_ELITE NORMAL
+		*ARMA_DESMANTELAR				PIQUERO_ELITE DESMANTELAR
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					MURALLA_PIQUERO_ELITE		
+	}
+
+// **************************************************************************
+// *************************  FORMACION HONDERO ***************************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG 									FLAG_DISTRIBUCION_DESORDENADA
+		*FLAG										FLAG_MOVIBLE
+		*FLAG                   FLAG_CORRER
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				16
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 		          0.025
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.4
+		*AMPLITUDC							1.2
+		*ARMA_DISTANCIA         HONDERO NORMAL
+		*ARMA_DESMANTELAR       HONDERO DESMANTELAR
+		*ARMA_PEGADO            HONDERO CUERPO
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					HONDERO
+		*ICONO									0 4
+	
+	}
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_MOVIBLE
+		*FLAG                   FLAG_CORRER
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				8
+		*FLAG 									FLAG_MURALLA
+		*FLAG 									FLAG_NOSELECCIONABLE
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.025
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								2 OPERACION_CONST 2
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.6
+		*AMPLITUDC							0.4
+		*NOISE_X								0.04
+		*NOISE_Y								0.04
+		*ARMA_DISTANCIA         HONDERO NORMAL
+		*ARMA_DESMANTELAR       HONDERO DESMANTELAR
+		*ARMA_PEGADO            HONDERO CUERPO
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					MURALLA_HONDERO
+		*ICONO									0 4
+	}
+
+// **************************************************************************
+// ************************* FORMACION EXPLORADOR ***************************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL		
+		*FLAG 									FLAG_DISTRIBUCION_DESORDENADA
+		*FLAG										FLAG_MOVIBLE
+		*FLAG			              FLAG_STANDARD
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				1
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 		          0.035
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								2 OPERACION_CONST 1
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.5
+		*AMPLITUDC							0.5
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					EXPLORADOR
+		*ICONO									0 4
+	}
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_MOVIBLE
+		*FLAG 									FLAG_MURALLA
+		*FLAG 									FLAG_NOSELECCIONABLE
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				1
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.035
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								2 OPERACION_CONST 2
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.6
+		*AMPLITUDC							0.4
+		*NOISE_X								0.04
+		*NOISE_Y								0.04
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					MURALLA_EXPLORADOR
+		*ICONO									0 4
+	}
+	
+// **************************************************************************
+// ************************            HALCON           *********************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG 									FLAG_DISTRIBUCION_DESORDENADA
+		*FLAG										FLAG_MOVIBLE
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				1
+		*ESPECIAL								0
+		*MAGIA									0		 
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.05
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.35
+		*AMPLITUDC							1.3
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					HALCON
+		*ICONO									0 4	
+	}
+		
+// **************************************************************************
+// *********************** FORMACION CABALLERIA PARTANA *********************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG 									FLAG_DISTRIBUCION_DESORDENADA
+		*FLAG										FLAG_MOVIBLE
+		*FLAG                   FLAG_CORRER
+		*FLAG                   FLAG_FRENAR
+		*FLAG			              FLAG_STANDARD		
+		*FLAG										FLAG_NO_EMBOSCADA_PRADERA
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES 				16
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0
+		*BONIFICACION_PRECISION 0.0
+		*VELOCIDAD 							0.040
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							1.4
+		*AMPLITUDC							2.0
+		*ARMA_DISTANCIA         CABALLERIA_PARTHA NORMAL
+		*ARMA_DESMANTELAR       CABALLERIA_PARTHA DESMANTELAR
+		*ARMA_PEGADO            CABALLERIA_PARTHA CUERPO
+		*ARMA_FUEGO 						CABALLERIA_PARTHA FUEGO
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					CPARTHA
+		*GRUPO									STANDARD 
+	}
+	
+// **************************************************************************
+// ************************** FORMACION GALO ESPADON ************************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG 									FLAG_DISTRIBUCION_DESORDENADA
+		*FLAG										FLAG_MOVIBLE
+		*FLAG                   FLAG_CORRER
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES 				16
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0
+		*BONIFICACION_PRECISION 0.0
+		*VELOCIDAD 							0.020
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.5
+		*AMPLITUDC							1.3
+		*ARMA_DISTANCIA         GALO_ESPADON NORMAL
+		*ARMA_DESMANTELAR       GALO_ESPADON DESMANTELAR
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					GALO_ESPADON
+		*GRUPO									STANDARD 
+	}
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_MOVIBLE
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				8
+		*FLAG 									FLAG_MURALLA
+		*FLAG 									FLAG_NOSELECCIONABLE
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.020
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								2 OPERACION_CONST 2
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.6
+		*AMPLITUDC							0.4
+		*NOISE_X								0.04
+		*NOISE_Y								0.04
+		*ARMA_CUERPO_CUERPO     GALO_ESPADON NORMAL
+		*ARMA_DESMANTELAR       GALO_ESPADON DESMANTELAR
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					MURALLA_GALO_ESPADON
+	}
+	
+// **************************************************************************
+// ************************** FORMACION CAZADOR GALO ************************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_DISTRIBUCION_DESORDENADA
+		*FLAG										FLAG_MOVIBLE
+		*FLAG										FLAG_CORRER
+		*FLAG										FLAG_STANDARD
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				16
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0
+		*BONIFICACION_PRECISION 0.0
+		*VELOCIDAD 							0.025
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.5
+		*AMPLITUDC							0.5
+		*ARMA_DISTANCIA         GALO_CAZADOR NORMAL
+		*ARMA_PEGADO            GALO_CAZADOR CUERPO
+		*ARMA_DESMANTELAR       GALO_CAZADOR DESMANTELAR
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					GALO_CAZADOR
+		*GRUPO									STANDARD
+	}
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG										FLAG_MOVIBLE
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				8
+		*FLAG 									FLAG_MURALLA
+		*FLAG 									FLAG_NOSELECCIONABLE
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.025
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								2 OPERACION_CONST 2
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.6
+		*AMPLITUDC							0.4
+		*NOISE_X								0.04
+		*NOISE_Y								0.04
+		*ARMA_DISTANCIA         GALO_CAZADOR NORMAL
+		*ARMA_PEGADO            GALO_CAZADOR CUERPO
+		*ARMA_DESMANTELAR       GALO_CAZADOR DESMANTELAR
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					MURALLA_CAZADOR
+	}
+		
+// **************************************************************************
+// ************************            MANADA           *********************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG 									FLAG_DISTRIBUCION_DESORDENADA
+		*FLAG										FLAG_MOVIBLE
+		*FLAG                   FLAG_CORRER
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				20
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_DEFENSA
+		{
+			*MELEE								180
+			*PROYECTIL						180
+			*INCENDIO							100
+			*EDIFICIO							180
+			*GOLPE								100
+		}
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.04
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.5
+		*AMPLITUDC							1.3
+		*ARMA_PEGADO            LOBO NORMAL
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					MANADA
+		*ICONO									0 4	
+	}
+	
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL		
+		*FLAG                   FLAG_CORRER
+		*FLAG										FLAG_MOVIBLE
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				1
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_DEFENSA
+		{
+			*MELEE								180
+			*PROYECTIL						180
+			*INCENDIO							100
+			*EDIFICIO							180
+			*GOLPE								100
+		}
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 							0.04
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.5
+		*AMPLITUDC							1.3
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					LOBO_SCOUT
+		*ICONO									0 4	
+	}
+
+// **************************************************************************
+// *********************** FORMACION CABALLERIA GERMANA *********************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL
+		*FLAG 									FLAG_DISTRIBUCION_DESORDENADA
+		*FLAG										FLAG_MOVIBLE
+		*FLAG                   FLAG_CORRER
+		*FLAG                   FLAG_FRENAR
+		*FLAG			              FLAG_STANDARD
+		*FLAG										FLAG_NO_EMBOSCADA_PRADERA
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES 				12
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0
+		*BONIFICACION_PRECISION 0.0
+		*VELOCIDAD 							0.035
+		*FUNCION								1 OPERACION_SQRT_UP
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							1.4
+		*AMPLITUDC							2.0
+		*ARMA_CUERPO_CUERPO     CABALLERIA_GERMANA NORMAL
+		*ARMA_DESMANTELAR       CABALLERIA_GERMANA DESMANTELAR
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					CGERMANA
+		*GRUPO									STANDARD 
+	}
+	
+	
+	
+// **************************************************************************
+// ************************* FORMACION MENSAJERO  ***************************
+// **************************************************************************
+	*FORMACION
+	{
+		*TIEMPO_ACTIVACION			0
+		*MOVILIDAD							MOVILIDAD_MOVIL		
+		*FLAG 									FLAG_DISTRIBUCION_DESORDENADA
+		*FLAG										FLAG_MOVIBLE
+		*FLAG			              FLAG_STANDARD
+		*FLAG                   FLAG_CORRER
+		*FLAG                   FLAG_FRENAR
+		*FLAG										FLAG_NO_EMBOSCADA_PRADERA
+		*MINIMO_UNIDADES				1
+		*MAXIMO_UNIDADES				1
+		*ESPECIAL								0
+		*MAGIA									0
+		*BONIFICACION_RANGO			0.0
+		*VELOCIDAD 		          0.041
+		*BONIFICACION_PRECISION 0.0
+		*FUNCION								2 OPERACION_CONST 1
+		*INSERCION							INSERCION_DERECHA
+		*AMPLITUDF							0.5
+		*AMPLITUDC							0.5
+		*DEFENSA								NORMAL
+		*IDENTIFICADOR					MENSAJERO
+		*ICONO									0 4
+	}
+}
